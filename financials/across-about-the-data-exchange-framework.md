@@ -11,26 +11,26 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5569cc6ab09b4ff4a3e8cd5ca7e671fc26b10aec
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: 6df3619f0b458c3215ed5032dd24aabcfe7fe4a6
 ms.contentlocale: en-ca
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
-# <a name="about-the-data-exchange-framework-in-included365finincludesd365finmdmd"></a><span data-ttu-id="4fed3-103">About the Data Exchange Framework in [!INCLUDE[d365fin](includes/d365fin_md.md)]</span><span class="sxs-lookup"><span data-stu-id="4fed3-103">About the Data Exchange Framework in [!INCLUDE[d365fin](includes/d365fin_md.md)]</span></span>
-<span data-ttu-id="4fed3-104">The format of files for exchange of data in bank files, electronic documents, currency exchange rates, and other with ERP systems vary depending on the provider of the data file or stream and on the country/region.</span><span class="sxs-lookup"><span data-stu-id="4fed3-104">The format of files for exchange of data in bank files, electronic documents, currency exchange rates, and other with ERP systems vary depending on the provider of the data file or stream and on the country/region.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="4fed3-105"> supports various bank file formats and data service standards.</span><span class="sxs-lookup"><span data-stu-id="4fed3-105"> supports various bank file formats and data service standards.</span></span> <span data-ttu-id="4fed3-106">To provide support for other electronic document formats, you use the data exchange framework.</span><span class="sxs-lookup"><span data-stu-id="4fed3-106">To provide support for other electronic document formats, you use the data exchange framework.</span></span> <span data-ttu-id="4fed3-107">For more information, see [Exchanging Data as Electronic Documents](across-data-exchange.md).</span><span class="sxs-lookup"><span data-stu-id="4fed3-107">For more information, see [Exchanging Data as Electronic Documents](across-data-exchange.md).</span></span>    
+# <a name="about-the-data-exchange-framework-in-included365finincludesd365finmdmd"></a><span data-ttu-id="1302f-103">About the Data Exchange Framework in [!INCLUDE[d365fin](includes/d365fin_md.md)]</span><span class="sxs-lookup"><span data-stu-id="1302f-103">About the Data Exchange Framework in [!INCLUDE[d365fin](includes/d365fin_md.md)]</span></span>
+<span data-ttu-id="1302f-104">The format of files for exchange of data in bank files, electronic documents, currency exchange rates, and other with ERP systems vary depending on the provider of the data file or stream and on the country/region.</span><span class="sxs-lookup"><span data-stu-id="1302f-104">The format of files for exchange of data in bank files, electronic documents, currency exchange rates, and other with ERP systems vary depending on the provider of the data file or stream and on the country/region.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="1302f-105"> supports various bank file formats and data service standards.</span><span class="sxs-lookup"><span data-stu-id="1302f-105"> supports various bank file formats and data service standards.</span></span> <span data-ttu-id="1302f-106">To provide support for other electronic document formats, you use the data exchange framework.</span><span class="sxs-lookup"><span data-stu-id="1302f-106">To provide support for other electronic document formats, you use the data exchange framework.</span></span> <span data-ttu-id="1302f-107">For more information, see [Exchanging Data Electronically](across-data-exchange.md).</span><span class="sxs-lookup"><span data-stu-id="1302f-107">For more information, see [Exchanging Data Electronically](across-data-exchange.md).</span></span>    
 
- <span data-ttu-id="4fed3-108">The following diagrams show the architecture of the data exchange framework.</span><span class="sxs-lookup"><span data-stu-id="4fed3-108">The following diagrams show the architecture of the data exchange framework.</span></span>  
+ <span data-ttu-id="1302f-108">The following diagrams show the architecture of the data exchange framework.</span><span class="sxs-lookup"><span data-stu-id="1302f-108">The following diagrams show the architecture of the data exchange framework.</span></span>  
 
  ![Data Exchange Framework &#45; Import](media/across-data-exchange/dataexchangeframework_import.png)  
 
  ![Data Exchange Framework &#45; Export](media/across-data-exchange/dataexchangeframework_export.png)  
 
-## <a name="see-also"></a><span data-ttu-id="4fed3-111">See Also</span><span class="sxs-lookup"><span data-stu-id="4fed3-111">See Also</span></span>  
-[<span data-ttu-id="4fed3-112">Exchanging Data as Electronic Documents</span><span class="sxs-lookup"><span data-stu-id="4fed3-112">Exchanging Data as Electronic Documents</span></span>](across-data-exchange.md)  
-[<span data-ttu-id="4fed3-113">How to: Use XML Schemas to Prepare Data Exchange Definitions</span><span class="sxs-lookup"><span data-stu-id="4fed3-113">How to: Use XML Schemas to Prepare Data Exchange Definitions</span></span>](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
-[<span data-ttu-id="4fed3-114">Set Up Data Exchange</span><span class="sxs-lookup"><span data-stu-id="4fed3-114">Set Up Data Exchange</span></span>](across-set-up-data-exchange.md)  
-[<span data-ttu-id="4fed3-115">Exchange Data</span><span class="sxs-lookup"><span data-stu-id="4fed3-115">Exchange Data</span></span>](across-exchange-data.md)  
-[<span data-ttu-id="4fed3-116">Incoming Documents</span><span class="sxs-lookup"><span data-stu-id="4fed3-116">Incoming Documents</span></span>](across-income-documents.md)  
-[<span data-ttu-id="4fed3-117">General Business Functionality</span><span class="sxs-lookup"><span data-stu-id="4fed3-117">General Business Functionality</span></span>](ui-across-business-areas.md)  
+## <a name="see-also"></a><span data-ttu-id="1302f-111">See Also</span><span class="sxs-lookup"><span data-stu-id="1302f-111">See Also</span></span>  
+[<span data-ttu-id="1302f-112">Exchanging Data Electronically</span><span class="sxs-lookup"><span data-stu-id="1302f-112">Exchanging Data Electronically</span></span>](across-data-exchange.md)  
+[<span data-ttu-id="1302f-113">How to: Use XML Schemas to Prepare Data Exchange Definitions</span><span class="sxs-lookup"><span data-stu-id="1302f-113">How to: Use XML Schemas to Prepare Data Exchange Definitions</span></span>](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
+[<span data-ttu-id="1302f-114">Setting Up Data Exchange</span><span class="sxs-lookup"><span data-stu-id="1302f-114">Setting Up Data Exchange</span></span>](across-set-up-data-exchange.md)  
+[<span data-ttu-id="1302f-115">Exchanging Data</span><span class="sxs-lookup"><span data-stu-id="1302f-115">Exchanging Data</span></span>](across-exchange-data.md)  
+[<span data-ttu-id="1302f-116">Incoming Documents</span><span class="sxs-lookup"><span data-stu-id="1302f-116">Incoming Documents</span></span>](across-income-documents.md)  
+[<span data-ttu-id="1302f-117">General Business Functionality</span><span class="sxs-lookup"><span data-stu-id="1302f-117">General Business Functionality</span></span>](ui-across-business-areas.md)  
 
