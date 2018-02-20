@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
 ms.openlocfilehash: 7ef96e695583ed0ee36ee2917afc5aeeba0bd192
 ms.contentlocale: en-ca
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="reporting-sales-tax-in-canada"></a>Reporting Sales Tax in Canada

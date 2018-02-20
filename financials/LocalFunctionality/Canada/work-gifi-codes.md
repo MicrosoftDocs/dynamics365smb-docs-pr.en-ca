@@ -13,13 +13,13 @@ ms.search.keywords: local
 ms.date: 08/11/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9203d6baea1d2780759e526143c445a0e7c6fad7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: baeabc7b6f7962b137307297d1c79a3543e26b00
 ms.contentlocale: en-ca
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-gifi-codes"></a>How to: Work With GIFI Codes
+# <a name="work-with-gifi-codes"></a>Work With GIFI Codes
 Fiscal information can include general ledger accounts, reports, income statements, balance sheets, and statements of retained earnings. Fiscal information is classified using codes. The use of codes helps the government to process information, prepare for electronic filing, and validate tax information electronically. The use of codes also helps statistical organizations to work more efficiently, as financial information is more readily available. For more information, see the [Canada Revenue Agency website](http://www.cra-arc.gc.ca/).
 
 The Canada Revenue Agency uses General Index of Financial Information (GIFI) codes to collect, validate, and process financial and tax information electronically. It is a best practice to assign GIFI codes only to posting accounts, so that all totalling is done by your tax preparation software.

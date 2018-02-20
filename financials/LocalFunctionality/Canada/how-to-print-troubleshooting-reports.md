@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/11/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: ae8a98f5c3154249047e5a08cba9351c240a82e8
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7e4c3e94c192a69295db3fc6e3a231475c68050b
 ms.contentlocale: en-ca
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-print-troubleshooting-reports"></a>How to: Print Troubleshooting Reports
+# <a name="print-troubleshooting-reports"></a>Print Troubleshooting Reports
 The following troubleshooting reports are available to assist Microsoft Certified Partners with troubleshooting issues:  
 
 -   **License Information** report – This report contains the license number, the name of the licensed user, which application granules they have purchased, and when the license expires, if applicable.  
