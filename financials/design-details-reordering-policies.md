@@ -16,20 +16,20 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 4ba3826952809c1fc9ed461030da9f56c0874da4
 ms.contentlocale: en-ca
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
-# <a name="design-details-reordering-policies"></a><span data-ttu-id="fea8e-103">Design Details: Reordering Policies</span><span class="sxs-lookup"><span data-stu-id="fea8e-103">Design Details: Reordering Policies</span></span>
-<span data-ttu-id="fea8e-104">Reordering policies define how much to order when the item needs to be replenished.</span><span class="sxs-lookup"><span data-stu-id="fea8e-104">Reordering policies define how much to order when the item needs to be replenished.</span></span> <span data-ttu-id="fea8e-105">Four different reordering policies exist.</span><span class="sxs-lookup"><span data-stu-id="fea8e-105">Four different reordering policies exist.</span></span>  
+# <a name="design-details-reordering-policies"></a><span data-ttu-id="6681d-103">Design Details: Reordering Policies</span><span class="sxs-lookup"><span data-stu-id="6681d-103">Design Details: Reordering Policies</span></span>
+<span data-ttu-id="6681d-104">Reordering policies define how much to order when the item needs to be replenished.</span><span class="sxs-lookup"><span data-stu-id="6681d-104">Reordering policies define how much to order when the item needs to be replenished.</span></span> <span data-ttu-id="6681d-105">Four different reordering policies exist.</span><span class="sxs-lookup"><span data-stu-id="6681d-105">Four different reordering policies exist.</span></span>  
 
-## <a name="in-this-section"></a><span data-ttu-id="fea8e-106">In This Section</span><span class="sxs-lookup"><span data-stu-id="fea8e-106">In This Section</span></span>  
-[<span data-ttu-id="fea8e-107">Design Details: Fixed Reorder Qty.</span><span class="sxs-lookup"><span data-stu-id="fea8e-107">Design Details: Fixed Reorder Qty.</span></span>](design-details-fixed-reorder-qty.md)  
-[<span data-ttu-id="fea8e-108">Design Details: Maximum Qty.</span><span class="sxs-lookup"><span data-stu-id="fea8e-108">Design Details: Maximum Qty.</span></span>](design-details-maximum-qty.md)  
-[<span data-ttu-id="fea8e-109">Design Details: Order</span><span class="sxs-lookup"><span data-stu-id="fea8e-109">Design Details: Order</span></span>](design-details-order.md)  
-[<span data-ttu-id="fea8e-110">Design Details: Lot-for-Lot</span><span class="sxs-lookup"><span data-stu-id="fea8e-110">Design Details: Lot-for-Lot</span></span>](design-details-lot-for-lot.md)  
+## <a name="in-this-section"></a><span data-ttu-id="6681d-106">In This Section</span><span class="sxs-lookup"><span data-stu-id="6681d-106">In This Section</span></span>  
+[<span data-ttu-id="6681d-107">Design Details: Fixed Reorder Qty.</span><span class="sxs-lookup"><span data-stu-id="6681d-107">Design Details: Fixed Reorder Qty.</span></span>](design-details-fixed-reorder-qty.md)  
+[<span data-ttu-id="6681d-108">Design Details: Maximum Qty.</span><span class="sxs-lookup"><span data-stu-id="6681d-108">Design Details: Maximum Qty.</span></span>](design-details-maximum-qty.md)  
+[<span data-ttu-id="6681d-109">Design Details: Order</span><span class="sxs-lookup"><span data-stu-id="6681d-109">Design Details: Order</span></span>](design-details-order.md)  
+[<span data-ttu-id="6681d-110">Design Details: Lot-for-Lot</span><span class="sxs-lookup"><span data-stu-id="6681d-110">Design Details: Lot-for-Lot</span></span>](design-details-lot-for-lot.md)  
 
-## <a name="see-also"></a><span data-ttu-id="fea8e-111">See Also</span><span class="sxs-lookup"><span data-stu-id="fea8e-111">See Also</span></span>  
-<span data-ttu-id="fea8e-112">[Design Details: Planning Parameters](design-details-planning-parameters.md) </span><span class="sxs-lookup"><span data-stu-id="fea8e-112">[Design Details: Planning Parameters](design-details-planning-parameters.md) </span></span>  
-<span data-ttu-id="fea8e-113">[Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md) </span><span class="sxs-lookup"><span data-stu-id="fea8e-113">[Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md) </span></span>  
-[<span data-ttu-id="fea8e-114">Design Details: Supply Planning</span><span class="sxs-lookup"><span data-stu-id="fea8e-114">Design Details: Supply Planning</span></span>](design-details-supply-planning.md)
+## <a name="see-also"></a><span data-ttu-id="6681d-111">See Also</span><span class="sxs-lookup"><span data-stu-id="6681d-111">See Also</span></span>  
+<span data-ttu-id="6681d-112">[Design Details: Planning Parameters](design-details-planning-parameters.md) </span><span class="sxs-lookup"><span data-stu-id="6681d-112">[Design Details: Planning Parameters](design-details-planning-parameters.md) </span></span>  
+<span data-ttu-id="6681d-113">[Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md) </span><span class="sxs-lookup"><span data-stu-id="6681d-113">[Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md) </span></span>  
+[<span data-ttu-id="6681d-114">Design Details: Supply Planning</span><span class="sxs-lookup"><span data-stu-id="6681d-114">Design Details: Supply Planning</span></span>](design-details-supply-planning.md)
 
