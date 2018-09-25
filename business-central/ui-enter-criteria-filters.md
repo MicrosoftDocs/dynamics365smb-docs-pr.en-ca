@@ -13,10 +13,10 @@ ms.search.keywords: delimit, FlowFilter
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a7fd74ad235e51b1793b02e19834bdb0bd17820b
+ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
+ms.openlocfilehash: 10aac3906d9da8b9e0791db614142eeb90940a9b
 ms.contentlocale: en-ca
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/06/2018
 
 ---
 # <a name="searching-filtering-and-sorting-data"></a>Searching, Filtering, and Sorting Data
@@ -95,7 +95,7 @@ You can add a filter on one or more columns in a list. Filtering on columns is m
   -  Enter filter criteria in the box. See the next section for details.
 4. Choose the **OK** button.
 
-## <a name="filter-criteria-and-symbols"></a>Filter criteria and symbols
+## <a name="FilterCriteria"> </a>Filter criteria and symbols
 When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols to further filter the results. The following tables show the symbols which can be used in filters.  
   
 > [!IMPORTANT]  
