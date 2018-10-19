@@ -7,13 +7,13 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: c0ae00a8994f41b54356a50418eafdc090c701e7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e51414ef3aaa512a49372c39cce3c4b11b8ff449
 ms.contentlocale: en-ca
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]

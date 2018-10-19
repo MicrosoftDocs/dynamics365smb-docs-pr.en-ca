@@ -12,13 +12,13 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 06/01/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 1682db5bd62f980e8789613cd2ca4169f98e839d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 558d9cc314dec5ec8daaae42adf6b7efd443274b
 ms.contentlocale: en-ca
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-payables"></a>Managing Payables

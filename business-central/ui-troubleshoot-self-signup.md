@@ -7,13 +7,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/16/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
-ms.openlocfilehash: de07dac85b9e24f50eb60570630feb6199089ec4
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 30c39c263057c47512a1959d9d57b4daf2f23cce
 ms.contentlocale: en-ca
-ms.lasthandoff: 07/09/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Troubleshooting Self-Service Sign-Up

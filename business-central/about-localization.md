@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 07/06/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
-ms.openlocfilehash: ffe2c700ed409a0881c94ddfd0157cf32141c60f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6271cc49358c4f31edfdfdda60e87655a53eea50
 ms.contentlocale: en-ca
-ms.lasthandoff: 07/09/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="local-functionality-in-included365finlongincludesd365finlongmdmd"></a>Local Functionality in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
