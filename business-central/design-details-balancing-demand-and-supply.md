@@ -10,34 +10,34 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 818680c6e0eaf0e5fccdcb9f44ff2963f66945f3
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 17a189e78cbf2b487443d531044ab030fb6169b3
 ms.contentlocale: en-ca
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="design-details-balancing-demand-and-supply"></a><span data-ttu-id="73daa-103">Design Details: Balancing Demand and Supply</span><span class="sxs-lookup"><span data-stu-id="73daa-103">Design Details: Balancing Demand and Supply</span></span>
-<span data-ttu-id="73daa-104">To understand how the planning system works, it is necessary to understand the prioritized goals of the planning system, the most important of which are to ensure that:</span><span class="sxs-lookup"><span data-stu-id="73daa-104">To understand how the planning system works, it is necessary to understand the prioritized goals of the planning system, the most important of which are to ensure that:</span></span>  
+# <a name="design-details-balancing-demand-and-supply"></a><span data-ttu-id="6899e-103">Design Details: Balancing Demand and Supply</span><span class="sxs-lookup"><span data-stu-id="6899e-103">Design Details: Balancing Demand and Supply</span></span>
+<span data-ttu-id="6899e-104">To understand how the planning system works, it is necessary to understand the prioritized goals of the planning system, the most important of which are to ensure that:</span><span class="sxs-lookup"><span data-stu-id="6899e-104">To understand how the planning system works, it is necessary to understand the prioritized goals of the planning system, the most important of which are to ensure that:</span></span>  
 
-- <span data-ttu-id="73daa-105">Any demand will be met by sufficient supply.</span><span class="sxs-lookup"><span data-stu-id="73daa-105">Any demand will be met by sufficient supply.</span></span>  
-- <span data-ttu-id="73daa-106">Any supply serves a purpose.</span><span class="sxs-lookup"><span data-stu-id="73daa-106">Any supply serves a purpose.</span></span>  
+- <span data-ttu-id="6899e-105">Any demand will be met by sufficient supply.</span><span class="sxs-lookup"><span data-stu-id="6899e-105">Any demand will be met by sufficient supply.</span></span>  
+- <span data-ttu-id="6899e-106">Any supply serves a purpose.</span><span class="sxs-lookup"><span data-stu-id="6899e-106">Any supply serves a purpose.</span></span>  
 
- <span data-ttu-id="73daa-107">Generally, these goals are achieved by balancing supply with demand.</span><span class="sxs-lookup"><span data-stu-id="73daa-107">Generally, these goals are achieved by balancing supply with demand.</span></span>  
+ <span data-ttu-id="6899e-107">Generally, these goals are achieved by balancing supply with demand.</span><span class="sxs-lookup"><span data-stu-id="6899e-107">Generally, these goals are achieved by balancing supply with demand.</span></span>  
 
-## <a name="in-this-section"></a><span data-ttu-id="73daa-108">In This Section</span><span class="sxs-lookup"><span data-stu-id="73daa-108">In This Section</span></span>  
-[<span data-ttu-id="73daa-109">Design Details: Demand and Supply</span><span class="sxs-lookup"><span data-stu-id="73daa-109">Design Details: Demand and Supply</span></span>](design-details-demand-and-supply.md)  
-[<span data-ttu-id="73daa-110">Design Details: The Concept of Balancing in Brief</span><span class="sxs-lookup"><span data-stu-id="73daa-110">Design Details: The Concept of Balancing in Brief</span></span>](design-details-the-concept-of-balancing-in-brief.md)  
-[<span data-ttu-id="73daa-111">Design Details: Dealing with Orders Before the Planning Starting Date</span><span class="sxs-lookup"><span data-stu-id="73daa-111">Design Details: Dealing with Orders Before the Planning Starting Date</span></span>](design-details-dealing-with-orders-before-the-planning-starting-date.md)  
-[<span data-ttu-id="73daa-112">Design Details: Loading the Inventory Profiles</span><span class="sxs-lookup"><span data-stu-id="73daa-112">Design Details: Loading the Inventory Profiles</span></span>](design-details-loading-the-inventory-profiles.md)  
-[<span data-ttu-id="73daa-113">Design Details: Prioritizing Orders</span><span class="sxs-lookup"><span data-stu-id="73daa-113">Design Details: Prioritizing Orders</span></span>](design-details-prioritizing-orders.md)  
-[<span data-ttu-id="73daa-114">Design Details: Balancing Supply with Demand</span><span class="sxs-lookup"><span data-stu-id="73daa-114">Design Details: Balancing Supply with Demand</span></span>](design-details-balancing-supply-with-demand.md)  
-[<span data-ttu-id="73daa-115">Design Details: Closing Demand and Supply</span><span class="sxs-lookup"><span data-stu-id="73daa-115">Design Details: Closing Demand and Supply</span></span>](design-details-closing-demand-and-supply.md)  
+## <a name="in-this-section"></a><span data-ttu-id="6899e-108">In This Section</span><span class="sxs-lookup"><span data-stu-id="6899e-108">In This Section</span></span>  
+[<span data-ttu-id="6899e-109">Design Details: Demand and Supply</span><span class="sxs-lookup"><span data-stu-id="6899e-109">Design Details: Demand and Supply</span></span>](design-details-demand-and-supply.md)  
+[<span data-ttu-id="6899e-110">Design Details: The Concept of Balancing in Brief</span><span class="sxs-lookup"><span data-stu-id="6899e-110">Design Details: The Concept of Balancing in Brief</span></span>](design-details-the-concept-of-balancing-in-brief.md)  
+[<span data-ttu-id="6899e-111">Design Details: Dealing with Orders Before the Planning Starting Date</span><span class="sxs-lookup"><span data-stu-id="6899e-111">Design Details: Dealing with Orders Before the Planning Starting Date</span></span>](design-details-dealing-with-orders-before-the-planning-starting-date.md)  
+[<span data-ttu-id="6899e-112">Design Details: Loading the Inventory Profiles</span><span class="sxs-lookup"><span data-stu-id="6899e-112">Design Details: Loading the Inventory Profiles</span></span>](design-details-loading-the-inventory-profiles.md)  
+[<span data-ttu-id="6899e-113">Design Details: Prioritizing Orders</span><span class="sxs-lookup"><span data-stu-id="6899e-113">Design Details: Prioritizing Orders</span></span>](design-details-prioritizing-orders.md)  
+[<span data-ttu-id="6899e-114">Design Details: Balancing Supply with Demand</span><span class="sxs-lookup"><span data-stu-id="6899e-114">Design Details: Balancing Supply with Demand</span></span>](design-details-balancing-supply-with-demand.md)  
+[<span data-ttu-id="6899e-115">Design Details: Closing Demand and Supply</span><span class="sxs-lookup"><span data-stu-id="6899e-115">Design Details: Closing Demand and Supply</span></span>](design-details-closing-demand-and-supply.md)  
 
-## <a name="see-also"></a><span data-ttu-id="73daa-116">See Also</span><span class="sxs-lookup"><span data-stu-id="73daa-116">See Also</span></span>  
- <span data-ttu-id="73daa-117">[Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md) </span><span class="sxs-lookup"><span data-stu-id="73daa-117">[Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md) </span></span>  
- <span data-ttu-id="73daa-118">[Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md) </span><span class="sxs-lookup"><span data-stu-id="73daa-118">[Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md) </span></span>  
- [<span data-ttu-id="73daa-119">Design Details: Supply Planning</span><span class="sxs-lookup"><span data-stu-id="73daa-119">Design Details: Supply Planning</span></span>](design-details-supply-planning.md)
+## <a name="see-also"></a><span data-ttu-id="6899e-116">See Also</span><span class="sxs-lookup"><span data-stu-id="6899e-116">See Also</span></span>  
+ <span data-ttu-id="6899e-117">[Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md) </span><span class="sxs-lookup"><span data-stu-id="6899e-117">[Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md) </span></span>  
+ <span data-ttu-id="6899e-118">[Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md) </span><span class="sxs-lookup"><span data-stu-id="6899e-118">[Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md) </span></span>  
+ [<span data-ttu-id="6899e-119">Design Details: Supply Planning</span><span class="sxs-lookup"><span data-stu-id="6899e-119">Design Details: Supply Planning</span></span>](design-details-supply-planning.md)
 

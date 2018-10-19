@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a07caec88ece9b9e940777976d6d5555839ae581
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 21bdd6c7b58f4eab41af8efccf2d2c981eb317ca
 ms.contentlocale: en-ca
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="specify-printer-selection-for-reports"></a><span data-ttu-id="87124-103">Specify Printer Selection for Reports</span><span class="sxs-lookup"><span data-stu-id="87124-103">Specify Printer Selection for Reports</span></span>
-<span data-ttu-id="87124-104">This page is empty because you cannot yet set up specific printers for specific reports.</span><span class="sxs-lookup"><span data-stu-id="87124-104">This page is empty because you cannot yet set up specific printers for specific reports.</span></span> <span data-ttu-id="87124-105">We are working on solving this.</span><span class="sxs-lookup"><span data-stu-id="87124-105">We are working on solving this.</span></span>
+# <a name="specify-printer-selection-for-reports"></a><span data-ttu-id="32106-103">Specify Printer Selection for Reports</span><span class="sxs-lookup"><span data-stu-id="32106-103">Specify Printer Selection for Reports</span></span>
+<span data-ttu-id="32106-104">This page is empty because you cannot yet set up specific printers for specific reports.</span><span class="sxs-lookup"><span data-stu-id="32106-104">This page is empty because you cannot yet set up specific printers for specific reports.</span></span> <span data-ttu-id="32106-105">We are working on solving this.</span><span class="sxs-lookup"><span data-stu-id="32106-105">We are working on solving this.</span></span>
 
-<span data-ttu-id="87124-106">In the meantime, when you want to print a report, you have to download the report as a PDF document first by choosing the **Send to** button.</span><span class="sxs-lookup"><span data-stu-id="87124-106">In the meantime, when you want to print a report, you have to download the report as a PDF document first by choosing the **Send to** button.</span></span> <span data-ttu-id="87124-107">Then you select the type of file to download the report as, and here you should pick **PDF Document**.</span><span class="sxs-lookup"><span data-stu-id="87124-107">Then you select the type of file to download the report as, and here you should pick **PDF Document**.</span></span> <span data-ttu-id="87124-108">Now, you can either open the PDF document right-away and print it, or save it and print it later.</span><span class="sxs-lookup"><span data-stu-id="87124-108">Now, you can either open the PDF document right-away and print it, or save it and print it later.</span></span>
+<span data-ttu-id="32106-106">In the meantime, when you want to print a report, you have to download the report as a PDF document first by choosing the **Send to** button.</span><span class="sxs-lookup"><span data-stu-id="32106-106">In the meantime, when you want to print a report, you have to download the report as a PDF document first by choosing the **Send to** button.</span></span> <span data-ttu-id="32106-107">Then you select the type of file to download the report as, and here you should pick **PDF Document**.</span><span class="sxs-lookup"><span data-stu-id="32106-107">Then you select the type of file to download the report as, and here you should pick **PDF Document**.</span></span> <span data-ttu-id="32106-108">Now, you can either open the PDF document right-away and print it, or save it and print it later.</span><span class="sxs-lookup"><span data-stu-id="32106-108">Now, you can either open the PDF document right-away and print it, or save it and print it later.</span></span>
 
 <!--
 
@@ -45,8 +45,8 @@ The following table describes the combination of values to specify when you set 
 |Print a specific report to a specific printer for a specific user|Specify values in all three fields.|
 -->
 
-## <a name="see-also"></a><span data-ttu-id="87124-109">See Also</span><span class="sxs-lookup"><span data-stu-id="87124-109">See Also</span></span>
-<span data-ttu-id="87124-110">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="87124-110">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
-[<span data-ttu-id="87124-111">Run Batch Jobs</span><span class="sxs-lookup"><span data-stu-id="87124-111">Run Batch Jobs</span></span>](ui-how-run-batch-jobs.md)  
-[<span data-ttu-id="87124-112">Send Documents by Email</span><span class="sxs-lookup"><span data-stu-id="87124-112">Send Documents by Email</span></span>](ui-how-send-documents-email.md)  
+## <a name="see-also"></a><span data-ttu-id="32106-109">See Also</span><span class="sxs-lookup"><span data-stu-id="32106-109">See Also</span></span>
+<span data-ttu-id="32106-110">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="32106-110">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="32106-111">Run Batch Jobs</span><span class="sxs-lookup"><span data-stu-id="32106-111">Run Batch Jobs</span></span>](ui-how-run-batch-jobs.md)  
+[<span data-ttu-id="32106-112">Send Documents by Email</span><span class="sxs-lookup"><span data-stu-id="32106-112">Send Documents by Email</span></span>](ui-how-send-documents-email.md)  
 
