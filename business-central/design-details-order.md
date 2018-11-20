@@ -12,6 +12,7 @@ ms.workload: na
 ms.search.keywords: design, order
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: design-details-handling-reordering-policies
 ms.translationtype: HT
 ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: c864663f4dee41b161cf79cba74a49ea4f0a90ed
@@ -21,21 +22,22 @@ ms.lasthandoff: 09/28/2018
 ---
 # <a name="design-details-order"></a>Design Details: Order
 In a make-to-order environment, an item is purchased or produced to exclusively cover a specific demand. Typically it relates to A-items, and the motivation for choosing the order reordering policy can be that the demand is infrequent, the lead-time is insignificant, or the required attributes vary.  
-  
+
 The program creates an order-to-order link, which acts as a preliminary connection between the supply, a supply order or inventory, and the demand that it is going to fulfill.  
-  
+
 Apart from using the Order policy, the order-to-order link can be applied during planning in the following ways:  
-  
+
 * When using the Make-to-Order manufacturing policy to create multi-level or project type production orders (producing needed components on the same production order).  
 * When using the Sales Order Planning feature to create a production order from a sales order.  
-  
+
 Even if a manufacturing company considers itself as a make-to-order environment, it might be best to use a Lot-for-Lot reordering policy if the items are pure standard without variation in attributes. As a result, the system will use unplanned inventory and only accumulates sales orders with the same shipment date or within a defined time bucket.  
-  
+
 ## <a name="order-to-order-links-and-past-due-dates"></a>Order-to-Order Links and Past Due Dates  
 Unlike most supply-demand sets, linked orders with due dates before the planning starting date are fully planned for by the system. The business reason for this exception is that specific demand-supply sets must be synchronized through to execution. For more information about the frozen zone that applies to most demand-supply types, see [Design Details: Dealing with Orders Before the Planning Starting Date](design-details-dealing-with-orders-before-the-planning-starting-date.md).  
-  
+
 ## <a name="see-also"></a>See Also  
 [Design Details: Reordering Policies](design-details-reordering-policies.md)   
 [Design Details: Planning Parameters](design-details-planning-parameters.md)   
 [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md)   
 [Design Details: Supply Planning](design-details-supply-planning.md)
+
