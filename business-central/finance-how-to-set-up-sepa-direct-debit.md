@@ -10,11 +10,12 @@ ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-collect-payments-with-sepa-direct-debit
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b130948347da0abcf684a7daa5e59d9f71a29e00
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: 3f1e563f9eabdbdbf1e90904ba5fa100c32426dc
 ms.contentlocale: en-ca
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="set-up-sepa-direct-debit"></a><span data-ttu-id="94573-103">Set Up SEPA Direct Debit</span><span class="sxs-lookup"><span data-stu-id="94573-103">Set Up SEPA Direct Debit</span></span>

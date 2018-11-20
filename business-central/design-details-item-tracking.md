@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/12/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 93207b1bbccd389c6a3e60b0587cdb0044bf2259
+ms.sourcegitcommit: 46a37fb00319647ea1c4b4630e4d9369687dd7cf
+ms.openlocfilehash: 1cec78cad8dca74e0a554ea183dae7a75c1b3451
 ms.contentlocale: en-ca
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/12/2018
 
 ---
 # <a name="design-details-item-tracking"></a><span data-ttu-id="9b899-103">Design Details: Item Tracking</span><span class="sxs-lookup"><span data-stu-id="9b899-103">Design Details: Item Tracking</span></span>
@@ -25,12 +25,12 @@ ms.lasthandoff: 09/28/2018
 <span data-ttu-id="9b899-106">An item tracking system should provide a company with easy handling of serial and lot numbers, considering each unique piece of merchandise: when and where received, where stored, when and where sold.</span><span class="sxs-lookup"><span data-stu-id="9b899-106">An item tracking system should provide a company with easy handling of serial and lot numbers, considering each unique piece of merchandise: when and where received, where stored, when and where sold.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="9b899-107">has gradually expanded its coverage of this business requirement and today provides application-wide functionality and a solid core on which to develop extensions.</span><span class="sxs-lookup"><span data-stu-id="9b899-107">has gradually expanded its coverage of this business requirement and today provides application-wide functionality and a solid core on which to develop extensions.</span></span>  
 
 ## <a name="in-this-section"></a><span data-ttu-id="9b899-108">In This Section</span><span class="sxs-lookup"><span data-stu-id="9b899-108">In This Section</span></span>  
-* [<span data-ttu-id="9b899-109">Design Details: Item Tracking Design</span><span class="sxs-lookup"><span data-stu-id="9b899-109">Design Details: Item Tracking Design</span></span>](design-details-item-tracking-design.md)  
-* [<span data-ttu-id="9b899-110">Design Details: Item Tracking Posting Structure</span><span class="sxs-lookup"><span data-stu-id="9b899-110">Design Details: Item Tracking Posting Structure</span></span>](design-details-item-tracking-posting-structure.md)  
-* [<span data-ttu-id="9b899-111">Design Details: Active versus Historic Item Tracking Entries</span><span class="sxs-lookup"><span data-stu-id="9b899-111">Design Details: Active versus Historic Item Tracking Entries</span></span>](design-details-active-versus-historic-item-tracking-entries.md)  
-* [<span data-ttu-id="9b899-112">Design Details: Item Tracking Lines Window</span><span class="sxs-lookup"><span data-stu-id="9b899-112">Design Details: Item Tracking Lines Window</span></span>](design-details-item-tracking-lines-window.md)  
-* [<span data-ttu-id="9b899-113">Design Details: Item Tracking Availability</span><span class="sxs-lookup"><span data-stu-id="9b899-113">Design Details: Item Tracking Availability</span></span>](design-details-item-tracking-availability.md)  
-* [<span data-ttu-id="9b899-114">Design Details: Item Tracking and Planning</span><span class="sxs-lookup"><span data-stu-id="9b899-114">Design Details: Item Tracking and Planning</span></span>](design-details-item-tracking-and-planning.md)  
-* [<span data-ttu-id="9b899-115">Design Details: Item Tracking and Reservations</span><span class="sxs-lookup"><span data-stu-id="9b899-115">Design Details: Item Tracking and Reservations</span></span>](design-details-item-tracking-and-reservations.md)  
-* [<span data-ttu-id="9b899-116">Design Details: Item Tracking in the Warehouse</span><span class="sxs-lookup"><span data-stu-id="9b899-116">Design Details: Item Tracking in the Warehouse</span></span>](design-details-item-tracking-in-the-warehouse.md)
+[<span data-ttu-id="9b899-109">Design Details: Item Tracking Design</span><span class="sxs-lookup"><span data-stu-id="9b899-109">Design Details: Item Tracking Design</span></span>](design-details-item-tracking-design.md)  
+[<span data-ttu-id="9b899-110">Design Details: Item Tracking Posting Structure</span><span class="sxs-lookup"><span data-stu-id="9b899-110">Design Details: Item Tracking Posting Structure</span></span>](design-details-item-tracking-posting-structure.md)  
+[<span data-ttu-id="9b899-111">Design Details: Active versus Historic Item Tracking Entries</span><span class="sxs-lookup"><span data-stu-id="9b899-111">Design Details: Active versus Historic Item Tracking Entries</span></span>](design-details-active-versus-historic-item-tracking-entries.md)  
+[<span data-ttu-id="9b899-112">Design Details: Item Tracking Lines Window</span><span class="sxs-lookup"><span data-stu-id="9b899-112">Design Details: Item Tracking Lines Window</span></span>](design-details-item-tracking-lines-window.md)  
+[<span data-ttu-id="9b899-113">Design Details: Item Tracking Availability</span><span class="sxs-lookup"><span data-stu-id="9b899-113">Design Details: Item Tracking Availability</span></span>](design-details-item-tracking-availability.md)  
+[<span data-ttu-id="9b899-114">Design Details: Item Tracking and Planning</span><span class="sxs-lookup"><span data-stu-id="9b899-114">Design Details: Item Tracking and Planning</span></span>](design-details-item-tracking-and-planning.md)  
+[<span data-ttu-id="9b899-115">Design Details: Item Tracking and Reservations</span><span class="sxs-lookup"><span data-stu-id="9b899-115">Design Details: Item Tracking and Reservations</span></span>](design-details-item-tracking-and-reservations.md)  
+[<span data-ttu-id="9b899-116">Design Details: Item Tracking in the Warehouse</span><span class="sxs-lookup"><span data-stu-id="9b899-116">Design Details: Item Tracking in the Warehouse</span></span>](design-details-item-tracking-in-the-warehouse.md)
 
