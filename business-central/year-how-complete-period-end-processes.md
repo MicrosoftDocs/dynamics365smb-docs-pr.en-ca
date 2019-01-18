@@ -13,10 +13,10 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ag
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ff2537e0137efcb8e0c6878a67da71959c81e4fa
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: ab72d1af179ec543ea358ac957e9b658987f7d53
 ms.contentlocale: en-ca
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Overview of Tasks to Close Accounting Periods
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/28/2018
 * Update and post Recurring Journals.  
   <!--* Process Consolidations-->
 * Run account schedules as follows:  
-  * Open the **Account Schedule** window, and then choose the **Print** action.  
+  * Open the **Account Schedule** page, and then choose the **Print** action.  
 
 ## <a name="sales-and-receivables"></a>Sales and Receivables
 * Post all sales orders, invoices, credit memos, and return orders.  

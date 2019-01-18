@@ -11,10 +11,10 @@ ms.search.keywords: contacts, Office 365
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ef58b87146d84dc46ba9ad7a96ce0e57cbfe51c6
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5e4bd35edea680c46cb0df753b50916b1aeb93be
 ms.contentlocale: en-ca
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Synchronize Contacts in Business Central with Contacts in Microsoft Outlook
@@ -23,9 +23,9 @@ You can see the same contacts in [!INCLUDE[d365fin](includes/d365fin_md.md)] as 
 A dedicated folder in Outlook makes contacts easy to find, and you can set a filter to synchronize only the contacts from [!INCLUDE[d365fin](includes/d365fin_md.md)] that you want to see in Outlook. Once the contact synchronization is set up, you can start synchronization manually or set up an automatic synchronization that will keep the contacts in sync on a scheduled basis.  
 
 ## <a name="set-up-synchronization"></a>Set Up Synchronization
-You set up how you want to synchronize contacts with Outlook in the **Exchange Sync. Setup** window in [!INCLUDE[d365fin](includes/d365fin_md.md)]. As a prerequisite, your user profile in [!INCLUDE[d365fin](includes/d365fin_md.md)] must specify your Office 365 email account. You can check this in the **Office 365 Authentication** section of your user profile in the **Users** list.  
+You set up how you want to synchronize contacts with Outlook on the **Exchange Sync. Setup** page in [!INCLUDE[d365fin](includes/d365fin_md.md)]. As a prerequisite, your user profile in [!INCLUDE[d365fin](includes/d365fin_md.md)] must specify your Office 365 email account. You can check this in the **Office 365 Authentication** section of your user profile in the **Users** list.  
 
-Then, in the **Exchange Sync. Setup** window, you can validate that the connection to Exchange is working and then set up contact synchronization. Open the **Contact Sync. Setup** window and start the synchronization. Optionally, set a filter for which contacts to synchronize between [!INCLUDE[d365fin](includes/d365fin_md.md)] and Outlook. For example, you can set a filter on name, type, company, or similar. You can also change the default name of the folder that the contacts will synchronize to in Outlook. The default name is *Business Central*.  
+Then, on the **Exchange Sync. Setup** page, you can validate that the connection to Exchange is working and then set up contact synchronization. Open the **Contact Sync. Setup** page and start the synchronization. Optionally, set a filter for which contacts to synchronize between [!INCLUDE[d365fin](includes/d365fin_md.md)] and Outlook. For example, you can set a filter on name, type, company, or similar. You can also change the default name of the folder that the contacts will synchronize to in Outlook. The default name is *Business Central*.  
 
 Once this synchronization has been set up, any changes to that you make to the contact in either Outlook or in [!INCLUDE[d365fin](includes/d365fin_md.md)] is synchronized to the other.  
 

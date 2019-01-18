@@ -12,14 +12,14 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-collect-payments-with-sepa-direct-debit
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b130948347da0abcf684a7daa5e59d9f71a29e00
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c5d14102299140fd93ec586d0ef6165d1408505d
 ms.contentlocale: en-ca
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-sepa-direct-debit"></a>Set Up SEPA Direct Debit
-From the **Direct Debit Collections** window, you can export instructions to your electronic bank to perform a direct debit collection from the customer’s bank account to your bank account. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the SEPA direct debit format, but in your country/region, other formats for electronic payments may be available.  
+From the **Direct Debit Collections** page, you can export instructions to your electronic bank to perform a direct debit collection from the customer’s bank account to your bank account. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the SEPA direct debit format, but in your country/region, other formats for electronic payments may be available.  
 
 To enable export of a bank file formats that are not supported out of the box in [!INCLUDE[d365fin](includes/d365fin_md.md)] , you can set up a data exchange definition by using the data exchange framework. For more information, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -47,7 +47,7 @@ Before you can process customer payments electronically by exporting direct debi
     > [!NOTE]  
     >  Do not enter a value in the **Bal. Account No.** field.  
 
-4. Choose the **OK** button to close the **Payment Methods** window.  
+4. Choose the **OK** button to close the **Payment Methods** page.  
 5. In the **Search** box, enter **Customers**, and then choose the related link.  
 6. Open the customer card for the customer that you want to set up for SEPA direct debit collection.  
 7. Choose the **Payment Method Code** field, and then select the payment method code that you specified in step 3.  
@@ -57,8 +57,8 @@ Before you can process customer payments electronically by exporting direct debi
 1. In the **Search** box, enter **Customers**, and then choose the related link.  
 2. Open the card for the customer that you want to set up for SEPA direct debits.  
 3. Choose the **Bank Accounts** action.  
-4. In the **Customer Bank Account List** window, select the customer bank account that will use direct debits, and then, on the **Home** tab, in the **Process** group, choose **Direct Debit Mandates**.  
-5. In the **SEPA Direct Debit Mandates** window, fill in the fields as described in the following table.  
+4. On the **Customer Bank Account List** page, select the customer bank account that will use direct debits, and then, on the **Home** tab, in the **Process** group, choose **Direct Debit Mandates**.  
+5. On the **SEPA Direct Debit Mandates** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

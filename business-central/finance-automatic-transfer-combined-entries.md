@@ -10,13 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/13/2018
 ms.author: sgroespe
+redirect_url: finance-transfer-and-post-cost-entries
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d33fa549f48731c49734e7ecaf65b461c375ec90
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6f58e569bea6a42a9ee695095ce308e7a69e2a8d
 ms.contentlocale: en-ca
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="automatic-transfer-and-combined-entries"></a>Automatic Transfer and Combined Entries
@@ -29,12 +30,9 @@ In cost accounting, you can transfer general ledger entries to a cost type by us
 |Month|All general ledger entries in the same calendar month are transferred as one entry to the corresponding cost type.|  
 
 > [!IMPORTANT]  
->  If you have selected the **Auto Transfer from G/L** check box in the **Cost Accounting Setup** window, [!INCLUDE[d365fin](includes/d365fin_md.md)] updates the cost accounting after every posting in the general ledger. Combined entries are not possible.  
+>  If you have selected the **Auto Transfer from G/L** check box on the **Cost Accounting Setup** page, [!INCLUDE[d365fin](includes/d365fin_md.md)] updates the cost accounting after every posting in the general ledger. Combined entries are not possible.  
 
 ## <a name="see-also"></a>See Also  
- [Transfer General Ledger Entries to Cost Entries](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
- [Criteria for Transferring General Ledger Entries to Cost Entries](finance-criteria-for-transferring-general-ledger-entries-to-cost-entries.md)   
- [Results of the Transfer](finance-results-of-the-transfer.md)   
- [Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)  
+ [Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)   
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

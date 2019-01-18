@@ -11,17 +11,17 @@ ms.search.keywords: tasks, work
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 886c66dcad4764d309bdce3d469945cb813c84f6
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: b225eb16a3cfa0d70f03fde01051c8ea6a956454
 ms.contentlocale: en-ca
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="defining-user-tasks"></a>Defining User Tasks
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can create tasks to remind you of work to be done. You can create tasks for yourself, but you can also assign tasks to others or be assigned a task by someone else in your organization.  
 
 ## <a name="managing-user-tasks"></a>Managing User Tasks
-The **User Tasks** window shows all tasks, and you can easily create and assign new tasks. When you create a task, you can specify the start date and due date, and you can add a link to the window in [!INCLUDE[d365fin](includes/d365fin_md.md)] where the user must do the work.  
+The **User Tasks** page shows all tasks, and you can easily create and assign new tasks. When you create a task, you can specify the start date and due date, and you can add a link to the page in [!INCLUDE[d365fin](includes/d365fin_md.md)] where the user must do the work.  
 
 For example, you can create a task for yourself to view all posted sales invoices. In that case, you link the task to page 143, Posted Sales Invoices.  
 
@@ -31,7 +31,7 @@ For example, you can create a task for yourself to view all posted sales invoice
 >  Use the look-up in the **Page** field and then use the **Search for Page or Report** field to find the page that you want. For more information, see [Searching for a Page or Report](ui-search.md).  
 
 ### <a name="picking-up-user-tasks"></a>Picking Up User Tasks
-In the Business Manager, Bookkeeper, and Accountant Role Centres, a tile shows pending tasks that are assigned to that user. To pick up a task, simply choose it from the list of pending user tasks. In the ribbon, the link **Go to Task Item** opens the window where you can do the work.  
+In the Business Manager, Bookkeeper, and Accountant Role Centres, a tile shows pending tasks that are assigned to that user. To pick up a task, simply choose it from the list of pending user tasks. In the ribbon, the link **Go to Task Item** opens the page where you can do the work.  
 
 When you have completed a task, simply mark it as completed.  
 

@@ -13,10 +13,10 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 78eea4df6f25772063cef5770eb1dcb433bee012
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 15d7e4aac7989f95f7becc8aa8ed96381a7dc2de
 ms.contentlocale: en-ca
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="managing-personalization-as-an-administrator"></a>Managing Personalization as an Administrator
@@ -30,11 +30,11 @@ You can prevent all users that belong to a specific profile from being able to p
 
 ## <a name="clear-user-personalizations"></a>Clear user personalizations
 
-Clearing page personalization changes the page back to its original layout before any personalization was made. There are two ways to clear the personalizations that users have made to pages: using the **Delete User Personalization** window and using the **User Personalization Card** window.
+Clearing page personalization changes the page back to its original layout before any personalization was made. There are two ways to clear the personalizations that users have made to pages: using the **Delete User Personalization** page and using the **User Personalization Card** page.
 
 ### <a name="clear-user-personalizations-by-using-the-delete-user-personalization-page"></a>Clear user personalizations by using the Delete User Personalization page
 
-The **Delete User Personalization** window enables you to clear personalizations on a per-page basis for each user individually.
+The **Delete User Personalization** page enables you to clear personalizations on a per-page basis for each user individually.
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete User Personalization**, and then choose the related link.
 
@@ -49,11 +49,11 @@ The **Delete User Personalization** window enables you to clear personalizations
 
 ### <a name="clear-user-personalizations-by-using-the-user-personalization-card-page"></a>Clear user personalizations by using the User Personalization Card page
 
-The **User Personalization Card** window enables you to clear the personalization on all pages for specific user. This requires write permission to Table 2000000072 **Profile**.
+The **User Personalization Card** page enables you to clear the personalization on all pages for specific user. This requires write permission to Table 2000000072 **Profile**.
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Personalization**, and then choose the related link.
 
-    The **User Personalization** window lists all users who potentially have personalized pages. If you cannot find a user in the list, this means that they do not have any personalized pages.
+    The **User Personalization** page lists all users who potentially have personalized pages. If you cannot find a user in the list, this means that they do not have any personalized pages.
 
 2. Select the user from the list, and then choose the **Edit** action.
 

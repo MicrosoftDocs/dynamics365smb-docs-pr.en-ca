@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e692c53d98760ac3ad71a6a56f3597ce3bc42fe0
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 88e715ddd2c60c3eb780ffe71d80676fdea00209
 ms.contentlocale: en-ca
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="update-standard-costs"></a>Update Standard Costs
@@ -40,7 +40,7 @@ For more information, see [About Calculating Standard Cost](finance-about-calcul
     5. Run the **Roll Up Standard Cost** batch job.
     6.  Review the results and make changes as necessary.
     7.  Run the **Implement Standard Cost Changes** batch job.  
-4.  Review and post the **Revaluation Journal** window, which has been populated with entries from the previous steps in this process.  
+4.  Review and post the **Revaluation Journal** page, which has been populated with entries from the previous steps in this process.  
 
 ## <a name="see-also"></a>See Also  
  [About Calculating Standard Cost](finance-about-calculating-standard-cost.md)   

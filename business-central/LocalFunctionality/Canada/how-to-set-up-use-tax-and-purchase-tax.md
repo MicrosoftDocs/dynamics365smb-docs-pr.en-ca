@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0d91f885b6ac499c3e35fa554ce51a9f501951b3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1ae26dc10725541b64dd77b237e3b2fb458d5b1d
 ms.contentlocale: en-ca
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-use-tax-and-purchase-tax"></a>Set Up Use Tax and Purchase Tax
@@ -27,22 +27,22 @@ Sales tax includes taxes that companies pay for using items:
 
 ## <a name="to-set-up-use-tax-for-a-purchase-order"></a>To set up use tax for a purchase order  
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Orders**, and then choose the related link in **Order Processing**.  
-2.  In the **Purchase Orders** window, on the **Home** tab, in the **New** group, choose **New**.  
+2.  On the **Purchase Orders** page, on the **Home** tab, in the **New** group, choose **New**.  
 3.  On the **Lines** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]  
 4.  On the **Invoicing** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Tax Liable**|Select to set up tax liability. **Important:**  This field is available in the **Purchase Header** window, but it is not shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]|  
-    |**Tax Area Code**|The tax area code of the vendor. **Important:**  This field is available in the **Purchase Header** window, but it is not shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]|  
-    |**Tax Exemption No.**|The company's tax exemption number. You can enter a maximum of 30 alphanumeric characters. **Important:**  This field is available in the **Purchase Header** window, but it is not shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]|  
-    |**Provincial Tax Area Code**|The tax code for the province. **Important:**  This field is available in the **Purchase Header** window, but it is not shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]|  
+    |**Tax Liable**|Select to set up tax liability. **Important:**  This field is available on the **Purchase Header** page, but it is not shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]|  
+    |**Tax Area Code**|The tax area code of the vendor. **Important:**  This field is available on the **Purchase Header** page, but it is not shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]|  
+    |**Tax Exemption No.**|The company's tax exemption number. You can enter a maximum of 30 alphanumeric characters. **Important:**  This field is available on the **Purchase Header** page, but it is not shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]|  
+    |**Provincial Tax Area Code**|The tax code for the province. **Important:**  This field is available on the **Purchase Header** page, but it is not shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]|  
 5.  Choose the **OK** button.  
 
 ## <a name="to-set-up-use-tax-details"></a>To set up use tax details  
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Tax Details**, and then choose the related link.  
-2.  In the **Tax Details** window, choose the **New** action.  
-3.  In the **New - Tax Details** window, fill in the fields as described in the following table.  
+2.  On the **Tax Details** page, choose the **New** action.  
+3.  On the **New - Tax Details** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -53,7 +53,7 @@ Sales tax includes taxes that companies pay for using items:
 
 ## <a name="to-set-up-purchase-tax-for-a-company"></a>To set up purchase tax for a company  
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information** , and then choose the related link.  
-2.  In the **Company Information** window, on the **Tax** FastTab, fill in the fields as described in the following table.  
+2.  On the **Company Information** page, on the **Tax** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -64,7 +64,7 @@ Sales tax includes taxes that companies pay for using items:
 
 ## <a name="to-set-up-purchase-tax-for-a-location"></a>To set up purchase tax for a location  
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.  
-2.  In the **Locations** window, select the required location, and then choose the **Edit** action.  
+2.  On the **Locations** page, select the required location, and then choose the **Edit** action.  
 3.  On the **General** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -77,7 +77,7 @@ Sales tax includes taxes that companies pay for using items:
 
 ## <a name="to-set-up-purchase-tax-for-non-recoverable-tax"></a>To set up purchase tax for non-recoverable tax  
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Tax Details**, and then choose the related link.  
-2.  In the **Tax Details** window, choose the **New** action.  
+2.  On the **Tax Details** page, choose the **New** action.  
 3.  Select the **Expense/Capitalize** check box.  
 
     > [!NOTE]  

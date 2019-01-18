@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6a1a3063c984ea4cc1bf0984974516bc5b5333cf
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0dbb40557cb1c5c6e09dbfd6489a13fb48f9e37f
 ms.contentlocale: en-ca
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-deposits"></a>Create Deposits
@@ -46,7 +46,7 @@ You can make deposits to maintain a transaction record that contains information
     |**Document No.**|The journal line entry document number.|  
     |**Credit Amount**|The total credit amount on the journal line.|  
 
-5.  Optionally, on the **Navigate** tab, choose **Dimensions**, and then add relevant dimensions in the **Dimension Set Entries** window.  
+5.  Optionally, on the **Navigate** tab, choose **Dimensions**, and then add relevant dimensions on the **Dimension Set Entries** page.  
 
 After you have created a deposit, you must post it.  
 

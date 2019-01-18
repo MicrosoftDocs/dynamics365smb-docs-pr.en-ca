@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e0f21ed03c51b23111e20a9bb8b988582a2be556
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3178a5d06dcb4c5cf0dddbe61c7d6f6fa10be93a
 ms.contentlocale: en-ca
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="print-troubleshooting-reports"></a>Print Troubleshooting Reports
@@ -32,13 +32,13 @@ You can print these reports and send them to your Microsoft Certified Partner to
 
 ## <a name="to-print-the-license-information-report"></a>To print the License Information report  
 1.  In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] Object Designer, on the **Tools** menu, choose **Licence Information**.  
-2.  In the **Licence Information** window, you can preview the licence information, or you can choose the **Export** button to print the **Licence Information** report.  
+2.  On the **Licence Information** page, you can preview the licence information, or you can choose the **Export** button to print the **Licence Information** report.  
 
 ## <a name="to-print-the-data-dictionary-report"></a>To print the Data Dictionary report  
 1.  In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] Object Designer, on the **Tools** menu, choose **Object Designer**.  
 2.  Choose the **Report** button.  
 3.  In the **Type** column, find **ID** 10315, which is the **Data Dictionary** report.  
-4.  In the **Object Designer** window, choose the **Run** button to open the **Data Dictionary** report.  
+4.  On the **Object Designer** page, choose the **Run** button to open the **Data Dictionary** report.  
 5.  On the **Options** tab, enter the relevant information into the fields.  
 6.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 

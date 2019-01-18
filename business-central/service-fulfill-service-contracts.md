@@ -13,16 +13,16 @@ ms.search.keywords: contract, agreement, configure
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3867d954c65353557fd9e15f4c671f6671e80e18
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 167610e56db0d6de5a1f84a57c132a842a30b010
 ms.contentlocale: en-ca
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="fulfilling-service-contracts"></a>Fulfilling Service Contracts 
 One way to set up a service management business is to have standard contractual agreements between you and your customers that describe the level of service and the service expectations. You can create contract templates that include necessary information, such as customer, start date of contract, and invoice period.  
   
-After you set up the template, you can customize the resulting contract to keep track of service hours, or other items that may vary from customer to customer. You can also set up a contract manually from a service contract quote. Finally, you can adjust your service pricing to keep track of discounts that a specific customer qualifies for, by specifying the discount amount in the **Service Contract** window.  
+After you set up the template, you can customize the resulting contract to keep track of service hours, or other items that may vary from customer to customer. You can also set up a contract manually from a service contract quote. Finally, you can adjust your service pricing to keep track of discounts that a specific customer qualifies for, by specifying the discount amount on the **Service Contract** page.  
 
 The following table describes a sequence of tasks, with links to the topics that describe them.   
   

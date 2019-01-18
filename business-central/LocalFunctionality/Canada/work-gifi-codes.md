@@ -13,10 +13,10 @@ ms.search.keywords: local
 ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b3c9e34ec6270780bc207091421419892fa265da
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2ada7e3cb796b8907b6a7e79a2dbadb4741ddc86
 ms.contentlocale: en-ca
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-gifi-codes"></a>Work With GIFI Codes
@@ -32,7 +32,7 @@ You can export balance information by GIFI code and save the exported file in Ex
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you must set up GIFI codes for general ledger accounts, reports, balance sheets, income sheets, and statements of retained earnings.
 
 1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **GIFI Codes**, and then choose the related link.
-2. In the **GIFI Codes** window, choose the **New** action.
+2. On the **GIFI Codes** page, choose the **New** action.
 3. Set up GIFI codes by filling the fields. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-associate-gifi-codes-with-gl-accounts"></a>To associate GIFI codes with G/L accounts

@@ -1,6 +1,6 @@
 ---
 title: Best practices for global planning setup | Microsoft Docs
-description: The **Planning** FastTab in the **Manufacturing Setup** window contains several fields that define global rules for supply planning.
+description: The Planning FastTab in the Manufacturing Setup page contains several fields that define global rules for supply planning.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,14 +11,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 1201f7d7abf5d85e17a60b9663a479b7ec12f70a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d1f6333c689d6af06d68e45104020a523be7f865
 ms.contentlocale: en-ca
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setup-best-practices-global-planning-setup"></a>Setup Best Practices: Global Planning Setup
-The **Planning** FastTab in the **Manufacturing Setup** window contains several fields that define global rules for supply planning.  
+The **Planning** FastTab on the **Manufacturing Setup** page contains several fields that define global rules for supply planning.  
 
  The following table provides best practices on how to set up selected global planning parameter fields. For more information about a field, choose the link in the **Setup field** column.  
 

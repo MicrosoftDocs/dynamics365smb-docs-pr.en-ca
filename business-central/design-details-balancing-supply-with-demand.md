@@ -14,10 +14,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0b9a9d4c544e0566b047f57322549d6a7041cf76
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 037ba35395ba84d4f943b0a45a7fb43c24b34385
 ms.contentlocale: en-ca
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-balancing-supply-with-demand"></a>Design Details: Balancing Supply with Demand
@@ -59,7 +59,7 @@ In general, all supply has a planning flexibility that is limited by the conditi
 
     -   It represents inventory (always on day zero).  
     -   It has an order-to-order linked to another demand.  
-    -   It lies outside the reschedule window defined by the time bucket.  
+    -   It lies outside the reschedule page defined by the time bucket.  
     -   There is a closer supply that could be used.  
     -   On the other hand, the user may decide not to reschedule because:  
     -   The supply order has already been tied to another demand on a previous date.  
@@ -68,7 +68,7 @@ In general, all supply has a planning flexibility that is limited by the conditi
 -   **Reschedule In**: The date of an existing supply order can be scheduled in, except in the following conditions:  
 
     -   It is linked directly to some other demand.  
-    -   It lies outside the reschedule window defined by the time bucket.  
+    -   It lies outside the reschedule page defined by the time bucket.  
 
 > [!NOTE]  
 >  When planning an item using a reorder point, the supply order can always be scheduled in if necessary. This is common in forward-scheduled supply orders triggered by a reorder point.  
