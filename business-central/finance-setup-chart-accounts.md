@@ -11,35 +11,35 @@ ms.search.keywords: COA, cha of acc
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fd943924120667256809fac0300be1c30cfeb493
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9ed8bc069fc702a1b2d8d893531baca5eab7a903
 ms.contentlocale: en-ca
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
-# <a name="setting-up-or-changing-the-chart-of-accounts"></a><span data-ttu-id="aee1e-103">Setting Up or Changing the Chart of Accounts</span><span class="sxs-lookup"><span data-stu-id="aee1e-103">Setting Up or Changing the Chart of Accounts</span></span>
-<span data-ttu-id="aee1e-104">The chart of accounts shows the ledger accounts that store your financial data.</span><span class="sxs-lookup"><span data-stu-id="aee1e-104">The chart of accounts shows the ledger accounts that store your financial data.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="aee1e-105">includes a standard chart of accounts that is ready to support your business.</span><span class="sxs-lookup"><span data-stu-id="aee1e-105">includes a standard chart of accounts that is ready to support your business.</span></span>
-<span data-ttu-id="aee1e-106">However, you can change the default accounts, and you can add new accounts.</span><span class="sxs-lookup"><span data-stu-id="aee1e-106">However, you can change the default accounts, and you can add new accounts.</span></span>  
+# <a name="setting-up-or-changing-the-chart-of-accounts"></a><span data-ttu-id="aa687-103">Setting Up or Changing the Chart of Accounts</span><span class="sxs-lookup"><span data-stu-id="aa687-103">Setting Up or Changing the Chart of Accounts</span></span>
+<span data-ttu-id="aa687-104">The chart of accounts shows the ledger accounts that store your financial data.</span><span class="sxs-lookup"><span data-stu-id="aa687-104">The chart of accounts shows the ledger accounts that store your financial data.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="aa687-105">includes a standard chart of accounts that is ready to support your business.</span><span class="sxs-lookup"><span data-stu-id="aa687-105">includes a standard chart of accounts that is ready to support your business.</span></span>
+<span data-ttu-id="aa687-106">However, you can change the default accounts, and you can add new accounts.</span><span class="sxs-lookup"><span data-stu-id="aa687-106">However, you can change the default accounts, and you can add new accounts.</span></span>  
 
-## <a name="adding-or-changing-accounts"></a><span data-ttu-id="aee1e-107">Adding or Changing Accounts</span><span class="sxs-lookup"><span data-stu-id="aee1e-107">Adding or Changing Accounts</span></span>
-<span data-ttu-id="aee1e-108">From the chart of accounts, you can open each G/L account and add or change settings.</span><span class="sxs-lookup"><span data-stu-id="aee1e-108">From the chart of accounts, you can open each G/L account and add or change settings.</span></span>
+## <a name="adding-or-changing-accounts"></a><span data-ttu-id="aa687-107">Adding or Changing Accounts</span><span class="sxs-lookup"><span data-stu-id="aa687-107">Adding or Changing Accounts</span></span>
+<span data-ttu-id="aa687-108">From the chart of accounts, you can open each G/L account and add or change settings.</span><span class="sxs-lookup"><span data-stu-id="aa687-108">From the chart of accounts, you can open each G/L account and add or change settings.</span></span>
 
 > [!NOTE]  
->   <span data-ttu-id="aee1e-109">You can delete a general ledger account.</span><span class="sxs-lookup"><span data-stu-id="aee1e-109">You can delete a general ledger account.</span></span> <span data-ttu-id="aee1e-110">However, before you delete it, the following must be true:</span><span class="sxs-lookup"><span data-stu-id="aee1e-110">However, before you delete it, the following must be true:</span></span>  
+>   <span data-ttu-id="aa687-109">You can delete a general ledger account.</span><span class="sxs-lookup"><span data-stu-id="aa687-109">You can delete a general ledger account.</span></span> <span data-ttu-id="aa687-110">However, before you delete it, the following must be true:</span><span class="sxs-lookup"><span data-stu-id="aa687-110">However, before you delete it, the following must be true:</span></span>  
 
-* <span data-ttu-id="aee1e-111">The balance on the account must be zero.</span><span class="sxs-lookup"><span data-stu-id="aee1e-111">The balance on the account must be zero.</span></span>  
-* <span data-ttu-id="aee1e-112">The **Allow G/L Acc. Deletion Before** field must be set in the **General Ledger Setup** window, and the account must not have ledger entries on or after that date.</span><span class="sxs-lookup"><span data-stu-id="aee1e-112">The **Allow G/L Acc. Deletion Before** field must be set in the **General Ledger Setup** window, and the account must not have ledger entries on or after that date.</span></span>  
-* <span data-ttu-id="aee1e-113">If the **Check G/L Account Usage** field in the **General Ledger Setup** window is selected, then the account must not be used in any posting groups or posting setup.</span><span class="sxs-lookup"><span data-stu-id="aee1e-113">If the **Check G/L Account Usage** field in the **General Ledger Setup** window is selected, then the account must not be used in any posting groups or posting setup.</span></span>  
+* <span data-ttu-id="aa687-111">The balance on the account must be zero.</span><span class="sxs-lookup"><span data-stu-id="aa687-111">The balance on the account must be zero.</span></span>  
+* <span data-ttu-id="aa687-112">The **Allow G/L Acc. Deletion Before** field must be set on the **General Ledger Setup** page, and the account must not have ledger entries on or after that date.</span><span class="sxs-lookup"><span data-stu-id="aa687-112">The **Allow G/L Acc. Deletion Before** field must be set on the **General Ledger Setup** page, and the account must not have ledger entries on or after that date.</span></span>  
+* <span data-ttu-id="aa687-113">If the **Check G/L Account Usage** field on the **General Ledger Setup** page is selected, then the account must not be used in any posting groups or posting setup.</span><span class="sxs-lookup"><span data-stu-id="aa687-113">If the **Check G/L Account Usage** field on the **General Ledger Setup** page is selected, then the account must not be used in any posting groups or posting setup.</span></span>  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="aee1e-114">will prevent you from deleting a general ledger account that stores data that is needed in the chart of accounts.</span><span class="sxs-lookup"><span data-stu-id="aee1e-114">will prevent you from deleting a general ledger account that stores data that is needed in the chart of accounts.</span></span>  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="aa687-114">will prevent you from deleting a general ledger account that stores data that is needed in the chart of accounts.</span><span class="sxs-lookup"><span data-stu-id="aa687-114">will prevent you from deleting a general ledger account that stores data that is needed in the chart of accounts.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="aee1e-115">See Also</span><span class="sxs-lookup"><span data-stu-id="aee1e-115">See Also</span></span>
-[<span data-ttu-id="aee1e-116">The General Ledger and the Chart of Accounts</span><span class="sxs-lookup"><span data-stu-id="aee1e-116">The General Ledger and the Chart of Accounts</span></span>](finance-general-ledger.md)  
-[<span data-ttu-id="aee1e-117">Managing Bank Accounts</span><span class="sxs-lookup"><span data-stu-id="aee1e-117">Managing Bank Accounts</span></span>](bank-manage-bank-accounts.md)  
-[<span data-ttu-id="aee1e-118">Working with Dimensions</span><span class="sxs-lookup"><span data-stu-id="aee1e-118">Working with Dimensions</span></span>](finance-dimensions.md)  
-<span data-ttu-id="aee1e-119">[Importing Data from Other Finance Systems](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)</span><span class="sxs-lookup"><span data-stu-id="aee1e-119">[Importing Data from Other Finance Systems](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)</span></span>  
-[<span data-ttu-id="aee1e-120">Work with Account Schedules</span><span class="sxs-lookup"><span data-stu-id="aee1e-120">Work with Account Schedules</span></span>](bi-how-work-account-schedule.md)  
-<span data-ttu-id="aee1e-121">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="aee1e-121">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+## <a name="see-also"></a><span data-ttu-id="aa687-115">See Also</span><span class="sxs-lookup"><span data-stu-id="aa687-115">See Also</span></span>
+[<span data-ttu-id="aa687-116">The General Ledger and the Chart of Accounts</span><span class="sxs-lookup"><span data-stu-id="aa687-116">The General Ledger and the Chart of Accounts</span></span>](finance-general-ledger.md)  
+[<span data-ttu-id="aa687-117">Managing Bank Accounts</span><span class="sxs-lookup"><span data-stu-id="aa687-117">Managing Bank Accounts</span></span>](bank-manage-bank-accounts.md)  
+[<span data-ttu-id="aa687-118">Working with Dimensions</span><span class="sxs-lookup"><span data-stu-id="aa687-118">Working with Dimensions</span></span>](finance-dimensions.md)  
+<span data-ttu-id="aa687-119">[Importing Data from Other Finance Systems](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)</span><span class="sxs-lookup"><span data-stu-id="aa687-119">[Importing Data from Other Finance Systems](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)</span></span>  
+[<span data-ttu-id="aa687-120">Work with Account Schedules</span><span class="sxs-lookup"><span data-stu-id="aa687-120">Work with Account Schedules</span></span>](bi-how-work-account-schedule.md)  
+<span data-ttu-id="aa687-121">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="aa687-121">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 
