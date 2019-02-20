@@ -13,10 +13,10 @@ ms.search.keywords: contact, prospect, client
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 156a1265e8a10138b44535945aa75319680d280a
+ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
+ms.openlocfilehash: b3c766e8a43a0d4d4348a504b5142f7b83f8537a
 ms.contentlocale: en-ca
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 01/24/2019
 
 ---
 # <a name="managing-relationships"></a>Managing Relationships
@@ -35,9 +35,8 @@ To get started, see the following topics:
 ## <a name="see-also"></a>See Also
 [Sales](sales-manage-sales.md)  
 [Setting Up Relationship Management](marketing-setup-marketing.md)  
-[Managing Customers and Sales Created in Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)  
+[Integrating with Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 
