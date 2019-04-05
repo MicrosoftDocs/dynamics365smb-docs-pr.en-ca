@@ -2,7 +2,7 @@
 title: General Journal Post Line Overview | Microsoft Docs
 description: This topic introduces changes to Codeunit 12, **Gen. Jnl.-Post Line**, which is the major application object for general ledger posting and is the only place to insert general ledger, tax, and customer and vendor ledger entries.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: design, general ledger, post
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: db90633823f12650f796735a9a83bec8edb60cb9
-ms.contentlocale: en-ca
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-CA
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "811364"
 ---
 # <a name="general-journal-post-line-overview"></a>General Journal Post Line Overview
 Codeunit 12, **Gen. Jnl.-Post Line**, is the major application object for general ledger posting and is the only place to insert general ledger, tax, and customer and vendor ledger entries. This codeunit is also used for all Apply, Unapply and Reverse operations.  
@@ -48,4 +48,3 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], codeunit 12 has had the followin
 ## <a name="see-also"></a>See Also  
 [Design Details: Posting Interface Structure](design-details-posting-interface-structure.md)   
 [Design Details: Posting Engine Structure](design-details-posting-engine-structure.md)
-

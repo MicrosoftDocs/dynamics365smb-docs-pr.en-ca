@@ -2,22 +2,22 @@
 title: Design Details - Code Examples of Changed Patterns in Modifications | Microsoft Docs
 description: Code examples showing changed patterns in dimension code modification and migration for five different scenarios. It compares the code examples in earlier versions to the code examples in Business Central.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 3a5806711b693dadbbaf033ffd769c5eabebe8de
-ms.contentlocale: en-ca
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-CA
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "811804"
 ---
 # <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a>Design Details: Code Examples of Changed Patterns in Modifications
 This topic provides code examples to show changed patterns in dimension code modification and migration for five different scenarios. It compares the code examples in earlier versions to the code examples in Business Central.

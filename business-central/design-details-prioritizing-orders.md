@@ -2,7 +2,7 @@
 title: Design Details - Prioritizing Orders | Microsoft Docs
 description: Read about how to prioritize to meet both demand and supply requirements.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: design, priority, prioritize, order, sku, demand, supply
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
+ms.openlocfilehash: 1d58a02bdfe4810d1116d20866d3b435bc7341bc
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: dc5b3b34979698f05886cdd6f583cda262d82e51
-ms.contentlocale: en-ca
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: en-CA
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "812717"
 ---
 # <a name="design-details-prioritizing-orders"></a>Design Details: Prioritizing Orders
 Within a given SKU, the requested or available date represents the highest priority; the demand of today should be dealt with before the demand of next week. But in addition to this overall priority, the planning system will also suggest which type of demand should be fulfilled before fulfilling another demand. Likewise, it will suggest what source of supply should be applied before applying other sources of supply. This is done according to order priorities.  
@@ -60,4 +60,3 @@ Apart from priorities given by the type of demand and supply, the present state 
 [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)   
 [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)   
 [Design Details: Supply Planning](design-details-supply-planning.md)
-

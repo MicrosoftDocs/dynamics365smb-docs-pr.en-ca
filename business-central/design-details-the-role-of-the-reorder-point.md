@@ -2,7 +2,7 @@
 title: Design Details - The Role of the Reorder Point | Microsoft Docs
 description: This topic highlights the importance of setting a reorder point, so that you when to order more inventory.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: desigh, reorder, demand, supply
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
+ms.openlocfilehash: e39a7efdc796e8745bd9d8f7d74cdcfb171d851f
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 34fac8c3c8f5223fef950cbbda51c26ffff41f94
-ms.contentlocale: en-ca
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: en-CA
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "812740"
 ---
 # <a name="design-details-the-role-of-the-reorder-point"></a>Design Details: The Role of the Reorder Point
 In addition to the general balancing of supply and demand, the planning system must also monitor inventory levels for the affected items to respect the defined reordering policies.  
@@ -34,4 +34,3 @@ The reorder point reflects a certain inventory level. However, inventory levels 
 [Design Details: Planning Parameters](design-details-planning-parameters.md)   
 [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md)   
 [Design Details: Supply Planning](design-details-supply-planning.md)
-

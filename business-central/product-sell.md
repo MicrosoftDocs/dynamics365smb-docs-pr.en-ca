@@ -2,7 +2,7 @@
 title: Selling Business Central | Microsoft Docs
 description: Find out how you can expand your business opportunities and become a Microsoft partner and Business Central  reseller.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: microsoft partner
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: cc628a8f9c4a9727b359877ebe54eef25c947138
-ms.contentlocale: en-ca
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-CA
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "812279"
 ---
 # <a name="become-a-reseller-of-included365finlongincludesd365finlongmdmd"></a>Become a Reseller of [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Expand your business opportunity with [!INCLUDE[d365fin](includes/d365fin_md.md)]!  
@@ -35,4 +35,3 @@ If you're interested in learning more about becoming a [!INCLUDE[d365fin](includ
 [Getting Started](product-get-started.md)  
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [https://appsource.microsoft.com](https://appsource.microsoft.com/en-us/?product=project-madeira)  
-

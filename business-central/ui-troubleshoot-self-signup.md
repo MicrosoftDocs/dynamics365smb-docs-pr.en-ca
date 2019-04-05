@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 1774492a94b271843ff5ae5bdd11ad285f48c7a3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 30c39c263057c47512a1959d9d57b4daf2f23cce
-ms.contentlocale: en-ca
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: en-CA
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "811904"
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Troubleshooting Self-Service Sign-Up
 Signing up for [!INCLUDE[d365fin](includes/d365fin_md.md)] is easy and can be done very quickly. You can create a free account even if you are an existing organization. This article addresses issues that you may have during signup.
@@ -63,4 +63,3 @@ For a list of currently supported markets, see the [International availability o
 [Welcome to [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Local Functionality](about-localization.md)  
-

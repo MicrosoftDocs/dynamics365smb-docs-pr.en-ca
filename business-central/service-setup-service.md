@@ -2,7 +2,7 @@
 title: Setting Up Service Management | Microsoft Docs
 description: Overview of tasks to set up Service Management to suit the way that your organizations manages its services.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: c4b8287c8e1c056bd45a30376e96aca1f8f4ddcc
-ms.contentlocale: en-ca
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-CA
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "811651"
 ---
-
 # <a name="setting-up-service-management"></a>Setting Up Service Management
 Before you can start using Service Management features in [!INCLUDE[d365fin](includes/d365fin_md.md)], there are a few things to set up. For example, you can establish coding for standard services, symptoms, and fault codes, and the service items and service item types that your company's customer service needs require.  
 
@@ -47,4 +46,3 @@ The following table describes a sequence of tasks, with links to the topics that
 ## <a name="see-also"></a>See also 
 [Service Management](service-service.md)  
 [Getting Started](product-get-started.md)  
-

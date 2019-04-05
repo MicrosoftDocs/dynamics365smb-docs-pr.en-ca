@@ -2,7 +2,7 @@
 title: Payment Reconciliation With the Envestnet Yodlee Bank Feeds Extension | Microsoft Docs
 description: Describes the Envestnet Yodlee Bank Feeds extension, which links to bank accounts so you can and quickly reconcile payments.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,17 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
-ms.date: 10/01/2018
+ms.date: 02/26/2019
 ms.author: sgroespe
+ms.openlocfilehash: 36400b3265517c29f68f7eb59d17d968334e0fb1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: dcca7adcb8d078ee0abd436f58afc024b424bcd7
-ms.contentlocale: en-ca
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: en-CA
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "812668"
 ---
 # <a name="the-envestnet-yodlee-bank-feeds-extension"></a>The Envestnet Yodlee Bank Feeds Extension
 To quickly reconcile payments made to your bank accounts, the Envestnet Yodlee Bank Feeds service allows you to link your system bank account to your online bank account. This means that the latest bank statement is automatically or manually fed into your reconciliation journal, ensuring that you are always processing the latest payments with minimal risk of errors.
+
+> [!NOTE]
+> This functionality is only supported in the online version of Business Central. To use this functionality on-premise, you must obtain a cobrand account from Envestnet Yodlee.
 
 The Envestnet Yodlee Bank Feeds service provides the following benefits:
 
@@ -37,4 +40,3 @@ For more information, see [Set Up the Envestnet Yodlee Bank Feeds Service](bank-
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)    
 [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -2,7 +2,7 @@
 title: Job Tasks using Resources and Time Sheets| Microsoft Docs
 description: Outlines how to use resources, time sheets, and jobs to manage projects.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: projects
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 1de8a8feaa7ae9c7d2dd656a525be84cd5424dc6
-ms.contentlocale: en-ca
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-CA
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "812585"
 ---
 # <a name="project-management"></a>Project Management
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can perform common project management tasks, such as configuring a job and scheduling a resource, as well as providing the information needed to manage budgets and monitor progress. You can track machine and employee hours on the project by using time sheets. As a project manager, you have a good overview, not only of individual jobs, but also of the allocation of employees, machinery and other resources being used in all projects.
@@ -48,4 +48,3 @@ The following table describes a sequence of tasks, with links to the topics that
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: acd894ede7ad497311a793fb7153333a9a35e1cb
-ms.contentlocale: en-ca
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-CA
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "812110"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Analysing Financial Statements in Microsoft Excel
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can see KPIs and get overviews of the company's financial state. You can also open lists in Excel and analyse the data there. But you can also export heavy financial statements such as the balance sheet or the income statement to Excel, analyse the data, and print the reports.  
@@ -46,4 +46,3 @@ With the add-in, you can get fresh data from [!INCLUDE[d365fin](includes/d365fin
 [Setting Up Finance](finance-setup-finance.md)  
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
 [Working with Business Central](ui-work-product.md)  
-

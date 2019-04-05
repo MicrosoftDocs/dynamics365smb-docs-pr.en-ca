@@ -2,22 +2,22 @@
 title: Planning With or Without Locations | Microsoft Docs
 description: Planning with or without location codes on demand lines is important to understand.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 211f990e21c8c0a5c6d1705de5345be20adae4d7
-ms.contentlocale: en-ca
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-CA
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "811442"
 ---
 # <a name="planning-with-or-without-locations"></a>Planning With or Without Locations
 Concerning planning with or without location codes on demand lines, the planning system operates in a straight forward way when:  
@@ -146,4 +146,3 @@ Therefore, if you often plan for demand at locations, it is strongly advised to 
 [Design Details: Supply Planning](design-details-supply-planning.md)   
 [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-
