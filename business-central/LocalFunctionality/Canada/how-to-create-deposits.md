@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0dbb40557cb1c5c6e09dbfd6489a13fb48f9e37f
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d2c7378a4f96bbac27fa26bd43ced375c31dcd42
+ms.sourcegitcommit: a1890e0c959f4a07a4e4d9807be98ec5fe20c0f7
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826545"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "938414"
 ---
 # <a name="create-deposits"></a>Create Deposits
 You can make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos.  

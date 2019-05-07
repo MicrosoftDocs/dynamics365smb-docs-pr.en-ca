@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1ae26dc10725541b64dd77b237e3b2fb458d5b1d
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 446e5775c6d40d93c2108bb1bd44c181b35e8c0f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826533"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "930178"
 ---
 # <a name="set-up-use-tax-and-purchase-tax"></a>Set Up Use Tax and Purchase Tax
 Sales tax includes taxes that companies pay for using items:  
@@ -26,7 +26,7 @@ Sales tax includes taxes that companies pay for using items:
 - Purchase tax (Canada) – Purchase tax is a Canadian sales tax that is paid by a company on items that are purchased from a vendor. When a company purchases items for use by the company itself, the vendor charges the appropriate sales tax for the items.  
 
 ## <a name="to-set-up-use-tax-for-a-purchase-order"></a>To set up use tax for a purchase order  
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Orders**, and then choose the related link in **Order Processing**.  
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Orders**, and then choose the related link.  
 2.  On the **Purchase Orders** page, on the **Home** tab, in the **New** group, choose **New**.  
 3.  On the **Lines** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]  
 4.  On the **Invoicing** FastTab, fill in the fields as described in the following table.  
