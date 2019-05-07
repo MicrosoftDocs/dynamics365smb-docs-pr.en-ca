@@ -1,34 +1,41 @@
 ---
 title: Canada Local Functionality | Microsoft Docs
 description: The following topics describe the local functionality in the Canadian version of Business Central.
-author: SorenGP
+author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/11/2018
-ms.author: sgroespe
-ms.openlocfilehash: ea66fdaa9c7dbb5062e391b0a0172d28d4d30447
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.date: 04/09/2019
+ms.author: soalex
+ms.openlocfilehash: 995f9658d7f78dc27640b5cb15e48f4b3b7dfa9a
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826543"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "990124"
 ---
 # <a name="canada-local-functionality"></a>Canada Local Functionality
 The following topics describe local functionality that is unique to the Canadian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
-## <a name="in-this-section"></a>In This Section
-[Create Deposits](how-to-create-deposits.md)  
-[Manage Customer Credit Information](how-to-manage-customer-credit-information.md)  
-[Print Troubleshooting Reports](how-to-print-troubleshooting-reports.md)  
-[Reporting Sales Tax and Goods/Services Tax in Canada](sales-tax-goods-services.md)  
-[Reporting Sales Tax in Canada](ca-sales-tax.md)  
-[Set Up Unrealized Sales Tax and Sales Payment Discounts](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
-[Set Up Use Tax and Purchase Tax](how-to-set-up-use-tax-and-purchase-tax.md)  
-[Work With GIFI Codes](work-gifi-codes.md)  
+## <a name="feature-availability"></a>Feature Availability
+
+* VAT & Tax
+    * [Reporting Sales Tax and Goods/Services Tax in Canada](sales-tax-goods-services.md) **Available Now**
+    * [Reporting Sales Tax in Canada](ca-sales-tax.md) **Available Now**
+    * [Set Up Unrealized Sales Tax and Sales Payment Discounts](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md) **Available Now**
+    * [Set Up Use Tax and Purchase Tax](how-to-set-up-use-tax-and-purchase-tax.md) **Available Now**
+
+* Banking & Payments
+    * [Create Deposits](how-to-create-deposits.md) **Available Now**
+    * [Manage Customer Credit Information](how-to-manage-customer-credit-information.md) **Available Now**
+    * [Make Electronic Payments](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file) **Available Now**
+
+* General
+    * [Print Troubleshooting Reports](how-to-print-troubleshooting-reports.md) **Available Now**
+    * [Work With GIFI Codes](work-gifi-codes.md) **Available Now**    
 
 ## <a name="see-also"></a>See Also
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)   
