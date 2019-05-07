@@ -10,31 +10,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3a5806711b693dadbbaf033ffd769c5eabebe8de
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+redirect_url: design-details-dimension-set-entries
+ms.openlocfilehash: 5bb5e5713ed23877006ebb913e01416feac69266
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "811804"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "915656"
 ---
-# <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a><span data-ttu-id="d4b6e-104">Design Details: Code Examples of Changed Patterns in Modifications</span><span class="sxs-lookup"><span data-stu-id="d4b6e-104">Design Details: Code Examples of Changed Patterns in Modifications</span></span>
-<span data-ttu-id="d4b6e-105">This topic provides code examples to show changed patterns in dimension code modification and migration for five different scenarios.</span><span class="sxs-lookup"><span data-stu-id="d4b6e-105">This topic provides code examples to show changed patterns in dimension code modification and migration for five different scenarios.</span></span> <span data-ttu-id="d4b6e-106">It compares the code examples in earlier versions to the code examples in Business Central.</span><span class="sxs-lookup"><span data-stu-id="d4b6e-106">It compares the code examples in earlier versions to the code examples in Business Central.</span></span>
+# <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a><span data-ttu-id="92e31-104">Design Details: Code Examples of Changed Patterns in Modifications</span><span class="sxs-lookup"><span data-stu-id="92e31-104">Design Details: Code Examples of Changed Patterns in Modifications</span></span>
+<span data-ttu-id="92e31-105">This topic provides code examples to show changed patterns in dimension code modification and migration for five different scenarios.</span><span class="sxs-lookup"><span data-stu-id="92e31-105">This topic provides code examples to show changed patterns in dimension code modification and migration for five different scenarios.</span></span> <span data-ttu-id="92e31-106">It compares the code examples in earlier versions to the code examples in Business Central.</span><span class="sxs-lookup"><span data-stu-id="92e31-106">It compares the code examples in earlier versions to the code examples in Business Central.</span></span>
 
-## <a name="posting-a-journal-line"></a><span data-ttu-id="d4b6e-107">Posting a Journal Line</span><span class="sxs-lookup"><span data-stu-id="d4b6e-107">Posting a Journal Line</span></span>  
-<span data-ttu-id="d4b6e-108">Key changes are listed as follows:</span><span class="sxs-lookup"><span data-stu-id="d4b6e-108">Key changes are listed as follows:</span></span>  
-  
-- <span data-ttu-id="d4b6e-109">Journal line dimension tables are removed.</span><span class="sxs-lookup"><span data-stu-id="d4b6e-109">Journal line dimension tables are removed.</span></span>  
-  
-- <span data-ttu-id="d4b6e-110">A dimension set ID is created in the **Dimension Set ID** field.</span><span class="sxs-lookup"><span data-stu-id="d4b6e-110">A dimension set ID is created in the **Dimension Set ID** field.</span></span>  
-  
-<span data-ttu-id="d4b6e-111">**Earlier Versions**</span><span class="sxs-lookup"><span data-stu-id="d4b6e-111">**Earlier Versions**</span></span>  
-  
+## <a name="posting-a-journal-line"></a><span data-ttu-id="92e31-107">Posting a Journal Line</span><span class="sxs-lookup"><span data-stu-id="92e31-107">Posting a Journal Line</span></span>  
+<span data-ttu-id="92e31-108">Key changes are listed as follows:</span><span class="sxs-lookup"><span data-stu-id="92e31-108">Key changes are listed as follows:</span></span>  
+
+- <span data-ttu-id="92e31-109">Journal line dimension tables are removed.</span><span class="sxs-lookup"><span data-stu-id="92e31-109">Journal line dimension tables are removed.</span></span>  
+
+- <span data-ttu-id="92e31-110">A dimension set ID is created in the **Dimension Set ID** field.</span><span class="sxs-lookup"><span data-stu-id="92e31-110">A dimension set ID is created in the **Dimension Set ID** field.</span></span>  
+
+<span data-ttu-id="92e31-111">**Earlier Versions**</span><span class="sxs-lookup"><span data-stu-id="92e31-111">**Earlier Versions**</span></span>  
+
 ```  
 ResJnlLine."Qty. per Unit of Measure" :=   
   SalesLine."Qty. per Unit of Measure";  
-  
+
 TempJnlLineDim.DELETEALL;  
 TempDocDim.RESET;  
 TempDocDim.SETRANGE(  
@@ -45,27 +46,27 @@ DimMgt.CopyDocDimToJnlLineDim(
   TempDocDim,TempJnlLineDim);  
 ResJnlPostLine.RunWithCheck(  
   ResJnlLine,TempJnlLineDim);  
-  
+
 ```  
-  
+
  **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
-  
+
 ```  
-  
+
 ResJnlLine."Qty. per Unit of Measure" :=   
   SalesLine."Qty. per Unit of Measure";  
-  
+
 ResJnlLine."Dimension Set ID" :=   
   SalesLine." Dimension Set ID ";  
 ResJnlPostLine.Run(ResJnlLine);  
-  
+
 ```  
-  
-## <a name="posting-a-document"></a><span data-ttu-id="d4b6e-112">Posting a Document</span><span class="sxs-lookup"><span data-stu-id="d4b6e-112">Posting a Document</span></span>  
- <span data-ttu-id="d4b6e-113">When you post a document in [!INCLUDE[d365fin](includes/d365fin_md.md)], you no longer have to copy the document dimensions.</span><span class="sxs-lookup"><span data-stu-id="d4b6e-113">When you post a document in [!INCLUDE[d365fin](includes/d365fin_md.md)], you no longer have to copy the document dimensions.</span></span>  
-  
- <span data-ttu-id="d4b6e-114">**Earlier Versions**</span><span class="sxs-lookup"><span data-stu-id="d4b6e-114">**Earlier Versions**</span></span>  
-  
+
+## <a name="posting-a-document"></a><span data-ttu-id="92e31-112">Posting a Document</span><span class="sxs-lookup"><span data-stu-id="92e31-112">Posting a Document</span></span>  
+ <span data-ttu-id="92e31-113">When you post a document in [!INCLUDE[d365fin](includes/d365fin_md.md)], you no longer have to copy the document dimensions.</span><span class="sxs-lookup"><span data-stu-id="92e31-113">When you post a document in [!INCLUDE[d365fin](includes/d365fin_md.md)], you no longer have to copy the document dimensions.</span></span>  
+
+ <span data-ttu-id="92e31-114">**Earlier Versions**</span><span class="sxs-lookup"><span data-stu-id="92e31-114">**Earlier Versions**</span></span>  
+
 ```  
 DimMgt.MoveOneDocDimToPostedDocDim(  
   TempDocDim,DATABASE::"Sales Line",  
@@ -75,19 +76,19 @@ DimMgt.MoveOneDocDimToPostedDocDim(
   DATABASE::"Sales Shipment Line",  
   SalesShptHeader."No.");  
 ```  
-  
+
  **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
-  
+
 ```  
 SalesShptLine."Dimension Set ID”  
   := SalesLine."Dimension Set ID”  
 ```  
-  
-## <a name="editing-dimensions-from-a-document"></a><span data-ttu-id="d4b6e-115">Editing Dimensions from a Document</span><span class="sxs-lookup"><span data-stu-id="d4b6e-115">Editing Dimensions from a Document</span></span>  
- <span data-ttu-id="d4b6e-116">You can edit dimensions from a document.</span><span class="sxs-lookup"><span data-stu-id="d4b6e-116">You can edit dimensions from a document.</span></span> <span data-ttu-id="d4b6e-117">For example, you can edit a sales order line.</span><span class="sxs-lookup"><span data-stu-id="d4b6e-117">For example, you can edit a sales order line.</span></span>  
-  
- <span data-ttu-id="d4b6e-118">**Earlier Versions**</span><span class="sxs-lookup"><span data-stu-id="d4b6e-118">**Earlier Versions**</span></span>  
-  
+
+## <a name="editing-dimensions-from-a-document"></a><span data-ttu-id="92e31-115">Editing Dimensions from a Document</span><span class="sxs-lookup"><span data-stu-id="92e31-115">Editing Dimensions from a Document</span></span>  
+ <span data-ttu-id="92e31-116">You can edit dimensions from a document.</span><span class="sxs-lookup"><span data-stu-id="92e31-116">You can edit dimensions from a document.</span></span> <span data-ttu-id="92e31-117">For example, you can edit a sales order line.</span><span class="sxs-lookup"><span data-stu-id="92e31-117">For example, you can edit a sales order line.</span></span>  
+
+ <span data-ttu-id="92e31-118">**Earlier Versions**</span><span class="sxs-lookup"><span data-stu-id="92e31-118">**Earlier Versions**</span></span>  
+
 ```  
 Table 37, function ShowDimensions:  
 TESTFIELD("Document No.");  
@@ -99,21 +100,21 @@ DocDim.SETRANGE("Line No.","Line No.");
 DocDimensions.SETTABLEVIEW(DocDim);  
 DocDimensions.RUNMODAL;  
 ```  
-  
+
  **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
-  
+
 ```  
 Table 37, function ShowDimensions:  
 "Dimension ID" :=   
   DimSetEntry.EditDimensionSet(  
     "Dimension ID");  
 ```  
-  
-## <a name="showing-dimensions-from-posted-entries"></a><span data-ttu-id="d4b6e-119">Showing Dimensions from Posted Entries</span><span class="sxs-lookup"><span data-stu-id="d4b6e-119">Showing Dimensions from Posted Entries</span></span>  
- <span data-ttu-id="d4b6e-120">You can show dimensions from posted entries, such as sales shipment lines.</span><span class="sxs-lookup"><span data-stu-id="d4b6e-120">You can show dimensions from posted entries, such as sales shipment lines.</span></span>  
-  
- <span data-ttu-id="d4b6e-121">**Earlier Versions**</span><span class="sxs-lookup"><span data-stu-id="d4b6e-121">**Earlier Versions**</span></span>  
-  
+
+## <a name="showing-dimensions-from-posted-entries"></a><span data-ttu-id="92e31-119">Showing Dimensions from Posted Entries</span><span class="sxs-lookup"><span data-stu-id="92e31-119">Showing Dimensions from Posted Entries</span></span>  
+ <span data-ttu-id="92e31-120">You can show dimensions from posted entries, such as sales shipment lines.</span><span class="sxs-lookup"><span data-stu-id="92e31-120">You can show dimensions from posted entries, such as sales shipment lines.</span></span>  
+
+ <span data-ttu-id="92e31-121">**Earlier Versions**</span><span class="sxs-lookup"><span data-stu-id="92e31-121">**Earlier Versions**</span></span>  
+
 ```  
 Table 111, function ShowDimensions:  
 TESTFIELD("No.");  
@@ -126,20 +127,20 @@ PostedDocDim.SETRANGE("Line No.","Line No.");
 PostedDocDimensions.SETTABLEVIEW(PostedDocDim);  
 PostedDocDimensions.RUNMODAL;  
 ```  
-  
+
  **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
-  
+
 ```  
 Table 111, function ShowDimensions:  
 DimSetEntry.ShowDimensionSet(  
   "Dimension ID");  
 ```  
-  
-## <a name="getting-default-dimensions-for-a-document"></a><span data-ttu-id="d4b6e-122">Getting Default Dimensions for a Document</span><span class="sxs-lookup"><span data-stu-id="d4b6e-122">Getting Default Dimensions for a Document</span></span>  
- <span data-ttu-id="d4b6e-123">You can get default dimensions for a document, such as a sales order line.</span><span class="sxs-lookup"><span data-stu-id="d4b6e-123">You can get default dimensions for a document, such as a sales order line.</span></span>  
-  
- <span data-ttu-id="d4b6e-124">**Earlier Versions**</span><span class="sxs-lookup"><span data-stu-id="d4b6e-124">**Earlier Versions**</span></span>  
-  
+
+## <a name="getting-default-dimensions-for-a-document"></a><span data-ttu-id="92e31-122">Getting Default Dimensions for a Document</span><span class="sxs-lookup"><span data-stu-id="92e31-122">Getting Default Dimensions for a Document</span></span>  
+ <span data-ttu-id="92e31-123">You can get default dimensions for a document, such as a sales order line.</span><span class="sxs-lookup"><span data-stu-id="92e31-123">You can get default dimensions for a document, such as a sales order line.</span></span>  
+
+ <span data-ttu-id="92e31-124">**Earlier Versions**</span><span class="sxs-lookup"><span data-stu-id="92e31-124">**Earlier Versions**</span></span>  
+
 ```  
 Table 37, function CreateDim()  
 SourceCodeSetup.GET;  
@@ -168,9 +169,9 @@ IF "Line No." <> 0 THEN
     "Shortcut Dimension 1 Code",  
     "Shortcut Dimension 2 Code");  
 ```  
-  
+
  **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
-  
+
 ```  
 Table 37, function CreateDim()  
 SourceCodeSetup.GET;  
@@ -193,7 +194,7 @@ GetSalesHeader;
 
 ```  
 
-## <a name="see-also"></a><span data-ttu-id="d4b6e-125">See Also</span><span class="sxs-lookup"><span data-stu-id="d4b6e-125">See Also</span></span>  
-<span data-ttu-id="d4b6e-126">[Design Details: Dimension Set Entries](design-details-dimension-set-entries.md) </span><span class="sxs-lookup"><span data-stu-id="d4b6e-126">[Design Details: Dimension Set Entries](design-details-dimension-set-entries.md) </span></span>  
-<span data-ttu-id="d4b6e-127">[Design Details: Table Structure](design-details-table-structure.md) </span><span class="sxs-lookup"><span data-stu-id="d4b6e-127">[Design Details: Table Structure](design-details-table-structure.md) </span></span>  
-[<span data-ttu-id="d4b6e-128">Design Details: Codeunit 408 Dimension Management</span><span class="sxs-lookup"><span data-stu-id="d4b6e-128">Design Details: Codeunit 408 Dimension Management</span></span>](design-details-codeunit-408-dimension-management.md)
+## <a name="see-also"></a><span data-ttu-id="92e31-125">See Also</span><span class="sxs-lookup"><span data-stu-id="92e31-125">See Also</span></span>  
+<span data-ttu-id="92e31-126">[Design Details: Dimension Set Entries](design-details-dimension-set-entries.md) </span><span class="sxs-lookup"><span data-stu-id="92e31-126">[Design Details: Dimension Set Entries](design-details-dimension-set-entries.md) </span></span>  
+<span data-ttu-id="92e31-127">[Design Details: Table Structure](design-details-table-structure.md) </span><span class="sxs-lookup"><span data-stu-id="92e31-127">[Design Details: Table Structure](design-details-table-structure.md) </span></span>  
+[<span data-ttu-id="92e31-128">Design Details: Codeunit 408 Dimension Management</span><span class="sxs-lookup"><span data-stu-id="92e31-128">Design Details: Codeunit 408 Dimension Management</span></span>](design-details-codeunit-408-dimension-management.md)

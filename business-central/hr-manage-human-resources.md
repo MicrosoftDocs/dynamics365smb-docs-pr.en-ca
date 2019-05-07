@@ -10,30 +10,30 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 209a36d19d38f62aa94f77f8ef33b849c078dd67
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 5210258f1e217149f0d41e1edcfaf8a8c0c3be79
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "812560"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "932784"
 ---
-# <a name="manage-human-resources"></a><span data-ttu-id="b4bd3-103">Manage Human Resources</span><span class="sxs-lookup"><span data-stu-id="b4bd3-103">Manage Human Resources</span></span>
-<span data-ttu-id="b4bd3-104">In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can keep detailed records of your employees.</span><span class="sxs-lookup"><span data-stu-id="b4bd3-104">In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can keep detailed records of your employees.</span></span> <span data-ttu-id="b4bd3-105">You can register and maintain employee information, such as employment contracts, confidential information, qualifications, and employee contacts.</span><span class="sxs-lookup"><span data-stu-id="b4bd3-105">You can register and maintain employee information, such as employment contracts, confidential information, qualifications, and employee contacts.</span></span>
+# <a name="manage-human-resources"></a><span data-ttu-id="e6944-103">Manage Human Resources</span><span class="sxs-lookup"><span data-stu-id="e6944-103">Manage Human Resources</span></span>
+<span data-ttu-id="e6944-104">In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can keep detailed records of your employees.</span><span class="sxs-lookup"><span data-stu-id="e6944-104">In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can keep detailed records of your employees.</span></span> <span data-ttu-id="e6944-105">You can register and maintain employee information, such as employment contracts, confidential information, qualifications, and employee contacts.</span><span class="sxs-lookup"><span data-stu-id="e6944-105">You can register and maintain employee information, such as employment contracts, confidential information, qualifications, and employee contacts.</span></span>
 
-<span data-ttu-id="b4bd3-106">You can also register employee absences, which allows you to analyse registered absences as necessary.</span><span class="sxs-lookup"><span data-stu-id="b4bd3-106">You can also register employee absences, which allows you to analyze registered absences as necessary.</span></span>
+<span data-ttu-id="e6944-106">You can also register employee absences, which allows you to analyse registered absences as necessary.</span><span class="sxs-lookup"><span data-stu-id="e6944-106">You can also register employee absences, which allows you to analyze registered absences as necessary.</span></span>
 
-<span data-ttu-id="b4bd3-107">To start using the Human Resources functionality, you must set up employees and other basic information.</span><span class="sxs-lookup"><span data-stu-id="b4bd3-107">To start using the Human Resources functionality, you must set up employees and other basic information.</span></span> <span data-ttu-id="b4bd3-108">You can then associate various codes to an employee, which allows you to filter information for specific employees.</span><span class="sxs-lookup"><span data-stu-id="b4bd3-108">You can then associate various codes to an employee, which allows you to filter information for specific employees.</span></span>
+<span data-ttu-id="e6944-107">To start using the Human Resources functionality, you must set up employees and other basic information.</span><span class="sxs-lookup"><span data-stu-id="e6944-107">To start using the Human Resources functionality, you must set up employees and other basic information.</span></span> <span data-ttu-id="e6944-108">You can then associate various codes to an employee, which allows you to filter information for specific employees.</span><span class="sxs-lookup"><span data-stu-id="e6944-108">You can then associate various codes to an employee, which allows you to filter information for specific employees.</span></span>
 
-<span data-ttu-id="b4bd3-109">The following table describes a sequence of tasks, with links to the topics that describe them.</span><span class="sxs-lookup"><span data-stu-id="b4bd3-109">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
+<span data-ttu-id="e6944-109">The following table describes a sequence of tasks, with links to the topics that describe them.</span><span class="sxs-lookup"><span data-stu-id="e6944-109">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
 
-| <span data-ttu-id="b4bd3-110">To</span><span class="sxs-lookup"><span data-stu-id="b4bd3-110">To</span></span> | <span data-ttu-id="b4bd3-111">See</span><span class="sxs-lookup"><span data-stu-id="b4bd3-111">See</span></span> |
+| <span data-ttu-id="e6944-110">To</span><span class="sxs-lookup"><span data-stu-id="e6944-110">To</span></span> | <span data-ttu-id="e6944-111">See</span><span class="sxs-lookup"><span data-stu-id="e6944-111">See</span></span> |
 | --- | --- |
-| <span data-ttu-id="b4bd3-112">Register new employees or edit records for existing employees, and attach related information, such as contracts and articles.</span><span class="sxs-lookup"><span data-stu-id="b4bd3-112">Register new employees or edit records for existing employees, and attach related information, such as contracts and articles.</span></span> |[<span data-ttu-id="b4bd3-113">Register Employees</span><span class="sxs-lookup"><span data-stu-id="b4bd3-113">Register Employees</span></span>](hr-how-register-employees.md) |
-| <span data-ttu-id="b4bd3-114">Record employees' absence and view absence statistics by various filters.</span><span class="sxs-lookup"><span data-stu-id="b4bd3-114">Record employees' absence and view absence statistics by various filters.</span></span> |[<span data-ttu-id="b4bd3-115">Manage Employee Absence</span><span class="sxs-lookup"><span data-stu-id="b4bd3-115">Manage Employee Absence</span></span>](hr-how-manage-absence.md) |
+| <span data-ttu-id="e6944-112">Register new employees or edit records for existing employees, and attach related information, such as contracts and articles.</span><span class="sxs-lookup"><span data-stu-id="e6944-112">Register new employees or edit records for existing employees, and attach related information, such as contracts and articles.</span></span> |[<span data-ttu-id="e6944-113">Register Employees</span><span class="sxs-lookup"><span data-stu-id="e6944-113">Register Employees</span></span>](hr-how-register-employees.md) |
+| <span data-ttu-id="e6944-114">Record employees' absence and view absence statistics by various filters.</span><span class="sxs-lookup"><span data-stu-id="e6944-114">Record employees' absence and view absence statistics by various filters.</span></span> |[<span data-ttu-id="e6944-115">Manage Employee Absence</span><span class="sxs-lookup"><span data-stu-id="e6944-115">Manage Employee Absence</span></span>](hr-how-manage-absence.md) |
 
-## <a name="see-also"></a><span data-ttu-id="b4bd3-116">See Also</span><span class="sxs-lookup"><span data-stu-id="b4bd3-116">See Also</span></span>
-[<span data-ttu-id="b4bd3-117">Finance</span><span class="sxs-lookup"><span data-stu-id="b4bd3-117">Finance</span></span>](finance.md)  
-<span data-ttu-id="b4bd3-118">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="b4bd3-118">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
-[<span data-ttu-id="b4bd3-119">Changing Which Features are Displayed</span><span class="sxs-lookup"><span data-stu-id="b4bd3-119">Changing Which Features are Displayed</span></span>](ui-experiences.md)        
+## <a name="see-also"></a><span data-ttu-id="e6944-116">See Also</span><span class="sxs-lookup"><span data-stu-id="e6944-116">See Also</span></span>
+[<span data-ttu-id="e6944-117">Finance</span><span class="sxs-lookup"><span data-stu-id="e6944-117">Finance</span></span>](finance.md)  
+<span data-ttu-id="e6944-118">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="e6944-118">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="e6944-119">Changing Which Features are Displayed</span><span class="sxs-lookup"><span data-stu-id="e6944-119">Changing Which Features are Displayed</span></span>](ui-experiences.md)        
