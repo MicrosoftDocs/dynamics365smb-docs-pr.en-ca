@@ -13,25 +13,25 @@ ms.search.keywords: warehouse, stock
 ms.date: 04/01/2019
 ms.author: SorenGP
 ms.openlocfilehash: 7baf0c8798a66e092c256059b77a8c9e78db48da
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928756"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240082"
 ---
-# <a name="set-up-general-inventory-information"></a><span data-ttu-id="992ae-103">Set Up General Inventory Information</span><span class="sxs-lookup"><span data-stu-id="992ae-103">Set Up General Inventory Information</span></span>
-<span data-ttu-id="992ae-104">You specify your general inventory setup on the **Inventory Setup** page.</span><span class="sxs-lookup"><span data-stu-id="992ae-104">You specify your general inventory setup on the **Inventory Setup** page.</span></span>
+# <a name="set-up-general-inventory-information"></a><span data-ttu-id="accb2-103">Set Up General Inventory Information</span><span class="sxs-lookup"><span data-stu-id="accb2-103">Set Up General Inventory Information</span></span>
+<span data-ttu-id="accb2-104">You specify your general inventory setup on the **Inventory Setup** page.</span><span class="sxs-lookup"><span data-stu-id="accb2-104">You specify your general inventory setup on the **Inventory Setup** page.</span></span>
 
-## <a name="to-set-up-general-inventory-information"></a><span data-ttu-id="992ae-105">To set up general inventory information</span><span class="sxs-lookup"><span data-stu-id="992ae-105">To set up general inventory information</span></span>
-1. <span data-ttu-id="992ae-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="992ae-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup**, and then choose the related link.</span></span>
-2. <span data-ttu-id="992ae-107">On the **Inventory Setup** page, fill in the fields as necessary.</span><span class="sxs-lookup"><span data-stu-id="992ae-107">On the **Inventory Setup** page, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+## <a name="to-set-up-general-inventory-information"></a><span data-ttu-id="accb2-105">To set up general inventory information</span><span class="sxs-lookup"><span data-stu-id="accb2-105">To set up general inventory information</span></span>
+1. <span data-ttu-id="accb2-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="accb2-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup**, and then choose the related link.</span></span>
+2. <span data-ttu-id="accb2-107">On the **Inventory Setup** page, fill in the fields as necessary.</span><span class="sxs-lookup"><span data-stu-id="accb2-107">On the **Inventory Setup** page, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-<span data-ttu-id="992ae-108">If you want to include warehouse handling time in the order promising calculation on the purchase line, you can set it up as a default for the inventory, on the **Inventory Setup** page, and for your location.</span><span class="sxs-lookup"><span data-stu-id="992ae-108">If you want to include warehouse handling time in the order promising calculation on the purchase line, you can set it up as a default for the inventory, on the **Inventory Setup** page, and for your location.</span></span> <span data-ttu-id="992ae-109">For more information, see [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md).</span><span class="sxs-lookup"><span data-stu-id="992ae-109">For more information, see [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md).</span></span>  
+<span data-ttu-id="accb2-108">If you want to include warehouse handling time in the order promising calculation on the purchase line, you can set it up as a default for the inventory, on the **Inventory Setup** page, and for your location.</span><span class="sxs-lookup"><span data-stu-id="accb2-108">If you want to include warehouse handling time in the order promising calculation on the purchase line, you can set it up as a default for the inventory, on the **Inventory Setup** page, and for your location.</span></span> <span data-ttu-id="accb2-109">For more information, see [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md).</span><span class="sxs-lookup"><span data-stu-id="accb2-109">For more information, see [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md).</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="992ae-110">See Also</span><span class="sxs-lookup"><span data-stu-id="992ae-110">See Also</span></span>
-[<span data-ttu-id="992ae-111">Set Up Inventory</span><span class="sxs-lookup"><span data-stu-id="992ae-111">Set Up Inventory</span></span>](inventory-setup-inventory.md)  
-<span data-ttu-id="992ae-112">[Design Details: Costing Methods](design-details-costing-methods.md)  </span><span class="sxs-lookup"><span data-stu-id="992ae-112">[Design Details: Costing Methods](design-details-costing-methods.md)  </span></span>  
-[<span data-ttu-id="992ae-113">Manage Inventory</span><span class="sxs-lookup"><span data-stu-id="992ae-113">Manage Inventory</span></span>](inventory-manage-inventory.md)  
-<span data-ttu-id="992ae-114">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="992ae-114">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
-[<span data-ttu-id="992ae-115">Changing Which Features are Displayed</span><span class="sxs-lookup"><span data-stu-id="992ae-115">Changing Which Features are Displayed</span></span>](ui-experiences.md)  
-[<span data-ttu-id="992ae-116">General Business Functionality</span><span class="sxs-lookup"><span data-stu-id="992ae-116">General Business Functionality</span></span>](ui-across-business-areas.md)
+## <a name="see-also"></a><span data-ttu-id="accb2-110">See Also</span><span class="sxs-lookup"><span data-stu-id="accb2-110">See Also</span></span>
+[<span data-ttu-id="accb2-111">Set Up Inventory</span><span class="sxs-lookup"><span data-stu-id="accb2-111">Set Up Inventory</span></span>](inventory-setup-inventory.md)  
+<span data-ttu-id="accb2-112">[Design Details: Costing Methods](design-details-costing-methods.md)  </span><span class="sxs-lookup"><span data-stu-id="accb2-112">[Design Details: Costing Methods](design-details-costing-methods.md)  </span></span>  
+[<span data-ttu-id="accb2-113">Manage Inventory</span><span class="sxs-lookup"><span data-stu-id="accb2-113">Manage Inventory</span></span>](inventory-manage-inventory.md)  
+<span data-ttu-id="accb2-114">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="accb2-114">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="accb2-115">Changing Which Features are Displayed</span><span class="sxs-lookup"><span data-stu-id="accb2-115">Changing Which Features are Displayed</span></span>](ui-experiences.md)  
+[<span data-ttu-id="accb2-116">General Business Functionality</span><span class="sxs-lookup"><span data-stu-id="accb2-116">General Business Functionality</span></span>](ui-across-business-areas.md)

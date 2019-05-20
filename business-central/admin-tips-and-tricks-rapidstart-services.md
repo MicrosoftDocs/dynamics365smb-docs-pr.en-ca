@@ -4,41 +4,41 @@ description: When you configure companies using RapidStart Services, there are s
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 03/05/2018
 ms.author: sgroespe
 ms.openlocfilehash: 6a10ab0d2e4658eba4824e44527d45cbf0f33dd8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "936921"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243489"
 ---
-# <a name="tips-and-tricks-rapidstart-services"></a><span data-ttu-id="3b32e-103">Tips and Tricks: RapidStart Services</span><span class="sxs-lookup"><span data-stu-id="3b32e-103">Tips and Tricks: RapidStart Services</span></span>
-<span data-ttu-id="3b32e-104">When you configure companies using RapidStart Services, there are some tips and tricks that you can take advantage of to help your implementation go smoothly.</span><span class="sxs-lookup"><span data-stu-id="3b32e-104">When you configure companies using RapidStart Services, there are some tips and tricks that you can take advantage of to help your implementation go smoothly.</span></span>  
+# <a name="tips-and-tricks-rapidstart-services"></a><span data-ttu-id="36333-103">Tips and Tricks: RapidStart Services</span><span class="sxs-lookup"><span data-stu-id="36333-103">Tips and Tricks: RapidStart Services</span></span>
+<span data-ttu-id="36333-104">When you configure companies using RapidStart Services, there are some tips and tricks that you can take advantage of to help your implementation go smoothly.</span><span class="sxs-lookup"><span data-stu-id="36333-104">When you configure companies using RapidStart Services, there are some tips and tricks that you can take advantage of to help your implementation go smoothly.</span></span>  
 
-## <a name="take-advantage-of-configuration-templates"></a><span data-ttu-id="3b32e-105">Take advantage of configuration templates</span><span class="sxs-lookup"><span data-stu-id="3b32e-105">Take advantage of configuration templates</span></span>  
-<span data-ttu-id="3b32e-106">Configuration templates can help you streamline your implementation process.</span><span class="sxs-lookup"><span data-stu-id="3b32e-106">Configuration templates can help you streamline your implementation process.</span></span> <span data-ttu-id="3b32e-107">By using them, you can include similar customers in segments and then develop an implementation protocol that treats all customers in a segment in a similar manner.</span><span class="sxs-lookup"><span data-stu-id="3b32e-107">By using them, you can include similar customers in segments and then develop an implementation protocol that treats all customers in a segment in a similar manner.</span></span> <span data-ttu-id="3b32e-108">In that way, you can apply a level of preconfiguration to each segment and continue with a rapid implementation.</span><span class="sxs-lookup"><span data-stu-id="3b32e-108">In that way, you can apply a level of preconfiguration to each segment and continue with a rapid implementation.</span></span>  
+## <a name="take-advantage-of-configuration-templates"></a><span data-ttu-id="36333-105">Take advantage of configuration templates</span><span class="sxs-lookup"><span data-stu-id="36333-105">Take advantage of configuration templates</span></span>  
+<span data-ttu-id="36333-106">Configuration templates can help you streamline your implementation process.</span><span class="sxs-lookup"><span data-stu-id="36333-106">Configuration templates can help you streamline your implementation process.</span></span> <span data-ttu-id="36333-107">By using them, you can include similar customers in segments and then develop an implementation protocol that treats all customers in a segment in a similar manner.</span><span class="sxs-lookup"><span data-stu-id="36333-107">By using them, you can include similar customers in segments and then develop an implementation protocol that treats all customers in a segment in a similar manner.</span></span> <span data-ttu-id="36333-108">In that way, you can apply a level of preconfiguration to each segment and continue with a rapid implementation.</span><span class="sxs-lookup"><span data-stu-id="36333-108">In that way, you can apply a level of preconfiguration to each segment and continue with a rapid implementation.</span></span>  
 
-## <a name="configuration-questionnaires"></a><span data-ttu-id="3b32e-109">Configuration questionnaires</span><span class="sxs-lookup"><span data-stu-id="3b32e-109">Configuration questionnaires</span></span>  
-<span data-ttu-id="3b32e-110">To aid the process of filling out a configuration questionnaire, consider defining default answers to indicate best practices.</span><span class="sxs-lookup"><span data-stu-id="3b32e-110">To aid the process of filling out a configuration questionnaire, consider defining default answers to indicate best practices.</span></span>  
+## <a name="configuration-questionnaires"></a><span data-ttu-id="36333-109">Configuration questionnaires</span><span class="sxs-lookup"><span data-stu-id="36333-109">Configuration questionnaires</span></span>  
+<span data-ttu-id="36333-110">To aid the process of filling out a configuration questionnaire, consider defining default answers to indicate best practices.</span><span class="sxs-lookup"><span data-stu-id="36333-110">To aid the process of filling out a configuration questionnaire, consider defining default answers to indicate best practices.</span></span>  
 
-## <a name="batch-creation-of-journal-lines"></a><span data-ttu-id="3b32e-111">Batch creation of journal lines</span><span class="sxs-lookup"><span data-stu-id="3b32e-111">Batch creation of journal lines</span></span>  
-<span data-ttu-id="3b32e-112">We recommend that you use the data migration tools provided to migrate journal entries.</span><span class="sxs-lookup"><span data-stu-id="3b32e-112">We recommend that you use the data migration tools provided to migrate journal entries.</span></span> <span data-ttu-id="3b32e-113">Otherwise, if you use a batch job to create journal lines, that has a limited scope and only generates pre-default fields into a journal.</span><span class="sxs-lookup"><span data-stu-id="3b32e-113">Otherwise, if you use a batch job to create journal lines, that has a limited scope and only generates pre-default fields into a journal.</span></span> <span data-ttu-id="3b32e-114">The rest of the journal then has to be completed manually.</span><span class="sxs-lookup"><span data-stu-id="3b32e-114">The rest of the journal then has to be completed manually.</span></span>  
+## <a name="batch-creation-of-journal-lines"></a><span data-ttu-id="36333-111">Batch creation of journal lines</span><span class="sxs-lookup"><span data-stu-id="36333-111">Batch creation of journal lines</span></span>  
+<span data-ttu-id="36333-112">We recommend that you use the data migration tools provided to migrate journal entries.</span><span class="sxs-lookup"><span data-stu-id="36333-112">We recommend that you use the data migration tools provided to migrate journal entries.</span></span> <span data-ttu-id="36333-113">Otherwise, if you use a batch job to create journal lines, that has a limited scope and only generates pre-default fields into a journal.</span><span class="sxs-lookup"><span data-stu-id="36333-113">Otherwise, if you use a batch job to create journal lines, that has a limited scope and only generates pre-default fields into a journal.</span></span> <span data-ttu-id="36333-114">The rest of the journal then has to be completed manually.</span><span class="sxs-lookup"><span data-stu-id="36333-114">The rest of the journal then has to be completed manually.</span></span>  
 
-## <a name="migrating-transactions"></a><span data-ttu-id="3b32e-115">Migrating transactions</span><span class="sxs-lookup"><span data-stu-id="3b32e-115">Migrating transactions</span></span>  
-<span data-ttu-id="3b32e-116">We recommend that you migrate opening balances in the following order.</span><span class="sxs-lookup"><span data-stu-id="3b32e-116">We recommend that you migrate opening balances in the following order.</span></span>  
+## <a name="migrating-transactions"></a><span data-ttu-id="36333-115">Migrating transactions</span><span class="sxs-lookup"><span data-stu-id="36333-115">Migrating transactions</span></span>  
+<span data-ttu-id="36333-116">We recommend that you migrate opening balances in the following order.</span><span class="sxs-lookup"><span data-stu-id="36333-116">We recommend that you migrate opening balances in the following order.</span></span>  
 
-1.  <span data-ttu-id="3b32e-117">Migrate general ledger opening balances without using the general ledger account subledgers.</span><span class="sxs-lookup"><span data-stu-id="3b32e-117">Migrate general ledger opening balances without using the general ledger account subledgers.</span></span> <span data-ttu-id="3b32e-118">Use specific opening balance offsetting accounts, one set up for each subledger.</span><span class="sxs-lookup"><span data-stu-id="3b32e-118">Use specific opening balance offsetting accounts, one set up for each subledger.</span></span> <span data-ttu-id="3b32e-119">Set up the offsetting accounts to enable direct postings.</span><span class="sxs-lookup"><span data-stu-id="3b32e-119">Set up the offsetting accounts to enable direct postings.</span></span>  
-2.  <span data-ttu-id="3b32e-120">Migrate open customer ledger entries.</span><span class="sxs-lookup"><span data-stu-id="3b32e-120">Migrate open customer ledger entries.</span></span>  
-3.  <span data-ttu-id="3b32e-121">Migrate open item ledger entries.</span><span class="sxs-lookup"><span data-stu-id="3b32e-121">Migrate open item ledger entries.</span></span>  
-4.  <span data-ttu-id="3b32e-122">Migrate open fixed asset entries.</span><span class="sxs-lookup"><span data-stu-id="3b32e-122">Migrate open fixed asset entries.</span></span>  
+1.  <span data-ttu-id="36333-117">Migrate general ledger opening balances without using the general ledger account subledgers.</span><span class="sxs-lookup"><span data-stu-id="36333-117">Migrate general ledger opening balances without using the general ledger account subledgers.</span></span> <span data-ttu-id="36333-118">Use specific opening balance offsetting accounts, one set up for each subledger.</span><span class="sxs-lookup"><span data-stu-id="36333-118">Use specific opening balance offsetting accounts, one set up for each subledger.</span></span> <span data-ttu-id="36333-119">Set up the offsetting accounts to enable direct postings.</span><span class="sxs-lookup"><span data-stu-id="36333-119">Set up the offsetting accounts to enable direct postings.</span></span>  
+2.  <span data-ttu-id="36333-120">Migrate open customer ledger entries.</span><span class="sxs-lookup"><span data-stu-id="36333-120">Migrate open customer ledger entries.</span></span>  
+3.  <span data-ttu-id="36333-121">Migrate open item ledger entries.</span><span class="sxs-lookup"><span data-stu-id="36333-121">Migrate open item ledger entries.</span></span>  
+4.  <span data-ttu-id="36333-122">Migrate open fixed asset entries.</span><span class="sxs-lookup"><span data-stu-id="36333-122">Migrate open fixed asset entries.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="3b32e-123">See Also</span><span class="sxs-lookup"><span data-stu-id="3b32e-123">See Also</span></span>  
-[<span data-ttu-id="3b32e-124">Setting Up a Company With RapidStart Services</span><span class="sxs-lookup"><span data-stu-id="3b32e-124">Setting Up a Company With RapidStart Services</span></span>](admin-set-up-a-company-with-rapidstart.md)  
-[<span data-ttu-id="3b32e-125">Administration</span><span class="sxs-lookup"><span data-stu-id="3b32e-125">Administration</span></span>](admin-setup-and-administration.md)
+## <a name="see-also"></a><span data-ttu-id="36333-123">See Also</span><span class="sxs-lookup"><span data-stu-id="36333-123">See Also</span></span>  
+[<span data-ttu-id="36333-124">Setting Up a Company With RapidStart Services</span><span class="sxs-lookup"><span data-stu-id="36333-124">Setting Up a Company With RapidStart Services</span></span>](admin-set-up-a-company-with-rapidstart.md)  
+[<span data-ttu-id="36333-125">Administration</span><span class="sxs-lookup"><span data-stu-id="36333-125">Administration</span></span>](admin-setup-and-administration.md)
