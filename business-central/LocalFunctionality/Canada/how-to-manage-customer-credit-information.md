@@ -12,11 +12,11 @@ ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: ../../receivables-how-block-customers
 ms.openlocfilehash: c7f6c01c18c02f14cf4a748a6b6672f938454bcf
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916872"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1237736"
 ---
 # <a name="manage-customer-credit-information"></a>Manage Customer Credit Information
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can add comments to customer credit information. You can also hold and block customers with bad credit before shipping or invoicing occurs.  

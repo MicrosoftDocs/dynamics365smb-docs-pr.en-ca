@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/09/2019
 ms.author: soalex
 ms.openlocfilehash: 995f9658d7f78dc27640b5cb15e48f4b3b7dfa9a
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "990124"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1237744"
 ---
 # <a name="canada-local-functionality"></a>Canada Local Functionality
 The following topics describe local functionality that is unique to the Canadian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  

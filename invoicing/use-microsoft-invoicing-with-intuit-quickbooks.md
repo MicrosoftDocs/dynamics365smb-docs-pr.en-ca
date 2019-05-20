@@ -11,11 +11,11 @@ ms.search.keywords: QuickBooks
 ms.date: 01/29/2019
 ms.author: bholtorf
 ms.openlocfilehash: 47fc5dac681dfa747470879f544623c5d405513f
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826189"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1237421"
 ---
 # <a name="connect-to-intuit-quickbooks"></a>Connect to Intuit QuickBooks
 You're using Microsoft Invoicing to create and send estimates and invoices to your customers, but you might want to use another system to handle your purchases, inventory, or bookkeeping. If you're using Intuit QuickBooks, you can connect to Invoicing. QuickBooks becomes the backend system for Invoicing, and your customers and inventory items are synchronized seamlessly between the two apps. Your invoices are synchronized from Invoicing to QuickBooks but not the other way around.
