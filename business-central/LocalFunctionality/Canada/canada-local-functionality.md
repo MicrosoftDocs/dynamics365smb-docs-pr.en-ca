@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/09/2019
 ms.author: soalex
-ms.openlocfilehash: 995f9658d7f78dc27640b5cb15e48f4b3b7dfa9a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 88aa2ace5e814c7e8432e01913523c84e7eac824
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237744"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594206"
 ---
 # <a name="canada-local-functionality"></a>Canada Local Functionality
 The following topics describe local functionality that is unique to the Canadian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## <a name="feature-availability"></a>Feature Availability
 
-* VAT & Tax
+* Tax
     * [Reporting Sales Tax and Goods/Services Tax in Canada](sales-tax-goods-services.md) **Available Now**
     * [Reporting Sales Tax in Canada](ca-sales-tax.md) **Available Now**
     * [Set Up Unrealized Sales Tax and Sales Payment Discounts](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md) **Available Now**
