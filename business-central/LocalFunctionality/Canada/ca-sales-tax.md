@@ -12,16 +12,17 @@ ms.workload: na
 ms.search.keywords: local
 ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 7b476bee3792058ff102dca7d7ddf9ca3e939eca
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 286be91a364d015940875b47f16456bfb73773ab
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237584"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1710991"
 ---
 # <a name="reporting-sales-tax-in-canada"></a>Reporting Sales Tax in Canada
 When you first start using [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can run an assisted setup guide to quickly and easily set up sales tax information for your company, customers, and vendors. In a matter of minutes, you are ready to create sales documents and purchase documents with sales tax calculated correctly. This is explained [in our blog post](https://madeira.microsoft.com/blog/sales-tax-setup-made-easy).
 If you move to the empty My Company, we recommend that you start by using each of the assisted setup guides, including the one for sales tax. If you prefer to set up sales tax yourself, this article explains what you have to take into consideration.  
+
 
 ## <a name="tax-groups-tax-areas-and-tax-jurisdictions"></a>Tax Groups, Tax Areas, and Tax Jurisdictions
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], a tax group represents a group of inventory items or resources that are subject to identical tax terms. For example, you can set up a tax group for taxable items and another for nontaxable items. You must assign tax group codes to inventory items and general ledger accounts. Similarly, you must assign tax area codes to customers, locations, and to your own company settings. The assisted setup guide helps you do this.  
