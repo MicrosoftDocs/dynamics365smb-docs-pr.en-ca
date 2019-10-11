@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 07/24/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 09aa4b5f6e08265e49a02e3014ffe6724edfcffd
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: ab408bbef4e2fc9535eaa64e61a9e93d2d87378c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796858"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301573"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Work with Tax on Sales and Purchases
 If your country or region requires you to calculate value-added tax (VAT) on sales and purchase transactions so that you can report the amounts to a tax authority, you can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to calculate tax automatically on sales and purchase documents. For more information, see [Setting Up to Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md).
@@ -35,17 +35,17 @@ If you are selling to retail consumers, you may want prices on sales documents t
 ### <a name="including-or-excluding-vat-on-prices"></a>Including or Excluding Tax on Prices
 If the **Prices Including Tax** check box is chosen on a sales document, the **Unit Price** and **Line Amount** fields include tax, and the field names will also reflect this. By default, Tax is not included in these fields.  
 
-If the field is not selected, the program will fill in the **Unit Price** and **Line Amount** field excluding VAT and the field names will reflect this.  
+If the field is not selected, application will fill in the **Unit Price** and **Line Amount** field excluding Tax and the field names will reflect this.  
 
-You can set up the default setting of the **Prices Including VAT** for all sales documents for a customer in the **Prices Including VAT** field on the **Customer** card. You can also set up item prices to include or exclude tax. Normally, item prices contained in the Item Card will be the price excluding tax. The program uses the information from the **Price Includes VAT** field on the **Item** card to determine the unit price amount for sales documents.  
+You can set up the default setting of the **Prices Including VAT** for all sales documents for a customer in the **Prices Including VAT** field on the **Customer** card. You can also set up item prices to include or exclude tax. Normally, item prices contained in the Item Card will be the price excluding tax. The application uses the information from the **Price Includes Tax** field on the **Item** card to determine the unit price amount for sales documents.  
 
-The following table provides an overview of how the program calculates the unit price amounts for a sales document when you have not set up prices on the **Sales Prices** page:  
+The following table provides an overview of how application calculates the unit price amounts for a sales document when you have not set up prices on the **Sales Prices** page:  
 
 |**Price Includes Tax field on Item Card**|**Prices Including Tax field in Sales Header**|**Action Performed**|  
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
 |No check mark|No check mark|The **Unit Price** on the Item Card is copied to **Unit Price Excl. Tax** field on the sales lines.|  
-|No check mark|Check mark|The program calculates the tax amount per unit and adds to the **Unit Price** on the Item Card. This total Unit Price is then entered in the **Unit Price Incl. Tax field** on the sales lines.|  
-|Check mark|No check mark|The program calculates the tax amount included in the **Unit Price** on the Item Card using the Tax% related to the Tax Bus. Posting Gr. (Price) and the Tax Prod. Posting Group combination. The **Unit Price** on the Item Card, reduced by the tax amount, is then entered in the **Unit Price Excl. Tax** field in the sales lines.|  
+|No check mark|Check mark|The application calculates the Tax amount per unit and adds to the **Unit Price** on the Item Card. This total Unit Price is then entered in the **Unit Price Incl. Tax field** on the sales lines.|  
+|Check mark|No check mark|The application calculates the Tax amount included in the **Unit Price** on the Item Card using the Tax% related to the Tax Bus. Posting Gr. (Price) and the Tax Prod. Posting Group combination. The **Unit Price** on the Item Card, reduced by the tax amount, is then entered in the **Unit Price Excl. Tax** field in the sales lines.|  
 |Check mark|Check mark|The **Unit Price** on the Item Card is copied to **Unit Price Incl. Tax** field on the sales lines.|
 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>Correcting Tax Amounts Manually in Sales and Purchase Documents  
@@ -58,7 +58,7 @@ If a payment discount has been calculated on the basis of an invoice amount that
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a>To set the system up for manual tax entry in sales documents
 The following describes how to enable manual tax changes on sales documents. The steps are similar on the **Purchases & Payables Setup** page.
 
-1. On the **General Ledger Setup** page, specify a **Max. Tax Difference Allowed** between the amount calculated by the program and the manual amount.  
+1. On the **General Ledger Setup** page, specify a **Max. Tax Difference Allowed** between the amount calculated by application and the manual amount.  
 2. On the **Sales & Receivables Setup** page, place a check mark in the **Allow Vat Difference** field.  
 
 ### <a name="to-adjust-vat-for-a-sales-document"></a>To adjust VAT for a sales document  
@@ -68,7 +68,7 @@ The following describes how to enable manual tax changes on sales documents. The
 4. Edit the **Tax Amount** field.   
 
 > [!NOTE]  
-> The total tax amount for the invoice, grouped by tax identifier, is displayed in the lines. You can manually adjust the amount in the **Tax Amount** field on the lines for each tax identifier. When you modify the **Tax Amount** field, the program checks to ensure that you have not changed the tax by more than the amount you have specified as the maximum difference allowed. If the amount is outside the range of the **Max. Tax Difference Allowed**, a warning will be displayed stating the maximum allowed difference. You will be unable to proceed until the amount is adjusted to within the acceptable parameters. Click **OK** and enter another **Tax Amount** that is within the allowed range. If the tax difference is equal to or lower than the maximum allowed, the tax will be divided proportionally among the document lines that have the same tax identifier.  
+> The total tax amount for the invoice, grouped by tax identifier, is displayed in the lines. You can manually adjust the amount in the **Tax Amount** field on the lines for each tax identifier. When you modify the **Tax Amount** field, application checks to ensure that you have not changed the Tax by more than the amount you have specified as the maximum difference allowed. If the amount is outside the range of the **Max. Tax Difference Allowed**, a warning will be displayed stating the maximum allowed difference. You will be unable to proceed until the amount is adjusted to within the acceptable parameters. Click **OK** and enter another **Tax Amount** that is within the allowed range. If the tax difference is equal to or lower than the maximum allowed, the tax will be divided proportionally among the document lines that have the same tax identifier.  
 
 ## <a name="calculating-vat-manually-using-journals"></a>Calculating Tax Manually Using Journals  
 You can also adjust Tax amounts in general, sales, and purchase journals. For example, you might need to do this when you enter a vendor invoice in your journal and there is a difference between the tax amount that [!INCLUDE[d365fin](includes/d365fin_md.md)] calculated and the tax amount on the vendor's invoice.  
@@ -76,7 +76,7 @@ You can also adjust Tax amounts in general, sales, and purchase journals. For ex
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a>To set the system up for manual tax entry in a general journals
 You must perform the following steps before you manually enter tax in a general journal.  
 
-1. On the **General Ledger Setup** page, specify a **Max. Tax Difference Allowed** between the amount calculated by the program and the manual amount.  
+1. On the **General Ledger Setup** page, specify a **Max. Tax Difference Allowed** between the amount calculated by application and the manual amount.  
 2. On the **General Journal Templates** page, choose the **Allow Tax Difference** check box for the relevant journal.  
 
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-sales-and-purchase-journals"></a>To set the system up for manual tax entry in a sales and purchase journals
