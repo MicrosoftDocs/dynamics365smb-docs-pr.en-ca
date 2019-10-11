@@ -8,29 +8,29 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: GetAddress.io, postcodes, postal, address, extension
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 5c83a5bc7fbe91b9ff0592c5129f5a7dd5887c2c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5fa6a6382d75bc29384ab31a78265fa2ed6954dc
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250052"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311245"
 ---
-# <a name="the-getaddressio-uk-postcodes-extension"></a><span data-ttu-id="46d7b-103">The GetAddress.io UK Postal Codes Extension</span><span class="sxs-lookup"><span data-stu-id="46d7b-103">The GetAddress.io UK Postcodes Extension</span></span>
-<span data-ttu-id="46d7b-104">The GetAddress.io UK Postcodes extension can save time and prevent mistakes when you enter addresses for entities like customers, vendors, bank accounts, and employees.</span><span class="sxs-lookup"><span data-stu-id="46d7b-104">The GetAddress.io UK Postcodes extension can save time and prevent mistakes when you enter addresses for entities like customers, vendors, bank accounts, and employees.</span></span> <span data-ttu-id="46d7b-105">For example, when you're creating a customer, you just choose a postcode and [!INCLUDE[d365fin](includes/d365fin_md.md)] shows a list of addresses.</span><span class="sxs-lookup"><span data-stu-id="46d7b-105">For example, when you're creating a customer, you just choose a postcode and [!INCLUDE[d365fin](includes/d365fin_md.md)] shows a list of addresses.</span></span> <span data-ttu-id="46d7b-106">Pick the address you want, and presto, the address fields are filled out.</span><span class="sxs-lookup"><span data-stu-id="46d7b-106">Pick the address you want, and presto, the address fields are filled out.</span></span>  
+# <a name="the-getaddressio-uk-postcodes-extension"></a><span data-ttu-id="a775f-103">The GetAddress.io UK Postal Codes Extension</span><span class="sxs-lookup"><span data-stu-id="a775f-103">The GetAddress.io UK Postcodes Extension</span></span>
+<span data-ttu-id="a775f-104">The GetAddress.io UK Postcodes extension can save time and prevent mistakes when you enter addresses for entities like customers, vendors, bank accounts, and employees.</span><span class="sxs-lookup"><span data-stu-id="a775f-104">The GetAddress.io UK Postcodes extension can save time and prevent mistakes when you enter addresses for entities like customers, vendors, bank accounts, and employees.</span></span> <span data-ttu-id="a775f-105">For example, when you're creating a customer, you just choose a postcode and [!INCLUDE[d365fin](includes/d365fin_md.md)] shows a list of addresses.</span><span class="sxs-lookup"><span data-stu-id="a775f-105">For example, when you're creating a customer, you just choose a postcode and [!INCLUDE[d365fin](includes/d365fin_md.md)] shows a list of addresses.</span></span> <span data-ttu-id="a775f-106">Pick the address you want, and presto, the address fields are filled out.</span><span class="sxs-lookup"><span data-stu-id="a775f-106">Pick the address you want, and presto, the address fields are filled out.</span></span>  
 
-##<a name="to-use-the-getaddressio-uk-postcodes-extension-when-you-enter-an-address"></a><span data-ttu-id="46d7b-107">To use the GetAddress.io UK Postcodes extension when you enter an address</span><span class="sxs-lookup"><span data-stu-id="46d7b-107">To use the GetAddress.io UK Postcodes extension when you enter an address</span></span>
-1. <span data-ttu-id="46d7b-108">Under **Address**, choose **Look up address from postcode**.</span><span class="sxs-lookup"><span data-stu-id="46d7b-108">Under **Address**, choose **Look up address from postcode**.</span></span>  
+##<a name="to-use-the-getaddressio-uk-postcodes-extension-when-you-enter-an-address"></a><span data-ttu-id="a775f-107">To use the GetAddress.io UK Postcodes extension when you enter an address</span><span class="sxs-lookup"><span data-stu-id="a775f-107">To use the GetAddress.io UK Postcodes extension when you enter an address</span></span>
+1. <span data-ttu-id="a775f-108">Under **Address**, choose **Look up address from postcode**.</span><span class="sxs-lookup"><span data-stu-id="a775f-108">Under **Address**, choose **Look up address from postcode**.</span></span>  
 
     > [!NOTE]  
-    >   <span data-ttu-id="46d7b-109">The **Look up address from postcode** option is available only if the **Country/Region Code** field is either empty, or contains **GB**.</span><span class="sxs-lookup"><span data-stu-id="46d7b-109">The **Look up address from postcode** option is available only if the **Country/Region Code** field is either empty, or contains **GB**.</span></span>
-2. <span data-ttu-id="46d7b-110">On the **Postal Code Search** page, in the **Postal Code** field, enter or choose the postal code.</span><span class="sxs-lookup"><span data-stu-id="46d7b-110">On the **Postcode Search** page, in the **Postcode** field, enter or choose the postcode.</span></span>  
-3. <span data-ttu-id="46d7b-111">On the **Address Selection** page, choose the address.</span><span class="sxs-lookup"><span data-stu-id="46d7b-111">On the **Address Selection** page, choose the address.</span></span>  
+    >   <span data-ttu-id="a775f-109">The **Look up address from postcode** option is available only if the **Country/Region Code** field is either empty, or contains **GB**.</span><span class="sxs-lookup"><span data-stu-id="a775f-109">The **Look up address from postcode** option is available only if the **Country/Region Code** field is either empty, or contains **GB**.</span></span>
+2. <span data-ttu-id="a775f-110">On the **Postal Code Search** page, in the **Postal Code** field, enter or choose the postal code.</span><span class="sxs-lookup"><span data-stu-id="a775f-110">On the **Postcode Search** page, in the **Postcode** field, enter or choose the postcode.</span></span>  
+3. <span data-ttu-id="a775f-111">On the **Address Selection** page, choose the address.</span><span class="sxs-lookup"><span data-stu-id="a775f-111">On the **Address Selection** page, choose the address.</span></span>  
 
 > [!TIP]  
->   <span data-ttu-id="46d7b-112">If you know the street number, you can filter the addresses by entering some or all of the number in the **Delivery Point** field.</span><span class="sxs-lookup"><span data-stu-id="46d7b-112">If you know the street number, you can filter the addresses by entering some or all of the number in the **Delivery Point** field.</span></span>
+>   <span data-ttu-id="a775f-112">If you know the street number, you can filter the addresses by entering some or all of the number in the **Delivery Point** field.</span><span class="sxs-lookup"><span data-stu-id="a775f-112">If you know the street number, you can filter the addresses by entering some or all of the number in the **Delivery Point** field.</span></span>
 
 
-## <a name="see-also"></a><span data-ttu-id="46d7b-113">See Also</span><span class="sxs-lookup"><span data-stu-id="46d7b-113">See Also</span></span>
-[<span data-ttu-id="46d7b-114">Set Up the GetAddress.io UK Postal Code Extension</span><span class="sxs-lookup"><span data-stu-id="46d7b-114">Set Up the GetAddress.io UK Postal Code Extension</span></span>](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
+## <a name="see-also"></a><span data-ttu-id="a775f-113">See Also</span><span class="sxs-lookup"><span data-stu-id="a775f-113">See Also</span></span>
+[<span data-ttu-id="a775f-114">Set Up the GetAddress.io UK Postal Code Extension</span><span class="sxs-lookup"><span data-stu-id="a775f-114">Set Up the GetAddress.io UK Postal Code Extension</span></span>](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)

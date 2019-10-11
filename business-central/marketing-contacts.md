@@ -10,27 +10,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 09/06/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a0db1779172a9b2822ad4898e9dbf82e68b58622
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.openlocfilehash: 510252387dfb2acef7163819f223b6bcb49ac0f9
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985748"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309349"
 ---
-# <a name="managing-contacts"></a><span data-ttu-id="412cb-103">Managing Contacts</span><span class="sxs-lookup"><span data-stu-id="412cb-103">Managing Contacts</span></span>
-<span data-ttu-id="412cb-104">Employees in your company regularly meet prospective business relations that may develop into formal relationships.</span><span class="sxs-lookup"><span data-stu-id="412cb-104">Employees in your company regularly meet prospective business relations that may develop into formal relationships.</span></span> <span data-ttu-id="412cb-105">All such external contacts and their detailed information should be recorded in the system so that communication is more successful and so they can easily be converted to formal customer, vendor, or bank relationships.</span><span class="sxs-lookup"><span data-stu-id="412cb-105">All such external contacts and their detailed information should be recorded in the system so that communication is more successful and so they can easily be converted to formal customer, vendor, or bank relationships.</span></span>
+# <a name="managing-contacts"></a><span data-ttu-id="a3794-103">Managing Contacts</span><span class="sxs-lookup"><span data-stu-id="a3794-103">Managing Contacts</span></span>
+<span data-ttu-id="a3794-104">Employees in your company regularly meet prospective business relations that may develop into formal relationships.</span><span class="sxs-lookup"><span data-stu-id="a3794-104">Employees in your company regularly meet prospective business relations that may develop into formal relationships.</span></span> <span data-ttu-id="a3794-105">All such external contacts and their detailed information should be recorded in the system so that communication is more successful and so they can easily be converted to formal customer, vendor, or bank relationships.</span><span class="sxs-lookup"><span data-stu-id="a3794-105">All such external contacts and their detailed information should be recorded in the system so that communication is more successful and so they can easily be converted to formal customer, vendor, or bank relationships.</span></span>
 
-<span data-ttu-id="412cb-106">The following table describes a sequence of tasks, with links to the topics that describe them.</span><span class="sxs-lookup"><span data-stu-id="412cb-106">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
+<span data-ttu-id="a3794-106">The following table describes a sequence of tasks, with links to the topics that describe them.</span><span class="sxs-lookup"><span data-stu-id="a3794-106">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
 
-| <span data-ttu-id="412cb-107">To</span><span class="sxs-lookup"><span data-stu-id="412cb-107">To</span></span> | <span data-ttu-id="412cb-108">See</span><span class="sxs-lookup"><span data-stu-id="412cb-108">See</span></span> |
+| <span data-ttu-id="a3794-107">To</span><span class="sxs-lookup"><span data-stu-id="a3794-107">To</span></span> | <span data-ttu-id="a3794-108">See</span><span class="sxs-lookup"><span data-stu-id="a3794-108">See</span></span> |
 | --- | --- |
-| <span data-ttu-id="412cb-109">Set up contact management prior to creating contacts.</span><span class="sxs-lookup"><span data-stu-id="412cb-109">Set up contact management prior to creating contacts.</span></span> |[<span data-ttu-id="412cb-110">Set Up Contacts</span><span class="sxs-lookup"><span data-stu-id="412cb-110">Set Up Contacts</span></span>](marketing-setup-contacts.md) |
-| <span data-ttu-id="412cb-111">Create a contact card for each new person or company that you interact with, such as a customer or vendor.</span><span class="sxs-lookup"><span data-stu-id="412cb-111">Create a contact card for each new person or company that you interact with, such as a customer or vendor.</span></span> |[<span data-ttu-id="412cb-112">Create Contacts</span><span class="sxs-lookup"><span data-stu-id="412cb-112">Create Contacts</span></span>](marketing-create-contact-companies.md) |
-|<span data-ttu-id="412cb-113">Set up profile questionnaires that you want to use when entering information about your contacts' profiles.</span><span class="sxs-lookup"><span data-stu-id="412cb-113">Set up profile questionnaires that you want to use when entering information about your contacts' profiles.</span></span>|[<span data-ttu-id="412cb-114">Use Profile Questionnaires to Classify Business Contacts</span><span class="sxs-lookup"><span data-stu-id="412cb-114">Use Profile Questionnaires to Classify Business Contacts</span></span>](marketing-create-contact-profile-questionnaire.md)|
-|<span data-ttu-id="412cb-115">Resolve confusion when two or more records exist for the same contact.</span><span class="sxs-lookup"><span data-stu-id="412cb-115">Resolve confusion when two or more records exist for the same contact.</span></span>|[<span data-ttu-id="412cb-116">Merge Duplicate Records</span><span class="sxs-lookup"><span data-stu-id="412cb-116">Merge Duplicate Records</span></span>](sales-how-merge-duplicate-records.md)|
+| <span data-ttu-id="a3794-109">Set up contact management prior to creating contacts.</span><span class="sxs-lookup"><span data-stu-id="a3794-109">Set up contact management prior to creating contacts.</span></span> |[<span data-ttu-id="a3794-110">Set Up Contacts</span><span class="sxs-lookup"><span data-stu-id="a3794-110">Set Up Contacts</span></span>](marketing-setup-contacts.md) |
+| <span data-ttu-id="a3794-111">Create a contact card for each new person or company that you interact with, such as a customer or vendor.</span><span class="sxs-lookup"><span data-stu-id="a3794-111">Create a contact card for each new person or company that you interact with, such as a customer or vendor.</span></span> |[<span data-ttu-id="a3794-112">Create Contacts</span><span class="sxs-lookup"><span data-stu-id="a3794-112">Create Contacts</span></span>](marketing-create-contact-companies.md) |
+|<span data-ttu-id="a3794-113">Set up profile questionnaires that you want to use when entering information about your contacts' profiles.</span><span class="sxs-lookup"><span data-stu-id="a3794-113">Set up profile questionnaires that you want to use when entering information about your contacts' profiles.</span></span>|[<span data-ttu-id="a3794-114">Use Profile Questionnaires to Classify Business Contacts</span><span class="sxs-lookup"><span data-stu-id="a3794-114">Use Profile Questionnaires to Classify Business Contacts</span></span>](marketing-create-contact-profile-questionnaire.md)|
+|<span data-ttu-id="a3794-115">Resolve confusion when two or more records exist for the same contact.</span><span class="sxs-lookup"><span data-stu-id="a3794-115">Resolve confusion when two or more records exist for the same contact.</span></span>|[<span data-ttu-id="a3794-116">Merge Duplicate Records</span><span class="sxs-lookup"><span data-stu-id="a3794-116">Merge Duplicate Records</span></span>](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-also"></a><span data-ttu-id="412cb-117">See Also</span><span class="sxs-lookup"><span data-stu-id="412cb-117">See Also</span></span>
-[<span data-ttu-id="412cb-118">Managing Sales Opportunities</span><span class="sxs-lookup"><span data-stu-id="412cb-118">Managing Sales Opportunities</span></span>](marketing-manage-sales-opportunities.md)  
-[<span data-ttu-id="412cb-119">Working with Business Central</span><span class="sxs-lookup"><span data-stu-id="412cb-119">Working with Business Central</span></span>](ui-work-product.md)  
+## <a name="see-also"></a><span data-ttu-id="a3794-117">See Also</span><span class="sxs-lookup"><span data-stu-id="a3794-117">See Also</span></span>
+[<span data-ttu-id="a3794-118">Managing Sales Opportunities</span><span class="sxs-lookup"><span data-stu-id="a3794-118">Managing Sales Opportunities</span></span>](marketing-manage-sales-opportunities.md)  
+[<span data-ttu-id="a3794-119">Working with Business Central</span><span class="sxs-lookup"><span data-stu-id="a3794-119">Working with Business Central</span></span>](ui-work-product.md)  
