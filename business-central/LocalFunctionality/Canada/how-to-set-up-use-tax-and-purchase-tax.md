@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f32e32b4dce6b329e8bdfcc53c0d78772e691c0f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ec79a9f0a6b28d75002170afa771c166749af7e0
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301363"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553935"
 ---
 # <a name="set-up-use-tax-and-purchase-tax"></a>Set Up Use Tax and Purchase Tax
 Sales tax includes taxes that companies pay for using items:  
@@ -27,7 +27,7 @@ Sales tax includes taxes that companies pay for using items:
 
 ## <a name="to-set-up-use-tax-for-a-purchase-order"></a>To set up use tax for a purchase order  
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Orders**, and then choose the related link.  
-2.  On the **Purchase Orders** page, on the **Home** tab, in the **New** group, choose **New**.  
+2.  On the **Purchase Orders** page, choose the **New** action.  
 3.  On the **Lines** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]  
 4.  On the **Invoicing** FastTab, fill in the fields as described in the following table.  
 
