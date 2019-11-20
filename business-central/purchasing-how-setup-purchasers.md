@@ -12,27 +12,29 @@ ms.workload: na
 ms.search.keywords: purchasing agent
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 57a3acf17b91a8a2a8ffcbc8b070955086a80a0d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: af9673eb790b6e1e89607214b23476e5b415aca3
+ms.sourcegitcommit: ab4141739a53ec100d42773f0da863fbeefa384f
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316749"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2577192"
 ---
-# <a name="set-up-purchasers"></a><span data-ttu-id="27bc3-103">Set Up Purchasers</span><span class="sxs-lookup"><span data-stu-id="27bc3-103">Set Up Purchasers</span></span>
-<span data-ttu-id="27bc3-104">If several purchasers work at your company, you can set them up in a page and assign them each a code.</span><span class="sxs-lookup"><span data-stu-id="27bc3-104">If several purchasers work at your company, you can set them up in a page and assign them each a code.</span></span> <span data-ttu-id="27bc3-105">You can then use the codes to prepare statistics and to filter information in printed reports.</span><span class="sxs-lookup"><span data-stu-id="27bc3-105">You can then use the codes to prepare statistics and to filter information in printed reports.</span></span>
+# <a name="set-up-purchasers"></a><span data-ttu-id="0a491-103">Set Up Purchasers</span><span class="sxs-lookup"><span data-stu-id="0a491-103">Set Up Purchasers</span></span>
+<span data-ttu-id="0a491-104">If several purchasers work at your company, you can set them up in a page and assign them each a code.</span><span class="sxs-lookup"><span data-stu-id="0a491-104">If several purchasers work at your company, you can set them up in a page and assign them each a code.</span></span> <span data-ttu-id="0a491-105">You can then use the codes to prepare statistics and to filter information in printed reports.</span><span class="sxs-lookup"><span data-stu-id="0a491-105">You can then use the codes to prepare statistics and to filter information in printed reports.</span></span>
 
-## <a name="to-set-up-purchasers"></a><span data-ttu-id="27bc3-106">To set up purchasers</span><span class="sxs-lookup"><span data-stu-id="27bc3-106">To set up purchasers</span></span>
-1. <span data-ttu-id="27bc3-107">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Salespeople/Purchasers**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="27bc3-107">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Salespeople/Purchasers**, and then choose the related link.</span></span>
-2. <span data-ttu-id="27bc3-108">On the **Salespeople/Purchasers** page, choose **New**.</span><span class="sxs-lookup"><span data-stu-id="27bc3-108">On the **Salespeople/Purchasers** page, choose **New**.</span></span>
-3. <span data-ttu-id="27bc3-109">On the **Salesperson/Purchaser Card** page, fill in the fields as necessary.</span><span class="sxs-lookup"><span data-stu-id="27bc3-109">On the **Salesperson/Purchaser Card** page, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3Q7hU]
 
-## <a name="to-assign-purchasers-to-vendors"></a><span data-ttu-id="27bc3-110">To assign purchasers to vendors</span><span class="sxs-lookup"><span data-stu-id="27bc3-110">To assign purchasers to vendors</span></span>
-1. <span data-ttu-id="27bc3-111">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="27bc3-111">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.</span></span>
-2. <span data-ttu-id="27bc3-112">Open the relevant vendor card for the vendor that will be assigned a purchaser.</span><span class="sxs-lookup"><span data-stu-id="27bc3-112">Open the relevant vendor card for the vendor that will be assigned a purchaser.</span></span>
-3. <span data-ttu-id="27bc3-113">In the **Purchaser Code** field, select the applicable purchaser code and then close the page.</span><span class="sxs-lookup"><span data-stu-id="27bc3-113">In the **Purchaser Code** field, select the applicable purchaser code and then close the page.</span></span>
+## <a name="to-set-up-purchasers"></a><span data-ttu-id="0a491-106">To set up purchasers</span><span class="sxs-lookup"><span data-stu-id="0a491-106">To set up purchasers</span></span>
+1. <span data-ttu-id="0a491-107">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Salespeople/Purchasers**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="0a491-107">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Salespeople/Purchasers**, and then choose the related link.</span></span>
+2. <span data-ttu-id="0a491-108">On the **Salespeople/Purchasers** page, choose **New**.</span><span class="sxs-lookup"><span data-stu-id="0a491-108">On the **Salespeople/Purchasers** page, choose **New**.</span></span>
+3. <span data-ttu-id="0a491-109">On the **Salesperson/Purchaser Card** page, fill in the fields as necessary.</span><span class="sxs-lookup"><span data-stu-id="0a491-109">On the **Salesperson/Purchaser Card** page, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-also"></a><span data-ttu-id="27bc3-114">See Also</span><span class="sxs-lookup"><span data-stu-id="27bc3-114">See Also</span></span>
-[<span data-ttu-id="27bc3-115">Setting Up Purchasing</span><span class="sxs-lookup"><span data-stu-id="27bc3-115">Setting Up Purchasing</span></span>](purchasing-setup-purchasing.md)  
-[<span data-ttu-id="27bc3-116">Managing Payables</span><span class="sxs-lookup"><span data-stu-id="27bc3-116">Managing Payables</span></span>](payables-manage-payables.md)  
-<span data-ttu-id="27bc3-117">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="27bc3-117">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="to-assign-purchasers-to-vendors"></a><span data-ttu-id="0a491-110">To assign purchasers to vendors</span><span class="sxs-lookup"><span data-stu-id="0a491-110">To assign purchasers to vendors</span></span>
+1. <span data-ttu-id="0a491-111">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="0a491-111">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.</span></span>
+2. <span data-ttu-id="0a491-112">Open the relevant vendor card for the vendor that will be assigned a purchaser.</span><span class="sxs-lookup"><span data-stu-id="0a491-112">Open the relevant vendor card for the vendor that will be assigned a purchaser.</span></span>
+3. <span data-ttu-id="0a491-113">In the **Purchaser Code** field, select the applicable purchaser code and then close the page.</span><span class="sxs-lookup"><span data-stu-id="0a491-113">In the **Purchaser Code** field, select the applicable purchaser code and then close the page.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="0a491-114">See Also</span><span class="sxs-lookup"><span data-stu-id="0a491-114">See Also</span></span>
+[<span data-ttu-id="0a491-115">Setting Up Purchasing</span><span class="sxs-lookup"><span data-stu-id="0a491-115">Setting Up Purchasing</span></span>](purchasing-setup-purchasing.md)  
+[<span data-ttu-id="0a491-116">Managing Payables</span><span class="sxs-lookup"><span data-stu-id="0a491-116">Managing Payables</span></span>](payables-manage-payables.md)  
+<span data-ttu-id="0a491-117">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="0a491-117">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>

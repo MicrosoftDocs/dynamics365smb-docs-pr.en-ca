@@ -1,1 +1,1 @@
-<span data-ttu-id="34173-101">The Isabel features are available only for on-premises deployments.</span><span class="sxs-lookup"><span data-stu-id="34173-101">The Isabel features are available only for on-premises deployments.</span></span>
+<span data-ttu-id="75950-101">The Isabel features are available only for on-premises deployments.</span><span class="sxs-lookup"><span data-stu-id="75950-101">The Isabel features are available only for on-premises deployments.</span></span>
