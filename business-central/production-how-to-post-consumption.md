@@ -1,8 +1,6 @@
 ---
 title: How to Batch Post Consumption | Microsoft Docs
 description: If the flushing method is **Manual**, you must post the components manually, using a consumption journal.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d84d7d3961a466025b6e38665f88ee58baf153b3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9200256cec074e547bc594950b1eb2d975a8ad9b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313309"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877892"
 ---
 # <a name="batch-post-production-consumption"></a>Batch Post Production Consumption
 If the flushing method is **Manual**, you must post the components manually, using a consumption journal.
@@ -35,6 +33,6 @@ You can also set the system up to automatically post (*flush*) components when y
 [Manufacturing](production-manage-manufacturing.md)    
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Planning](production-planning.md)      
-[Qty. on Hand](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
