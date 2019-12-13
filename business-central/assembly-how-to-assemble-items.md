@@ -1,8 +1,6 @@
 ---
 title: How to Assemble Items | Microsoft Docs
 description: If the **Replenishment System** field on the item card contains **Assembly**, then the default method of supplying the item is to assemble it from defined components and potentially by a defined resource.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 27a1674c06b4e874f5152117f00161dd053c4e73
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7effb54187a0b59a175b5fe19265e6fb32bbc295
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307693"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880913"
 ---
 # <a name="assemble-items"></a>Assemble Items
 If the **Replenishment System** field on the item card contains **Assembly**, then the default method of supplying the item is to assemble it from defined components and potentially by a defined resource.  
@@ -72,6 +70,6 @@ After posting succeeds, the assembly item is posted as output to the location co
 ## <a name="see-also"></a>See Also
 [Assembly Management](assembly-assemble-items.md)  
 [Work with Bills of Material](inventory-how-work-BOMs.md)  
-[Qty. on Hand](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

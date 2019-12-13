@@ -1,8 +1,6 @@
 ---
 title: How to Print Troubleshooting Reports | Microsoft Docs
 description: Several troubleshooting reports are available to assist Microsoft Certified Partners with troubleshooting issues.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 398a7b87330f8045db3b89f44af2cad21c6bf841
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2f67e89c5e46efc06d86f2596b10c5e6f51c248c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301360"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878722"
 ---
 # <a name="print-troubleshooting-reports"></a>Print Troubleshooting Reports
 The following troubleshooting reports are available to assist Microsoft Certified Partners with troubleshooting issues:  

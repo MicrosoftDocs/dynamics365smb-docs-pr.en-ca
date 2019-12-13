@@ -1,8 +1,6 @@
 ---
 title: How to Sell Items Assembled to Order | Microsoft Docs
 description: If the item is set up for assemble-to-order, then the item is not expected to be in inventory, and it must be assembled specifically to a sales order. When you enter the item on a sales order line, then an assembly order is automatically created and linked to the sales order.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ba9a219b769d353ae9a01649500c60a1cb88c3ed
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 464600e473034d5b70745d4c4d94c9a49311ed3b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304094"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880793"
 ---
 # <a name="sell-items-assembled-to-order"></a>Sell Items Assembled to Order
 If the **Assembly Policy** field on the item card of an assembly item is **Assemble-to-Order**, then the item is not expected to be in inventory, and it must be assembled specifically to a sales order. When you enter the item on a sales order line, then an assembly order is automatically created and linked to the sales order.  
@@ -62,6 +60,6 @@ In this procedure, you process the sale of an item that will be assembled accord
 ## <a name="see-also"></a>See Also  
 [Assembly Management](assembly-assemble-items.md)  
 [Work with Bills of Material](inventory-how-work-BOMs.md)  
-[Qty. on Hand](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

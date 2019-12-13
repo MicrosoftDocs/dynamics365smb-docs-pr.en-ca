@@ -1,8 +1,6 @@
 ---
 title: How to Set Up Use Tax and Purchase Tax | Microsoft Docs
 description: Sales tax includes taxes that companies pay for using items
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ec79a9f0a6b28d75002170afa771c166749af7e0
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: cc854aae6a8c140c88718e9fd60ea672bb74dcf6
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553935"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881454"
 ---
 # <a name="set-up-use-tax-and-purchase-tax"></a>Set Up Use Tax and Purchase Tax
 Sales tax includes taxes that companies pay for using items:  
@@ -52,7 +50,7 @@ Sales tax includes taxes that companies pay for using items:
 4.  Choose the **OK** button.  
 
 ## <a name="to-set-up-purchase-tax-for-a-company"></a>To set up purchase tax for a company  
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information** , and then choose the related link.  
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.  
 2.  On the **Company Information** page, on the **Tax** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

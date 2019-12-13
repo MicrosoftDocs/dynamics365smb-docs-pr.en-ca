@@ -1,8 +1,6 @@
 ---
 title: How to Create Deposits | Microsoft Docs
 description: You can make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a86ff1b5855ccb49710f153aca4e83f94f5d29f5
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: f34d15c73da85e8bd486c00f691b1da14423d9b3
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553885"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878724"
 ---
 # <a name="create-deposits"></a>Create Deposits
 You can make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos.  
