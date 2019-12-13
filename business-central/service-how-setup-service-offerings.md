@@ -1,8 +1,6 @@
 ---
 title: Set Up Service Offerings | Microsoft Docs
 description: Learn how to set up the services that you offer to your customers.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,22 +10,22 @@ ms.workload: na
 ms.search.keywords: components, service item, service
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: bcd6597ff26a3889608486cde6f8d0158364a956
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8d34ef54ebfe16b59149036d59c2ce6e264baefb
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311797"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877264"
 ---
-# <a name="set-up-service-offerings"></a><span data-ttu-id="26893-103">Set Up Service Offerings</span><span class="sxs-lookup"><span data-stu-id="26893-103">Set Up Service Offerings</span></span>
-<span data-ttu-id="26893-104">When you set up service management, you must decide what services to offer customers and the schedule for those services.</span><span class="sxs-lookup"><span data-stu-id="26893-104">When you set up service management, you must decide what services to offer customers and the schedule for those services.</span></span> <span data-ttu-id="26893-105">A service is a type of work performed by one or more resources and provided to a customer.</span><span class="sxs-lookup"><span data-stu-id="26893-105">A service is a type of work performed by one or more resources and provided to a customer.</span></span> <span data-ttu-id="26893-106">For example, a service could be a type of computer repair.</span><span class="sxs-lookup"><span data-stu-id="26893-106">For example, a service could be a type of computer repair.</span></span> <span data-ttu-id="26893-107">A service item is the equipment or item that needs servicing, for example, the computer that needs repair, installed at a specific customer.</span><span class="sxs-lookup"><span data-stu-id="26893-107">A service item is the equipment or item that needs servicing, for example, the computer that needs repair, installed at a specific customer.</span></span> <span data-ttu-id="26893-108">You can set up services as part of a group of related repair or maineenance items.</span><span class="sxs-lookup"><span data-stu-id="26893-108">You can set up services as part of a group of related repair or maineenance items.</span></span>  
+# <a name="set-up-service-offerings"></a><span data-ttu-id="edaf5-103">Set Up Service Offerings</span><span class="sxs-lookup"><span data-stu-id="edaf5-103">Set Up Service Offerings</span></span>
+<span data-ttu-id="edaf5-104">When you set up service management, you must decide what services to offer customers and the schedule for those services.</span><span class="sxs-lookup"><span data-stu-id="edaf5-104">When you set up service management, you must decide what services to offer customers and the schedule for those services.</span></span> <span data-ttu-id="edaf5-105">A service is a type of work performed by one or more resources and provided to a customer.</span><span class="sxs-lookup"><span data-stu-id="edaf5-105">A service is a type of work performed by one or more resources and provided to a customer.</span></span> <span data-ttu-id="edaf5-106">For example, a service could be a type of computer repair.</span><span class="sxs-lookup"><span data-stu-id="edaf5-106">For example, a service could be a type of computer repair.</span></span> <span data-ttu-id="edaf5-107">A service item is the equipment or item that needs servicing, for example, the computer that needs repair, installed at a specific customer.</span><span class="sxs-lookup"><span data-stu-id="edaf5-107">A service item is the equipment or item that needs servicing, for example, the computer that needs repair, installed at a specific customer.</span></span> <span data-ttu-id="edaf5-108">You can set up services as part of a group of related repair or maineenance items.</span><span class="sxs-lookup"><span data-stu-id="edaf5-108">You can set up services as part of a group of related repair or maineenance items.</span></span>  
   
-<span data-ttu-id="26893-109">The following table describes a sequence of tasks, with links to the topics that describe them.</span><span class="sxs-lookup"><span data-stu-id="26893-109">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>  
+<span data-ttu-id="edaf5-109">The following table describes a sequence of tasks, with links to the topics that describe them.</span><span class="sxs-lookup"><span data-stu-id="edaf5-109">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>  
   
-|<span data-ttu-id="26893-110">**To**</span><span class="sxs-lookup"><span data-stu-id="26893-110">**To**</span></span>|<span data-ttu-id="26893-111">**See**</span><span class="sxs-lookup"><span data-stu-id="26893-111">**See**</span></span>|  
+|<span data-ttu-id="edaf5-110">**To**</span><span class="sxs-lookup"><span data-stu-id="edaf5-110">**To**</span></span>|<span data-ttu-id="edaf5-111">**See**</span><span class="sxs-lookup"><span data-stu-id="edaf5-111">**See**</span></span>|  
 |------------|-------------|  
-|<span data-ttu-id="26893-112">Enter information about the service items that your service organization is tracking.</span><span class="sxs-lookup"><span data-stu-id="26893-112">Enter information about the service items that your service organization is tracking.</span></span>|[<span data-ttu-id="26893-113">Create Service Items</span><span class="sxs-lookup"><span data-stu-id="26893-113">Create Service Items</span></span>](service-how-to-create-service-items.md)|  
-|<span data-ttu-id="26893-114">Establish a workflow for service when the service items consists of several components.</span><span class="sxs-lookup"><span data-stu-id="26893-114">Establish a workflow for service when the service items consists of several components.</span></span> <span data-ttu-id="26893-115">The component list is always connected to a service item, but these components can also be based on bill of materials (BOMs).</span><span class="sxs-lookup"><span data-stu-id="26893-115">The component list is always connected to a service item, but these components can also be based on bill of materials (BOMs).</span></span>|[<span data-ttu-id="26893-116">Set Up Service Items and Service Item Components</span><span class="sxs-lookup"><span data-stu-id="26893-116">Set Up Service Items and Service Item Components</span></span>](service-how-setup-service-items.md)|  
+|<span data-ttu-id="edaf5-112">Enter information about the service items that your service organization is tracking.</span><span class="sxs-lookup"><span data-stu-id="edaf5-112">Enter information about the service items that your service organization is tracking.</span></span>|[<span data-ttu-id="edaf5-113">Create Service Items</span><span class="sxs-lookup"><span data-stu-id="edaf5-113">Create Service Items</span></span>](service-how-to-create-service-items.md)|  
+|<span data-ttu-id="edaf5-114">Establish a workflow for service when the service items consists of several components.</span><span class="sxs-lookup"><span data-stu-id="edaf5-114">Establish a workflow for service when the service items consists of several components.</span></span> <span data-ttu-id="edaf5-115">The component list is always connected to a service item, but these components can also be based on bill of materials (BOMs).</span><span class="sxs-lookup"><span data-stu-id="edaf5-115">The component list is always connected to a service item, but these components can also be based on bill of materials (BOMs).</span></span>|[<span data-ttu-id="edaf5-116">Set Up Service Items and Service Item Components</span><span class="sxs-lookup"><span data-stu-id="edaf5-116">Set Up Service Items and Service Item Components</span></span>](service-how-setup-service-items.md)|  
   
-## <a name="see-also"></a><span data-ttu-id="26893-117">See Also</span><span class="sxs-lookup"><span data-stu-id="26893-117">See Also</span></span>  
-[<span data-ttu-id="26893-118">Setting Up Service Management</span><span class="sxs-lookup"><span data-stu-id="26893-118">Setting Up Service Management</span></span>](service-setup-service.md)   
+## <a name="see-also"></a><span data-ttu-id="edaf5-117">See Also</span><span class="sxs-lookup"><span data-stu-id="edaf5-117">See Also</span></span>  
+[<span data-ttu-id="edaf5-118">Setting Up Service Management</span><span class="sxs-lookup"><span data-stu-id="edaf5-118">Setting Up Service Management</span></span>](service-setup-service.md)   
