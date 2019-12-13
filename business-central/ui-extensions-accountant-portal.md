@@ -10,18 +10,18 @@ ms.workload: na
 ms. search.keywords: ''
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 2b8913dddaa39b03c341a37e104de4469d0c5ca5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b2dde922cb737a53aec1c8fa2c0e3068c6dfc46b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315563"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882119"
 ---
-# <a name="the-accountant-portal-for-business-central-extension"></a><span data-ttu-id="e3317-103">The Accountant Portal for Business Central Extension</span><span class="sxs-lookup"><span data-stu-id="e3317-103">The Accountant Portal for Business Central Extension</span></span>
-<span data-ttu-id="e3317-104">This application has been deprecated.</span><span class="sxs-lookup"><span data-stu-id="e3317-104">This application has been deprecated.</span></span> <span data-ttu-id="e3317-105">We recommend that you do not install this extension but sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] at [Business Central for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants) instead.</span><span class="sxs-lookup"><span data-stu-id="e3317-105">We recommend that you do not install this extension but sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] at [Business Central for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants) instead.</span></span>
+# <a name="the-accountant-portal-for-business-central-extension"></a><span data-ttu-id="3edd6-103">The Accountant Portal for Business Central Extension</span><span class="sxs-lookup"><span data-stu-id="3edd6-103">The Accountant Portal for Business Central Extension</span></span>
+<span data-ttu-id="3edd6-104">This application has been deprecated.</span><span class="sxs-lookup"><span data-stu-id="3edd6-104">This application has been deprecated.</span></span> <span data-ttu-id="3edd6-105">We recommend that you do not install this extension but sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] at [Business Central for Accountants on Microsoft.com](https://www.microsoft.com/dynamics365/financial-insights-for-accountants) instead.</span><span class="sxs-lookup"><span data-stu-id="3edd6-105">We recommend that you do not install this extension but sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] at [Business Central for Accountants on Microsoft.com](https://www.microsoft.com/dynamics365/financial-insights-for-accountants) instead.</span></span>
 
-<span data-ttu-id="e3317-106">For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).</span><span class="sxs-lookup"><span data-stu-id="e3317-106">For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).</span></span>  
+<span data-ttu-id="3edd6-106">For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).</span><span class="sxs-lookup"><span data-stu-id="3edd6-106">For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="e3317-107">See Also</span><span class="sxs-lookup"><span data-stu-id="e3317-107">See Also</span></span>
-[<span data-ttu-id="e3317-108">Accountant Experiences in Business Central </span><span class="sxs-lookup"><span data-stu-id="e3317-108">Accountant Experiences in Business Central </span></span>](finance-accounting.md)  
-[<span data-ttu-id="e3317-109">Finance</span><span class="sxs-lookup"><span data-stu-id="e3317-109">Finance</span></span>](finance.md)  
+## <a name="see-also"></a><span data-ttu-id="3edd6-107">See Also</span><span class="sxs-lookup"><span data-stu-id="3edd6-107">See Also</span></span>
+[<span data-ttu-id="3edd6-108">Accountant Experiences in Business Central </span><span class="sxs-lookup"><span data-stu-id="3edd6-108">Accountant Experiences in Business Central </span></span>](finance-accounting.md)  
+[<span data-ttu-id="3edd6-109">Finance</span><span class="sxs-lookup"><span data-stu-id="3edd6-109">Finance</span></span>](finance.md)  

@@ -1,8 +1,6 @@
 ---
 title: How to Block Sales to Customers  Items from Sales or Purchasing
 description: In Business Central, an item can be marked as blocked for sales, blocked for purchase, or blocked for all purposes.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,33 +10,33 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c2b0d5b15571b7e8af1ed1dbee22859f4c131aa3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c1b055e5101b99f0b0e1b69169d5c9f2f7e21d09
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316629"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883003"
 ---
-# <a name="block-customers"></a><span data-ttu-id="b0166-103">Block Customers</span><span class="sxs-lookup"><span data-stu-id="b0166-103">Block Customers</span></span>
-<span data-ttu-id="b0166-104">You can block a customer, for example because of insolvency, so that the customer cannot be added to sales documents or so that no transactions can be posted for the customer.</span><span class="sxs-lookup"><span data-stu-id="b0166-104">You can block a customer, for example because of insolvency, so that the customer cannot be added to sales documents or so that no transactions can be posted for the customer.</span></span>
+# <a name="block-customers"></a><span data-ttu-id="65222-103">Block Customers</span><span class="sxs-lookup"><span data-stu-id="65222-103">Block Customers</span></span>
+<span data-ttu-id="65222-104">You can block a customer, for example because of insolvency, so that the customer cannot be added to sales documents or so that no transactions can be posted for the customer.</span><span class="sxs-lookup"><span data-stu-id="65222-104">You can block a customer, for example because of insolvency, so that the customer cannot be added to sales documents or so that no transactions can be posted for the customer.</span></span>
 
-<span data-ttu-id="b0166-105">In addition to blocking a customer, you can set receivable transactions for the customer to be on hold in connection with reminders.</span><span class="sxs-lookup"><span data-stu-id="b0166-105">In addition to blocking a customer, you can set receivable transactions for the customer to be on hold in connection with reminders.</span></span> <span data-ttu-id="b0166-106">For more information, see [Collect Outstanding Balances](receivables-collect-outstanding-balances.md).</span><span class="sxs-lookup"><span data-stu-id="b0166-106">For more information, see [Collect Outstanding Balances](receivables-collect-outstanding-balances.md).</span></span>   
+<span data-ttu-id="65222-105">In addition to blocking a customer, you can set receivable transactions for the customer to be on hold in connection with reminders.</span><span class="sxs-lookup"><span data-stu-id="65222-105">In addition to blocking a customer, you can set receivable transactions for the customer to be on hold in connection with reminders.</span></span> <span data-ttu-id="65222-106">For more information, see [Collect Outstanding Balances](receivables-collect-outstanding-balances.md).</span><span class="sxs-lookup"><span data-stu-id="65222-106">For more information, see [Collect Outstanding Balances](receivables-collect-outstanding-balances.md).</span></span>   
 
-<span data-ttu-id="b0166-107">The following table describes the different blocking options.</span><span class="sxs-lookup"><span data-stu-id="b0166-107">The following table describes the different blocking options.</span></span>  
+<span data-ttu-id="65222-107">The following table describes the different blocking options.</span><span class="sxs-lookup"><span data-stu-id="65222-107">The following table describes the different blocking options.</span></span>  
 
-|<span data-ttu-id="b0166-108">Option</span><span class="sxs-lookup"><span data-stu-id="b0166-108">Option</span></span>|<span data-ttu-id="b0166-109">Description</span><span class="sxs-lookup"><span data-stu-id="b0166-109">Description</span></span>|  
+|<span data-ttu-id="65222-108">Option</span><span class="sxs-lookup"><span data-stu-id="65222-108">Option</span></span>|<span data-ttu-id="65222-109">Description</span><span class="sxs-lookup"><span data-stu-id="65222-109">Description</span></span>|  
 |--------------------|------------|  
-|<span data-ttu-id="b0166-110">**Blank**</span><span class="sxs-lookup"><span data-stu-id="b0166-110">**Blank**</span></span>|<span data-ttu-id="b0166-111">Transactions are allowed for this customer.</span><span class="sxs-lookup"><span data-stu-id="b0166-111">Transactions are allowed for this customer.</span></span>|
-|<span data-ttu-id="b0166-112">**Ship**</span><span class="sxs-lookup"><span data-stu-id="b0166-112">**Ship**</span></span>|<span data-ttu-id="b0166-113">New orders and new shipments cannot be created for this customer.</span><span class="sxs-lookup"><span data-stu-id="b0166-113">New orders and new shipments cannot be created for this customer.</span></span> <span data-ttu-id="b0166-114">Existing shipments not yet invoiced can be invoiced.</span><span class="sxs-lookup"><span data-stu-id="b0166-114">Existing shipments not yet invoiced can be invoiced.</span></span>|  
-|<span data-ttu-id="b0166-115">**Invoice**</span><span class="sxs-lookup"><span data-stu-id="b0166-115">**Invoice**</span></span>|<span data-ttu-id="b0166-116">New orders, new shipments, and new invoices cannot be created for this customer.</span><span class="sxs-lookup"><span data-stu-id="b0166-116">New orders, new shipments, and new invoices cannot be created for this customer.</span></span> <span data-ttu-id="b0166-117">Existing shipments not yet invoiced cannot be invoiced.</span><span class="sxs-lookup"><span data-stu-id="b0166-117">Existing shipments not yet invoiced cannot be invoiced.</span></span>|  
-|<span data-ttu-id="b0166-118">**All**</span><span class="sxs-lookup"><span data-stu-id="b0166-118">**All**</span></span>|<span data-ttu-id="b0166-119">No transaction is allowed for this customer, including payments.</span><span class="sxs-lookup"><span data-stu-id="b0166-119">No transaction is allowed for this customer, including payments.</span></span>|  
+|<span data-ttu-id="65222-110">**Blank**</span><span class="sxs-lookup"><span data-stu-id="65222-110">**Blank**</span></span>|<span data-ttu-id="65222-111">Transactions are allowed for this customer.</span><span class="sxs-lookup"><span data-stu-id="65222-111">Transactions are allowed for this customer.</span></span>|
+|<span data-ttu-id="65222-112">**Ship**</span><span class="sxs-lookup"><span data-stu-id="65222-112">**Ship**</span></span>|<span data-ttu-id="65222-113">New orders and new shipments cannot be created for this customer.</span><span class="sxs-lookup"><span data-stu-id="65222-113">New orders and new shipments cannot be created for this customer.</span></span> <span data-ttu-id="65222-114">Existing shipments not yet invoiced can be invoiced.</span><span class="sxs-lookup"><span data-stu-id="65222-114">Existing shipments not yet invoiced can be invoiced.</span></span>|  
+|<span data-ttu-id="65222-115">**Invoice**</span><span class="sxs-lookup"><span data-stu-id="65222-115">**Invoice**</span></span>|<span data-ttu-id="65222-116">New orders, new shipments, and new invoices cannot be created for this customer.</span><span class="sxs-lookup"><span data-stu-id="65222-116">New orders, new shipments, and new invoices cannot be created for this customer.</span></span> <span data-ttu-id="65222-117">Existing shipments not yet invoiced cannot be invoiced.</span><span class="sxs-lookup"><span data-stu-id="65222-117">Existing shipments not yet invoiced cannot be invoiced.</span></span>|  
+|<span data-ttu-id="65222-118">**All**</span><span class="sxs-lookup"><span data-stu-id="65222-118">**All**</span></span>|<span data-ttu-id="65222-119">No transaction is allowed for this customer, including payments.</span><span class="sxs-lookup"><span data-stu-id="65222-119">No transaction is allowed for this customer, including payments.</span></span>|  
 
-## <a name="to-block-a-customer"></a><span data-ttu-id="b0166-120">To block a customer</span><span class="sxs-lookup"><span data-stu-id="b0166-120">To block a customer</span></span>  
-1. <span data-ttu-id="b0166-121">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="b0166-121">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.</span></span>
-2. <span data-ttu-id="b0166-122">Select a customer, and then choose the **Edit** action.</span><span class="sxs-lookup"><span data-stu-id="b0166-122">Select a customer, and then choose the **Edit** action.</span></span>
-3. <span data-ttu-id="b0166-123">Fill in the **Blocked** field with one of the options described above.</span><span class="sxs-lookup"><span data-stu-id="b0166-123">Fill in the **Blocked** field with one of the options described above.</span></span>
+## <a name="to-block-a-customer"></a><span data-ttu-id="65222-120">To block a customer</span><span class="sxs-lookup"><span data-stu-id="65222-120">To block a customer</span></span>  
+1. <span data-ttu-id="65222-121">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="65222-121">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.</span></span>
+2. <span data-ttu-id="65222-122">Select a customer, and then choose the **Edit** action.</span><span class="sxs-lookup"><span data-stu-id="65222-122">Select a customer, and then choose the **Edit** action.</span></span>
+3. <span data-ttu-id="65222-123">Fill in the **Blocked** field with one of the options described above.</span><span class="sxs-lookup"><span data-stu-id="65222-123">Fill in the **Blocked** field with one of the options described above.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="b0166-124">See Also</span><span class="sxs-lookup"><span data-stu-id="b0166-124">See Also</span></span>  
-[<span data-ttu-id="b0166-125">Register New Customers</span><span class="sxs-lookup"><span data-stu-id="b0166-125">Register New Customers</span></span>](sales-how-register-new-customers.md)  
-[<span data-ttu-id="b0166-126">Collect Outstanding Balances</span><span class="sxs-lookup"><span data-stu-id="b0166-126">Collect Outstanding Balances</span></span>](receivables-collect-outstanding-balances.md)  
-[<span data-ttu-id="b0166-127">Managing Receivables</span><span class="sxs-lookup"><span data-stu-id="b0166-127">Managing Receivables</span></span>](receivables-manage-receivables.md)  
+## <a name="see-also"></a><span data-ttu-id="65222-124">See Also</span><span class="sxs-lookup"><span data-stu-id="65222-124">See Also</span></span>  
+[<span data-ttu-id="65222-125">Register New Customers</span><span class="sxs-lookup"><span data-stu-id="65222-125">Register New Customers</span></span>](sales-how-register-new-customers.md)  
+[<span data-ttu-id="65222-126">Collect Outstanding Balances</span><span class="sxs-lookup"><span data-stu-id="65222-126">Collect Outstanding Balances</span></span>](receivables-collect-outstanding-balances.md)  
+[<span data-ttu-id="65222-127">Managing Receivables</span><span class="sxs-lookup"><span data-stu-id="65222-127">Managing Receivables</span></span>](receivables-manage-receivables.md)  
