@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4560de9740d0b4918d685fb0278b905baf1a8ecd
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e7671e54f95a48322df186b5aed5a81552f9f91f
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306249"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953788"
 ---
-# <a name="report-vat-to-a-tax-authority"></a>Report Tax to a Tax Authority
+# <a name="report-vat-to-tax-authorities"></a>Report Tax to Tax Authorities
 This topic describes the reports in [!INCLUDE[d365fin](includes/d365fin_md.md)] that you can use to submit information about value-added tax (VAT) amounts for sales and purchases to tax authorities in your region.
 
 You can use the following reports :
@@ -25,7 +25,7 @@ You can use the following reports :
 * The **EC Sales List** European Community (EC) Sales List report lists the value added tax (VAT) amounts that you have collected for sales to tax-registered customers in the European Union (EU) countries.  
 * The **Tax Return** report includes tax for sales and purchases to customers in all countries that use tax.
 
-If you want to view a complete history of tax entries, every posting that involves tax creates an entry on the **Tax Entries** page. These entries are used to calculate your VAT settlement amount, such as your payment and refund, for a specific period. To view tax entries, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Tax Entries**, and then choose the related link.
+If you want to view a complete history of tax entries, every posting that involves tax creates an entry on the **Tax Entries** page. These entries are used to calculate your VAT settlement amount, such as your payment and refund, for a specific period. To view Tax entries, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Tax Entries**, and then choose the related link.
 
 ## <a name="about-the-ec-sales-list-report"></a>About the EC Sales List report
 In the UK, all companies that sell goods and services to tax-registered customers, including customers in other European Union (EU) countries, must submit an electronic version of the European Community (EC) Sales List report in XML format through Her Majesty's Revenue and Customs (HMRC) website. The EC Sales List report works only for countries in the EU.
@@ -110,6 +110,8 @@ The following table describes the codeunits that you must create for your report
 
 > [!Note]
 > When create codeunits for the report, pay attention to the value in the **Tax Report Version** field. This field must reflect the version of the report that is, or was, required by the tax authority. For example, you might enter **2017** in the field to indicate that the report conforms to the requirements that were in place that year. To find the current version, contact your tax authority.
+
+## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-vat-dynamics-365-business-central"></a>See Related Training at [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See also 
 [Setting Up to Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md)  
