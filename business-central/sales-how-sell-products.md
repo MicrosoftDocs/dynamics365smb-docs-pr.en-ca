@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 76fc6081cf1dd27cc1e8f6c3611e60cb0ef7d37f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5fefafc1ca8ac7f5cd9862ff741a0f0fd9fec7ff
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312109"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194028"
 ---
 # <a name="sell-products"></a>Sell Products
 You create a sales order or sales invoice to record your agreement with a customer to sell certain products on certain delivery and payment terms.
@@ -128,6 +128,6 @@ The related item and customer ledger entries are now created in your system, and
 ## <a name="see-also"></a>See Also
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  
-[Qty. on Hand](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2f67e89c5e46efc06d86f2596b10c5e6f51c248c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: fb205696631977b3b525cc7d94ef748db07f8960
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878722"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180834"
 ---
 # <a name="print-troubleshooting-reports"></a>Print Troubleshooting Reports
 The following troubleshooting reports are available to assist Microsoft Certified Partners with troubleshooting issues:  
