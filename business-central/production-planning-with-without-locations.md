@@ -8,139 +8,139 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: b5c5c12dedfe3f35737888017ed02e0f7d464443
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 09faf5a92d242addb5805101fe99cb2c12f9f710
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877696"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191340"
 ---
-# <a name="planning-with-or-without-locations"></a><span data-ttu-id="328d3-103">Planning With or Without Locations</span><span class="sxs-lookup"><span data-stu-id="328d3-103">Planning With or Without Locations</span></span>
-<span data-ttu-id="328d3-104">Concerning planning with or without location codes on demand lines, the planning system operates in a straight forward way when:</span><span class="sxs-lookup"><span data-stu-id="328d3-104">Concerning planning with or without location codes on demand lines, the planning system operates in a straight forward way when:</span></span>  
+# <a name="planning-with-or-without-locations"></a><span data-ttu-id="10b5e-103">Planning With or Without Locations</span><span class="sxs-lookup"><span data-stu-id="10b5e-103">Planning With or Without Locations</span></span>
+<span data-ttu-id="10b5e-104">Concerning planning with or without location codes on demand lines, the planning system operates in a straight forward way when:</span><span class="sxs-lookup"><span data-stu-id="10b5e-104">Concerning planning with or without location codes on demand lines, the planning system operates in a straight forward way when:</span></span>  
 
--   <span data-ttu-id="328d3-105">demand lines always carry location codes and the system fully uses stockkeeping units, including the relevant location setup.</span><span class="sxs-lookup"><span data-stu-id="328d3-105">demand lines always carry location codes and the system fully uses stockkeeping units, including the relevant location setup.</span></span>  
--   <span data-ttu-id="328d3-106">demand lines never carry location codes and the system does not use SKUs or any location setup (see last scenario below).</span><span class="sxs-lookup"><span data-stu-id="328d3-106">demand lines never carry location codes and the system does not use SKUs or any location setup (see last scenario below).</span></span>  
+-   <span data-ttu-id="10b5e-105">demand lines always carry location codes and the system fully uses stockkeeping units, including the relevant location setup.</span><span class="sxs-lookup"><span data-stu-id="10b5e-105">demand lines always carry location codes and the system fully uses stockkeeping units, including the relevant location setup.</span></span>  
+-   <span data-ttu-id="10b5e-106">demand lines never carry location codes and the system does not use SKUs or any location setup (see last scenario below).</span><span class="sxs-lookup"><span data-stu-id="10b5e-106">demand lines never carry location codes and the system does not use SKUs or any location setup (see last scenario below).</span></span>  
 
-<span data-ttu-id="328d3-107">However, if demand lines sometimes have location codes and other times do not, the planning system will follow certain rules depending on setup.</span><span class="sxs-lookup"><span data-stu-id="328d3-107">However, if demand lines sometimes have location codes and other times do not, the planning system will follow certain rules depending on setup.</span></span>  
+<span data-ttu-id="10b5e-107">However, if demand lines sometimes have location codes and other times do not, the planning system will follow certain rules depending on setup.</span><span class="sxs-lookup"><span data-stu-id="10b5e-107">However, if demand lines sometimes have location codes and other times do not, the planning system will follow certain rules depending on setup.</span></span>  
 
-## <a name="demand-at-location"></a><span data-ttu-id="328d3-108">Demand at Location</span><span class="sxs-lookup"><span data-stu-id="328d3-108">Demand at Location</span></span>  
-<span data-ttu-id="328d3-109">When the planning system detects demand at a location (a line with a location code), it will behave in different ways depending on 3 critical setup values.</span><span class="sxs-lookup"><span data-stu-id="328d3-109">When the planning system detects demand at a location (a line with a location code), it will behave in different ways depending on 3 critical setup values.</span></span>  
+## <a name="demand-at-location"></a><span data-ttu-id="10b5e-108">Demand at Location</span><span class="sxs-lookup"><span data-stu-id="10b5e-108">Demand at Location</span></span>  
+<span data-ttu-id="10b5e-109">When the planning system detects demand at a location (a line with a location code), it will behave in different ways depending on 3 critical setup values.</span><span class="sxs-lookup"><span data-stu-id="10b5e-109">When the planning system detects demand at a location (a line with a location code), it will behave in different ways depending on 3 critical setup values.</span></span>  
 
-<span data-ttu-id="328d3-110">During a planning run, the system checks for the 3 setup values in sequence and plans accordingly:</span><span class="sxs-lookup"><span data-stu-id="328d3-110">During a planning run, the system checks for the 3 setup values in sequence and plans accordingly:</span></span>  
+<span data-ttu-id="10b5e-110">During a planning run, the system checks for the 3 setup values in sequence and plans accordingly:</span><span class="sxs-lookup"><span data-stu-id="10b5e-110">During a planning run, the system checks for the 3 setup values in sequence and plans accordingly:</span></span>  
 
-1.  <span data-ttu-id="328d3-111">Is there a check mark in the **Location Mandatory** field?</span><span class="sxs-lookup"><span data-stu-id="328d3-111">Is there a check mark in the **Location Mandatory** field?</span></span>  
+1.  <span data-ttu-id="10b5e-111">Is there a check mark in the **Location Mandatory** field?</span><span class="sxs-lookup"><span data-stu-id="10b5e-111">Is there a check mark in the **Location Mandatory** field?</span></span>  
 
-    <span data-ttu-id="328d3-112">If yes, then:</span><span class="sxs-lookup"><span data-stu-id="328d3-112">If yes, then:</span></span>  
+    <span data-ttu-id="10b5e-112">If yes, then:</span><span class="sxs-lookup"><span data-stu-id="10b5e-112">If yes, then:</span></span>  
 
-2.  <span data-ttu-id="328d3-113">Does SKU exist for the item?</span><span class="sxs-lookup"><span data-stu-id="328d3-113">Does SKU exist for the item?</span></span>  
+2.  <span data-ttu-id="10b5e-113">Does SKU exist for the item?</span><span class="sxs-lookup"><span data-stu-id="10b5e-113">Does SKU exist for the item?</span></span>  
 
-    <span data-ttu-id="328d3-114">If yes, then:</span><span class="sxs-lookup"><span data-stu-id="328d3-114">If yes, then:</span></span>  
+    <span data-ttu-id="10b5e-114">If yes, then:</span><span class="sxs-lookup"><span data-stu-id="10b5e-114">If yes, then:</span></span>  
 
-    <span data-ttu-id="328d3-115">The item is planned according to planning parameters on the SKU card.</span><span class="sxs-lookup"><span data-stu-id="328d3-115">The item is planned according to planning parameters on the SKU card.</span></span>  
+    <span data-ttu-id="10b5e-115">The item is planned according to planning parameters on the SKU card.</span><span class="sxs-lookup"><span data-stu-id="10b5e-115">The item is planned according to planning parameters on the SKU card.</span></span>  
 
-    <span data-ttu-id="328d3-116">If no, then:</span><span class="sxs-lookup"><span data-stu-id="328d3-116">If no, then:</span></span>  
+    <span data-ttu-id="10b5e-116">If no, then:</span><span class="sxs-lookup"><span data-stu-id="10b5e-116">If no, then:</span></span>  
 
-3.  <span data-ttu-id="328d3-117">Does the **Components at Location** field contain the demanded location code?</span><span class="sxs-lookup"><span data-stu-id="328d3-117">Does the **Components at Location** field contain the demanded location code?</span></span>  
+3.  <span data-ttu-id="10b5e-117">Does the **Components at Location** field contain the demanded location code?</span><span class="sxs-lookup"><span data-stu-id="10b5e-117">Does the **Components at Location** field contain the demanded location code?</span></span>  
 
-    <span data-ttu-id="328d3-118">If yes, then:</span><span class="sxs-lookup"><span data-stu-id="328d3-118">If yes, then:</span></span>  
+    <span data-ttu-id="10b5e-118">If yes, then:</span><span class="sxs-lookup"><span data-stu-id="10b5e-118">If yes, then:</span></span>  
 
-    <span data-ttu-id="328d3-119">The item is planned according to planning parameters on the item card.</span><span class="sxs-lookup"><span data-stu-id="328d3-119">The item is planned according to planning parameters on the item card.</span></span>  
+    <span data-ttu-id="10b5e-119">The item is planned according to planning parameters on the item card.</span><span class="sxs-lookup"><span data-stu-id="10b5e-119">The item is planned according to planning parameters on the item card.</span></span>  
 
-    <span data-ttu-id="328d3-120">If no, then:</span><span class="sxs-lookup"><span data-stu-id="328d3-120">If no, then:</span></span>  
+    <span data-ttu-id="10b5e-120">If no, then:</span><span class="sxs-lookup"><span data-stu-id="10b5e-120">If no, then:</span></span>  
 
-    <span data-ttu-id="328d3-121">The item is planned according to: Reordering Policy =  *Lot-for-Lot*, Include Inventory =  *Yes*, all other planning parameters = Empty.</span><span class="sxs-lookup"><span data-stu-id="328d3-121">The item is planned according to: Reordering Policy =  *Lot-for-Lot*, Include Inventory =  *Yes*, all other planning parameters = Empty.</span></span> <span data-ttu-id="328d3-122">(Items using reordering policy  *Order* remain using  *Order* as well as the other settings.)</span><span class="sxs-lookup"><span data-stu-id="328d3-122">(Items using reordering policy  *Order* remain using  *Order* as well as the other settings.)</span></span>  
+    <span data-ttu-id="10b5e-121">The item is planned according to: Reordering Policy =  *Lot-for-Lot*, Include Inventory =  *Yes*, all other planning parameters = Empty.</span><span class="sxs-lookup"><span data-stu-id="10b5e-121">The item is planned according to: Reordering Policy =  *Lot-for-Lot*, Include Inventory =  *Yes*, all other planning parameters = Empty.</span></span> <span data-ttu-id="10b5e-122">(Items using reordering policy  *Order* remain using  *Order* as well as the other settings.)</span><span class="sxs-lookup"><span data-stu-id="10b5e-122">(Items using reordering policy  *Order* remain using  *Order* as well as the other settings.)</span></span>  
 
 > [!NOTE]  
->  <span data-ttu-id="328d3-123">This minimal alternative only covers the exact demand.</span><span class="sxs-lookup"><span data-stu-id="328d3-123">This minimal alternative only covers the exact demand.</span></span> <span data-ttu-id="328d3-124">Any planning parameters defined are ignored.</span><span class="sxs-lookup"><span data-stu-id="328d3-124">Any planning parameters defined are ignored.</span></span>  
+>  <span data-ttu-id="10b5e-123">This minimal alternative only covers the exact demand.</span><span class="sxs-lookup"><span data-stu-id="10b5e-123">This minimal alternative only covers the exact demand.</span></span> <span data-ttu-id="10b5e-124">Any planning parameters defined are ignored.</span><span class="sxs-lookup"><span data-stu-id="10b5e-124">Any planning parameters defined are ignored.</span></span>  
 
-<span data-ttu-id="328d3-125">See variations in the scenarios below.</span><span class="sxs-lookup"><span data-stu-id="328d3-125">See variations in the scenarios below.</span></span>  
+<span data-ttu-id="10b5e-125">See variations in the scenarios below.</span><span class="sxs-lookup"><span data-stu-id="10b5e-125">See variations in the scenarios below.</span></span>  
 
-## <a name="demand-at-blank-location"></a><span data-ttu-id="328d3-126">Demand at "Blank Location"</span><span class="sxs-lookup"><span data-stu-id="328d3-126">Demand at "Blank Location"</span></span>  
-<span data-ttu-id="328d3-127">Even if the **Location Mandatory** check box is selected, the system will allow demand lines to be created without a location code – also referred to as *BLANK* location.</span><span class="sxs-lookup"><span data-stu-id="328d3-127">Even if the **Location Mandatory** check box is selected, the system will allow demand lines to be created without a location code – also referred to as *BLANK* location.</span></span> <span data-ttu-id="328d3-128">This is a deviation for the system because it has various setup values tuned to dealing with locations (see above) and as a result, the planning engine will not create a planning line for such a demand line.</span><span class="sxs-lookup"><span data-stu-id="328d3-128">This is a deviation for the system because it has various setup values tuned to dealing with locations (see above) and as a result, the planning engine will not create a planning line for such a demand line.</span></span> <span data-ttu-id="328d3-129">If the **Location Mandatory** field is not selected but any of the location setup values exist, then that is also considered a deviation and the planning system will react by outputting the "minimal alternative":</span><span class="sxs-lookup"><span data-stu-id="328d3-129">If the **Location Mandatory** field is not selected but any of the location setup values exist, then that is also considered a deviation and the planning system will react by outputting the "minimal alternative":</span></span>   
-<span data-ttu-id="328d3-130">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains *Order)*, Include Inventory =  *Yes*, all other planning parameters = Empty.</span><span class="sxs-lookup"><span data-stu-id="328d3-130">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains *Order)*, Include Inventory =  *Yes*, all other planning parameters = Empty.</span></span>  
+## <a name="demand-at-blank-location"></a><span data-ttu-id="10b5e-126">Demand at "Blank Location"</span><span class="sxs-lookup"><span data-stu-id="10b5e-126">Demand at "Blank Location"</span></span>  
+<span data-ttu-id="10b5e-127">Even if the **Location Mandatory** check box is selected, the system will allow demand lines to be created without a location code – also referred to as *BLANK* location.</span><span class="sxs-lookup"><span data-stu-id="10b5e-127">Even if the **Location Mandatory** check box is selected, the system will allow demand lines to be created without a location code – also referred to as *BLANK* location.</span></span> <span data-ttu-id="10b5e-128">This is a deviation for the system because it has various setup values tuned to dealing with locations (see above) and as a result, the planning engine will not create a planning line for such a demand line.</span><span class="sxs-lookup"><span data-stu-id="10b5e-128">This is a deviation for the system because it has various setup values tuned to dealing with locations (see above) and as a result, the planning engine will not create a planning line for such a demand line.</span></span> <span data-ttu-id="10b5e-129">If the **Location Mandatory** field is not selected but any of the location setup values exist, then that is also considered a deviation and the planning system will react by outputting the "minimal alternative":</span><span class="sxs-lookup"><span data-stu-id="10b5e-129">If the **Location Mandatory** field is not selected but any of the location setup values exist, then that is also considered a deviation and the planning system will react by outputting the "minimal alternative":</span></span>   
+<span data-ttu-id="10b5e-130">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains *Order)*, Include Inventory =  *Yes*, all other planning parameters = Empty.</span><span class="sxs-lookup"><span data-stu-id="10b5e-130">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains *Order)*, Include Inventory =  *Yes*, all other planning parameters = Empty.</span></span>  
 
-<span data-ttu-id="328d3-131">See variations in the setup scenarios below.</span><span class="sxs-lookup"><span data-stu-id="328d3-131">See variations in the setup scenarios below.</span></span>  
+<span data-ttu-id="10b5e-131">See variations in the setup scenarios below.</span><span class="sxs-lookup"><span data-stu-id="10b5e-131">See variations in the setup scenarios below.</span></span>  
 
-### <a name="setup-1"></a><span data-ttu-id="328d3-132">Setup 1:</span><span class="sxs-lookup"><span data-stu-id="328d3-132">Setup 1:</span></span>  
+### <a name="setup-1"></a><span data-ttu-id="10b5e-132">Setup 1:</span><span class="sxs-lookup"><span data-stu-id="10b5e-132">Setup 1:</span></span>  
 
--   <span data-ttu-id="328d3-133">Location Mandatory = *Yes*</span><span class="sxs-lookup"><span data-stu-id="328d3-133">Location Mandatory = *Yes*</span></span>  
--   <span data-ttu-id="328d3-134">SKU is set up for  *RED*</span><span class="sxs-lookup"><span data-stu-id="328d3-134">SKU is set up for  *RED*</span></span>  
--   <span data-ttu-id="328d3-135">Component at Location =  *BLUE*</span><span class="sxs-lookup"><span data-stu-id="328d3-135">Component at Location =  *BLUE*</span></span>  
+-   <span data-ttu-id="10b5e-133">Location Mandatory = *Yes*</span><span class="sxs-lookup"><span data-stu-id="10b5e-133">Location Mandatory = *Yes*</span></span>  
+-   <span data-ttu-id="10b5e-134">SKU is set up for  *RED*</span><span class="sxs-lookup"><span data-stu-id="10b5e-134">SKU is set up for  *RED*</span></span>  
+-   <span data-ttu-id="10b5e-135">Component at Location =  *BLUE*</span><span class="sxs-lookup"><span data-stu-id="10b5e-135">Component at Location =  *BLUE*</span></span>  
 
-#### <a name="case-11-demand-is-at--red-location"></a><span data-ttu-id="328d3-136">Case 1.1: Demand is at  *RED* location</span><span class="sxs-lookup"><span data-stu-id="328d3-136">Case 1.1: Demand is at  *RED* location</span></span>  
+#### <a name="case-11-demand-is-at--red-location"></a><span data-ttu-id="10b5e-136">Case 1.1: Demand is at  *RED* location</span><span class="sxs-lookup"><span data-stu-id="10b5e-136">Case 1.1: Demand is at  *RED* location</span></span>  
 
-<span data-ttu-id="328d3-137">The item is planned according to planning parameters on the SKU card (including possible transfer).</span><span class="sxs-lookup"><span data-stu-id="328d3-137">The item is planned according to planning parameters on the SKU card (including possible transfer).</span></span>  
+<span data-ttu-id="10b5e-137">The item is planned according to planning parameters on the SKU card (including possible transfer).</span><span class="sxs-lookup"><span data-stu-id="10b5e-137">The item is planned according to planning parameters on the SKU card (including possible transfer).</span></span>  
 
-#### <a name="case-12-demand-is-at--blue-location"></a><span data-ttu-id="328d3-138">Case 1.2: Demand is at  *BLUE* location</span><span class="sxs-lookup"><span data-stu-id="328d3-138">Case 1.2: Demand is at  *BLUE* location</span></span>  
+#### <a name="case-12-demand-is-at--blue-location"></a><span data-ttu-id="10b5e-138">Case 1.2: Demand is at  *BLUE* location</span><span class="sxs-lookup"><span data-stu-id="10b5e-138">Case 1.2: Demand is at  *BLUE* location</span></span>  
 
-<span data-ttu-id="328d3-139">The item is planned according to planning parameters on the item card.</span><span class="sxs-lookup"><span data-stu-id="328d3-139">The item is planned according to planning parameters on the item card.</span></span>  
+<span data-ttu-id="10b5e-139">The item is planned according to planning parameters on the item card.</span><span class="sxs-lookup"><span data-stu-id="10b5e-139">The item is planned according to planning parameters on the item card.</span></span>  
 
-#### <a name="case-13-demand-is-at--green-location"></a><span data-ttu-id="328d3-140">Case 1.3: Demand is at  *GREEN* location</span><span class="sxs-lookup"><span data-stu-id="328d3-140">Case 1.3: Demand is at  *GREEN* location</span></span>  
+#### <a name="case-13-demand-is-at--green-location"></a><span data-ttu-id="10b5e-140">Case 1.3: Demand is at  *GREEN* location</span><span class="sxs-lookup"><span data-stu-id="10b5e-140">Case 1.3: Demand is at  *GREEN* location</span></span>  
 
-<span data-ttu-id="328d3-141">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.</span><span class="sxs-lookup"><span data-stu-id="328d3-141">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.</span></span>  
+<span data-ttu-id="10b5e-141">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.</span><span class="sxs-lookup"><span data-stu-id="10b5e-141">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.</span></span>  
 
-#### <a name="case-14-demand-is-at--blank-location"></a><span data-ttu-id="328d3-142">Case 1.4: Demand is at  *BLANK* location</span><span class="sxs-lookup"><span data-stu-id="328d3-142">Case 1.4: Demand is at  *BLANK* location</span></span>  
+#### <a name="case-14-demand-is-at--blank-location"></a><span data-ttu-id="10b5e-142">Case 1.4: Demand is at  *BLANK* location</span><span class="sxs-lookup"><span data-stu-id="10b5e-142">Case 1.4: Demand is at  *BLANK* location</span></span>  
 
-<span data-ttu-id="328d3-143">The item is not planned because no location is defined on the demand line.</span><span class="sxs-lookup"><span data-stu-id="328d3-143">The item is not planned because no location is defined on the demand line.</span></span>  
+<span data-ttu-id="10b5e-143">The item is not planned because no location is defined on the demand line.</span><span class="sxs-lookup"><span data-stu-id="10b5e-143">The item is not planned because no location is defined on the demand line.</span></span>  
 
-### <a name="setup-2"></a><span data-ttu-id="328d3-144">Setup 2:</span><span class="sxs-lookup"><span data-stu-id="328d3-144">Setup 2:</span></span>  
+### <a name="setup-2"></a><span data-ttu-id="10b5e-144">Setup 2:</span><span class="sxs-lookup"><span data-stu-id="10b5e-144">Setup 2:</span></span>  
 
--   <span data-ttu-id="328d3-145">Location Mandatory = *Yes*</span><span class="sxs-lookup"><span data-stu-id="328d3-145">Location Mandatory = *Yes*</span></span>  
--   <span data-ttu-id="328d3-146">No SKU exists</span><span class="sxs-lookup"><span data-stu-id="328d3-146">No SKU exists</span></span>  
--   <span data-ttu-id="328d3-147">Component at Location =  *BLUE*</span><span class="sxs-lookup"><span data-stu-id="328d3-147">Component at Location =  *BLUE*</span></span>  
+-   <span data-ttu-id="10b5e-145">Location Mandatory = *Yes*</span><span class="sxs-lookup"><span data-stu-id="10b5e-145">Location Mandatory = *Yes*</span></span>  
+-   <span data-ttu-id="10b5e-146">No SKU exists</span><span class="sxs-lookup"><span data-stu-id="10b5e-146">No SKU exists</span></span>  
+-   <span data-ttu-id="10b5e-147">Component at Location =  *BLUE*</span><span class="sxs-lookup"><span data-stu-id="10b5e-147">Component at Location =  *BLUE*</span></span>  
 
-#### <a name="case-21-demand-is-at--red-location"></a><span data-ttu-id="328d3-148">Case 2.1: Demand is at  *RED* location</span><span class="sxs-lookup"><span data-stu-id="328d3-148">Case 2.1: Demand is at  *RED* location</span></span>  
+#### <a name="case-21-demand-is-at--red-location"></a><span data-ttu-id="10b5e-148">Case 2.1: Demand is at  *RED* location</span><span class="sxs-lookup"><span data-stu-id="10b5e-148">Case 2.1: Demand is at  *RED* location</span></span>  
 
-<span data-ttu-id="328d3-149">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.</span><span class="sxs-lookup"><span data-stu-id="328d3-149">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.</span></span>  
+<span data-ttu-id="10b5e-149">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.</span><span class="sxs-lookup"><span data-stu-id="10b5e-149">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.</span></span>  
 
-#### <a name="case-22-demand-is-at--blue-location"></a><span data-ttu-id="328d3-150">Case 2.2: Demand is at  *BLUE* location</span><span class="sxs-lookup"><span data-stu-id="328d3-150">Case 2.2: Demand is at  *BLUE* location</span></span>  
+#### <a name="case-22-demand-is-at--blue-location"></a><span data-ttu-id="10b5e-150">Case 2.2: Demand is at  *BLUE* location</span><span class="sxs-lookup"><span data-stu-id="10b5e-150">Case 2.2: Demand is at  *BLUE* location</span></span>  
 
-<span data-ttu-id="328d3-151">The item is planned according to planning parameters on the item card.</span><span class="sxs-lookup"><span data-stu-id="328d3-151">The item is planned according to planning parameters on the item card.</span></span>  
+<span data-ttu-id="10b5e-151">The item is planned according to planning parameters on the item card.</span><span class="sxs-lookup"><span data-stu-id="10b5e-151">The item is planned according to planning parameters on the item card.</span></span>  
 
-### <a name="setup-3"></a><span data-ttu-id="328d3-152">Setup 3:</span><span class="sxs-lookup"><span data-stu-id="328d3-152">Setup 3:</span></span>  
+### <a name="setup-3"></a><span data-ttu-id="10b5e-152">Setup 3:</span><span class="sxs-lookup"><span data-stu-id="10b5e-152">Setup 3:</span></span>  
 
--   <span data-ttu-id="328d3-153">Location Mandatory = *No*</span><span class="sxs-lookup"><span data-stu-id="328d3-153">Location Mandatory = *No*</span></span>  
--   <span data-ttu-id="328d3-154">No SKU exists</span><span class="sxs-lookup"><span data-stu-id="328d3-154">No SKU exists</span></span>  
--   <span data-ttu-id="328d3-155">Component at Location =  *BLUE*</span><span class="sxs-lookup"><span data-stu-id="328d3-155">Component at Location =  *BLUE*</span></span>  
+-   <span data-ttu-id="10b5e-153">Location Mandatory = *No*</span><span class="sxs-lookup"><span data-stu-id="10b5e-153">Location Mandatory = *No*</span></span>  
+-   <span data-ttu-id="10b5e-154">No SKU exists</span><span class="sxs-lookup"><span data-stu-id="10b5e-154">No SKU exists</span></span>  
+-   <span data-ttu-id="10b5e-155">Component at Location =  *BLUE*</span><span class="sxs-lookup"><span data-stu-id="10b5e-155">Component at Location =  *BLUE*</span></span>  
 
-#### <a name="case-31-demand-is-at--red-location"></a><span data-ttu-id="328d3-156">Case 3.1: Demand is at  *RED* location</span><span class="sxs-lookup"><span data-stu-id="328d3-156">Case 3.1: Demand is at  *RED* location</span></span>  
+#### <a name="case-31-demand-is-at--red-location"></a><span data-ttu-id="10b5e-156">Case 3.1: Demand is at  *RED* location</span><span class="sxs-lookup"><span data-stu-id="10b5e-156">Case 3.1: Demand is at  *RED* location</span></span>  
 
-<span data-ttu-id="328d3-157">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.</span><span class="sxs-lookup"><span data-stu-id="328d3-157">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.</span></span>  
+<span data-ttu-id="10b5e-157">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.</span><span class="sxs-lookup"><span data-stu-id="10b5e-157">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.</span></span>  
 
-#### <a name="case-32-demand-is-at--blue-location"></a><span data-ttu-id="328d3-158">Case 3.2: Demand is at  *BLUE* location</span><span class="sxs-lookup"><span data-stu-id="328d3-158">Case 3.2: Demand is at  *BLUE* location</span></span>  
+#### <a name="case-32-demand-is-at--blue-location"></a><span data-ttu-id="10b5e-158">Case 3.2: Demand is at  *BLUE* location</span><span class="sxs-lookup"><span data-stu-id="10b5e-158">Case 3.2: Demand is at  *BLUE* location</span></span>  
 
-<span data-ttu-id="328d3-159">The item is planned according to planning parameters on the item card.</span><span class="sxs-lookup"><span data-stu-id="328d3-159">The item is planned according to planning parameters on the item card.</span></span>  
+<span data-ttu-id="10b5e-159">The item is planned according to planning parameters on the item card.</span><span class="sxs-lookup"><span data-stu-id="10b5e-159">The item is planned according to planning parameters on the item card.</span></span>  
 
-#### <a name="case-33-demand-is-at--blank-location"></a><span data-ttu-id="328d3-160">Case 3.3: Demand is at  *BLANK* location</span><span class="sxs-lookup"><span data-stu-id="328d3-160">Case 3.3: Demand is at  *BLANK* location</span></span>  
+#### <a name="case-33-demand-is-at--blank-location"></a><span data-ttu-id="10b5e-160">Case 3.3: Demand is at  *BLANK* location</span><span class="sxs-lookup"><span data-stu-id="10b5e-160">Case 3.3: Demand is at  *BLANK* location</span></span>  
 
-<span data-ttu-id="328d3-161">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.</span><span class="sxs-lookup"><span data-stu-id="328d3-161">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.</span></span>  
+<span data-ttu-id="10b5e-161">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.</span><span class="sxs-lookup"><span data-stu-id="10b5e-161">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.</span></span>  
 
-### <a name="setup-4"></a><span data-ttu-id="328d3-162">Setup 4:</span><span class="sxs-lookup"><span data-stu-id="328d3-162">Setup 4:</span></span>  
+### <a name="setup-4"></a><span data-ttu-id="10b5e-162">Setup 4:</span><span class="sxs-lookup"><span data-stu-id="10b5e-162">Setup 4:</span></span>  
 
--   <span data-ttu-id="328d3-163">Location Mandatory = *No*</span><span class="sxs-lookup"><span data-stu-id="328d3-163">Location Mandatory = *No*</span></span>  
--   <span data-ttu-id="328d3-164">No SKU exists</span><span class="sxs-lookup"><span data-stu-id="328d3-164">No SKU exists</span></span>  
--   <span data-ttu-id="328d3-165">Component at Location =  *BLANK*</span><span class="sxs-lookup"><span data-stu-id="328d3-165">Component at Location =  *BLANK*</span></span>  
+-   <span data-ttu-id="10b5e-163">Location Mandatory = *No*</span><span class="sxs-lookup"><span data-stu-id="10b5e-163">Location Mandatory = *No*</span></span>  
+-   <span data-ttu-id="10b5e-164">No SKU exists</span><span class="sxs-lookup"><span data-stu-id="10b5e-164">No SKU exists</span></span>  
+-   <span data-ttu-id="10b5e-165">Component at Location =  *BLANK*</span><span class="sxs-lookup"><span data-stu-id="10b5e-165">Component at Location =  *BLANK*</span></span>  
 
-#### <a name="case-41-demand-is-at--blue-location"></a><span data-ttu-id="328d3-166">Case 4.1: Demand is at  *BLUE* location</span><span class="sxs-lookup"><span data-stu-id="328d3-166">Case 4.1: Demand is at  *BLUE* location</span></span>  
+#### <a name="case-41-demand-is-at--blue-location"></a><span data-ttu-id="10b5e-166">Case 4.1: Demand is at  *BLUE* location</span><span class="sxs-lookup"><span data-stu-id="10b5e-166">Case 4.1: Demand is at  *BLUE* location</span></span>  
 
-<span data-ttu-id="328d3-167">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.</span><span class="sxs-lookup"><span data-stu-id="328d3-167">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.</span></span>  
+<span data-ttu-id="10b5e-167">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.</span><span class="sxs-lookup"><span data-stu-id="10b5e-167">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.</span></span>  
 
-#### <a name="case-42-demand-is-at--blank-location"></a><span data-ttu-id="328d3-168">Case 4.2: Demand is at  *BLANK* location</span><span class="sxs-lookup"><span data-stu-id="328d3-168">Case 4.2: Demand is at  *BLANK* location</span></span>  
+#### <a name="case-42-demand-is-at--blank-location"></a><span data-ttu-id="10b5e-168">Case 4.2: Demand is at  *BLANK* location</span><span class="sxs-lookup"><span data-stu-id="10b5e-168">Case 4.2: Demand is at  *BLANK* location</span></span>  
 
-<span data-ttu-id="328d3-169">The item is planned according to planning parameters on the item card.</span><span class="sxs-lookup"><span data-stu-id="328d3-169">The item is planned according to planning parameters on the item card.</span></span>  
+<span data-ttu-id="10b5e-169">The item is planned according to planning parameters on the item card.</span><span class="sxs-lookup"><span data-stu-id="10b5e-169">The item is planned according to planning parameters on the item card.</span></span>  
 
-<span data-ttu-id="328d3-170">As you can see from the last scenario, the only way to get a correct result for a demand line without a location code is to disable all setup values relating to locations.</span><span class="sxs-lookup"><span data-stu-id="328d3-170">As you can see from the last scenario, the only way to get a correct result for a demand line without a location code is to disable all setup values relating to locations.</span></span> <span data-ttu-id="328d3-171">Similarly, the only way to get stable planning results for demand at locations is to use stockkeeping units.</span><span class="sxs-lookup"><span data-stu-id="328d3-171">Similarly, the only way to get stable planning results for demand at locations is to use stockkeeping units.</span></span>  
+<span data-ttu-id="10b5e-170">As you can see from the last scenario, the only way to get a correct result for a demand line without a location code is to disable all setup values relating to locations.</span><span class="sxs-lookup"><span data-stu-id="10b5e-170">As you can see from the last scenario, the only way to get a correct result for a demand line without a location code is to disable all setup values relating to locations.</span></span> <span data-ttu-id="10b5e-171">Similarly, the only way to get stable planning results for demand at locations is to use stockkeeping units.</span><span class="sxs-lookup"><span data-stu-id="10b5e-171">Similarly, the only way to get stable planning results for demand at locations is to use stockkeeping units.</span></span>  
 
-<span data-ttu-id="328d3-172">Therefore, if you often plan for demand at locations, it is strongly advised to use the Stockkeeping Units feature.</span><span class="sxs-lookup"><span data-stu-id="328d3-172">Therefore, if you often plan for demand at locations, it is strongly advised to use the Stockkeeping Units feature.</span></span>  
+<span data-ttu-id="10b5e-172">Therefore, if you often plan for demand at locations, it is strongly advised to use the Stockkeeping Units feature.</span><span class="sxs-lookup"><span data-stu-id="10b5e-172">Therefore, if you often plan for demand at locations, it is strongly advised to use the Stockkeeping Units feature.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="328d3-173">See Also</span><span class="sxs-lookup"><span data-stu-id="328d3-173">See Also</span></span>
-<span data-ttu-id="328d3-174">[Planning](production-planning.md)  </span><span class="sxs-lookup"><span data-stu-id="328d3-174">[Planning](production-planning.md)  </span></span>  
-[<span data-ttu-id="328d3-175">Setting Up Manufacturing</span><span class="sxs-lookup"><span data-stu-id="328d3-175">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
-<span data-ttu-id="328d3-176">[Manufacturing](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="328d3-176">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
-[<span data-ttu-id="328d3-177">Qty. on Hand</span><span class="sxs-lookup"><span data-stu-id="328d3-177">Inventory</span></span>](inventory-manage-inventory.md)  
-[<span data-ttu-id="328d3-178">Purchasing</span><span class="sxs-lookup"><span data-stu-id="328d3-178">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-<span data-ttu-id="328d3-179">[Design Details: Supply Planning](design-details-supply-planning.md) </span><span class="sxs-lookup"><span data-stu-id="328d3-179">[Design Details: Supply Planning](design-details-supply-planning.md) </span></span>  
-[<span data-ttu-id="328d3-180">Setup Best Practices: Supply Planning</span><span class="sxs-lookup"><span data-stu-id="328d3-180">Setup Best Practices: Supply Planning</span></span>](setup-best-practices-supply-planning.md)  
-<span data-ttu-id="328d3-181">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="328d3-181">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+## <a name="see-also"></a><span data-ttu-id="10b5e-173">See Also</span><span class="sxs-lookup"><span data-stu-id="10b5e-173">See Also</span></span>
+<span data-ttu-id="10b5e-174">[Planning](production-planning.md)  </span><span class="sxs-lookup"><span data-stu-id="10b5e-174">[Planning](production-planning.md)  </span></span>  
+[<span data-ttu-id="10b5e-175">Setting Up Manufacturing</span><span class="sxs-lookup"><span data-stu-id="10b5e-175">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
+<span data-ttu-id="10b5e-176">[Manufacturing](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="10b5e-176">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
+[<span data-ttu-id="10b5e-177">Qty. on Hand</span><span class="sxs-lookup"><span data-stu-id="10b5e-177">Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="10b5e-178">Purchasing</span><span class="sxs-lookup"><span data-stu-id="10b5e-178">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+<span data-ttu-id="10b5e-179">[Design Details: Supply Planning](design-details-supply-planning.md) </span><span class="sxs-lookup"><span data-stu-id="10b5e-179">[Design Details: Supply Planning](design-details-supply-planning.md) </span></span>  
+[<span data-ttu-id="10b5e-180">Setup Best Practices: Supply Planning</span><span class="sxs-lookup"><span data-stu-id="10b5e-180">Setup Best Practices: Supply Planning</span></span>](setup-best-practices-supply-planning.md)  
+<span data-ttu-id="10b5e-181">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="10b5e-181">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  

@@ -8,32 +8,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/14/2020
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f28d1c11889d496072d57cfdb70f3c743037bff3
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: b0ff7e3de9de21a37c0cacf6ff1d4b0a4871f61d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954291"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190284"
 ---
-# <a name="block-vendors"></a><span data-ttu-id="c458d-103">Block Vendors</span><span class="sxs-lookup"><span data-stu-id="c458d-103">Block Vendors</span></span>
-<span data-ttu-id="c458d-104">You can block a vendor, for example because of insolvency, so that the vendor cannot be added to purchase documents or so that no payments can be posted for the vendor.</span><span class="sxs-lookup"><span data-stu-id="c458d-104">You can block a vendor, for example because of insolvency, so that the vendor cannot be added to purchase documents or so that no payments can be posted for the vendor.</span></span>
+# <a name="block-vendors"></a><span data-ttu-id="b4f40-103">Block Vendors</span><span class="sxs-lookup"><span data-stu-id="b4f40-103">Block Vendors</span></span>
+<span data-ttu-id="b4f40-104">You can block a vendor, for example because of insolvency, so that the vendor cannot be added to purchase documents or so that no payments can be posted for the vendor.</span><span class="sxs-lookup"><span data-stu-id="b4f40-104">You can block a vendor, for example because of insolvency, so that the vendor cannot be added to purchase documents or so that no payments can be posted for the vendor.</span></span>
 
-<span data-ttu-id="c458d-105">The following table describes the options for blocking vendors.</span><span class="sxs-lookup"><span data-stu-id="c458d-105">The following table describes the options for blocking vendors.</span></span>  
+<span data-ttu-id="b4f40-105">The following table describes the options for blocking vendors.</span><span class="sxs-lookup"><span data-stu-id="b4f40-105">The following table describes the options for blocking vendors.</span></span>  
 
-|<span data-ttu-id="c458d-106">Option</span><span class="sxs-lookup"><span data-stu-id="c458d-106">Option</span></span>|<span data-ttu-id="c458d-107">Description</span><span class="sxs-lookup"><span data-stu-id="c458d-107">Description</span></span>|  
+|<span data-ttu-id="b4f40-106">Option</span><span class="sxs-lookup"><span data-stu-id="b4f40-106">Option</span></span>|<span data-ttu-id="b4f40-107">Description</span><span class="sxs-lookup"><span data-stu-id="b4f40-107">Description</span></span>|  
 |--------------------|------------|  
-|<span data-ttu-id="c458d-108">**Blank**</span><span class="sxs-lookup"><span data-stu-id="c458d-108">**Blank**</span></span>|<span data-ttu-id="c458d-109">Transactions are allowed for this vendor.</span><span class="sxs-lookup"><span data-stu-id="c458d-109">Transactions are allowed for this vendor.</span></span>|
-|<span data-ttu-id="c458d-110">**Payment**</span><span class="sxs-lookup"><span data-stu-id="c458d-110">**Payment**</span></span>|<span data-ttu-id="c458d-111">New payments cannot be created for this vendor.</span><span class="sxs-lookup"><span data-stu-id="c458d-111">New payments cannot be created for this vendor.</span></span>|  
-|<span data-ttu-id="c458d-112">**All**</span><span class="sxs-lookup"><span data-stu-id="c458d-112">**All**</span></span>|<span data-ttu-id="c458d-113">No transactions are allowed for this vendor.</span><span class="sxs-lookup"><span data-stu-id="c458d-113">No transactions are allowed for this vendor.</span></span>|  
+|<span data-ttu-id="b4f40-108">**Blank**</span><span class="sxs-lookup"><span data-stu-id="b4f40-108">**Blank**</span></span>|<span data-ttu-id="b4f40-109">Transactions are allowed for this vendor.</span><span class="sxs-lookup"><span data-stu-id="b4f40-109">Transactions are allowed for this vendor.</span></span>|
+|<span data-ttu-id="b4f40-110">**Payment**</span><span class="sxs-lookup"><span data-stu-id="b4f40-110">**Payment**</span></span>|<span data-ttu-id="b4f40-111">New payments cannot be created for this vendor.</span><span class="sxs-lookup"><span data-stu-id="b4f40-111">New payments cannot be created for this vendor.</span></span>|  
+|<span data-ttu-id="b4f40-112">**All**</span><span class="sxs-lookup"><span data-stu-id="b4f40-112">**All**</span></span>|<span data-ttu-id="b4f40-113">No transactions are allowed for this vendor.</span><span class="sxs-lookup"><span data-stu-id="b4f40-113">No transactions are allowed for this vendor.</span></span>|  
 
-## <a name="to-block-a-vendor"></a><span data-ttu-id="c458d-114">To block a vendor</span><span class="sxs-lookup"><span data-stu-id="c458d-114">To block a vendor</span></span>  
-1. <span data-ttu-id="c458d-115">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="c458d-115">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.</span></span>
-2. <span data-ttu-id="c458d-116">Select the vendor that you want to block.</span><span class="sxs-lookup"><span data-stu-id="c458d-116">Select the vendor that you want to block.</span></span>
-3. <span data-ttu-id="c458d-117">In the **Blocked** field, choose one of the options for blocking.</span><span class="sxs-lookup"><span data-stu-id="c458d-117">In the **Blocked** field, choose one of the options for blocking.</span></span>
+## <a name="to-block-a-vendor"></a><span data-ttu-id="b4f40-114">To block a vendor</span><span class="sxs-lookup"><span data-stu-id="b4f40-114">To block a vendor</span></span>  
+1. <span data-ttu-id="b4f40-115">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="b4f40-115">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.</span></span>
+2. <span data-ttu-id="b4f40-116">Select the vendor that you want to block.</span><span class="sxs-lookup"><span data-stu-id="b4f40-116">Select the vendor that you want to block.</span></span>
+3. <span data-ttu-id="b4f40-117">In the **Blocked** field, choose one of the options for blocking.</span><span class="sxs-lookup"><span data-stu-id="b4f40-117">In the **Blocked** field, choose one of the options for blocking.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="c458d-118">See Also</span><span class="sxs-lookup"><span data-stu-id="c458d-118">See Also</span></span>  
-[<span data-ttu-id="c458d-119">Register New Vendors</span><span class="sxs-lookup"><span data-stu-id="c458d-119">Register New Vendors</span></span>](purchasing-how-register-new-vendors.md)  
-[<span data-ttu-id="c458d-120">Making Payments</span><span class="sxs-lookup"><span data-stu-id="c458d-120">Making Payments</span></span>](payables-make-payments.md)  
-[<span data-ttu-id="c458d-121">Managing Payables</span><span class="sxs-lookup"><span data-stu-id="c458d-121">Managing Payables</span></span>](payables-manage-payables.md)
+## <a name="see-also"></a><span data-ttu-id="b4f40-118">See Also</span><span class="sxs-lookup"><span data-stu-id="b4f40-118">See Also</span></span>  
+[<span data-ttu-id="b4f40-119">Register New Vendors</span><span class="sxs-lookup"><span data-stu-id="b4f40-119">Register New Vendors</span></span>](purchasing-how-register-new-vendors.md)  
+[<span data-ttu-id="b4f40-120">Making Payments</span><span class="sxs-lookup"><span data-stu-id="b4f40-120">Making Payments</span></span>](payables-make-payments.md)  
+[<span data-ttu-id="b4f40-121">Managing Payables</span><span class="sxs-lookup"><span data-stu-id="b4f40-121">Managing Payables</span></span>](payables-manage-payables.md)
