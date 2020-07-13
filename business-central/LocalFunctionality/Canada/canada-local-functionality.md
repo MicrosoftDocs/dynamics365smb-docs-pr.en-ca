@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/09/2020
 ms.author: soalex
-ms.openlocfilehash: b04055080608297531cfb40e9cf9ff5aa73c5f9f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 25df692b71a666d7c8cbdfbff435ac52bca7e2a3
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180838"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454317"
 ---
 # <a name="canada-local-functionality"></a>Canada Local Functionality
+
 The following topics describe local functionality that is unique to the Canadian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## <a name="feature-availability"></a>Feature Availability
@@ -37,6 +38,8 @@ The following topics describe local functionality that is unique to the Canadian
     * [Work With GIFI Codes](work-gifi-codes.md) **Available Now**    
 
 ## <a name="see-also"></a>See Also
-[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)   
+
+[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
