@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2c9649ed540c5ce44882a55d4fa0bea689f03036
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b63717cd602244b39ea98f58bbd64a5ed45cbc60
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180842"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676926"
 ---
 # <a name="create-deposits"></a>Create Deposits
 You can make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos.  
 
 ## <a name="to-create-a-deposit"></a>To create a deposit  
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Deposits**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Deposits**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  On the **General** FastTab, fill in the required fields as described in the following table.  
 

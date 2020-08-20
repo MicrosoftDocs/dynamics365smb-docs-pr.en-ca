@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7e3571ccea6be9cfee47e912516f563a2106d601
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f78d155f7d2a38c86a9afe20280ee72c504cc63e
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180832"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676919"
 ---
 # <a name="set-up-use-tax-and-purchase-tax"></a>Set Up Use Tax and Purchase Tax
 Sales tax includes taxes that companies pay for using items:  
@@ -24,7 +24,7 @@ Sales tax includes taxes that companies pay for using items:
 - Purchase tax (Canada) – Purchase tax is a Canadian sales tax that is paid by a company on items that are purchased from a vendor. When a company purchases items for use by the company itself, the vendor charges the appropriate sales tax for the items.  
 
 ## <a name="to-set-up-use-tax-for-a-purchase-order"></a>To set up use tax for a purchase order  
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
 2.  On the **Purchase Orders** page, choose the **New** action.  
 3.  On the **Lines** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]  
 4.  On the **Invoicing** FastTab, fill in the fields as described in the following table.  
@@ -38,7 +38,7 @@ Sales tax includes taxes that companies pay for using items:
 5.  Choose the **OK** button.  
 
 ## <a name="to-set-up-use-tax-details"></a>To set up use tax details  
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Tax Details**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Tax Details**, and then choose the related link.  
 2.  On the **Tax Details** page, choose the **New** action.  
 3.  On the **New - Tax Details** page, fill in the fields as described in the following table.  
 
@@ -50,7 +50,7 @@ Sales tax includes taxes that companies pay for using items:
 4.  Choose the **OK** button.  
 
 ## <a name="to-set-up-purchase-tax-for-a-company"></a>To set up purchase tax for a company  
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
 2.  On the **Company Information** page, on the **Tax** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -61,7 +61,7 @@ Sales tax includes taxes that companies pay for using items:
 3.  Choose the **OK** button.  
 
 ## <a name="to-set-up-purchase-tax-for-a-location"></a>To set up purchase tax for a location  
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
 2.  On the **Locations** page, select the required location, and then choose the **Edit** action.  
 3.  On the **General** FastTab, fill in the fields as described in the following table.  
 
@@ -74,7 +74,7 @@ Sales tax includes taxes that companies pay for using items:
 4.  Choose the **OK** button.  
 
 ## <a name="to-set-up-purchase-tax-for-non-recoverable-tax"></a>To set up purchase tax for non-recoverable tax  
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Tax Details**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Tax Details**, and then choose the related link.  
 2.  On the **Tax Details** page, choose the **New** action.  
 3.  Select the **Expense/Capitalize** check box.  
 
