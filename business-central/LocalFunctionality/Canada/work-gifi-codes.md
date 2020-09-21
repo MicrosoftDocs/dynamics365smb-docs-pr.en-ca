@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: local
 ms.date: 04/01/2020
-ms.author: SorenGP
-ms.openlocfilehash: c3b77379aa36cd2777f2e778b7bc33cd2b7edf20
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: 1a8b88a101845db550294b13a5e11241cd4e11d3
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676914"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778389"
 ---
 # <a name="work-with-gifi-codes"></a>Work With GIFI Codes
 Fiscal information can include general ledger accounts, reports, income statements, balance sheets, and statements of retained earnings. Fiscal information is classified using codes. The use of codes helps the government to process information, prepare for electronic filing, and validate tax information electronically. The use of codes also helps statistical organizations to work more efficiently, as financial information is more readily available. For more information, see the [Canada Revenue Agency website](https://www.cra-arc.gc.ca/).

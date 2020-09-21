@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: e6ada81b6bb7b3d9869dbd66324b17b262d28f2d
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: 639e8a287b8556cab05283476a7af9769d17fc10
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676923"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778395"
 ---
 # <a name="set-up-unrealized-sales-tax-and-sales-payment-discounts"></a>Set Up Unrealized Sales Tax and Sales Payment Discounts
 You can use the **General Ledger Setup** page to set up unrealized sales tax. You can also set up maximum correction tax amounts so that you can limit the tax correction amounts that are entered for sales and purchases. This allows you to overwrite the calculated tax when there are rounding differences between what is calculated on the purchase order, and what is calculated on the purchase invoice from the vendor.  
