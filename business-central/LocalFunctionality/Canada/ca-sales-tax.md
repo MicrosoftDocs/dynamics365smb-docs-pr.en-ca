@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: local
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e7ced906e3409117b4ad937dc1b1a0b4a9e5e0e8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b8ea2c6529c7d2857f314e8c95b11baa6ba59f07
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180836"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916458"
 ---
 # <a name="reporting-sales-tax-in-canada"></a>Reporting Sales Tax in Canada
 When you first start using [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can run an assisted setup guide to quickly and easily set up sales tax information for your company, customers, and vendors. In a matter of minutes, you are ready to create sales documents and purchase documents with sales tax calculated correctly. This is explained [in our blog post](https://madeira.microsoft.com/blog/sales-tax-setup-made-easy).
@@ -36,7 +36,7 @@ In Canada, tax amounts must be detailed in documents for each tax jurisdiction. 
 ## <a name="tax-details"></a>Tax Details
 The **Tax Details** page shows different combinations of sales tax jurisdictions and sales tax groups to establish sales tax rates. For each tax jurisdiction, we recommend that you set up one tax group for normal sales tax, another tax group for items or services that are not taxed, and an additional tax group for every type of item or service that is handled with a different sales tax rate in that jurisdiction.  
 
-In Canada, when you sell to a customer at a location where you do not have a *situs*—or a legal location in that province/state—you do not collect sales tax. For locations in which you do not have a situs, ensure that both the **Tax Below Minimum** and **Tax Above Maximum** fields are 0.00.  
+In Canada, when you sell to a customer at a location where you do not have a *situs* —or a legal location in that province/state—you do not collect sales tax. For locations in which you do not have a situs, ensure that both the **Tax Below Minimum** and **Tax Above Maximum** fields are 0.00.  
 
 ## <a name="see-also"></a>See Also
 [Canada Local Functionality](canada-local-functionality.md)  
