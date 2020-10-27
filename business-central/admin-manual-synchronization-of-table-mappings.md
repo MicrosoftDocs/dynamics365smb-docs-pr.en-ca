@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 015084b999f7488339c98605018bff2bc9a4ded2
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: ba79088bc386a856f1b3e7727f1f778ebabb7d51
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196720"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911339"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Manually Synchronize Table Mappings
 An integration table mapping associates a [!INCLUDE[d365fin](includes/d365fin_md.md)] table (record type), such as customer, with a [!INCLUDE[d365fin](includes/cds_long_md.md)] entity, such as an account. Synchronizing an integration table mapping enables you to synchronize data in all records of the [!INCLUDE[d365fin](includes/d365fin_md.md)] table and [!INCLUDE[d365fin](includes/cds_long_md.md)] entity that are coupled. Additionally, depending on the configuration of the table mapping, synchronization can create and couple new records in the destination solution for uncoupled records in the source.  
@@ -41,7 +41,7 @@ Whether and where a record gets created depends on the synchronization direction
 >  You typically only use the full synchronization when you initially set up integration between [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[d365fin](includes/cds_long_md.md)] and only one of solutions contains data, which you want to copy to the other solution. A full synchronization can be useful in a demonstration environment. Because the full synchronization automatically creates and couples records between the solutions, it makes it faster to start working with synchronizing data between records. On the other hand, you should only run a full synchronization if you want a record in [!INCLUDE[d365fin](includes/d365fin_md.md)] for each record in [!INCLUDE[d365fin](includes/cds_long_md.md)] for the given table mappings. Otherwise, you can have unwanted or duplicate records in either [!INCLUDE[d365fin](includes/d365fin_md.md)] or [!INCLUDE[d365fin](includes/cds_long_md.md)].  
 
 ### <a name="to-run-a-full-synchronization"></a>To run a full synchronization  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Common Data Service Connection Setup**, and then choose the related link.
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Common Data Service Connection Setup** , and then choose the related link.
 
     > [!NOTE]
     > If you want to run a full synchronization for entities through Dynamics 365 Sales, use the **Microsoft Dynamics 365 Sales Connection Setup** page instead.
@@ -49,9 +49,9 @@ Whether and where a record gets created depends on the synchronization direction
 2.  Choose the **Run Full Synchronization** action, and then choose the **Yes** button.  
 3.  When the full synchronization is completed, you can specify whether to allow scheduled synchronization jobs to create new records.  
 
-    If you want all synchronization jobs to create new records in the destination for uncoupled records in the source, choose **Yes**. This sets the **Synch. Only Coupled Records** field on the table mappings that are used by the synchronization jobs.  
+    If you want all synchronization jobs to create new records in the destination for uncoupled records in the source, choose **Yes** . This sets the **Synch. Only Coupled Records** field on the table mappings that are used by the synchronization jobs.  
 
-    If you want synchronization jobs to run as they did before the full synchronization with regard to creating new records, choose **No**. This sets the **Synch. Only Coupled Records** field to the setting it had before the full synchronization.  
+    If you want synchronization jobs to run as they did before the full synchronization with regard to creating new records, choose **No** . This sets the **Synch. Only Coupled Records** field to the setting it had before the full synchronization.  
 
 You can view the results of the full synchronization on the **Integration Synchronization Jobs** page. For more information, see [View the Status of a Synchronization](admin-how-to-view-synchronization-status.md).  
 
@@ -70,8 +70,8 @@ You can view the results of the synchronization on the **Integration Synchroniza
 >  By modifying the integration table mapping in advance, you can configure the synchronization with filters to control which records are synchronized, or configure it to create new records in the destination solution for uncoupled records in the source. For more information, see [Modify Table Mappings for Synchronization](admin-how-to-modify-table-mappings-for-synchronization.md).
 
 ### <a name="to-synchronize-records-for-all-tables"></a>To synchronize records for all tables  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Microsoft Dynamics 365 Sales Connection Setup**, and then choose the related link.
-2.  Choose the **Synchronize Modified Records** action, and then choose **Yes**.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Microsoft Dynamics 365 Sales Connection Setup** , and then choose the related link.
+2.  Choose the **Synchronize Modified Records** action, and then choose **Yes** .  
 
 ## <a name="synchronize-individual-table-mappings"></a>Synchronize Individual Table Mappings
 You can use the **Integration Table Mappings** page to run a synchronization job specific table mappings. This will synchronize data in all coupled records in the [!INCLUDE[d365fin](includes/d365fin_md.md)] table and [!INCLUDE[d365fin](includes/cds_long_md.md)] entity that are defined by the table mapping. By default, only records that have been modified since the last time they were synchronized will be synchronized.  
@@ -79,8 +79,8 @@ You can use the **Integration Table Mappings** page to run a synchronization job
 By modifying the integration table mapping in advance, you can configure the synchronization job to create new records in the destination solution for uncoupled records in the source.
 
 ### <a name="to-synchronize-records-of-an-integration-table-mapping"></a>To synchronize records of an integration table mapping  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Integration Table Mappings**, and then choose the related link.
-2.  Choose the **Synchronize Modified Records** action, and then choose **Yes**.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Integration Table Mappings** , and then choose the related link.
+2.  Choose the **Synchronize Modified Records** action, and then choose **Yes** .  
 
 ## <a name="see-also"></a>See Also  
 [Synchronizing Business Central and Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)   
