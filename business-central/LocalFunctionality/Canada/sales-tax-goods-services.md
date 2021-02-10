@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: sales tax, local
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 95ccd88d94359f595e2e8332786ac3f20877648e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 08b88f327089d11cf55a0caef7be986ddd75d998
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916438"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749689"
 ---
 # <a name="reporting-sales-tax-and-goodsservices-tax-in-canada"></a>Reporting Sales Tax and Goods/Services Tax in Canada
-In Canada, when a vendor does not have a business presence in the province in which purchases are made, the vendor will charge the Goods and Services Tax (GST) or Harmonized Sales Tax (HST) only. However, if the province has a Provincial Sales Tax (PST), then the purchaser must still calculate the PST and pay it directly to the province. When a Provincial Tax Area Code is selected, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] uses it to calculate the PST and post it so that there is a tax liability in both the general ledger and the tax entry records. Therefore, the tax area code selected here should be one where only the PST is included, not the GST.  
+In Canada, when a vendor does not have a business presence in the province in which purchases are made, the vendor will charge the Goods and Services Tax (GST) or Harmonized Sales Tax (HST) only. However, if the province has a Provincial Sales Tax (PST), then the purchaser must still calculate the PST and pay it directly to the province. When a Provincial Tax Area Code is selected, [!INCLUDE[prod_short](../../includes/prod_short.md)] uses it to calculate the PST and post it so that there is a tax liability in both the general ledger and the tax entry records. Therefore, the tax area code selected here should be one where only the PST is included, not the GST.  
 
 ## <a name="submitting-the-gsthst-file"></a>Submitting the GST/HST File
 The tax information in purchase documents is used to generate a GST/HST online file transfer that you must provide to the tax authorities. This file includes goods and services tax (GST) and harmonized sales tax (HST). The file is created in a .tax file format, which can be transferred online.  
@@ -30,4 +30,4 @@ The tax information in purchase documents is used to generate a GST/HST online f
 [Finance](../../finance.md)  
 [Setting Up Finance](../../finance-setup-finance.md)  
 [Reporting Sales Tax in Canada](ca-sales-tax.md)  
-[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)
+[Working with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)
