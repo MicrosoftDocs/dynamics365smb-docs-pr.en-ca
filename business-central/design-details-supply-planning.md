@@ -10,24 +10,24 @@ ms.workload: na
 ms.search.keywords: design, supply, planning, reordering, replenishment
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 19b692183d377bbe2bcf420608cb02c1ec52dd9b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ed874c647dd5c3526df38a3c4d6ee43293737786
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910958"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751089"
 ---
-# <a name="design-details-supply-planning"></a><span data-ttu-id="a9671-103">Design Details: Supply Planning</span><span class="sxs-lookup"><span data-stu-id="a9671-103">Design Details: Supply Planning</span></span>
-<span data-ttu-id="a9671-104">This documentation provides detailed technical insight to the concepts and principles that are used within the Supply Planning features in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="a9671-104">This documentation provides detailed technical insight to the concepts and principles that are used within the Supply Planning features in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>  
+# <a name="design-details-supply-planning"></a><span data-ttu-id="a7cbb-103">Design Details: Supply Planning</span><span class="sxs-lookup"><span data-stu-id="a7cbb-103">Design Details: Supply Planning</span></span>
+<span data-ttu-id="a7cbb-104">This documentation provides detailed technical insight to the concepts and principles that are used within the Supply Planning features in [!INCLUDE[prod_short](includes/prod_short.md)].</span><span class="sxs-lookup"><span data-stu-id="a7cbb-104">This documentation provides detailed technical insight to the concepts and principles that are used within the Supply Planning features in [!INCLUDE[prod_short](includes/prod_short.md)].</span></span>  
 
-<span data-ttu-id="a9671-105">It explains how the planning system works and how to adjust the algorithms to meet planning requirements in different environments.</span><span class="sxs-lookup"><span data-stu-id="a9671-105">It explains how the planning system works and how to adjust the algorithms to meet planning requirements in different environments.</span></span> <span data-ttu-id="a9671-106">It first introduces central solution concepts and then describes the logic of the central mechanism, supply balancing, before proceeding to explain how inventory planning is performed with the use of reordering policies.</span><span class="sxs-lookup"><span data-stu-id="a9671-106">It first introduces central solution concepts and then describes the logic of the central mechanism, supply balancing, before proceeding to explain how inventory planning is performed with the use of reordering policies.</span></span>  
+<span data-ttu-id="a7cbb-105">It explains how the planning system works and how to adjust the algorithms to meet planning requirements in different environments.</span><span class="sxs-lookup"><span data-stu-id="a7cbb-105">It explains how the planning system works and how to adjust the algorithms to meet planning requirements in different environments.</span></span> <span data-ttu-id="a7cbb-106">It first introduces central solution concepts and then describes the logic of the central mechanism, supply balancing, before proceeding to explain how inventory planning is performed with the use of reordering policies.</span><span class="sxs-lookup"><span data-stu-id="a7cbb-106">It first introduces central solution concepts and then describes the logic of the central mechanism, supply balancing, before proceeding to explain how inventory planning is performed with the use of reordering policies.</span></span>  
 
-## <a name="in-this-section"></a><span data-ttu-id="a9671-107">In This Section</span><span class="sxs-lookup"><span data-stu-id="a9671-107">In This Section</span></span>  
-[<span data-ttu-id="a9671-108">Design Details: Central Concepts of the Planning System</span><span class="sxs-lookup"><span data-stu-id="a9671-108">Design Details: Central Concepts of the Planning System</span></span>](design-details-central-concepts-of-the-planning-system.md)  
-[<span data-ttu-id="a9671-109">Design Details: Reservation, Order Tracking, and Action Messaging</span><span class="sxs-lookup"><span data-stu-id="a9671-109">Design Details: Reservation, Order Tracking, and Action Messaging</span></span>](design-details-reservation-order-tracking-and-action-messaging.md)  
-[<span data-ttu-id="a9671-110">Design Details: Balancing Demand and Supply</span><span class="sxs-lookup"><span data-stu-id="a9671-110">Design Details: Balancing Demand and Supply</span></span>](design-details-balancing-demand-and-supply.md)  
-[<span data-ttu-id="a9671-111">Design Details: Handling Reordering Policies</span><span class="sxs-lookup"><span data-stu-id="a9671-111">Design Details: Handling Reordering Policies</span></span>](design-details-handling-reordering-policies.md)  
-[<span data-ttu-id="a9671-112">Design Details: Planning Parameters</span><span class="sxs-lookup"><span data-stu-id="a9671-112">Design Details: Planning Parameters</span></span>](design-details-planning-parameters.md)  
-[<span data-ttu-id="a9671-113">Design Details: Planning Assignment Table</span><span class="sxs-lookup"><span data-stu-id="a9671-113">Design Details: Planning Assignment Table</span></span>](design-details-planning-assignment-table.md)  
-[<span data-ttu-id="a9671-114">Design Details: Demand at Blank Location</span><span class="sxs-lookup"><span data-stu-id="a9671-114">Design Details: Demand at Blank Location</span></span>](design-details-demand-at-blank-location.md)  
-[<span data-ttu-id="a9671-115">Design Details: Transfers in Planning</span><span class="sxs-lookup"><span data-stu-id="a9671-115">Design Details: Transfers in Planning</span></span>](design-details-transfers-in-planning.md)
+## <a name="in-this-section"></a><span data-ttu-id="a7cbb-107">In This Section</span><span class="sxs-lookup"><span data-stu-id="a7cbb-107">In This Section</span></span>  
+[<span data-ttu-id="a7cbb-108">Design Details: Central Concepts of the Planning System</span><span class="sxs-lookup"><span data-stu-id="a7cbb-108">Design Details: Central Concepts of the Planning System</span></span>](design-details-central-concepts-of-the-planning-system.md)  
+[<span data-ttu-id="a7cbb-109">Design Details: Reservation, Order Tracking, and Action Messaging</span><span class="sxs-lookup"><span data-stu-id="a7cbb-109">Design Details: Reservation, Order Tracking, and Action Messaging</span></span>](design-details-reservation-order-tracking-and-action-messaging.md)  
+[<span data-ttu-id="a7cbb-110">Design Details: Balancing Demand and Supply</span><span class="sxs-lookup"><span data-stu-id="a7cbb-110">Design Details: Balancing Demand and Supply</span></span>](design-details-balancing-demand-and-supply.md)  
+[<span data-ttu-id="a7cbb-111">Design Details: Handling Reordering Policies</span><span class="sxs-lookup"><span data-stu-id="a7cbb-111">Design Details: Handling Reordering Policies</span></span>](design-details-handling-reordering-policies.md)  
+[<span data-ttu-id="a7cbb-112">Design Details: Planning Parameters</span><span class="sxs-lookup"><span data-stu-id="a7cbb-112">Design Details: Planning Parameters</span></span>](design-details-planning-parameters.md)  
+[<span data-ttu-id="a7cbb-113">Design Details: Planning Assignment Table</span><span class="sxs-lookup"><span data-stu-id="a7cbb-113">Design Details: Planning Assignment Table</span></span>](design-details-planning-assignment-table.md)  
+[<span data-ttu-id="a7cbb-114">Design Details: Demand at Blank Location</span><span class="sxs-lookup"><span data-stu-id="a7cbb-114">Design Details: Demand at Blank Location</span></span>](design-details-demand-at-blank-location.md)  
+[<span data-ttu-id="a7cbb-115">Design Details: Transfers in Planning</span><span class="sxs-lookup"><span data-stu-id="a7cbb-115">Design Details: Transfers in Planning</span></span>](design-details-transfers-in-planning.md)

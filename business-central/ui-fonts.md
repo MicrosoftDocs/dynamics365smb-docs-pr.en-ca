@@ -1,8 +1,6 @@
 ---
-title: Available Fonts | Microsoft Docs
+title: Available Fonts
 description: The online version of Business Central contains pre-installed fonts on the servers that can be used when generating reports.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,25 +8,47 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 10/20/2020
 ms.author: edupont
-ms.openlocfilehash: 40a39ac441082f4513c4b81d1b805bc2467318d4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 534e0d7c86dd49b9790cd7f8d5d644b56e8b28d4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914994"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756976"
 ---
-# <a name="available-fonts"></a><span data-ttu-id="72ee0-103">Available Fonts</span><span class="sxs-lookup"><span data-stu-id="72ee0-103">Available Fonts</span></span>
-<span data-ttu-id="72ee0-104">The online version of [!INCLUDE[d365fin](includes/d365fin_md.md)] contains pre-installed fonts on the servers that can be used when generating reports.</span><span class="sxs-lookup"><span data-stu-id="72ee0-104">The online version of [!INCLUDE[d365fin](includes/d365fin_md.md)] contains pre-installed fonts on the servers that can be used when generating reports.</span></span> <span data-ttu-id="72ee0-105">The following outlines which fonts are available and has links to detailed information at the 3rd-party suppliers of the fonts.</span><span class="sxs-lookup"><span data-stu-id="72ee0-105">The following outlines which fonts are available and has links to detailed information at the 3rd-party suppliers of the fonts.</span></span>
+# <a name="available-fonts"></a><span data-ttu-id="9add0-103">Available Fonts</span><span class="sxs-lookup"><span data-stu-id="9add0-103">Available Fonts</span></span>
+
+<span data-ttu-id="9add0-104">The online version of [!INCLUDE[prod_short](includes/prod_short.md)] contains pre-installed fonts on the servers that can be used when generating reports.</span><span class="sxs-lookup"><span data-stu-id="9add0-104">The online version of [!INCLUDE[prod_short](includes/prod_short.md)] contains pre-installed fonts on the servers that can be used when generating reports.</span></span> <span data-ttu-id="9add0-105">The following sections outline which fonts are available.</span><span class="sxs-lookup"><span data-stu-id="9add0-105">The following sections outline which fonts are available.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="72ee0-106">For security and legal reasons, you cannot upload custom fonts to the [!INCLUDE[d365fin](includes/d365fin_md.md)] environment.</span><span class="sxs-lookup"><span data-stu-id="72ee0-106">For security and legal reasons, you cannot upload custom fonts to the [!INCLUDE[d365fin](includes/d365fin_md.md)] environment.</span></span>
+> <span data-ttu-id="9add0-106">For security and legal reasons, you cannot upload custom fonts to the [!INCLUDE[prod_short](includes/prod_short.md)] environment.</span><span class="sxs-lookup"><span data-stu-id="9add0-106">For security and legal reasons, you cannot upload custom fonts to the [!INCLUDE[prod_short](includes/prod_short.md)] environment.</span></span>
 
-## <a name="check-micr-and-security-fonts"></a><span data-ttu-id="72ee0-107">Cheque (MICR and Security) Fonts</span><span class="sxs-lookup"><span data-stu-id="72ee0-107">Check (MICR and Security) Fonts</span></span>  
-<span data-ttu-id="72ee0-108">Magnetic Ink Character Recognition (MICR) fonts are installed and available to use.</span><span class="sxs-lookup"><span data-stu-id="72ee0-108">Magnetic Ink Character Recognition (MICR) fonts are installed and available to use.</span></span> <span data-ttu-id="72ee0-109">Both the E-13B and the CMC-7 standards are supported.</span><span class="sxs-lookup"><span data-stu-id="72ee0-109">Both the E-13B and the CMC-7 standards are supported.</span></span> <span data-ttu-id="72ee0-110">In addition to MICR fonts, special security fonts are available to generate text, names, amounts, and the currency symbols Dollar, Euro, Pound, and Yen, which are hard to tamper with once a cheque has been printed.</span><span class="sxs-lookup"><span data-stu-id="72ee0-110">In addition to MICR fonts, special security fonts are available to generate text, names, amounts, and the currency symbols Dollar, Euro, Pound, and Yen, which are hard to tamper with once a check has been printed.</span></span> <span data-ttu-id="72ee0-111">For more information, see [Select a Cheque Layout](finance-how-define-check-layouts.md).</span><span class="sxs-lookup"><span data-stu-id="72ee0-111">For more information, see [Select a Check Layout](finance-how-define-check-layouts.md).</span></span>
+## <a name="document-fonts"></a><span data-ttu-id="9add0-107">Document Fonts</span><span class="sxs-lookup"><span data-stu-id="9add0-107">Document Fonts</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="72ee0-112">See Also</span><span class="sxs-lookup"><span data-stu-id="72ee0-112">See Also</span></span>
-[<span data-ttu-id="72ee0-113">Managing Report Layouts</span><span class="sxs-lookup"><span data-stu-id="72ee0-113">Managing Report Layouts</span></span>](ui-manage-report-layouts.md)  
-[<span data-ttu-id="72ee0-114">Select a Cheque Layout</span><span class="sxs-lookup"><span data-stu-id="72ee0-114">Select a Check Layout</span></span>](finance-how-define-check-layouts.md)  
-<span data-ttu-id="72ee0-115">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="72ee0-115">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+<span data-ttu-id="9add0-108">The following fonts are installed and available to use in Word and RDLC document reports:</span><span class="sxs-lookup"><span data-stu-id="9add0-108">The following fonts are installed and available to use in Word and RDLC document reports:</span></span>
+
+* <span data-ttu-id="9add0-109">Arial</span><span class="sxs-lookup"><span data-stu-id="9add0-109">Arial</span></span>
+* <span data-ttu-id="9add0-110">Consolas</span><span class="sxs-lookup"><span data-stu-id="9add0-110">Consolas</span></span>
+* <span data-ttu-id="9add0-111">Courier New</span><span class="sxs-lookup"><span data-stu-id="9add0-111">Courier New</span></span>
+* <span data-ttu-id="9add0-112">Lucida Console</span><span class="sxs-lookup"><span data-stu-id="9add0-112">Lucida Console</span></span>
+* <span data-ttu-id="9add0-113">Segoe Print</span><span class="sxs-lookup"><span data-stu-id="9add0-113">Segoe Print</span></span>
+* <span data-ttu-id="9add0-114">Segoe Script</span><span class="sxs-lookup"><span data-stu-id="9add0-114">Segoe Script</span></span>
+* <span data-ttu-id="9add0-115">Segoe UI</span><span class="sxs-lookup"><span data-stu-id="9add0-115">Segoe UI</span></span>
+* <span data-ttu-id="9add0-116">Segoe UI Light</span><span class="sxs-lookup"><span data-stu-id="9add0-116">Segoe UI Light</span></span>
+* <span data-ttu-id="9add0-117">Segoe UI Semilight</span><span class="sxs-lookup"><span data-stu-id="9add0-117">Segoe UI Semilight</span></span>
+* <span data-ttu-id="9add0-118">Times New Roman</span><span class="sxs-lookup"><span data-stu-id="9add0-118">Times New Roman</span></span>
+
+## <a name="fonts-for-checks"></a><span data-ttu-id="9add0-119">Fonts for Cheques</span><span class="sxs-lookup"><span data-stu-id="9add0-119">Fonts for Checks</span></span>
+
+<span data-ttu-id="9add0-120">Magnetic Ink Character Recognition (MICR) fonts are installed and available to use.</span><span class="sxs-lookup"><span data-stu-id="9add0-120">Magnetic Ink Character Recognition (MICR) fonts are installed and available to use.</span></span> <span data-ttu-id="9add0-121">Both the E-13B and the CMC-7 standards are supported.</span><span class="sxs-lookup"><span data-stu-id="9add0-121">Both the E-13B and the CMC-7 standards are supported.</span></span>  
+
+<span data-ttu-id="9add0-122">In addition to MICR fonts, special security fonts are available to generate text, names, amounts, and the currency symbols Dollar, Euro, Pound, and Yen, which are hard to tamper with once a cheque has been printed.</span><span class="sxs-lookup"><span data-stu-id="9add0-122">In addition to MICR fonts, special security fonts are available to generate text, names, amounts, and the currency symbols Dollar, Euro, Pound, and Yen, which are hard to tamper with once a check has been printed.</span></span>  
+
+<span data-ttu-id="9add0-123">For more information, see [Select a Cheque Layout](finance-how-define-check-layouts.md).</span><span class="sxs-lookup"><span data-stu-id="9add0-123">For more information, see [Select a Check Layout](finance-how-define-check-layouts.md).</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="9add0-124">See Also</span><span class="sxs-lookup"><span data-stu-id="9add0-124">See Also</span></span>
+
+[<span data-ttu-id="9add0-125">Managing Report Layouts</span><span class="sxs-lookup"><span data-stu-id="9add0-125">Managing Report Layouts</span></span>](ui-manage-report-layouts.md)  
+[<span data-ttu-id="9add0-126">Select a Cheque Layout</span><span class="sxs-lookup"><span data-stu-id="9add0-126">Select a Check Layout</span></span>](finance-how-define-check-layouts.md)  
+<span data-ttu-id="9add0-127">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="9add0-127">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
