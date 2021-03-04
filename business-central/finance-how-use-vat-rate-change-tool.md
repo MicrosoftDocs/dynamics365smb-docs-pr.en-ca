@@ -112,3 +112,6 @@ You use the VAT rate change tool to manage changes in the standard rate of VAT. 
 [Report Tax to a Tax Authority](finance-how-report-vat.md)  
 [Work with Tax on Sales and Purchases](finance-work-with-vat.md)  
 [Local functionality in Business Central](about-localization.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

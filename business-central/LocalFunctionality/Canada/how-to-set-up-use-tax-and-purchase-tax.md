@@ -27,3 +27,6 @@ ms.locfileid: "3931344"
 [Reporting Sales Tax in Canada](ca-sales-tax.md)  
 [Finance](../../finance.md)  
 [Setting Up Finance](../../finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
