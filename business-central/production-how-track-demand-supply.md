@@ -3,62 +3,65 @@ title: How to Track Relations Between Demand and Supply | Microsoft Docs
 description: From any supply or demand document in the so-called order network, you can track the order demand (tracked quantity), forecast, blanket sales order, or planning parameter (untracked quantity) that has given rise to the planning line in question.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 25eed1edd8aeb92c875e093a177e59c40d3c3a12
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 7ba774a7f7ba93c132e10e19f61b7df9cf825e7a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758932"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383234"
 ---
-# <a name="track-relations-between-demand-and-supply"></a><span data-ttu-id="ab093-103">Track Relations Between Demand and Supply</span><span class="sxs-lookup"><span data-stu-id="ab093-103">Track Relations Between Demand and Supply</span></span>
-<span data-ttu-id="ab093-104">From any supply or demand document in the so-called order network, you can track the order demand (tracked quantity), forecast, blanket sales order, or planning parameter (untracked quantity) that has given rise to the planning line in question.</span><span class="sxs-lookup"><span data-stu-id="ab093-104">From any supply or demand document in the so-called order network, you can track the order demand (tracked quantity), forecast, blanket sales order, or planning parameter (untracked quantity) that has given rise to the planning line in question.</span></span>
+# <a name="track-relations-between-demand-and-supply"></a><span data-ttu-id="42252-103">Track Relations Between Demand and Supply</span><span class="sxs-lookup"><span data-stu-id="42252-103">Track Relations Between Demand and Supply</span></span>
+<span data-ttu-id="42252-104">From any supply or demand document in the so-called order network, you can track the order demand (tracked quantity), forecast, blanket sales order, or planning parameter (untracked quantity) that has given rise to the planning line in question.</span><span class="sxs-lookup"><span data-stu-id="42252-104">From any supply or demand document in the so-called order network, you can track the order demand (tracked quantity), forecast, blanket sales order, or planning parameter (untracked quantity) that has given rise to the planning line in question.</span></span>
 
-<span data-ttu-id="ab093-105">The planning worksheets also offers supporting planning information about non-order entities to help the planner obtain an optimal supply plan.</span><span class="sxs-lookup"><span data-stu-id="ab093-105">The planning worksheets also offers supporting planning information about non-order entities to help the planner obtain an optimal supply plan.</span></span> <span data-ttu-id="ab093-106">For more information, see [Untracked Planning Elements](production-how-track-demand-supply.md#untracked-planning-elements).</span><span class="sxs-lookup"><span data-stu-id="ab093-106">For more information, see [Untracked Planning Elements](production-how-track-demand-supply.md#untracked-planning-elements).</span></span>
+<span data-ttu-id="42252-105">The planning worksheets also offers supporting planning information about non-order entities to help the planner obtain an optimal supply plan.</span><span class="sxs-lookup"><span data-stu-id="42252-105">The planning worksheets also offers supporting planning information about non-order entities to help the planner obtain an optimal supply plan.</span></span> <span data-ttu-id="42252-106">For more information, see [Untracked Planning Elements](production-how-track-demand-supply.md#untracked-planning-elements).</span><span class="sxs-lookup"><span data-stu-id="42252-106">For more information, see [Untracked Planning Elements](production-how-track-demand-supply.md#untracked-planning-elements).</span></span>
 
-## <a name="to-track-linked-items"></a><span data-ttu-id="ab093-107">To track linked items</span><span class="sxs-lookup"><span data-stu-id="ab093-107">To track linked items</span></span>
-<span data-ttu-id="ab093-108">Order tracking shows how sales orders, production orders, and purchase orders are related to the manufacturing order through the planning and reservation systems.</span><span class="sxs-lookup"><span data-stu-id="ab093-108">Order tracking shows how sales orders, production orders, and purchase orders are related to the manufacturing order through the planning and reservation systems.</span></span>
+## <a name="to-track-linked-items"></a><span data-ttu-id="42252-107">To track linked items</span><span class="sxs-lookup"><span data-stu-id="42252-107">To track linked items</span></span>
+<span data-ttu-id="42252-108">Order tracking shows how sales orders, production orders, and purchase orders are related to the manufacturing order through the planning and reservation systems.</span><span class="sxs-lookup"><span data-stu-id="42252-108">Order tracking shows how sales orders, production orders, and purchase orders are related to the manufacturing order through the planning and reservation systems.</span></span>
 
-<span data-ttu-id="ab093-109">The following describes how to track linked items on a firm planned production order.</span><span class="sxs-lookup"><span data-stu-id="ab093-109">The following describes how to track linked items on a firm planned production order.</span></span> <span data-ttu-id="ab093-110">The steps are similar for all other order types, and from planning worksheet lines.</span><span class="sxs-lookup"><span data-stu-id="ab093-110">The steps are similar for all other order types, and from planning worksheet lines.</span></span>
+<span data-ttu-id="42252-109">The following describes how to track linked items on a firm planned production order.</span><span class="sxs-lookup"><span data-stu-id="42252-109">The following describes how to track linked items on a firm planned production order.</span></span> <span data-ttu-id="42252-110">The steps are similar for all other order types, and from planning worksheet lines.</span><span class="sxs-lookup"><span data-stu-id="42252-110">The steps are similar for all other order types, and from planning worksheet lines.</span></span>
 
-1. <span data-ttu-id="ab093-111">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Order**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="ab093-111">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Order**, and then choose the related link.</span></span>
-2. <span data-ttu-id="ab093-112">Open the relevant firm planned production order from the list.</span><span class="sxs-lookup"><span data-stu-id="ab093-112">Open the relevant firm planned production order from the list.</span></span>
-3. <span data-ttu-id="ab093-113">On the **Lines** FastTab, choose the **Functions** action, and then choose the **Order Tracking** action.</span><span class="sxs-lookup"><span data-stu-id="ab093-113">On the **Lines** FastTab, choose the **Functions** action, and then choose the **Order Tracking** action.</span></span>
+1. <span data-ttu-id="42252-111">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Order**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="42252-111">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Order**, and then choose the related link.</span></span>
+2. <span data-ttu-id="42252-112">Open the relevant firm planned production order from the list.</span><span class="sxs-lookup"><span data-stu-id="42252-112">Open the relevant firm planned production order from the list.</span></span>
+3. <span data-ttu-id="42252-113">On the **Lines** FastTab, choose the **Functions** action, and then choose the **Order Tracking** action.</span><span class="sxs-lookup"><span data-stu-id="42252-113">On the **Lines** FastTab, choose the **Functions** action, and then choose the **Order Tracking** action.</span></span>
 
-<span data-ttu-id="ab093-114">The lines in the **Order Tracking** display the documents that are related to the current production order line.</span><span class="sxs-lookup"><span data-stu-id="ab093-114">The lines in the **Order Tracking** display the documents that are related to the current production order line.</span></span>
+<span data-ttu-id="42252-114">The lines in the **Order Tracking** display the documents that are related to the current production order line.</span><span class="sxs-lookup"><span data-stu-id="42252-114">The lines in the **Order Tracking** display the documents that are related to the current production order line.</span></span>
 
-## <a name="untracked-planning-elements"></a><span data-ttu-id="ab093-115">Untracked Planning Elements</span><span class="sxs-lookup"><span data-stu-id="ab093-115">Untracked Planning Elements</span></span>
-<span data-ttu-id="ab093-116">The **Untracked Planning Elements** page opens when you choose the **Untracked Qty.** field on the **order Planning** page.</span><span class="sxs-lookup"><span data-stu-id="ab093-116">The **Untracked Planning Elements** page opens when you choose the **Untracked Qty.** field on the **order Planning** page.</span></span> <span data-ttu-id="ab093-117">It serves two purposes:</span><span class="sxs-lookup"><span data-stu-id="ab093-117">It serves two purposes:</span></span>
+## <a name="untracked-planning-elements"></a><span data-ttu-id="42252-115">Untracked Planning Elements</span><span class="sxs-lookup"><span data-stu-id="42252-115">Untracked Planning Elements</span></span>
+<span data-ttu-id="42252-116">The **Untracked Planning Elements** page opens when you choose the **Untracked Qty.** field on the **order Planning** page.</span><span class="sxs-lookup"><span data-stu-id="42252-116">The **Untracked Planning Elements** page opens when you choose the **Untracked Qty.** field on the **order Planning** page.</span></span> <span data-ttu-id="42252-117">It serves two purposes:</span><span class="sxs-lookup"><span data-stu-id="42252-117">It serves two purposes:</span></span>
 
-1. <span data-ttu-id="ab093-118">To hold information about untracked quantities displayed when the user looks up from the Order Tracking page to see untracked quantities.</span><span class="sxs-lookup"><span data-stu-id="ab093-118">To hold information about untracked quantities displayed when the user looks up from the Order Tracking page to see untracked quantities.</span></span>
-2. <span data-ttu-id="ab093-119">To hold warning messages displayed when the user chooses the **Warning** icon on the **Planning Worksheet** page.</span><span class="sxs-lookup"><span data-stu-id="ab093-119">To hold warning messages displayed when the user chooses the **Warning** icon on the **Planning Worksheet** page.</span></span>
+1. <span data-ttu-id="42252-118">To hold information about untracked quantities displayed when the user looks up from the Order Tracking page to see untracked quantities.</span><span class="sxs-lookup"><span data-stu-id="42252-118">To hold information about untracked quantities displayed when the user looks up from the Order Tracking page to see untracked quantities.</span></span>
+2. <span data-ttu-id="42252-119">To hold warning messages displayed when the user chooses the **Warning** icon on the **Planning Worksheet** page.</span><span class="sxs-lookup"><span data-stu-id="42252-119">To hold warning messages displayed when the user chooses the **Warning** icon on the **Planning Worksheet** page.</span></span>
 
-<span data-ttu-id="ab093-120">The page contains entries which account for an untracked surplus quantity in order tracking network.</span><span class="sxs-lookup"><span data-stu-id="ab093-120">The page contains entries which account for an untracked surplus quantity in order tracking network.</span></span> <span data-ttu-id="ab093-121">These entries are generated during the planning run and explain where the untracked surplus quantity in the order tracking lines came from.</span><span class="sxs-lookup"><span data-stu-id="ab093-121">These entries are generated during the planning run and explain where the untracked surplus quantity in the order tracking lines came from.</span></span> <span data-ttu-id="ab093-122">This untracked surplus can come from:</span><span class="sxs-lookup"><span data-stu-id="ab093-122">This untracked surplus can come from:</span></span>
+<span data-ttu-id="42252-120">The page contains entries which account for an untracked surplus quantity in order tracking network.</span><span class="sxs-lookup"><span data-stu-id="42252-120">The page contains entries which account for an untracked surplus quantity in order tracking network.</span></span> <span data-ttu-id="42252-121">These entries are generated during the planning run and explain where the untracked surplus quantity in the order tracking lines came from.</span><span class="sxs-lookup"><span data-stu-id="42252-121">These entries are generated during the planning run and explain where the untracked surplus quantity in the order tracking lines came from.</span></span> <span data-ttu-id="42252-122">This untracked surplus can come from:</span><span class="sxs-lookup"><span data-stu-id="42252-122">This untracked surplus can come from:</span></span>
 
-- <span data-ttu-id="ab093-123">Production forecast</span><span class="sxs-lookup"><span data-stu-id="ab093-123">Production forecast</span></span>
-- <span data-ttu-id="ab093-124">Blanket orders</span><span class="sxs-lookup"><span data-stu-id="ab093-124">Blanket orders</span></span>
-- <span data-ttu-id="ab093-125">Safety stock quantity</span><span class="sxs-lookup"><span data-stu-id="ab093-125">Safety stock quantity</span></span>
-- <span data-ttu-id="ab093-126">Reorder point</span><span class="sxs-lookup"><span data-stu-id="ab093-126">Reorder point</span></span>
-- <span data-ttu-id="ab093-127">Maximum inventory</span><span class="sxs-lookup"><span data-stu-id="ab093-127">Maximum inventory</span></span>
-- <span data-ttu-id="ab093-128">Reorder quantity</span><span class="sxs-lookup"><span data-stu-id="ab093-128">Reorder quantity</span></span>
-- <span data-ttu-id="ab093-129">Maximum order quantity</span><span class="sxs-lookup"><span data-stu-id="ab093-129">Maximum order quantity</span></span>
-- <span data-ttu-id="ab093-130">Minimum order quantity</span><span class="sxs-lookup"><span data-stu-id="ab093-130">Minimum order quantity</span></span>
-- <span data-ttu-id="ab093-131">Order multiple</span><span class="sxs-lookup"><span data-stu-id="ab093-131">Order multiple</span></span>
-- <span data-ttu-id="ab093-132">Dampener (% of lot size)</span><span class="sxs-lookup"><span data-stu-id="ab093-132">Dampener (% of lot size)</span></span>
+- <span data-ttu-id="42252-123">Production forecast</span><span class="sxs-lookup"><span data-stu-id="42252-123">Production forecast</span></span>
+- <span data-ttu-id="42252-124">Blanket orders</span><span class="sxs-lookup"><span data-stu-id="42252-124">Blanket orders</span></span>
+- <span data-ttu-id="42252-125">Safety stock quantity</span><span class="sxs-lookup"><span data-stu-id="42252-125">Safety stock quantity</span></span>
+- <span data-ttu-id="42252-126">Reorder point</span><span class="sxs-lookup"><span data-stu-id="42252-126">Reorder point</span></span>
+- <span data-ttu-id="42252-127">Maximum inventory</span><span class="sxs-lookup"><span data-stu-id="42252-127">Maximum inventory</span></span>
+- <span data-ttu-id="42252-128">Reorder quantity</span><span class="sxs-lookup"><span data-stu-id="42252-128">Reorder quantity</span></span>
+- <span data-ttu-id="42252-129">Maximum order quantity</span><span class="sxs-lookup"><span data-stu-id="42252-129">Maximum order quantity</span></span>
+- <span data-ttu-id="42252-130">Minimum order quantity</span><span class="sxs-lookup"><span data-stu-id="42252-130">Minimum order quantity</span></span>
+- <span data-ttu-id="42252-131">Order multiple</span><span class="sxs-lookup"><span data-stu-id="42252-131">Order multiple</span></span>
+- <span data-ttu-id="42252-132">Dampener (% of lot size)</span><span class="sxs-lookup"><span data-stu-id="42252-132">Dampener (% of lot size)</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="ab093-133">See Also</span><span class="sxs-lookup"><span data-stu-id="ab093-133">See Also</span></span>  
-<span data-ttu-id="ab093-134">[Planning](production-planning.md) </span><span class="sxs-lookup"><span data-stu-id="ab093-134">[Planning](production-planning.md) </span></span>  
-[<span data-ttu-id="ab093-135">Setting Up Manufacturing</span><span class="sxs-lookup"><span data-stu-id="ab093-135">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
-<span data-ttu-id="ab093-136">[Manufacturing](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="ab093-136">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
-[<span data-ttu-id="ab093-137">Qty. on Hand</span><span class="sxs-lookup"><span data-stu-id="ab093-137">Inventory</span></span>](inventory-manage-inventory.md)  
-[<span data-ttu-id="ab093-138">Purchasing</span><span class="sxs-lookup"><span data-stu-id="ab093-138">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-[<span data-ttu-id="ab093-139">Design Details: Reservation, Tracking, and Action Messaging</span><span class="sxs-lookup"><span data-stu-id="ab093-139">Design Details: Reservation, Tracking, and Action Messaging</span></span>](design-details-reservation-order-tracking-and-action-messaging.md)  
-<span data-ttu-id="ab093-140">[Design Details: Supply Planning](design-details-supply-planning.md) </span><span class="sxs-lookup"><span data-stu-id="ab093-140">[Design Details: Supply Planning](design-details-supply-planning.md) </span></span>  
-[<span data-ttu-id="ab093-141">Setup Best Practices: Supply Planning</span><span class="sxs-lookup"><span data-stu-id="ab093-141">Setup Best Practices: Supply Planning</span></span>](setup-best-practices-supply-planning.md)  
-<span data-ttu-id="ab093-142">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="ab093-142">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="42252-133">See Also</span><span class="sxs-lookup"><span data-stu-id="42252-133">See Also</span></span>  
+<span data-ttu-id="42252-134">[Planning](production-planning.md) </span><span class="sxs-lookup"><span data-stu-id="42252-134">[Planning](production-planning.md) </span></span>  
+[<span data-ttu-id="42252-135">Setting Up Manufacturing</span><span class="sxs-lookup"><span data-stu-id="42252-135">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
+<span data-ttu-id="42252-136">[Manufacturing](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="42252-136">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
+[<span data-ttu-id="42252-137">Qty. on Hand</span><span class="sxs-lookup"><span data-stu-id="42252-137">Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="42252-138">Purchasing</span><span class="sxs-lookup"><span data-stu-id="42252-138">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+[<span data-ttu-id="42252-139">Design Details: Reservation, Tracking, and Action Messaging</span><span class="sxs-lookup"><span data-stu-id="42252-139">Design Details: Reservation, Tracking, and Action Messaging</span></span>](design-details-reservation-order-tracking-and-action-messaging.md)  
+<span data-ttu-id="42252-140">[Design Details: Supply Planning](design-details-supply-planning.md) </span><span class="sxs-lookup"><span data-stu-id="42252-140">[Design Details: Supply Planning](design-details-supply-planning.md) </span></span>  
+[<span data-ttu-id="42252-141">Setup Best Practices: Supply Planning</span><span class="sxs-lookup"><span data-stu-id="42252-141">Setup Best Practices: Supply Planning</span></span>](setup-best-practices-supply-planning.md)  
+<span data-ttu-id="42252-142">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="42252-142">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
