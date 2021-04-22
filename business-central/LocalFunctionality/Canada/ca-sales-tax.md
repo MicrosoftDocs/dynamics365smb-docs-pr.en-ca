@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: local
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e5110ed10d505961492da9c5c54f0221dba7e758
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 4cb94aced81488dd9d2e1cbe9d782b3ce41efefb
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379754"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774995"
 ---
 # <a name="reporting-sales-tax-in-canada"></a>Reporting Sales Tax in Canada
 When you first start using [!INCLUDE[prod_short](../../includes/prod_short.md)], you can run an assisted setup guide to quickly and easily set up sales tax information for your company, customers, and vendors. In a matter of minutes, you are ready to create sales documents and purchase documents with sales tax calculated correctly. This is explained [in our blog post](https://madeira.microsoft.com/blog/sales-tax-setup-made-easy).

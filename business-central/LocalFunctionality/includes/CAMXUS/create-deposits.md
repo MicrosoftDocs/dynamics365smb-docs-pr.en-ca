@@ -2,14 +2,14 @@
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 408275139c5fae50c59d3df4a92feac60a2c9026
-ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.openlocfilehash: 28ef50ac5e297a81bd51f17cd36f8125c99751ee
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3959611"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771422"
 ---
 You can make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos.  
 
@@ -22,7 +22,7 @@ Deposit lines contain information about the individual deposited items, such as 
 After you have filled in the deposit information and the associated deposit lines, you must post it in order to update the bank ledger, general ledger, customer ledger, and any other relevant ledgers. Posted deposits are stored for future reference and can be viewed on the **Posted Deposits** page.
 
 ## <a name="to-create-a-deposit"></a>To create a deposit  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Deposits** , and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Deposits**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  On the **General** FastTab, fill in the required fields as described in the following table.  
 

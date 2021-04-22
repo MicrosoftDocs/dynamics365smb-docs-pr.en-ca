@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 10/01/2020
+ms.search.keywords: Dataverse, integration, sync, synchronize, mapping
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 129f60744df5cd471992642318dd42ae26ee8261
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 9a912596a71e77a09a7491fe20032056d1a9b808
+ms.sourcegitcommit: 8b44a7bcba45ae852cc6dd07b90b9a383c1be488
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385233"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "5870032"
 ---
 # <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Synchronizing Data in Business Central with Microsoft Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -29,7 +29,7 @@ Synchronization uses the following elements:
 * Synchronization rules
 * Coupled records
 
-When synchronization is set up you can couple [!INCLUDE[prod_short](includes/prod_short.md)] records to [!INCLUDE[prod_short](includes/cds_long_md.md)] rows to synchronize their data. You can start a synchronization manually, or based on a schedule. The following table provides on overview of the ways you can synchronize.  
+When synchronization is set up you can couple [!INCLUDE[prod_short](includes/prod_short.md)] records to [!INCLUDE[prod_short](includes/cds_long_md.md)] rows to synchronize their data. You can start a synchronization manually, or based on a schedule. The following table provides an overview of the ways you can synchronize.  
 
 |  Type  |  Method  |  See  |  
 |--------|----------|-------|  
