@@ -9,25 +9,25 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9aa5b0218ffcedd6b3d6039cabdbcf60a1eab4b9
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: a5e9d7d5c03ddb71283f82e5096cebc7f9da9690
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5394058"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771269"
 ---
-# <a name="the-worldpay-payments-standard-extension"></a><span data-ttu-id="213da-103">The WorldPay Payments Standard Extension</span><span class="sxs-lookup"><span data-stu-id="213da-103">The WorldPay Payments Standard Extension</span></span>
-<span data-ttu-id="213da-104">The WorldPay Payments Standard extension lets you offer customers a convenient alternative to making payments through bank transfers or credit cards.</span><span class="sxs-lookup"><span data-stu-id="213da-104">The WorldPay Payments Standard extension lets you offer customers a convenient alternative to making payments through bank transfers or credit cards.</span></span> <span data-ttu-id="213da-105">Not only that, payments made through payment services will typically land in your bank account more quickly.</span><span class="sxs-lookup"><span data-stu-id="213da-105">Not only that, payments made through payment services will typically land in your bank account more quickly.</span></span>
-<span data-ttu-id="213da-106">If you enable the extension, and send a sales invoice or sales order by email, the document includes a link to the payment service in the email body and in the attached PDF document.</span><span class="sxs-lookup"><span data-stu-id="213da-106">If you enable the extension, and send a sales invoice or sales order by email, the document includes a link to the payment service in the email body and in the attached PDF document.</span></span> <span data-ttu-id="213da-107">A customer can choose the link, and then use the payment service to make the payment.</span><span class="sxs-lookup"><span data-stu-id="213da-107">A customer can choose the link, and then use the payment service to make the payment.</span></span>
+# <a name="the-worldpay-payments-standard-extension"></a><span data-ttu-id="0dc2e-103">The WorldPay Payments Standard Extension</span><span class="sxs-lookup"><span data-stu-id="0dc2e-103">The WorldPay Payments Standard Extension</span></span>
+<span data-ttu-id="0dc2e-104">The WorldPay Payments Standard extension lets you offer customers a convenient alternative to making payments through bank transfers or credit cards.</span><span class="sxs-lookup"><span data-stu-id="0dc2e-104">The WorldPay Payments Standard extension lets you offer customers a convenient alternative to making payments through bank transfers or credit cards.</span></span> <span data-ttu-id="0dc2e-105">Not only that, payments made through payment services will typically land in your bank account more quickly.</span><span class="sxs-lookup"><span data-stu-id="0dc2e-105">Not only that, payments made through payment services will typically land in your bank account more quickly.</span></span>
+<span data-ttu-id="0dc2e-106">If you enable the extension, and send a sales invoice or sales order by email, the document includes a link to the payment service in the email body and in the attached PDF document.</span><span class="sxs-lookup"><span data-stu-id="0dc2e-106">If you enable the extension, and send a sales invoice or sales order by email, the document includes a link to the payment service in the email body and in the attached PDF document.</span></span> <span data-ttu-id="0dc2e-107">A customer can choose the link, and then use the payment service to make the payment.</span><span class="sxs-lookup"><span data-stu-id="0dc2e-107">A customer can choose the link, and then use the payment service to make the payment.</span></span>
 
-<span data-ttu-id="213da-108">Enabling payment service extensions is free in [!INCLUDE[prod_short](includes/prod_short.md)], however, you will need to contact the payment service to get an account.</span><span class="sxs-lookup"><span data-stu-id="213da-108">Enabling payment service extensions is free in [!INCLUDE[prod_short](includes/prod_short.md)], however, you will need to contact the payment service to get an account.</span></span> <span data-ttu-id="213da-109">For more information, see [Enable Customer Payment Through Payment Services](sales-how-enable-payment-service-extensions.md).</span><span class="sxs-lookup"><span data-stu-id="213da-109">For more information, see [Enable Customer Payment Through Payment Services](sales-how-enable-payment-service-extensions.md).</span></span>
+<span data-ttu-id="0dc2e-108">Enabling payment service extensions is free in [!INCLUDE[prod_short](includes/prod_short.md)], however, you will need to contact the payment service to get an account.</span><span class="sxs-lookup"><span data-stu-id="0dc2e-108">Enabling payment service extensions is free in [!INCLUDE[prod_short](includes/prod_short.md)], however, you will need to contact the payment service to get an account.</span></span> <span data-ttu-id="0dc2e-109">For more information, see [Enable Customer Payment Through Payment Services](sales-how-enable-payment-service-extensions.md).</span><span class="sxs-lookup"><span data-stu-id="0dc2e-109">For more information, see [Enable Customer Payment Through Payment Services](sales-how-enable-payment-service-extensions.md).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="213da-110">See Also</span><span class="sxs-lookup"><span data-stu-id="213da-110">See Also</span></span>
-<span data-ttu-id="213da-111">[Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)</span><span class="sxs-lookup"><span data-stu-id="213da-111">[Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)</span></span>  
-[<span data-ttu-id="213da-112">Setting Up Sales</span><span class="sxs-lookup"><span data-stu-id="213da-112">Setting Up Sales</span></span>](sales-setup-sales.md)  
-<span data-ttu-id="213da-113">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="213da-113">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="0dc2e-110">See Also</span><span class="sxs-lookup"><span data-stu-id="0dc2e-110">See Also</span></span>
+<span data-ttu-id="0dc2e-111">[Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)</span><span class="sxs-lookup"><span data-stu-id="0dc2e-111">[Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)</span></span>  
+[<span data-ttu-id="0dc2e-112">Setting Up Sales</span><span class="sxs-lookup"><span data-stu-id="0dc2e-112">Setting Up Sales</span></span>](sales-setup-sales.md)  
+<span data-ttu-id="0dc2e-113">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="0dc2e-113">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
