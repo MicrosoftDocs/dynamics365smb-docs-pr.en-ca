@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 36c4d1498048b1bc510455afe11069387cb5c507
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 10483de41b1106914a1fa477309e5b39a3f41e6b
+ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774823"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947422"
 ---
 # <a name="track-items-with-serial-lot-and-package-numbers"></a>Track Items with Serial, Lot, and Package Numbers
 
@@ -289,7 +289,7 @@ Reclassifying item tracking for an item means changing a lot or serial number to
 ## <a name="see-also"></a>See Also
 
 [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)  
-[Inventory](inventory-manage-inventory.md)  
+[Qty. on Hand](inventory-manage-inventory.md)  
 [Design Details: Item Tracking](design-details-item-tracking.md)  
 [Design Details - Item Tracking and Reservations](design-details-item-tracking-and-reservations.md)  
 [Reserve Items](inventory-how-to-reserve-items.md)  
