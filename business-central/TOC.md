@@ -11,15 +11,15 @@
 #### [Walkthrough: Conducting a Sales Campaign](walkthrough-conducting-a-sales-campaign.md)
 #### [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 #### [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
-#### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
-#### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
-#### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)
-#### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md)
-#### [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)
+<!-- #### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md) -->
+<!-- #### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md) -->
+<!-- #### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md) -->
+<!-- #### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
+<!-- #### [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md) -->
 #### [Walkthrough: Managing Projects with Jobs](walkthrough-managing-projects-with-jobs.md)
 #### [Walkthrough: Calculating Work in Process for a Job](walkthrough-calculating-work-in-process-for-a-job.md)
 #### [Walkthrough: Picking and Shipping in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
-#### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)
+<!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
 #### [Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 
 ### Design Details
@@ -79,8 +79,6 @@
 ##### [General Journal Post Line Overview](design-details-general-journal-post-line-overview.md)  
 ##### [Design Details: Posting Interface Structure](design-details-posting-interface-structure.md)  
 ##### [Design Details: Posting Engine Structure](design-details-posting-engine-structure.md)  
-##### [Design Details: Codeunit 12 Changes: Mapping Global Variables for General Journal Post Line](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)  
-##### [Design Details: Codeunit 12 Changes: Changes in General Journal Post Procedures](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
 #### Design Details: Dimension Set Entries
 ##### [Design Details: Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)  
 ##### [Design Details: Searching for Dimension Combinations](design-details-searching-for-dimension-combinations.md)  
@@ -110,8 +108,8 @@
 #### [Set Up Finance Charge Terms](finance-setup-finance-charges.md)
 #### [Set Up Sales Tax (GST/HST)](finance-setup-vat.md)
 #### [Set Up Calculations and Posting Methods for Sales Tax (GST/HST)](finance-setup-vat.md)
-#### [Set Up Unrealized Tax for Cash-Based Accounting](finance-setup-unrealized-vat.md)
-#### [Validate Tax Registration Numbers](finance-how-validate-vat-registration-number.md)
+#### [Set Up Unrealized GST/HST for Cash-Based Accounting](finance-setup-unrealized-vat.md)
+#### [Validate GST/HST Registration Numbers](finance-how-validate-vat-registration-number.md)
 #### [Setting Up Source Codes and Reason Codes for Audit Trails](finance-setup-trail-codes.md)
 #### [Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
 #### [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md)
@@ -241,9 +239,10 @@
 #### [Tips and Tricks: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### Setting Up Email
 #### [Set Up Email](admin-how-setup-email.md)
-#### Set Up Your Business Inbox in Outlook 
+#### Set Up Your Business Inbox in Microsoft Outlook 
 ##### [Using Business Central as Your Business Inbox in Outlook](admin-outlook.md)
-##### [Synchronize with Contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
+##### [Synchronize with Contacts in Outlook](admin-synchronize-outlook-contacts.md)
+##### [Optimize Outlook](admin-outlook-optimize.md)
 ##### [Using Business Central Without Outlook](admin-no-outlook.md)
 ### Setting Up Reports
 #### [Report Selection](across-report-selections.md)
@@ -257,7 +256,7 @@
 ##### [Managing Teams Integration](admin-teams-integration.md)
 ##### [Installing Business Central App for Teams](across-install-app-for-teams.md)
 ##### [Searching for Customers, Vendors, and Contacts](across-search-contacts-teams.md)
-##### [Working with Business Central Data in Teams](across-working-with-teams.md)
+##### [Sharing Records in Teams](across-working-with-teams.md)
 ##### [Changing Company and Other Settings](across-teams-settings.md)
 ##### [Teams FAQ](teams-faq.md)
 ##### [Troubleshooting](admin-teams-troubleshooting.md)
@@ -287,12 +286,12 @@
 ### [Get Business Central on Your Mobile Device](install-mobile-app.md)
 
 ## Frequently Asked Questions
-### [Frequently Asked Questions](across-faq.md)
+### [Frequently Asked Questions](across-faq.yml)
 ### [Tell Me FAQ](ui-search-faq.md)
 ### [Searching and Filtering FAQ](ui-search-filter-faq.yml)
 ### [List Views FAQ](ui-views-faq.yml)
 ### [Copy and Paste FAQ](faq-copy-paste.yml)
-### [Mobile Apps FAQ](ui-mobile-faq.md)
+### [Mobile Apps FAQ](ui-mobile-faq.yml)
 ### [Teams FAQ](teams-faq.md)
 ### [Electronic Invoicing FAQ](faq-electronic-invoicing.yml)
 ### [Minimum Requirements](product-requirements.md)
@@ -534,6 +533,10 @@
 #### [Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
 #### [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 
+### Managing Cash Flow
+#### [Cash Flow Overview](finance-cash-flow-overview.md)
+#### [Analysing Cash Flows in Your Company](finance-analyze-cash-flow.md)
+
 ### Closing Years and Periods
 #### [Year Closing Overview](year-close-years-periods.md)
 #### [Working with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)
@@ -541,7 +544,7 @@
 #### [Closing Periods](year-how-complete-period-end-processes.md)
 #### [Update Currency Exchange Rates](finance-how-update-currencies.md)
 #### [Allocate Costs and Income](year-allocate-costs-income.md)
-#### [Report Tax to Tax Authorities](finance-how-report-vat.md)
+#### [Report GST/HST to Tax Authorities](finance-how-report-vat.md)
 #### [Preparing Pre-Closing Reports](year-prepare-preclose-reports.md)
 #### [Closing Books](year-close-books.md)
 #### [Preparing Closing Statements](year-prepare-close-statement.md)
@@ -562,11 +565,10 @@
 ### [Defer Revenues and Expenses](finance-how-defer-revenue-expenses.md)
 ### [Update Currency Exchange Rates](finance-how-update-currencies.md)
 ### [Import Payroll Transactions](finance-how-import-payroll-transactions.md)
-### [Work with Tax on Sales and Purchases](finance-work-with-vat.md)
-### [Report Tax to Tax Authorities](finance-how-report-vat.md)
-### [Convert Service Contracts that Include Tax Amounts](service-how-to-convert-service-contracts.md)
-### [Managing Tax Rate Changes](finance-how-use-vat-rate-change-tool.md)
-### [Analysing Cash Flows in Your Company](finance-analyze-cash-flow.md)
+### [Work with GST/HST on Sales and Purchases](finance-work-with-vat.md)
+### [Report GST/HST to Tax Authorities](finance-how-report-vat.md)
+### [Convert Service Contracts that Include GST/HST Amounts](service-how-to-convert-service-contracts.md)
+### [Managing GST/HST Rate Changes](finance-how-use-vat-rate-change-tool.md)
 ### [Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ### [Analyzing Financial Statements in Excel](finance-analyze-excel.md)
 ### [Transfer Bank Funds](bank-how-transfer-bank-funds.md)
@@ -586,6 +588,7 @@
 
 ## Sales
 ### [Sales Overview](sales-manage-sales.md)
+### [Sales Reports](sales-reports.md)
 ### [Walkthrough: Conducting a Sales Campaign](walkthrough-conducting-a-sales-campaign.md)
 ### [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ### [Register New Customers](sales-how-register-new-customers.md)
@@ -606,9 +609,11 @@
 ### [Date Calculation for Sales](sales-date-calculation-for-sales.md)
 ### [Merge Duplicate Records](sales-how-merge-duplicate-records.md)
 ### [Work with Recurring Revenue](finance-recurring-invoicing.md)
+### [Enter External Document Numbers](across-enter-external-document-numbers.md)
 
 ## Purchasing
 ### [Purchasing Overview](purchasing-manage-purchasing.md)
+### [Purchasing Reports](purchase-reports.md)
 ### [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 ### [Record Purchases](purchasing-how-record-purchases.md)
 ### [Request Quotes](purchasing-how-request-quotes.md)
@@ -621,9 +626,13 @@
 ### [Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)
 ### [Merge Duplicate Records](sales-how-merge-duplicate-records.md)
 ### [Work With Blanket Purchase Orders](sales-how-to-create-blanket-sales-orders.md)
+### [External Document Numbers on Purchase Documents](purchasing-ext-doc-no.md)
+### [Enter External Document Numbers](across-enter-external-document-numbers.md)
+
 
 ## Inventory
 ### [Inventory Overview](inventory-manage-inventory.md)
+### [Inventory and Warehouse Reports](inventory-WMS-reports.md)
 ### [Register New Items](inventory-how-register-new-items.md)
 ### [Work with Bills of Material](inventory-how-work-BOMs.md)
 ### [Categorize Items](inventory-how-categorize-items.md)
@@ -642,6 +651,7 @@
 
 ## Project Management
 ### [Project Management Overview](projects-manage-projects.md)
+### [Project Reports](project-reports.md)
 ### [Create Jobs](projects-how-create-jobs.md)
 ### [Use Resources for Jobs](projects-how-use-resources.md)
 ### [Use Time Sheets for Jobs](projects-how-use-time-sheets.md)
@@ -701,21 +711,20 @@
 ## Planning
 ### [Production Planning](production-planning.md)
 ### [About Planning Functionality](production-about-planning-functionality.md)
-### [Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)
 ### [Planning With or Without Locations](production-planning-with-without-locations.md)
 ### [Create a Forecast](production-how-to-create-a-forecast.md)
 ### [Create Production Orders from Sales Orders](production-how-to-create-production-orders-from-sales-orders.md)
-### [Plan Project Orders](production-how-to-plan-project-orders.md)
 ### [Plan for New Demand Order by Order](production-how-to-plan-for-new-demand.md)
 ### [Run Full Planning, MPS or MRP](production-how-to-run-mps-and-mrp.md)
 ### [Replan or Refresh Production Orders Directly](production-how-to-replan-refresh-production-orders.md)
 ### [Track Relations Between Demand and Supply](production-how-track-demand-supply.md)
-### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)
-### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md)
+<!-- ### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md) -->
+<!-- ### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 ## Assembly Management
 ### [Assemble Items](assembly-assemble-items.md)
+### [Assembly Reports](assembly-reports.md)
 ### [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md)
 ### [Quote an Assemble-to-Order Sale](assembly-how-to-quote-an-assemble-to-order-sale.md)
 ### [Assemble Items](assembly-how-to-assemble-items.md)
@@ -729,6 +738,7 @@
 
 ## Manufacturing
 ### [Manufacturing Overview](production-manage-manufacturing.md)
+### [Production Reports](production-reports.md)
 ### [About Production Orders](production-about-production-orders.md)
 ### [Create Production Orders](production-how-to-create-production-orders.md)
 ### [Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)
@@ -743,6 +753,7 @@
 
 ## Warehouse Management
 ### [Warehouse Management](warehouse-manage-warehouse.md)
+### [Inventory and Warehouse Reports](inventory-WMS-reports.md)
 ### [Receive Items](warehouse-how-receive-items.md)
 ### [Cross-Dock Items](warehouse-how-to-cross-dock-items.md)
 ### Putting Items Away
@@ -773,8 +784,8 @@
 ### [Ship Items](warehouse-how-ship-items.md)
 ### [Find Your Warehouse Assignments](warehouse-how-to-find-your-warehouse-assignments.md)
 ### [Use Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)
-### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
-### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
+<!-- ### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md) -->
+<!-- ### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md) -->
 
 ## Service Management
 ### [Service Management](service-service.md)
@@ -822,7 +833,7 @@
 ##### [View Posted Tax Credit Memos](LocalFunctionality\Australia\how-to-view-posted-tax-credit-memos.md)
 ##### [Set Up Goods and Service Tax Posting](LocalFunctionality/Australia/how-to-set-up-goods-and-service-tax-posting.md)
 ##### [Calculate Goods and Services Tax on Prepayments](LocalFunctionality/Australia/how-to-calculate-goods-and-services-tax-on-prepayments.md)
-##### [Adjust Settlement Exchange Rates for Tax Entries](LocalFunctionality/Australia/how-to-adjust-settlement-exchange-rates-for-vat-entries.md)
+##### [Adjust Settlement Exchange Rates for GST/HST Entries](LocalFunctionality/Australia/how-to-adjust-settlement-exchange-rates-for-vat-entries.md)
 ##### [Print Goods and Service Tax Settlement Reports](LocalFunctionality/Australia/how-to-print-goods-and-service-tax-settlement-reports.md)
 #### Banking & Payments
 ##### [Compare Bank Cash Flow](LocalFunctionality/Australia/how-to-compare-bank-cash-flow.md)
@@ -840,12 +851,13 @@
 ##### [Determine Sales Price by Cost Plus Percentage](LocalFunctionality/Australia/how-to-determine-sales-price-by-cost-plus-percentage.md)
 ##### [Australian Business Numbers and Adjustment Notes](LocalFunctionality/Australia/australian-business-numbers-and-adjustment-notes.md)
 ##### [Enter Australian Business Numbers](LocalFunctionality/Australia/how-to-enter-australian-business-numbers.md)
+##### [Payment Times Reporting](LocalFunctionality/Australia/payment-times-reporting.md)
 
 ### Austria
 #### [Local Functionality in the Austrian Version](LocalFunctionality/Austria/austria-local-functionality.md)
-#### Tax
-##### [Create a Tax Statement](LocalFunctionality/Austria/how-to-create-a-vat-statement.md)
-##### [Tax Reporting](LocalFunctionality/Austria/vat-reporting.md)
+#### GST/HST
+##### [Create a GST/HST Statement](LocalFunctionality/Austria/how-to-create-a-vat-statement.md)
+##### [GST/HST Reporting](LocalFunctionality/Austria/vat-reporting.md)
 #### Banking & Payments
 ##### [Print Vendor Payments List Reports](LocalFunctionality/Austria/how-to-print-vendor-payments-list-reports.md)
 #### Purchasing
@@ -862,11 +874,11 @@
 
 ### Belgium
 #### [Local Functionality in the Belgian Version](LocalFunctionality/Belgium/belgium-local-functionality.md)
-#### Tax
-##### [Belgian Tax](LocalFunctionality/Belgium/belgian-vat.md)
-##### [Set Up Non-Deductible Tax](LocalFunctionality/Belgium/how-to-set-up-non-deductible-vat.md)
-##### [Make Manual Corrections to Tax](LocalFunctionality/Belgium/how-to-make-manual-corrections-to-vat.md)
-##### [Print Periodic Tax Reports](LocalFunctionality/Belgium/how-to-print-periodic-vat-reports.md)
+#### GST/HST
+##### [Belgian GST/HST](LocalFunctionality/Belgium/belgian-vat.md)
+##### [Set Up Non-Deductible GST/HST](LocalFunctionality/Belgium/how-to-set-up-non-deductible-vat.md)
+##### [Make Manual Corrections to GST/HST](LocalFunctionality/Belgium/how-to-make-manual-corrections-to-vat.md)
+##### [Print Periodic GST/HST Reports](LocalFunctionality/Belgium/how-to-print-periodic-vat-reports.md)
 ##### [Set Up Belgian Tariff Numbers](LocalFunctionality/Belgium/how-to-set-up-belgian-tariff-numbers.md)
 ##### [Belgian Intrastat Reporting](LocalFunctionality/Belgium/belgian-intrastat-reporting.md)
 ##### [Set Up Intrastat Establishment Numbers](LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md)
@@ -927,9 +939,9 @@
 ##### [Year Close Operations](LocalFunctionality/Czech/year-close-operations.md)
 ##### [General Ledger Entries Application](LocalFunctionality/Czech/general-ledger-entries-application.md)
 ##### [Exchange Rate Update](LocalFunctionality/Czech/exchange-rate-update.md)
-#### Tax
-##### [Finance - Tax](LocalFunctionality/Czech/finance-vat.md)
-##### [Tax Control Report](LocalFunctionality/Czech/vat-control-report.md)
+#### GST/HST
+##### [Finance - GST/HST](LocalFunctionality/Czech/finance-vat.md)
+##### [GST/HST Control Report](LocalFunctionality/Czech/vat-control-report.md)
 #### Fixed Assets
 ##### [Fixed Assets](LocalFunctionality/Czech/fixed-assets.md)
 ##### [Fixed Asset Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
@@ -951,8 +963,8 @@
 
 ### Denmark
 #### [Local Functionality in the Danish Version](LocalFunctionality/Denmark/denmark-local-functionality.md)
-#### Tax
-##### [Print Tax Reconciliation Reports](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
+#### GST/HST
+##### [Print GST/HST Reconciliation Reports](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [VAT-VIES Reporting](LocalFunctionality/Denmark/vat-vies-reporting.md)
 #### Banking & Payments
 ##### [FIK Details in the Payment Reconciliation Journal](LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md)
@@ -968,9 +980,9 @@
 
 ### Finland
 #### [Local Functionality in the Finnish Version](LocalFunctionality/Finland/finland-local-functionality.md)
-#### Tax
+#### GST/HST
 ##### [Print Finnish Intrastat Reports](LocalFunctionality/Finland/how-to-print-finnish-intrastat-reports.md)
-##### [Print Tax Information on Invoices](LocalFunctionality/Finland/how-to-print-vat-information-on-invoices.md)
+##### [Print GST/HST Information on Invoices](LocalFunctionality/Finland/how-to-print-vat-information-on-invoices.md)
 ##### [VAT-VIES Declaration in Finland](LocalFunctionality/Finland/vat-vies-declaration-in-finland.md)
 #### Banking & Payments
 ##### [Electronic Banking in Finland](LocalFunctionality/Finland/electronic-banking-in-finland.md)
@@ -985,7 +997,7 @@
 
 ### France
 #### [Local Functionality in the French Version](LocalFunctionality/France/france-local-functionality.md)
-#### Tax
+#### GST/HST
 ##### [Export General Ledger Entries for Tax Audits](LocalFunctionality/France/how-to-export-general-ledger-entries-for-tax-audits.md)
 ##### [Export General Ledger Entries to an XML File](LocalFunctionality/France/how-to-export-general-ledger-entries-to-an-xml-file.md)
 ##### [Requirements for Reporting Declaration of Trade in Goods](LocalFunctionality/France/requirements-for-reporting-declaration-of-trade-in-goods.md)
@@ -1023,13 +1035,13 @@
 
 ### Germany
 #### [Local Functionality in the German Version](LocalFunctionality/Germany/germany-local-functionality.md)
-#### Tax
-##### [Set Up Reports for Tax and Intrastat](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md)  
-##### [Set Up Tax Reports](LocalFunctionality/Germany/how-to-set-up-vat-reports.md)
-##### [Tax Reporting](LocalFunctionality/Germany/vat-reporting.md)
-##### [Create Tax Reports](LocalFunctionality/Germany/how-to-create-vat-reports.md)
-##### [Correct Tax Reports](LocalFunctionality/Germany/how-to-correct-vat-reports.md)  
-##### [Sales Tax Advance Notifications](LocalFunctionality\Germany\how-to-set-up-and-export-sales-vat-advance-notifications.md)
+#### GST/HST
+##### [Set Up Reports for GST/HST and Intrastat](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md)  
+##### [Set Up GST/HST Reports](LocalFunctionality/Germany/how-to-set-up-vat-reports.md)
+##### [GST/HST Reporting](LocalFunctionality/Germany/vat-reporting.md)
+##### [Create GST/HST Reports](LocalFunctionality/Germany/how-to-create-vat-reports.md)
+##### [Correct GST/HST Reports](LocalFunctionality/Germany/how-to-correct-vat-reports.md)  
+##### [Sales GST/HST Advance Notifications](LocalFunctionality\Germany\how-to-set-up-and-export-sales-vat-advance-notifications.md)
 ##### [Declare VAT-VIES Tax](LocalFunctionality/Germany/how-to-declare-vat-vies-tax.md)
 #### Banking & Payments
 ##### [Print Vendor Payments List Reports](LocalFunctionality/Germany/how-to-print-vendor-payments-list-reports.md)
@@ -1060,8 +1072,8 @@
 
 ### Iceland
 #### [Local Functionality in the Icelandic Version](LocalFunctionality/Iceland/iceland-local-functionality.md)
-#### Tax
-##### [Print Tax Summary Information on Documents](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
+#### GST/HST
+##### [Print GST/HST Summary Information on Documents](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
 ##### [Special Data Output and Reports for the Tax Authority](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
 #### Electronic Invoicing
 ##### [Electronic Invoicing Requirement: Issuing Single Copy Invoice](LocalFunctionality/Iceland/electronic-invoicing-requirement-issuing-single-copy-invoice.md)
@@ -1177,15 +1189,15 @@
 
 ### Italy
 #### [Local Functionality in the Italian Version](LocalFunctionality/Italy/italy-local-functionality.md)
-#### Tax
-##### [Italian Tax](LocalFunctionality/Italy/italian-vat.md)
-##### [Submit Tax Statements](LocalFunctionality/Italy/how-to-submit-vat-statements.md)
-##### [Correct Tax Transactions Reports](LocalFunctionality/Italy/how-to-correct-vat-transactions-reports.md)
-##### [Create Electronic Tax Transactions Reports](LocalFunctionality/Italy/how-to-create-electronic-vat-transactions-reports.md)
-##### [Export Tax Transactions Reports](LocalFunctionality/Italy/how-to-export-vat-transactions-reports.md)
-##### [Update Tax Transactions Data](LocalFunctionality\Italy\how-to-update-vat-transactions-data.md)
-##### [Prepare for Tax Transactions Reports](LocalFunctionality/Italy/how-to-prepare-for-vat-transactions-reports.md)
-##### [Print and Reprint G/L Books and Tax Registers](LocalFunctionality/Italy/how-to-print-and-reprint-g-l-books-and-vat-registers.md)
+#### GST/HST
+##### [Italian GST/HST](LocalFunctionality/Italy/italian-vat.md)
+##### [Submit GST/HST Statements](LocalFunctionality/Italy/how-to-submit-vat-statements.md)
+##### [Correct GST/HST Transactions Reports](LocalFunctionality/Italy/how-to-correct-vat-transactions-reports.md)
+##### [Create Electronic GST/HST Transactions Reports](LocalFunctionality/Italy/how-to-create-electronic-vat-transactions-reports.md)
+##### [Export GST/HST Transactions Reports](LocalFunctionality/Italy/how-to-export-vat-transactions-reports.md)
+##### [Update GST/HST Transactions Data](LocalFunctionality\Italy\how-to-update-vat-transactions-data.md)
+##### [Prepare for GST/HST Transactions Reports](LocalFunctionality/Italy/how-to-prepare-for-vat-transactions-reports.md)
+##### [Print and Reprint G/L Books and GST/HST Registers](LocalFunctionality/Italy/how-to-print-and-reprint-g-l-books-and-vat-registers.md)
 ##### [Print Intrastat Reports for Italy](LocalFunctionality/Italy/how-to-print-intrastat-reports-for-italy.md)
 ##### [Print Withholding Reports](LocalFunctionality/Italy/how-to-print-withholding-tax-reports.md)
 #### Banking & Payments
@@ -1222,7 +1234,7 @@
 ##### [Reporting Sales Tax in Mexico](LocalFunctionality/Mexico/mexico-sales-tax.md)
 ##### [Create Deposits](LocalFunctionality/Mexico/how-to-create-deposits.md)  
 ##### [Tax Identification Types for Mexico](LocalFunctionality/Mexico/tax-identification-types-for-mexico.md)
-##### [Tax Recalculation](LocalFunctionality/Mexico/vat-recalculation.md)
+##### [GST/HST Recalculation](LocalFunctionality/Mexico/vat-recalculation.md)
 #### Electronic Invoicing
 ##### [Electronic Invoicing](LocalFunctionality/Mexico/electronic-invoicing.md)
 ##### [Set Up Electronic Invoicing](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
@@ -1235,12 +1247,12 @@
 
 ### Netherlands
 #### [Local Functionality in the Dutch Version](LocalFunctionality/Netherlands/netherlands-local-functionality.md)
-#### Tax
+#### GST/HST
 ##### [Create a Audit File for the Tax Authority](LocalFunctionality/Netherlands/how-to-create-an-audit-file-for-the-tax-authority.md)
-##### [Set Up Tax Categories](LocalFunctionality\Netherlands\how-to-set-up-vat-categories.md)
-##### [Electronic Tax and ICP Declarations](LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md)
-##### [Set Up Electronic Tax and ICP Declarations](LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations.md)
-##### [Submitting Electronic Tax and ICP Declarations](LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md)
+##### [Set Up GST/HST Categories](LocalFunctionality\Netherlands\how-to-set-up-vat-categories.md)
+##### [Electronic GST/HST and ICP Declarations](LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md)
+##### [Set Up Electronic GST/HST and ICP Declarations](LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations.md)
+##### [Submitting Electronic GST/HST and ICP Declarations](LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md)
 #### Banking & Payments
 ##### [Dutch Electronic Banking](LocalFunctionality/Netherlands/dutch-electronic-banking.md)
 ##### [Telebanking](LocalFunctionality/Netherlands/telebanking.md)
@@ -1282,7 +1294,7 @@
 ##### [View Withholding Tax Entries](LocalFunctionality\NewZealand\how-to-view-withholding-tax-entries.md)
 ##### [View Posted Tax Credit Memos](LocalFunctionality/NewZealand/how-to-view-posted-tax-credit-memos.md)  
 ##### [View Posted Tax Invoices](LocalFunctionality/NewZealand/how-to-view-posted-tax-invoices.md)
-##### [Adjust Settlement Exchange Rates for Tax Entries](LocalFunctionality/NewZealand/how-to-adjust-settlement-exchange-rates-for-vat-entries.md)
+##### [Adjust Settlement Exchange Rates for GST/HST Entries](LocalFunctionality/NewZealand/how-to-adjust-settlement-exchange-rates-for-vat-entries.md)
 ##### [Calculate Goods and Services Tax on Prepayments](LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments.md)
 ##### [Print Goods and Services Tax Settlement Reports](LocalFunctionality/NewZealand/how-to-print-goods-and-service-tax-settlement-reports.md)
 #### Banking & Payments
@@ -1303,14 +1315,14 @@
 
 ### Norway
 #### [Local Functionality in the Norwegian Version](LocalFunctionality/Norway/norway-local-functionality.md)
-#### Tax
+#### GST/HST
 ##### [Norwegian Standard Audit File - Tax (SAF-T) Management](LocalFunctionality/Norway/ui-extensions-setup-and-generate-saf-t-files-no.md)
-##### [Norwegian Tax Reporting](LocalFunctionality/Norway/norwegian-vat-reporting.md)
-##### [Norwegian Tax Codes](LocalFunctionality/Norway/norwegian-vat-codes.md)  
-##### [How to Use One Tax Code in Journals](LocalFunctionality/Norway/how-to-use-one-vat-code-in-journals.md)
-##### [Proportional Tax](LocalFunctionality/Norway/proportional-vat.md)
-##### [Calculate Proportional Tax](LocalFunctionality/Norway/how-to-calculate-proportional-vat.md)
-##### [Print a Tax Reconciliation Report](LocalFunctionality/Norway/how-to-print-a-vat-reconciliation-report.md)
+##### [Norwegian GST/HST Reporting](LocalFunctionality/Norway/norwegian-vat-reporting.md)
+##### [Norwegian GST/HST Codes](LocalFunctionality/Norway/norwegian-vat-codes.md)  
+##### [How to Use One GST/HST Code in Journals](LocalFunctionality/Norway/how-to-use-one-vat-code-in-journals.md)
+##### [Proportional GST/HST](LocalFunctionality/Norway/proportional-vat.md)
+##### [Calculate Proportional GST/HST](LocalFunctionality/Norway/how-to-calculate-proportional-vat.md)
+##### [Print a GST/HST Reconciliation Report](LocalFunctionality/Norway/how-to-print-a-vat-reconciliation-report.md)
 #### Banking & Payments
 ##### [Electronic Banking in Norway](LocalFunctionality/Norway/electronic-banking-in-norway.md)
 ##### [Electronic Payments to Vendors in Norway](LocalFunctionality/Norway/electronic-payments-to-vendors-in-norway.md)
@@ -1389,14 +1401,14 @@
 ##### [Set Up an Intangible Assets Account](LocalFunctionality/Russia/How-to-Set-Up-an-Intangible-Assets-Account.md)
 ##### [Account for the Cost to Dispose a Fixed Asset](LocalFunctionality/Russia/How-to-Account-for-the-Cost-to-Dispose-a-Fixed-Asset.md)
 ##### [Undepreciable Fixed Assets](LocalFunctionality/Russia/Undepreciable-Fixed-Assets.md)
-#### Tax
-##### [GST in the Russian Version](LocalFunctionality/Russia/VAT.md)
-##### [Set Up Tax Ledgers](LocalFunctionality/Russia/How-to-Set-Up-VAT-Ledgers.md)  
-##### [Prepare Tax Entries for Posting](LocalFunctionality/Russia/How-to-Prepare-VAT-Entries-for-Posting.md)  
-##### [Tax Settlement](LocalFunctionality/Russia/Settlement-VAT.md)  
-##### [Upload Books of Purchases and Sales and the Tax Declaration in XML Format](LocalFunctionality/Russia/upload-books-purchases-sales-xml-vat-declaration.md)  
-##### [Tax by Customer Prepayment](LocalFunctionality/Russia/VAT-by-Customer-prepayments.md)  
-##### [Tax Reinstatement](LocalFunctionality/Russia/VAT-reinstatement.md)  
+#### GST/HST
+##### [GST/HST in the Russian Version](LocalFunctionality/Russia/VAT.md)
+##### [Set Up GST/HST Ledgers](LocalFunctionality/Russia/How-to-Set-Up-VAT-Ledgers.md)  
+##### [Prepare GST/HST Entries for Posting](LocalFunctionality/Russia/How-to-Prepare-VAT-Entries-for-Posting.md)  
+##### [GST/HST Settlement](LocalFunctionality/Russia/Settlement-VAT.md)  
+##### [Upload Books of Purchases and Sales and the GST/HST Declaration in XML Format](LocalFunctionality/Russia/upload-books-purchases-sales-xml-vat-declaration.md)  
+##### [GST/HST by Customer Prepayment](LocalFunctionality/Russia/VAT-by-Customer-prepayments.md)  
+##### [GST/HST Reinstatement](LocalFunctionality/Russia/VAT-reinstatement.md)  
 ##### [Vendor Tax Agent Scheme](LocalFunctionality/Russia/Vendor-Tax-Agent-scheme.md)  
 #### Tax Accounting
 ##### [Tax Accounting in the Russian Version](LocalFunctionality/Russia/Tax-Accounting.md)
@@ -1429,8 +1441,8 @@
 
 ### Spain
 #### [Local Functionality in the Spanish Version](LocalFunctionality/Spain/spain-local-functionality.md)
-#### Tax
-##### [Tax Reports](LocalFunctionality/Spain/vat-reports.md)
+#### GST/HST
+##### [GST/HST Reports](LocalFunctionality/Spain/vat-reports.md)
 ##### [Report 340](LocalFunctionality/Spain/report-340.md)  
 ##### [Create Report 340](LocalFunctionality/Spain/how-to-create-report-340.md)  
 ##### [Report 347](LocalFunctionality/Spain/report-347.md)  
@@ -1438,10 +1450,10 @@
 ##### [Report 349](LocalFunctionality/Spain/report-349.md)  
 ##### [Create Report 349](LocalFunctionality/Spain/how-to-create-report-349.md)  
 ##### [Set Up 340 Reports for Small Businesses](LocalFunctionality/Spain/how-to-set-up-340-reports-for-small-businesses.md)
-##### [Create Templates for Telematic Tax Statements in Text File Format](LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-text-file-format.md)
-##### [Create Templates for Telematic Tax Statements in XML File Format](LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md)
-##### [Export Tax Statements in XML Format](LocalFunctionality/Spain/how-to-export-vat-statements-in-xml-format.md)  
-##### [Export Tax Statements in Text Format](LocalFunctionality/Spain/how-to-export-vat-statements-in-text-format.md)
+##### [Create Templates for Telematic GST/HST Statements in Text File Format](LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-text-file-format.md)
+##### [Create Templates for Telematic GST/HST Statements in XML File Format](LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md)
+##### [Export GST/HST Statements in XML Format](LocalFunctionality/Spain/how-to-export-vat-statements-in-xml-format.md)  
+##### [Export GST/HST Statements in Text Format](LocalFunctionality/Spain/how-to-export-vat-statements-in-text-format.md)
 ##### [Equivalence Charges](LocalFunctionality/Spain/equivalence-charges-ec-.md)
 #### Banking & Payments  
 ##### [Electronic Payments – AEB N34.1](LocalFunctionality/Spain/electronic-payments-aeb-n341.md)
@@ -1476,7 +1488,7 @@
 
 ### Sweden
 #### [Local Functionality in the Swedish Version](LocalFunctionality/Sweden/sweden-local-functionality.md)
-#### Tax
+#### GST/HST
 ##### [Set Up EU Third-Party Purchase Transactions](LocalFunctionality/Sweden/how-to-set-up-eu-third-party-purchase-transactions.md)
 #### Core Finance
 ##### [Automatic Account Codes](LocalFunctionality/Sweden/automatic-account-codes.md)  
@@ -1486,11 +1498,11 @@
 
 ### Switzerland
 #### [Local Functionality in the Swiss Version](LocalFunctionality/Switzerland/switzerland-local-functionality.md)
-#### Tax
-##### [Create and print a Swiss Tax Statement](LocalFunctionality/Switzerland/how-to-create-and-print-a-swiss-vat-statement.md)
-##### [Print Swiss Tax Statements (Older Versions)](LocalFunctionality/Switzerland/how-to-print-swiss-vat-statements-older-version-.md)
+#### GST/HST
+##### [Create and print a Swiss GST/HST Statement](LocalFunctionality/Switzerland/how-to-create-and-print-a-swiss-vat-statement.md)
+##### [Print Swiss GST/HST Statements (Older Versions)](LocalFunctionality/Switzerland/how-to-print-swiss-vat-statements-older-version-.md)
 ##### [Swiss Value Added Tax](LocalFunctionality/Switzerland/swiss-value-added-tax.md)
-##### [Tax Rates for Switzerland](LocalFunctionality/Switzerland/vat-rates-for-switzerland.md)
+##### [GST/HST Rates for Switzerland](LocalFunctionality/Switzerland/vat-rates-for-switzerland.md)
 #### Banking & Payments
 ##### [QR-Bill Management](LocalFunctionality/Switzerland/ui-extensions-qr-bill-management.md)
 ##### [Close an LSV Collection](LocalFunctionality/Switzerland/how-to-close-an-lsv-collection.md)
@@ -1528,12 +1540,12 @@
 
 ### United Kingdom
 #### [Local Functionality in the UK Version](LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md)
-#### Tax
-##### [Making Tax Digital - Tax Returns submission](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)
-##### [Change Tax Setup in Journals](LocalFunctionality/UnitedKingdom/how-to-change-vat-setup-in-journals.md)
-##### [Print Tax Audit Reports](LocalFunctionality/UnitedKingdom/how-to-print-vat-audit-reports.md)
-##### [Print Tax Reports](LocalFunctionality/UnitedKingdom/how-to-print-vat-reports.md)
-##### [Set Up Reverse Charges on Tax](LocalFunctionality/UnitedKingdom/how-to-set-up-reverse-charges-on-vat.md)
+#### GST/HST
+##### [Making Tax Digital - GST/HST Returns submission](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)
+##### [Change GST/HST Setup in Journals](LocalFunctionality/UnitedKingdom/how-to-change-vat-setup-in-journals.md)
+##### [Print GST/HST Audit Reports](LocalFunctionality/UnitedKingdom/how-to-print-vat-audit-reports.md)
+##### [Print GST/HST Reports](LocalFunctionality/UnitedKingdom/how-to-print-vat-reports.md)
+##### [Set Up Reverse Charges on GST/HST](LocalFunctionality/UnitedKingdom/how-to-set-up-reverse-charges-on-vat.md)
 #### Banking & Payments
 ##### [Print Cheques for APACS](LocalFunctionality/UnitedKingdom/how-to-print-checks-for-apacs.md)
 ##### [Print Remittance Advice](LocalFunctionality/UnitedKingdom/how-to-print-remittance-advice.md)
@@ -1544,7 +1556,6 @@
 ##### [Enter Statutory Information](LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information.md)
 ##### [The GetAddress.io UK Postal codes Extension](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 ##### [Set Up the GetAddress.io UK Postal codes Extension](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
-##### [Enter External Document Numbers](LocalFunctionality/UnitedKingdom/how-to-enter-external-document-numbers.md)
 
 ### United States
 #### [Local Functionality in the US Version](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
@@ -1599,6 +1610,7 @@
 ### [Viewing Table Information](admin-view-table-information.md)
 ### [Creating a Sandbox Environment](across-how-create-sandbox-environment.md)
 ### [Enabling New Features Ahead of Time](admin-feature-management.md)
+### [Onboard Users with Checklists](admin-checklist.md)
 ## Customizing Business Central
 ### [Customization Overview](ui-customizing-overview.md)
 ### [Customize Pages for Profiles](ui-personalization-manage.md)
@@ -1622,7 +1634,7 @@
 #### [QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md)
 #### [Quickbooks Payroll File Import](ui-extensions-quickbooks-payroll.md)
 #### [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)
-#### [GST Group Management](ui-extensions-vat-group.md)
+#### [GST/HST Group Management](ui-extensions-vat-group.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 #### [DK - C5 Data Migration](ui-extensions-c5-data-migration.md)
 #### [DK - Payments and Reconciliations](ui-extensions-payments-reconciliation-formats-dk.md)

@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5bf9da1a8e561f49ae02e8178c0eb2b8232e93ba
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6d06d39ac3e3b1bb9ad0a3b9089b295c899e9f74
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771963"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216289"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Walkthrough: Tracing Serial/Lot Numbers
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 When product defects occur, the errors must be identified and affected items must be prevented from leaving the company. If defective items have already been shipped, you must trace who received them and, if you need to, recall the items.  
 
@@ -51,7 +51,7 @@ This walkthrough demonstrates tasks that are performed by the following user rol
 To complete this walkthrough, you will need:  
 
 - The [!INCLUDE[prod_short](includes/prod_short.md)] company.  
-- To create new items and several business transactions by following the [Prepare Sample Data](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data)..  
+<!-- - To create new items and several business transactions by following the [Prepare Sample Data](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).   -->
 
 ## <a name="story"></a>Story
 
@@ -81,24 +81,24 @@ Then you must create various purchase, production, and sales transactions with t
 2. Choose the **New** action.  
 3. In the **No.** field, enter **2000**, and then proceed to fill in the following fields.  
 
-    |Description|Base Unit of Measure|Gen. Prod. Posting Group|Tax Prod. Posting Group|Inventory Posting Group|Item Tracking Code|  
+    |Description|Base Unit of Measurement|Gen. Prod. Posting Group|GST/HST Prod. Posting Group|Inventory Posting Group|Item Tracking Code|  
     |-----------|--------------------|------------------------|-----------------------|--------------------|------------------|  
     |Racing Frame|PCS|RAW MAT|VAT25|RAW MAT|LOTALL|  
 
     > [!NOTE]  
-    >  To enter the base unit of measure, choose the **New** button, and then select **PSC** on the **Item Units of Measure** page.  
+    >  To enter the base unit of measurement, choose the **New** button, and then select **PSC** on the **Item Units of Measurement** page.  
 
 4. All other fields have acceptable default data or do not have to be filled in.  
 5. Choose the **OK** button to create the first new item card, 2000.  
 6. Choose **New**.  
 7. In the **No.** field, enter **1002**, and then proceed to fill in the following fields.  
 
-    |Description|Base Unit of Measure|Gen. Prod. Posting Group|Tax Prod. Posting Group|Inventory Posting Group|Replenishment System|Item Tracking Code|  
+    |Description|Base Unit of Measurement|Gen. Prod. Posting Group|GST/HST Prod. Posting Group|Inventory Posting Group|Replenishment System|Item Tracking Code|  
     |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|--------------------------|------------------------|  
     |Racing Bike|PCS|RETAIL|VAT25|FINISHED|Prod. Order|SNALL|  
 
     > [!NOTE]  
-    >  To enter the base unit of measure, choose the **New** button, and then select **PSC** on the **Item Units of Measure** page.  
+    >  To enter the base unit of measurement, choose the **New** button, and then select **PSC** on the **Item Units of Measurement** page.  
 
     Next, define the item's manufacturing setup.
 
