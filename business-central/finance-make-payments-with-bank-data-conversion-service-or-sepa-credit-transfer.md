@@ -1,6 +1,6 @@
 ---
 title: Make Payments with AMC Banking (US) or SEPA Credit Transfer (EU)
-description: Process payments to your vendors by exporting a file together with the payment information from the journal lines.
+description: Process payments to your vendors by exporting a file (EFT) together with the payment information from the journal lines.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/13/2021
+ms.date: 07/06/2021
 ms.author: bholtorf
-ms.openlocfilehash: d48172569ba8e93410dfb20a22eed785574f3989
-ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
+ms.openlocfilehash: f54abce68049db1a6ff9330eb5569f2c26cf12ed
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889240"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437425"
 ---
 # <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Make Payments with the AMC Banking 365 Fundamentals extension or SEPA Credit Transfer
 
 On the **Payment Journal** page, you can process payments to your vendors by exporting a file together with the payment information from the journal lines. You can then upload the file to your electronic bank where the related money transfers are processed. [!INCLUDE[prod_short](includes/prod_short.md)] supports the SEPA Credit Transfer format, but in your country/region, other formats for electronic payments may be available.
 
 > [!NOTE]
-> In the generic version of [!INCLUDE[prod_short](includes/prod_short.md)], a global provider of services to convert bank data to any file format that your bank requires is set up and connected. In North American versions, the same service can be used to send payment files as electronic funds transfer (EFT), however with a slightly different process. See step 6 in [To export payments to a bank file](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).  
+> In the generic version of [!INCLUDE[prod_short](includes/prod_short.md)], a global provider of services to convert bank data to any file format that your bank requires is set up and connected. In North American versions, the same service can be used to send payment files as electronic funds transfer (EFT), for example the commonly used Automated Clearing House (ACH) network, however with a slightly different process. See step 6 in [To export payments to a bank file](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).  
 
  To enable SEPA credit transfers, you must first set up a bank account, a vendor, and the general journal batch that the payment journal is based on. You then prepare payments to vendors by automatically filling the **Payment Journal** page with due payments with specified posting dates.  
 
@@ -101,7 +101,7 @@ You use the **Credit Transfer Registers** page to view the payment files that ha
 
 The following describes how to pay a vendor by cheque. The steps are similar to refund a customer by cheque.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
 2. Fill in the payment journal lines. For more information, see [Record Payments and Refunds](payables-how-post-payments-refunds.md).
 
     > [!NOTE]
@@ -147,7 +147,7 @@ You can re-export payment files from the **Credit Transfer Registers** page. Bef
 > [!NOTE]  
 > Exported EFT files are not shown on the **Credit Transfer Registers** page and cannot be re-exported.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Credit Transfer Registers**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Credit Transfer Registers**, and then choose the related link.
 2. Select a payment export that you want to re-export, and then choose the **Reexport Payment to File** action.
 
 ## <a name="posting-the-payments"></a>Posting the Payments

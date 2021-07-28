@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment application, payment processing, match payments
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8ee71047b2c236fe404800a5227e108c91344e4d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 017f88741ee0ccc2977f2173fbd984e5ebf6b36f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785432"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437250"
 ---
 # <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Reconcile Vendor Payments with the Payment Journal or from Vendor Ledger Entries
 When you send a payment or receive a refund from a vendor, you must decide whether to apply the payment or refund to one or more open entries. You can specify the exact amount that you want to apply to the payment receipt or refund, and then only partially apply vendor ledger entries. You must apply all vendor ledger entries to obtain correct vendor statistics and reports of the account statements and finance charges.
@@ -37,7 +37,7 @@ You can apply vendor payments manually to their related purchase documents when 
 You can also apply vendor payments, and customer payments, after the payments appear as negative bank transactions in your bank. On the **Payment Reconciliation Journal** page, you can use functions for bank statement import, automatic application, and bank account reconciliation. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 
 ## <a name="to-apply-a-payment-to-a-single-or-multiple-vendor-ledger-entries"></a>To apply a payment to a single or multiple vendor ledger entries
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journal**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journal**, and then choose the related link.
 2. On the **Payment Journal** page, on the first journal line, enter the relevant information about the payment entry.
 3. To apply a single vendor ledger entry:
    1. In the **Applies-to Doc. No.** field, choose the field to open the **Apply Vendor Entries** page.
@@ -55,7 +55,7 @@ You can also apply vendor payments, and customer payments, after the payments ap
 6. Choose the **Post** action to post the payment journal.
 
 ## <a name="to-apply-a-credit-memo-to-a-single-or-multiple-vendor-ledger-entries"></a>To apply a credit memo to a single or multiple vendor ledger entries
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Credit Memo**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Credit Memo**, and then choose the related link.
 2. Open the credit memo that you want to apply.
 3. Enter the relevant information in the header.
 4. To apply a single vendor ledger entry, on the **Application** FastTab, in the **Applies-to Doc. No.** field, select the entry to apply the credit to, and then, in the **Amount to Apply** field, enter the amount to apply to the entry.
@@ -72,7 +72,7 @@ You can also apply vendor payments, and customer payments, after the payments ap
 7. Choose the **Post** button to post the purchase credit memo.
 
 ## <a name="to-apply-posted-vendor-ledger-entries"></a>To apply posted vendor ledger entries
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
 2. Open the relevant vendor with entries that have already been posted.
 3. Choose the **Ledger Entries** action, and then choose the **Apply Entries** action.
 4. On the **Apply Vendor Entries** page, you can see the open entries for the vendor.
@@ -93,7 +93,7 @@ If you buy from a vendor in one currency and make payment in another currency, y
 
 If you apply an entry (Entry 1) in one currency to an entry (Entry 2) in a different currency, the posting date on Entry 1 is used to find the relevant exchange rate to convert amounts on Entry 2. The relevant exchange rate is found on the **Currency Exchange Rates** page. In that case, you must enable application of vendor ledger entries in different currencies. For more information, see [Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journal**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journal**, and then choose the related link.
 2. Open the journal you want, and fill in the first empty journal line using a currency code.
 3. Choose the **Apply Entries** action.
 4. Select the line with the entry you want to apply to the entry in the payment journal, choose the **Set Applies-to ID** action, and then select the entry you want to apply to.
@@ -106,7 +106,7 @@ If you apply an entry (Entry 1) in one currency to an entry (Entry 2) in a diffe
 ## <a name="to-unapply-an-application-of-vendor-entries"></a>To unapply an application of vendor entries
 When you unapply an erroneous application, correcting entries that are identical to the original entry but with opposite sign in the amount field are created and posted for all entries, including all general ledger posting derived from the application, such as payment discount and currency gains/losses. The entries that were closed by the application are reopened.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
 2. Open the relevant vendor card.
 3. Choose the **Ledger Entries** action.
 4. Select the relevant ledger entry, and then choose the **Unapply Entries** action.

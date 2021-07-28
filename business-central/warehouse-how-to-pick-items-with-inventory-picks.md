@@ -1,6 +1,6 @@
 ---
-title: How to Pick Items with Inventory Picks | Microsoft Docs
-description: If a location is set up to require pick processing but not shipment processing, you use the inventory pick documents to record and post picking and shipping information for your source documents.
+title: How to Pick Items with Inventory Picks
+description: If a location set up requires pick processing but not shipment, use inventory pick documents to record and post picking and shipping info for source documents.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7e8798f9581d3f0ae416a52bfdd53c7bb4893eab
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 05bd840f0e4db2f383544b99d3edc26a443f423b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771713"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438216"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Pick Items with Inventory Picks
 
@@ -36,7 +36,7 @@ You can create an inventory pick in three ways:
 
 For sales orders, purchase return orders, and outbound transfer orders, you create the warehouse request by releasing the order. The following describes how to do this from a sales order.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
 2. Select the sales order that you want to release, and then choose the **Release** action.
 
 For production orders, you automatically create the warehouse request for the picking of components, called *flushing*, when the production order status is changed to **Released** or when the released production order is created. For more information, see [Pick for Production or Assembly](warehouse-how-to-pick-for-production.md).
@@ -47,7 +47,7 @@ After the warehouse request has been created, a warehouse employee assigned to p
 
 Now that the request is created, the warehouse employee can create a new inventory pick based on the released source document.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Picks**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Picks**, and then choose the related link.  
 2. Choose the **New** action.  
     Make sure that the **No.** field on the **General** FastTab is filled in.
 3. In the **Source Document** field, select the type of source document you are picking for.  
@@ -63,7 +63,7 @@ Now that the request is created, the warehouse employee can create a new invento
 
 ## <a name="to-create-multiple-inventory-picks-with-a-batch-job"></a>To create multiple inventory picks with a batch job
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Invt. Put-away / Pick**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Invt. Put-away / Pick**, and then choose the related link.  
 2. On the **Warehouse Request** FastTab, use the **Source Document** and **Source No.** fields to filter on certain types of documents  or ranges of document numbers. For example, you can create picks only for sales orders.  
 3. On the **Options** FastTab, select the **Create Invt. Pick** check box.
 4. Choose the **OK** button. The specified inventory picks are created.
@@ -75,7 +75,7 @@ Now that the request is created, the warehouse employee can create a new invento
 
 ## <a name="to-record-the-inventory-picks"></a>To record the inventory picks
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Pick**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Pick**, and then choose the related link.  
 2. In the **Bin Code** field on the pick lines, the bin that the items must be picked from is suggesting per the item's default bin. You can change the bin in this page if necessary.  
 3. Perform the pick and enter the information for the actual quantity put away in the **Qty. to Handle** field.
 
