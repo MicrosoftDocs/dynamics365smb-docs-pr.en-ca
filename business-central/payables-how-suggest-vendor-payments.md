@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3bf91f092f911f5544ecb5d442ce3c61bae0be43
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6781674947cbbf12741216244499403989f14255
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775124"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438811"
 ---
 # <a name="suggest-vendor-payments"></a>Suggest Vendor Payments
 On the **Payment Journal** page, you can use the **Suggest Vendor Payments** batch job to suggest payment lines. Lines for payments that are due soon or payments where a payment discount is available are suggested based on your settings.
@@ -34,7 +34,7 @@ To benefit fully from payment suggestions, you must first prioritize your vendor
     * Open vendor entries that qualify for payment discounts, arranged by vendor number.  
 
 ## <a name="to-use-the-suggest-vendor-payments-function"></a>To use the Suggest Vendor Payments function
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
 2. Open the relevant journal, and then choose the **Suggest Vendor Payments** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Choose the **OK** button.  

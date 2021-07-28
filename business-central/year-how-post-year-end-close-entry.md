@@ -5,16 +5,16 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 5c822685ae5723bc6b13f9fedad45dbddefdb956
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6dfba7323eeaad538cf45525d11212a6e5d7438e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776601"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438536"
 ---
-# <a name="post-the-year-end-closing-entry"></a>Post the Year-End Closing Entry
+# <a name="posting-the-year-end-closing-entry"></a>Posting the Year-End Closing Entry
 
 After you use the **Close Income Statement** batch job to generate the year-end closing entry or entries, you must open the journal you specified in the batch job, and then review and post the entries.  
 
@@ -23,7 +23,7 @@ After you use the **Close Income Statement** batch job to generate the year-end 
 
 ## <a name="to-post-the-year-end-closing-entry"></a>To post the year end closing entry
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journal**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journal**, and then choose the related link.
 2. On the **General Journal** page, in the **Batch Name** field, select the batch that contains the closing entries.
 3. Review the entries.
 4. To post the journal, choose the **Post** action.

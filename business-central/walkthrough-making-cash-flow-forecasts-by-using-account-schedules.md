@@ -1,6 +1,6 @@
 ---
-title: Walkthrough - Making Cash Flow Forecasts by Using Account Schedules
-description: Learn how you can use account schedules to make cash flow forecasts.
+title: Cash Flow Forecasts by Using Account Schedules
+description: This walkthrough describes how you can use account schedules to make cash flow forecasts in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 48a176c4c363c4a33ae336d754be71c9f7dd0aeb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e0da9a5cab5c36bd5403bca3731ce46bb67316c3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772113"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438511"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Walkthrough: Making Cash Flow Forecasts by Using Account Schedules
 
@@ -54,7 +54,7 @@ An account schedule consists of a cash flow account schedule name with a series 
 
 ### <a name="to-set-up-a-new-account-schedule-name"></a>To set up a new account schedule name  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules**, and then choose the related link.  
 2. On the **Account Schedule Names** page, choose the **New** to create a new cash flow account schedule name.  
 3. In the **Name** field, enter **Forecast**.  
 4. In the **Description** field, enter **Cash Flow Forecast**.  
@@ -90,7 +90,7 @@ After an account schedule name is set up, Ken defines each line that appears in 
     | R30     | Finance costs            | Cash Flow Entry Accounts | 1050     |Net Change | Net Amount  | Yes  |
     | R30     | Investments              | Cash Flow Entry Accounts | 1070     |Net Change | Net Amount  | Yes  |
     | R30     | Private consumptions     | Cash Flow Entry Accounts | 1090     |Net Change | Net Amount  | Yes  |
-    | R30     | Tax due                  | Cash Flow Entry Accounts | 1100     |Net Change | Net Amount  | Yes  |
+    | R30     | GST/HST due                  | Cash Flow Entry Accounts | 1100     |Net Change | Net Amount  | Yes  |
     | R30     | Other expenses           | Cash Flow Entry Accounts | 1110     |Net Change | Net Amount  | Yes  |
     | R40     | Total cash disbursements | Formula                  | R30      |Net Change | Net Amount  | Yes  |
     | R50     | Surplus                  | Formula                  | R20+R40  |Net Change | Net Amount  | Yes  |

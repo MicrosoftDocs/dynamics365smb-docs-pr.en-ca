@@ -1,6 +1,6 @@
 ---
-title: How to Run Full Planning, MPS and MRP | Microsoft Docs
-description: The terms "running the planning worksheet" or "running MRP" refer to the calculation of the master production schedule and material requirements based on actual and forecasted demand. The planning system can calculate either Master Planning Schedule (MPS) or Material Requirements Planning (MRP) on request, or it can calculate both at the same time.
+title: How to Run Full Planning, MPS and MRP
+description: The planning system can calculate either Master Planning Schedule (MPS) or Material Requirements Planning (MRP) on request, or both at the same time.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: e80b7f3c072556453f441d7b9980c7308ed3cb61
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 73b40d3174497c05446d5b6ae6465f23a420f308
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787761"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440337"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Run Full Planning, MPS or MRP
 The terms "running the planning worksheet" or "running MRP" refer to the calculation of the master production schedule and material requirements based on actual and forecasted demand. The planning system can calculate either Master Planning Schedule (MPS) or Material Requirements Planning (MRP) on request, or it can calculate both at the same time.  
@@ -45,7 +45,7 @@ With each planned method, [!INCLUDE[prod_short](includes/prod_short.md)] generat
 >  The Get Action Messages Plan function can be run between regenerative and net change planning runs to obtain an immediate view of the effect of schedule changes, but it is not intended as a replacement of full regenerative or net change planning processes.  
 
 ## <a name="to-calculate-the-planning-worksheet"></a>To calculate the planning worksheet  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheets**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheets**, and then choose the related link.  
 2.  Choose the **Calculate Regenerative Plan** action to open the **Calculate Plan** page.  
 3.  On the **Options** FastTab, fill in the fields as described in the following table.  
 

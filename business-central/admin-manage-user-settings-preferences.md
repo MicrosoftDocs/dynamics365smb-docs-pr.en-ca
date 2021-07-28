@@ -11,12 +11,12 @@ ms.reviewer: edupont
 ms.search.keywords: user settings, preferences, language, region, time zone, regional settings
 ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: 36850a2d0d8f85a0436b5d268c3cd2653b2f785f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fff79b56d6846547230788b6caa831e7bf3a11d7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779766"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438961"
 ---
 # <a name="manage-user-settings-and-preferences"></a>Manage user settings and preferences
 
@@ -74,7 +74,7 @@ As the administrator, you can get an overview of individual changes to [!INCLUDE
 
 ## <a name="to-review-or-delete-user-personalizations"></a>To review or delete user personalizations
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Personalized Pages**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Personalized Pages**, and then choose the related link.
 2. This shows the list of users and their personalized pages. To clear a user's personalization, click the relevant row, or choose **Manage**, and then choose **Delete**.
 
 This deletes the personalization, and the user's experience of the relevant page returns to the default state.
