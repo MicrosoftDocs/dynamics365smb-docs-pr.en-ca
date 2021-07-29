@@ -1,21 +1,21 @@
 ---
-title: Apply Payments to Related Documents and Post Them| Microsoft Docs
-description: Describes how to record payments that you make to vendors and refunds that you make to customers.
+title: Record Payments and Refunds in Payment Journal
+description: Read about how to record payments that you make to vendors, and refunds that you make to customers, on the Payment Journal page.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment journal, print check, vendor payment, customer refund, creditor, debt, balance due, AP
-ms.date: 04/01/2021
+ms.search.keywords: payment journal, print check, vendor payment, customer refund, refund check, creditor, debt, balance due, AP
+ms.date: 07/09/2021
 ms.author: edupont
-ms.openlocfilehash: 1316bb7c5f1385ffef2ebe330d02e5a352e8561a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 61a47f68de6466c177ab8683f4167a77ec04dc3f
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782072"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543206"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Record Payments and Refunds in the Payment Journal
 
@@ -37,16 +37,31 @@ The payment journal is a general journal that is optimized for making payments. 
 
 ## <a name="to-make-payments-in-the-payment-journal"></a>To make payments in the payment journal
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
 2. Open the journal batch that is dedicated to payments.
-3. If you know who to pay or refund, fill in the fields manually. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. If you know who to pay, fill in the fields manually. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. To also apply the payment to the related invoice or credit memo, choose the **Applies-to Doc No.** field, on the **Apply Vendor Entries** page, select the relevant invoice or credit memo, and then choose the **OK** button.
 
     Many fields, such as the **Document Amount** and **Due Date** fields, are now filled in with information from the selected document.
 5. Alternatively, use the **Suggest Vendor Payments** function. All the applies-to information and amounts are then also entered on the journal lines. For more information, see [Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).
 
     Messages will guide you to fill in the required fields correctly.
-6.  When all payment journal lines are completed, choose the **Post** action.
+6. When all payment journal lines are completed, choose the **Post** action.
+
+
+## <a name="to-issue-a-refund-check"></a>To issue a refund cheque
+
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
+2. In the **Document Type** field, select **Refund**.  
+3. In the **External Document No.** field, use this as a reference for the refund cheque (for example, return order number).  
+4. In the **Account Type** field, select **Customer**.  
+5. In the **Account No.** field, select the customer's account number that the refund cheque is being issued to.  
+6. In the **Amount** field, enter the amount to be refunded.  
+7. In the **Bal Account Type** field, select **Bank Account**.  
+8. In the **Bal Account No.** field, select the bank account the cheque will come out of.  
+9. In the **Applies To Doc. No.** field, select the documents requiring a refund.  
+10. When all payment journal lines are completed, choose the **Post/Print** action, then choose the **Post and Print** action, and select **Yes**.  
+  
 
 ## <a name="see-also"></a>See Also
 [Make Cheque Payments](payables-how-work-checks.md)  

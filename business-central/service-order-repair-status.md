@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1cb6ba334d4584d6e3ead25606a612686258eae9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4ba9b99a7c205106b77386f297a361067b2227cc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776825"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446081"
 ---
 # <a name="set-up-statuses-for-service-orders-and-repairs"></a>Set Up Statuses for Service Orders and Repairs
 
@@ -29,7 +29,7 @@ Before you can set up a repair status, you must set up service status priorities
 
 ## <a name="to-set-up-service-status-priorities"></a>To set up service status priorities
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Order Status**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Order Status**, and then choose the related link.  
 2. Select the service order status you want to set a priority for.  
 3. In the **Priority** field, choose the priority you want for this service order status.  
 
@@ -37,7 +37,7 @@ Repeat steps 2 and 3 until you have set the priority for each of the four status
 
 ## <a name="to-set-up-a-repair-status"></a>To set up a repair status
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Repair Status**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Repair Status**, and then choose the related link.
 2. Create a new repair status.  
 3. Fill in the **Code** and **Description** fields.  
 4. In the **Service Order Status** field, choose the order status to link the repair status to. The **Priority** field displays the priority of the service order status you have chosen.  
