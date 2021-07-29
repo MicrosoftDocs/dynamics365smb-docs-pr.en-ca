@@ -1,6 +1,6 @@
 ---
-title: Service Posting | Microsoft Docs
-description: Service posting functionality lets you process your documents efficiently and maintain successful customer service policy. You can create and update posted documents, and create ledger entries both in the service area and in other modules to ensure the correct update.
+title: Service Posting
+description: Service posting functionality lets you process your documents efficiently and maintain successful customer service policy.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 4f7371f7af5546f75a90f734ebedb6c358783b17
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8bdfb6986f16c580cef6e1fc7bdde2ef25dab14b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776800"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443038"
 ---
 # <a name="service-posting"></a>Service Posting
 Service posting functionality lets you process your documents efficiently and maintain successful customer service policy. You can create and update posted documents, and create ledger entries both in the service area and in other modules to ensure the correct update.  
@@ -49,11 +49,11 @@ When you post a service invoice, a service shipment, or a service credit memo, t
 
 The following procedure uses a posted service invoice as an example, but the same procedure can apply to posted service shipments and posted credit memos.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Service Invoice**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Service Invoice**, and then choose the related link.  
 2. Open the posted service invoice you want to view.  
 3. To get an overview of the posted invoice, choose the **Statistics** action.  
 
-    The **Service Order Statistics** page opens. The page displays information such as quantity, amount, Tax, cost, profit, and customer credit limit for the posted document.
+    The **Service Order Statistics** page opens. The page displays information such as quantity, amount, GST/HST, cost, profit, and customer credit limit for the posted document.
 
 ## <a name="see-also"></a>See Also  
 [Post Service Orders](service-how-to-post-service-orders.md)   

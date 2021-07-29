@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b4daacd73987e4e747f97d288ecfb51b564de7e6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e348ce883493ec621b6dbe4bc5855e0c8318178b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781045"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442834"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Working with Accounting Periods and Fiscal Years
 
@@ -35,7 +35,7 @@ You can create accounting periods in bulk, by using the **Create Fiscal Year** b
 
 Use the **Create Fiscal Year** batch job to divide a fiscal year into periods of equal length.  
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Accounting Periods**, and then choose the related link.  
+1. Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Accounting Periods**, and then choose the related link.  
 2. Choose the **Create Year** action.  <!--What about the Scheduling option? Should we mention that? There's also the Report Output Type field...-->
 3. In the **Starting Date** field, enter the date on which the fiscal year starts.  
 4. In the **No. of Periods** field, enter the number of accounting periods to divide the fiscal year into. There can be up to 365 periods in a year.  
@@ -46,7 +46,7 @@ Use the **Create Fiscal Year** batch job to divide a fiscal year into periods of
 
 If the accounting periods in your fiscal year have different durations, like the 4-4-5 calendar used in retail, you can manually set it up.  
   
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Accounting Periods**, and then choose the related link.  
+1. Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Accounting Periods**, and then choose the related link.  
 2. In the **Starting Date** field, enter the date on which the fiscal year starts. The **Name** field will show the name of the month.  
 3. Choose the **New Fiscal Year** check box to indicate that this is the first period in the year. [!INCLUDE[prod_short](includes/prod_short.md)] will use this period to determine which periods to close at year-end.
 4. Repeat steps 2 and 3 for each remaining period.  
@@ -58,7 +58,7 @@ Closing the fiscal year is one of the tasks for closing the books. After you clo
 > [!NOTE]  
 > You must always have at least one open fiscal year. When closing a year, ensure that a new year has been created. Also, note that after you close one year, you cannot change the starting date of the following year.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Accounting Periods**, and then choose the related link.  
+1. Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Accounting Periods**, and then choose the related link.  
 2. Choose the **Close Year** action.  
 
 ## <a name="posting-entries-to-a-closed-fiscal-year"></a>Posting Entries to a Closed Fiscal Year

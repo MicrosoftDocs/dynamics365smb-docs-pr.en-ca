@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9e6dd99b1ea8da7099932185a7da18b0419a244e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8e988e0b23f29f4b9969a9682eac2e2e91a30fcc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780944"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442809"
 ---
 # <a name="accountant-experiences-in-prod_long"></a>Accountant Experiences in [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -44,7 +44,7 @@ We have made it easy for you to invite your external accountant. Simply open the
 > [!Note]  
 > This requires that you have set up SMTP email. For more information, see [Set Up Email](admin-how-setup-email.md).  
 
-<!-- ![Invite your accountant](./media/finance-invite-accountant/invite-accountant.png)-->
+<!-- ![Invite your accountant.](./media/finance-invite-accountant/invite-accountant.png)-->
 
 > [!IMPORTANT]  
 > The accountant's email address must be a work address that is based on Azure Active Directory. If the accountant uses another type of email, then the invitation cannot be sent.
@@ -91,7 +91,7 @@ The accountant will receive an email that notifies them that they have been give
 #### <a name="to-add-the-accountant-to-the-right-company"></a>To add the accountant to the right company
 
 1. Open the [!INCLUDE[prod_short](includes/prod_short.md)] company that you want to give the accountant access to at [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
-2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then chose the related link.  
+2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then chose the related link.  
 3. Choose the **Get New Users from Microsoft 365** action.
 
 This imports the user account that you created in the Azure portal to the company. For more information, see [To add a user in Business Central](ui-how-users-permissions.md#adduser).  
