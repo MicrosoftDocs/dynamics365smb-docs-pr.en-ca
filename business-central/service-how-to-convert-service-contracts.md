@@ -56,7 +56,7 @@ The following procedure describes how to create new contracts by working with co
 ### <a name="to-create-a-new-credit-memo"></a>To create a new credit memo  
 The following procedure describes how to create a new credit memo using the **Get Prepaid Contract Entries** batch job. Entries that you do not want to correct from January 2017 to June 2017 will be deleted.  
 
-1. Run the GST/HST rate change tool on July 1, 2017. The general product posting group or the VAT product posting group is changed. For more information, see [Work with GST/HST on Sales and Purchases](finance-work-with-vat.md).  
+1. Run the GST/HST rate change tool on July 1, 2017. The general product posting group or the GST/HST product posting group is changed. For more information, see [Work with GST/HST on Sales and Purchases](finance-work-with-vat.md).  
 2. After running the GST/HST rate change tool, enter a contract expiration date for the service contract. You can now delete the service contract line and create a new line that is identical to the old one.  
 3. Create a new invoice for the period of January 2017 to December 2012 using the new GST/HST rate.  
 4. To create another credit memo, on the **Service Credit Memos** page, choose the **New** action to create a new service credit memo.  

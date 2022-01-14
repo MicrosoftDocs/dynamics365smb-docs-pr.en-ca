@@ -28,7 +28,7 @@ In addition to recording the added cost in you inventory value, you can use the 
 - Break down the unit cost or unit price of an item for analysis purposes.
 - Include purchase allowances into the unit cost and sales allowances into the unit price.
 
-Before you can assign item charges, you must set up item charge numbers for the different types of item charges, including to which G/L accounts costs related to sales, purchases, and inventory adjustments are posted to. An item charge number contains a combination of general product posting group, tax group code, VAT product posting group, and item charge. When you enter the item charge number on a purchase or sales document, the relevant G/L account is retrieved based on the setup of the item charge number and the information on the document.
+Before you can assign item charges, you must set up item charge numbers for the different types of item charges, including to which G/L accounts costs related to sales, purchases, and inventory adjustments are posted to. An item charge number contains a combination of general product posting group, tax group code, GST/HST product posting group, and item charge. When you enter the item charge number on a purchase or sales document, the relevant G/L account is retrieved based on the setup of the item charge number and the information on the document.
 
 For both purchase and sales documents, you can assign an item charge in two ways:
 - On the document where the items that the item charge relates to are listed. This you typically do for documents that are not yet fully posted.

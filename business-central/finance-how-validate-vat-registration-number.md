@@ -40,7 +40,7 @@ There are a couple of things to note about the VIES VAT Number Validation servic
 * You may experience downtime for this service for which Microsoft is not responsible. The service is part of a broad EU network of national VAT registers.
 
 > [!IMPORTANT]
-> It is your responsibility to check that the data is valid. On occasion, data with errors is returned by the VIES VAT Number Validation service. If validation fails, validate the GST/HST registration numbers on the [web site](https://ec.europa.eu/taxation_customs/vies/), print the result or save it to a shared location, and then add the link to the record for your customer, vendor, or contact. For more information, see [Manage Attachments, Links, and Notes on Cards and Documents](ui-how-add-link-to-record.md).
+> It is your responsibility to check that the data is valid. On occasion, data with errors is returned by the VIES VAT Number Validation service. If validation fails, validate the VAT registration numbers on the [web site](https://ec.europa.eu/taxation_customs/vies/), print the result or save it to a shared location, and then add the link to the record for your customer, vendor, or contact. For more information, see [Manage Attachments, Links, and Notes on Cards and Documents](ui-how-add-link-to-record.md).
 
 ## <a name="validation-templates"></a>Validation templates
 
@@ -56,7 +56,7 @@ The next time that you specify a VAT registration number, the service validates 
 ## <a name="see-also"></a>See Also
 
 [Set Up Sales Tax](finance-setup-vat.md)  
-[Setting Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)  
+[Setting Up Unrealized GST/HST](finance-setup-unrealized-vat.md)  
 [Report GST/HST to a Tax Authority](finance-how-report-vat.md)  
 [Work with GST/HST on Sales and Purchases](finance-work-with-vat.md)  
 [Local functionality in Business Central](about-localization.md)  

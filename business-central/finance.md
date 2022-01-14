@@ -47,8 +47,8 @@ The following table describes a sequence of tasks, with links to the topics that
 | Learn about the available options to automate sending subscription invoices to your customers and register recurring revenue. |[Work with Recurring Revenue](finance-recurring-invoicing.md)|
 |Learn how to use additional currencies and update currency exchange rates automatically. |[Update Currency Exchange Rates](finance-how-update-currencies.md)|
 | Import salary transactions from your payroll provider into the general ledger. |[Import Payroll Transactions](finance-how-import-payroll-transactions.md)|
-|Use functions to calculate sales tax (GST/HST) on sales and purchase transactions so that you can report the amounts to the tax authorities.|[Work with GST/HST on Sales and Purchases](finance-work-with-vat.md)|
-|Prepare a report that lists VAT from sales, and submit the report to tax authorities in the EU. | [Report GST/HST to Tax Authorities](finance-how-report-vat.md)|
+|Use functions to calculate GST/HST on sales and purchase transactions so that you can report the amounts to the tax authorities.|[Work with GST/HST on Sales and Purchases](finance-work-with-vat.md)|
+|Prepare a report that lists GST/HST from sales, and submit the report to tax authorities in the EU. | [Report GST/HST to Tax Authorities](finance-how-report-vat.md)|
 |Manually convert service contracts to change their GST/HST rate.|[Convert Service Contracts that Include GST/HST Amounts](service-how-to-convert-service-contracts.md)|
 | Monitor the flow of cash in and out of your business. |[Analysing Cash Flows in Your Company](finance-analyze-cash-flow.md) |
 |Follow an end-to-end procedure on how to use account schedules to make cash flow forecasts.|[Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|

@@ -57,7 +57,7 @@ The topic contains the following procedures:
 
 ### <a name="to-set-up-vat-posting-for-electronic-document-sending-and-receiving"></a>To set up GST/HST posting for electronic document sending and receiving
 
-1. In the **Search** box, enter **VAT Posting Setup**, and then choose the related link.  
+1. In the **Search** box, enter **GST/HST Posting Setup**, and then choose the related link.  
 2. For each GST/HST posting setup line that you will use for electronic documents, fill the field as described in the following table.  
 
     |Field|Description|  
@@ -71,7 +71,7 @@ The topic contains the following procedures:
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Tax Scheme**|Identify the national body that issues the GST/HST registration number for the country\/region in connection with electronic document sending.<br /><br /> For example, when you send electronic invoices in the PEPPOL format, the value in this field is used to populate the **SchemeID** attribute for the **EndPointID** element under both the **AccountingSupplierParty** node and the **AccountingCustomerParty** in the file.<br /><br /> The **Tax Scheme** field is only used if the **GLN** field on the **Company Information** page is not filled. **Note:**  The value in the **Code** field on the **Countries\/Regions** page must comply with ISO 3166\-1:Alpha2.|  
+    |**GST/HST Scheme**|Identify the national body that issues the GST/HST registration number for the country\/region in connection with electronic document sending.<br /><br /> For example, when you send electronic invoices in the PEPPOL format, the value in this field is used to populate the **SchemeID** attribute for the **EndPointID** element under both the **AccountingSupplierParty** node and the **AccountingCustomerParty** in the file.<br /><br /> The **GST/HST Scheme** field is only used if the **GLN** field on the **Company Information** page is not filled. **Note:**  The value in the **Code** field on the **Countries\/Regions** page must comply with ISO 3166\-1:Alpha2.|  
 
 ### <a name="to-set-up-items-for-electronic-document-sending-and-receiving"></a>To set up items for electronic document sending and receiving
 

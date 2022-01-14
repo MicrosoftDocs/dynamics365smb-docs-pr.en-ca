@@ -64,7 +64,7 @@ After you migrate data, transactions have the status **Unposted**, so you can re
 There are a few things in particular that you should do:
 
 * If the transactions in QuickBooks Online had markup or discount amounts, you must manually add the amounts to the related transactions in [!INCLUDE[prod_short](includes/prod_short.md)] before you post them.
-* If you are using sales tax (GST/HST), you may need to add a business posting group and a product posting group to the posting setup so that you can post GST/HST amounts.
+* If you are using GST/HST, you may need to add a business posting group and a product posting group to the posting setup so that you can post GST/HST amounts.
 * Verify the beginning balances for accounts in the general ledger. QuickBooks Online does not store the current balance for all accounts, so you might need to correct beginning balances.
 
 ## <a name="see-also"></a>See Also

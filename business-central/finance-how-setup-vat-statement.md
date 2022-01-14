@@ -46,8 +46,8 @@ After you define a GST/HST statement, you can preview it to make sure it meets y
 5. You can use personalization to show more fields in the lines. For example the Unrealized Base Amount and Unrealized GST/HST Amount, if you are using unrealized GST/HST.
 
 ## <a name="see-also"></a>See Also  
-[Set Up Sales Tax](finance-setup-vat.md)  
-[Setting Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)      
+[Set Up GST/HST](finance-setup-vat.md)  
+[Setting Up Unrealized GST/HST](finance-setup-unrealized-vat.md)      
 [Report GST/HST to a Tax Authority](finance-how-report-vat.md)  
 [Work with GST/HST on Sales and Purchases](finance-work-with-vat.md)  
 [Local functionality in Business Central](about-localization.md)

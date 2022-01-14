@@ -18,7 +18,7 @@ ms.lasthandoff: 07/08/2021
 ms.locfileid: "6444496"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Report GST/HST to Tax Authorities
-This topic describes the reports in [!INCLUDE[prod_short](includes/prod_short.md)] that you can use to submit information about sales tax (GST/HST) amounts for sales and purchases to tax authorities in your region. 
+This topic describes the reports in [!INCLUDE[prod_short](includes/prod_short.md)] that you can use to submit information about GST/HST amounts for sales and purchases to tax authorities in your region. 
 
 You can use the following reports :
 
@@ -28,7 +28,7 @@ You can use the following reports :
 If you want to view a complete history of GST/HST entries, every posting that involves GST/HST creates an entry on the **GST/HST Entries** page. These entries are used to calculate your GST/HST settlement amount, such as your payment and refund, for a specific period. To view GST/HST entries, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **GST/HST Entries**, and then choose the related link.
 
 > [!NOTE]
-> Each [!INCLUDE[prod_short](includes/prod_short.md)] environment is meant to handle regulatory reporting in one single country. For example, the Dutch version of [!INCLUDE[prod_short](includes/prod_short.md)] handles VAT reporting in The Netherlands but not in other countries. Similarly, the United States version of [!INCLUDE[prod_short](includes/prod_short.md)] handles 1099 reporting in the United States and does not support claiming GST/HST reporting in other countries, unless brought by an extension delivered by our partner ecosystem or a customer-specific code modification.
+> Each [!INCLUDE[prod_short](includes/prod_short.md)] environment is meant to handle regulatory reporting in one single country. For example, the Dutch version of [!INCLUDE[prod_short](includes/prod_short.md)] handles GST/HST reporting in The Netherlands but not in other countries. Similarly, the United States version of [!INCLUDE[prod_short](includes/prod_short.md)] handles 1099 reporting in the United States and does not support claiming GST/HST reporting in other countries, unless brought by an extension delivered by our partner ecosystem or a customer-specific code modification.
 
 ## <a name="about-the-ec-sales-list-report"></a>About the EC Sales List report
 In the UK, all companies that sell goods and services to VAT-registered customers, including customers in other European Union (EU) countries, must submit an electronic version of the European Community (EC) Sales List report in XML format through Her Majesty's Revenue and Customs (HMRC) website. The EC Sales List report works only for countries in the EU.
@@ -54,7 +54,7 @@ For the GST/HST return, you can specify the entries to include:
 * Submit only entries from the specified periods, or also include entries from previous periods. This is useful for updating a GST/HST return that you have already submitted, for example, if a vendor sends you a late invoice.    
 
 ## <a name="to-connect-to-your-tax-authoritys-web-service"></a>To connect to your tax authority's web service
-[!INCLUDE[prod_short](includes/prod_short.md)] provides service connections to tax authority websites. For example, if you are in the UK, you can enable the **GovTalk** service connection to submit the EC Sales List and GST/HST Return reports electronically. If you want to submit the report manually, for example by entering your data on the tax authority's website, this is not required.   
+[!INCLUDE[prod_short](includes/prod_short.md)] provides service connections to tax authority websites. For example, if you are in the UK, you can enable the **GovTalk** service connection to submit the EC Sales List and VAT Return reports electronically. If you want to submit the report manually, for example by entering your data on the tax authority's website, this is not required.   
 
 To report GST/HST to a tax authority electronically, you need to connect [!INCLUDE[prod_short](includes/prod_short.md)] to the tax authority's web service. This requires that you set up an account with your tax authority. When you have an account, you can enable a service connection that we provide in [!INCLUDE[prod_short](includes/prod_short.md)].
 

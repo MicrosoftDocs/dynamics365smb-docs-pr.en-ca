@@ -37,7 +37,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Set up a tolerance by which the system closes an invoice even though the payment, including any discount, does not fully cover the amount on the invoice.|[Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Set up fiscal periods. |[Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md) |
 |Set up reminder terms to help you collect for overdue payments.|[Set Up Reminder Terms and Levels](finance-setup-reminders.md)|
-| Define how you report sales tax amounts that you have collected for sales to the tax authorities. |[Set Up Sales Tax (GST/HST)](finance-setup-vat.md)|
+| Define how you report GST/HST amounts that you have collected for sales to the tax authorities. |[Set Up GST/HST](finance-setup-vat.md)|
 |Prepare to handle unrealized GST/HST in connection with cash-based accounting methods.|[Set Up Unrealized GST/HST for Cash-Based Accounting](finance-setup-unrealized-vat.md)|
 | Set your Sales and Purchases features up to handle payments in foreign currencies.|[Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
 |Define one or more additional currencies so that amounts are automatically reported in both LCY and an additional reporting currency on each G/L entry and on other entries.|[Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md)|

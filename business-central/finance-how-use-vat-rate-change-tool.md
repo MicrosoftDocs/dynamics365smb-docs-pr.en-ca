@@ -41,7 +41,7 @@ The GST/HST Rate Change tool can assist with conversion of GST/HST Rates on mast
 
 ## <a name="understanding-the-vat-rate-conversion-process-and-limitations"></a>Understanding the GST/HST rate conversion process and limitations
 
-The GST/HST Rate Change tool performs GST/HST rate conversions for master data, journals, and orders in different ways. The selected master data and journals will be updated by the new general product posting group or VAT product post group. If an order has been fully or partially shipped, the shipped items will keep the current general product posting group or VAT product posting group. A new order line will be created for the unshipped items and updated to align current and new GST/HST or general product posting groups. In addition, item charge assignments, configuration templates for items, reservations, and item tracking information will be updated accordingly. 
+The GST/HST Rate Change tool performs GST/HST rate conversions for master data, journals, and orders in different ways. The selected master data and journals will be updated by the new general product posting group or GST/HST product post group. If an order has been fully or partially shipped, the shipped items will keep the current general product posting group or GST/HST product posting group. A new order line will be created for the unshipped items and updated to align current and new GST/HST or general product posting groups. In addition, item charge assignments, configuration templates for items, reservations, and item tracking information will be updated accordingly. 
 
 On order lines, the unit price will be updated for all lines of type Item and Resource, if using prices incl. GST/HST for the item. For other line types it is possible to decide whether or not the unit price should be updated.
 
@@ -72,7 +72,7 @@ Before you set up the GST/HST rate change tool, you must make the following prep
 ### <a name="to-set-up-the-vat-rate-change-tool"></a>To set up the GST/HST rate change tool
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **GST/HST Rate Change Setup**, and then choose the related link.  
-2. On the **Master Data**, **Journals**, and **Documents** FastTabs, choose a posting group value from the option list for needed fields. For each group you can choose whether to convert VAT product posting groups or general product posting groups, or convert both values if they are available in the master data item. For some areas you can also set a filter to convert only a subset of values, for example, G/L accounts. 
+2. On the **Master Data**, **Journals**, and **Documents** FastTabs, choose a posting group value from the option list for needed fields. For each group you can choose whether to convert GST/HST product posting groups or general product posting groups, or convert both values if they are available in the master data item. For some areas you can also set a filter to convert only a subset of values, for example, G/L accounts. 
 3. On the **Prices Incl. GST/HST** FastTab, choose which line types on orders for which you want to update unit prices. Unit prices on lines of type Item and Resource will always be updated.
 
 ### <a name="to-set-up-product-posting-group-conversion"></a>To set up product posting group conversion
@@ -93,7 +93,7 @@ You use the GST/HST rate change tool to manage changes in the standard rate of G
 > Before you perform GST/HST rate change conversion, you can test the conversion. To do so, follow the steps below, but make sure to clear the **Perform Conversion** and **GST/HST Rate Change Tool Completed** check boxes. During test conversion, the **Converted** field in the **GST/HST Rate Change Log Entry** table is cleared and the **Converted Date** field in the **GST/HST Rate Change Log Entry** table is blank. After the conversion is complete, choose **GST/HST Rate Change Log Entries** to view the results of the test conversion. Verify each entry before you perform the conversion. In particular, verify transactions that use an old GST/HST rate.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **GST/HST Rate Change**, and then choose the **GST/HST Rate Change Setup** link.  
-2. Verify that you have already set up the VAT product posting group conversion or general product posting group conversion.  
+2. Verify that you have already set up the GST/HST product posting group conversion or general product posting group conversion.  
 3. Choose the **Perform Conversion** check box.  
 
     > [!IMPORTANT]  
@@ -107,8 +107,8 @@ You use the GST/HST rate change tool to manage changes in the standard rate of G
 
 ## <a name="see-also"></a>See Also
 
-[Set Up Sales Tax](finance-setup-vat.md)  
-[Setting Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)  
+[Set Up GST/HST](finance-setup-vat.md)  
+[Setting Up Unrealized GST/HST](finance-setup-unrealized-vat.md)  
 [Report GST/HST to a Tax Authority](finance-how-report-vat.md)  
 [Work with GST/HST on Sales and Purchases](finance-work-with-vat.md)  
 [Local functionality in Business Central](about-localization.md)  

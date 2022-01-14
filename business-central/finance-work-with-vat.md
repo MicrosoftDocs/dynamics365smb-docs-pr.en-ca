@@ -18,12 +18,12 @@ ms.lasthandoff: 07/08/2021
 ms.locfileid: "6439444"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Work with GST/HST on Sales and Purchases
-If your country or region requires you to calculate sales tax (GST/HST) on sales and purchase transactions so that you can report the amounts to a tax authority, you can set up [!INCLUDE[prod_short](includes/prod_short.md)] to calculate tax automatically on sales and purchase documents. For more information, see [Setting Up to Calculations and Posting Methods for Sales Tax](finance-setup-vat.md).
+If your country or region requires you to calculate GST/HST on sales and purchase transactions so that you can report the amounts to a tax authority, you can set up [!INCLUDE[prod_short](includes/prod_short.md)] to calculate tax automatically on sales and purchase documents. For more information, see [Setting Up to Calculations and Posting Methods for GST/HST](finance-setup-vat.md).
 
 There are, however, some GST/HST-related tasks that you can do manually. For example, you might need to correct a posted amount if you discover that a vendor uses a different rounding method.  
 
 > [!TIP]
-> You can let [!INCLUDE[prod_short](includes/prod_short.md)] validate tax identification numbers and other company information when you create or update documents. For more information, see [Validate Tax Identification Numbers](finance-how-validate-vat-registration-number.md).
+> You can let [!INCLUDE[prod_short](includes/prod_short.md)] validate GST/HST identification numbers and other company information when you create or update documents. For more information, see [Validate GST/HST Identification Numbers](finance-how-validate-vat-registration-number.md).
 
 ## <a name="calculating-and-displaying-vat-amounts-in-sales-and-purchase-documents"></a>Calculating and Displaying GST/HST Amounts in Sales and Purchase Documents  
 You can calculate and display GST/HST amounts in sales and purchase documents differently, depending on the type of customer or vendor that you are dealing with. You can also override the calculated GST/HST amount to match the GST/HST amount calculated by your vendor on a given transaction.  
@@ -46,15 +46,15 @@ The following table provides an overview of how application calculates the unit 
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
 |No check mark|No check mark|The **Unit Price** on the Item Card is copied to **Unit Price Excl. GST/HST** field on the sales lines.|  
 |No check mark|Check mark|The application calculates the GST/HST amount per unit and adds to the **Unit Price** on the Item Card. This total Unit Price is then entered in the **Unit Price Incl. GST/HST field** on the sales lines.|  
-|Check mark|No check mark|The application calculates the VAT amount included in the **Unit Price** on the Item Card using the VAT% related to the VAT Bus. Posting Gr. (Price) and the VAT Prod. Posting Group combination. The **Unit Price** on the Item Card, reduced by the GST/HST amount, is then entered in the **Unit Price Excl. GST/HST** field in the sales lines.|  
+|Check mark|No check mark|The application calculates the GST/HST amount included in the **Unit Price** on the Item Card using the GST/HST% related to the GST/HST Bus. Posting Gr. (Price) and the GST/HST Prod. Posting Group combination. The **Unit Price** on the Item Card, reduced by the GST/HST amount, is then entered in the **Unit Price Excl. GST/HST** field in the sales lines.|  
 |Check mark|Check mark|The **Unit Price** on the Item Card is copied to **Unit Price Incl. GST/HST** field on the sales lines.|
 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>Correcting GST/HST Amounts Manually in Sales and Purchase Documents  
 You can make corrections to posted GST/HST entries. This allows you to change the total sales or purchase GST/HST amounts without changing the GST/HST base. You may need to do this, for example, if you receive an invoice from a vendor that has calculated GST/HST incorrectly.  
 
-Although you may have set up one or more combinations to handle import VAT, you must set up at least one VAT product posting group. For example, you can name it **CORRECT** for correction purposes, unless you can use the same general ledger account in the **Purchase GST/HST Account** field on the GST/HST posting setup line. For more information, see [Setting Up to Calculations and Posting Methods for Sales Tax](finance-setup-vat.md).
+Although you may have set up one or more combinations to handle import GST/HST, you must set up at least one GST/HST product posting group. For example, you can name it **CORRECT** for correction purposes, unless you can use the same general ledger account in the **Purchase GST/HST Account** field on the GST/HST posting setup line. For more information, see [Setting Up to Calculations and Posting Methods for GST/HST](finance-setup-vat.md).
 
-If a payment discount has been calculated on the basis of an invoice amount that includes GST/HST, you revert the payment discount part of the GST/HST amount when the payment discount is granted. Note that you must activate the **Adjust for Payments Disc.** field in both the general ledger setup in general and the VAT posting setup for specific combinations of a VAT business posting group and a VAT product posting group.  
+If a payment discount has been calculated on the basis of an invoice amount that includes GST/HST, you revert the payment discount part of the GST/HST amount when the payment discount is granted. Note that you must activate the **Adjust for Payments Disc.** field in both the general ledger setup in general and the GST/HST posting setup for specific combinations of a GST/HST business posting group and a GST/HST product posting group.  
 
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a>To set the system up for manual GST/HST entry in sales documents
 The following describes how to enable manual GST/HST changes on sales documents. The steps are similar on the **Purchases & Payables Setup** page.
@@ -94,11 +94,11 @@ You must perform the following steps before you manually enter GST/HST in a sale
 Instead of using journals to post an import GST/HST invoice, you can use a purchase invoice.  
 
 ### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>To set up purchasing for posting import GST/HST invoices  
-1. Set up a vendor card for the import authority that sends you the import GST/HST invoice. The **Gen. Bus. Posting Group** and **VAT Bus. Posting Group** must be set up in the same way as the general ledger account for the import VAT.  
-2. Create a **Gen. Product Posting Group** for the import VAT and set up an import VAT **Def. VAT Product Posting Group** for the related **Gen. Product Posting Group**.  
+1. Set up a vendor card for the import authority that sends you the import GST/HST invoice. The **Gen. Bus. Posting Group** and **GST/HST Bus. Posting Group** must be set up in the same way as the general ledger account for the import GST/HST.  
+2. Create a **Gen. Product Posting Group** for the import GST/HST and set up an import GST/HST **Def. GST/HST Product Posting Group** for the related **Gen. Product Posting Group**.  
 3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
 4. Select the import GST/HST general ledger account, and then choose the **Edit** action.  
-5. On the **Posting** FastTab, select the **Gen. Prod. Posting Group** setup for import GST/HST. [!INCLUDE[prod_short](includes/prod_short.md)] automatically fills in the **VAT Prod. Posting Group** field.  
+5. On the **Posting** FastTab, select the **Gen. Prod. Posting Group** setup for import GST/HST. [!INCLUDE[prod_short](includes/prod_short.md)] automatically fills in the **GST/HST Prod. Posting Group** field.  
 6. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Posting Setup**, and then choose the related link.  
 7. Create a combination of the **Gen. Bus. Posting Group** for the GST/HST authority and the **Gen. Prod. Posting Group** for import GST/HST. For this new combination, in the **Purchase Account** field, choose the import GST/HST general ledger account.  
 
@@ -184,7 +184,7 @@ To view a group of certificates, you start from the **Certificates of Supply** p
 
 ## <a name="see-also"></a>See Also
 
-[Setting Up Calculations and Posting Methods for Sales Tax](finance-setup-vat.md)  
+[Setting Up Calculations and Posting Methods for GST/HST](finance-setup-vat.md)  
 [Report GST/HST to a Tax Authority](finance-how-report-vat.md)  
 [Validate a VAT Registration Number](finance-how-validate-vat-registration-number.md)  
 

@@ -1,5 +1,5 @@
 ---
-title: Setting Up Unrealized Value Added Tax | Microsoft Docs
+title: Setting Up Unrealized GST/HST | Microsoft Docs
 description: If you're using cash-based accounting, you can specify how to handle unrealized GST/HST for sales and purchases.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -49,6 +49,6 @@ To use accounts for unrealized GST/HST, follow these steps:
 > The GST/HST amount will be posted to this account, and stay there until the customer payment is posted. The amount is then transferred to the account for purchase GST/HST.
 
 ## <a name="see-also"></a>See Also
-[Set Up Calculations and Posting Methods for Value Added Tax](finance-setup-vat.md)
+[Set Up Calculations and Posting Methods for GST/HST](finance-setup-vat.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

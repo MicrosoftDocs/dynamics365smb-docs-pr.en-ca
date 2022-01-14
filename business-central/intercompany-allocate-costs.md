@@ -20,7 +20,7 @@ ms.lasthandoff: 07/08/2021
 ms.locfileid: "6444264"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Allocate Costs to Intercompany Partners
-When you use intercompany postings to transfer documents between partner companies, the VAT-related settings (primarily the VAT business posting group) assigned to the customer or vendor accounts (associated with the intercompany Partner) control whether, and how, VAT is calculated and registered. You can also do cost distributions directly from a purchase order to partner companies. For example, if you register a purchase invoice from an external vendor and you want to distribute some or all of the costs to one or more intercompany partners.
+When you use intercompany postings to transfer documents between partner companies, the GST/HST-related settings (primarily the GST/HST business posting group) assigned to the customer or vendor accounts (associated with the intercompany Partner) control whether, and how, GST/HST is calculated and registered. You can also do cost distributions directly from a purchase order to partner companies. For example, if you register a purchase invoice from an external vendor and you want to distribute some or all of the costs to one or more intercompany partners.
 
 You can allocate costs can be to one or more intercompany partners using the following:
 
@@ -77,11 +77,11 @@ The following procedure describes how to allocate costs using a purchase invoice
 ## <a name="calculating-vat-for-cost-distributions"></a>Calculating GST/HST for Cost Distributions
 When you use a document to distribute costs to intercompany partners, there are two GST/HST settings to be aware of: 
 * The settings on the G/L account for expenses:
-   * If the general business or VAT business posting groups are set up on the G/L account, then the calculation depends on the groups and the product groups from the document line.
-   * If the general business or VAT business posting groups are not specified on the G/L account, the calculation depends on the following:
+   * If the general business or GST/HST business posting groups are set up on the G/L account, then the calculation depends on the groups and the product groups from the document line.
+   * If the general business or GST/HST business posting groups are not specified on the G/L account, the calculation depends on the following:
 * The posting group settings on the intercompany partner
-   * Whether the intercompany partner is assigned to a customer number that does not have a general business or VAT business posting groups specified.
-   * There is no customer number associated with the intercompany partner. Then the general business or VAT business posting groups are blank, and the line in the VAT posting setup is used, which is usually a group where 0% VAT is specified.
+   * Whether the intercompany partner is assigned to a customer number that does not have a general business or GST/HST business posting groups specified.
+   * There is no customer number associated with the intercompany partner. Then the general business or GST/HST business posting groups are blank, and the line in the GST/HST posting setup is used, which is usually a group where 0% GST/HST is specified.
 
 > [!NOTE]
 > It is important to validate both the intercompany partner setup and the G/L account setup (for the expense account used for the cost distribution) before you allocate costs to intercompany partners.

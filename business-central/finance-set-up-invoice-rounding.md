@@ -33,13 +33,13 @@ To use automatic invoice rounding, you must:
 >  In addition to the invoice rounding features, you can round amounts on invoices by the unit-amount rounding feature and the amount rounding feature.  
 
 ## <a name="set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Set up general ledger accounts for invoice rounding differences
-To use the automatic invoice rounding function, you must set up the general ledger account or accounts where rounding differences will be posted. Before you can do this, you must set up VAT product posting groups. For more information, see [Set up GST/HST](finance-setup-vat.md).  
+To use the automatic invoice rounding function, you must set up the general ledger account or accounts where rounding differences will be posted. Before you can do this, you must set up GST/HST product posting groups. For more information, see [Set up GST/HST](finance-setup-vat.md).  
 
 ### <a name="to-set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>To set up general ledger accounts for invoice rounding differences  
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
 2. On the **Chart of Accounts** page, set up the account and name it **Invoice Rounding** or something similar. [!INCLUDE[prod_short](includes/prod_short.md)] will use the account name as text for invoices that are rounded.  
-3. Depending on whether you use VAT or sales tax, in the **Tax Prod. Posting Group** or **VAT Prod. Posting Group** fields, choose a posting group for rounded amounts. You may want to set up a new group code to use for invoice rounding.
-4. Leave the **Gen. Posting Type**, and either the **Tax Bus. Posting Group** or **VAT Bus. Posting Group** fields blank. <!-- Why do we say to leave these blank, when there are a lot of other fields we also leave blank but don't mention? -->  
+3. Depending on whether you use GST/HST or sales tax, in the **Tax Prod. Posting Group** or **GST/HST Prod. Posting Group** fields, choose a posting group for rounded amounts. You may want to set up a new group code to use for invoice rounding.
+4. Leave the **Gen. Posting Type**, and either the **Tax Bus. Posting Group** or **GST/HST Bus. Posting Group** fields blank. <!-- Why do we say to leave these blank, when there are a lot of other fields we also leave blank but don't mention? -->  
 
 Now you can assign the invoice rounding account to posting groups on the **Vendor Posting Groups** page.  <!-- Why only the vendor posting groups? -->
 
