@@ -1,6 +1,6 @@
 ---
-title: The GST/HST Group Management Extension | Microsoft Docs
-description: You can engage with other businesses to form a GST/HST group, and act as either a member or representative of the group when reporting GST.
+title: The GST/HST Group Management Extension
+description: 'You can engage with other businesses to form a GST/HST group, and act as either a member or representative of the group when reporting GST.'
 author: bholtorf
 manager: annbe
 ms.service: dynamics365-business-central
@@ -8,16 +8,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: VAT, value added tax, report
+ms. search.keywords: 'VAT, value added tax, report'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 093b361bf2d3f02d08dc6b8d53ad4b58a086f88b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
-ms.translationtype: HT
-ms.contentlocale: en-CA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771296"
 ---
+
 # <a name="the-vat-group-management-extension"></a>The GST/HST Group Management Extension
 
 You can join one or more businesses in your country to consolidate GST/HST reporting under a single registration number. This type of arrangement is known as a *GST/HST group*. You can engage with the group as a member or the group representative.
@@ -29,7 +24,7 @@ GST/HST group members and the group representative can use the **GST Group Manag
 Communication happens from group members to the representative. The group representative exposes an API that allows the members to submit their GST returns to the GST/HST group representative. 
 [!INCLUDE[prod_short](includes/prod_short.md)] supports inter-group GST/HST return submissions for companies using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises or online, and in any combination. The setup of the communication depends on the constellation. The following sections describe how to set up various group constellations.
 
-The following list shows the recommended order of the steps to set up a GST/HST group:
+The following list shows the recommended order of the steps to set up a GST group:
 
 1. Create the setup in Azure Active Directory. For more information, see [Requirements for Authentication](ui-extensions-vat-group.md#requirements-for-authentication).
 2. Share the technical information that GST/HST group members and the representative need to connect their [!INCLUDE[prod_short](includes/prod_short.md)] tenants. Usually, the GST/HST group representative has this information, such as the name of the GST/HST group representative's environment to which the GST/HST group members will submit Tax.
@@ -44,19 +39,19 @@ The following list shows the recommended order of the steps to set up a GST/HST 
 
 ## <a name="understanding-the-vat-group-management-setup"></a>Understanding the GST/HST Group Management Setup
 
-The GST/HST group representative exposes an API that GST/HST group members can use to connect to their [!INCLUDE[prod_short](includes/prod_short.md)] tenant and submit tax returns. GST/HST group members will often use [!INCLUDE[prod_short](includes/prod_short.md)] in separate Azure Active Directory tenants. Therefore, more setup is needed to make a connection between the GST/HST group member and representative's [!INCLUDE[prod_short](includes/prod_short.md)]. 
+The GST group representative exposes an API that GST group members can use to connect to their [!INCLUDE[prod_short](includes/prod_short.md)] tenant and submit tax returns. GST group members will often use [!INCLUDE[prod_short](includes/prod_short.md)] in separate Azure Active Directory tenants. Therefore, more setup is needed to make a connection between the GST group member and representative's [!INCLUDE[prod_short](includes/prod_short.md)]. 
   
-GST/HST group members connect to the representative by calling a web service on the GST/HST group representative tenant. The caller must be authenticated using OAuth. When the GST Group Management extension is set up, you will be asked to authenticate to the GST/HST group representative to get and save an access token. This access token is used when submitting GST returns to the GST/HST group representative. 
+GST/HST group members connect to the representative by calling a web service on the GST/HST group representative tenant. The caller must be authenticated using OAuth. When the GST Group Management extension is set up, you will be asked to authenticate to the GST/HST group representative to get and save an access token. This access token is used when submitting GST returns to the GST group representative. 
 
-Authentication is handled by Azure Active Directory, so your setup must be made in the GST/HST group representative's Azure Active Directory to allow connections. An Azure Active Directory app registration must be configured with access to the GST/HST group representative's [!INCLUDE[prod_short](includes/prod_short.md)]. This is also true if the GST/HST group representative is using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises. Additionally, you must configure Single Sign-On if the GST/HST group representative is using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises.
+Authentication is handled by Azure Active Directory, so your setup must be made in the GST group representative's Azure Active Directory to allow connections. An Azure Active Directory app registration must be configured with access to the GST group representative's [!INCLUDE[prod_short](includes/prod_short.md)]. This is also true if the GST/HST group representative is using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises. Additionally, you must configure Single Sign-On if the GST/HST group representative is using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises.
 
 > [!NOTE]
 > For a limited time, authentication using a web service access key is also supported. For more information, see [Deprecated Features in 2021 release wave 1](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#deprecated-features-in-2021-release-wave-1).
 
 ## <a name="requirements-for-authentication"></a>Requirements for Authentication 
-When the GST/HST group representative is using [!INCLUDE[prod_short](includes/prod_short.md)] online or on-premises, GST/HST group members use Azure Active Directory to authenticate when they submit GST returns to the GST/HST group representative. If the GST/HST group members are also using [!INCLUDE[prod_short](includes/prod_short.md)] online, the GST/HST group member can authenticate using the designated user credentials and the endpoint information. For more information, see [GST/HST Group Member Setup](ui-extensions-vat-group.md#vat-group-member-setup).
+When the GST group representative is using [!INCLUDE[prod_short](includes/prod_short.md)] online or on-premises, GST group members use Azure Active Directory to authenticate when they submit GST returns to the GST group representative. If the GST/HST group members are also using [!INCLUDE[prod_short](includes/prod_short.md)] online, the GST/HST group member can authenticate using the designated user credentials and the endpoint information. For more information, see [GST/HST Group Member Setup](ui-extensions-vat-group.md#vat-group-member-setup).
 
-GST/HST group members who have [!INCLUDE[prod_short](includes/prod_short.md)] on-premises must set up an app registration in Azure Active Directory for the GST/HST group representative's [!INCLUDE[prod_short](includes/prod_short.md)] tenant. The app registration will enable the GST/HST group representative's [!INCLUDE[prod_short](includes/prod_short.md)] online to authenticate the group member. For more information, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app).
+GST group members who have [!INCLUDE[prod_short](includes/prod_short.md)] on-premises must set up an app registration in Azure Active Directory for the GST group representative's [!INCLUDE[prod_short](includes/prod_short.md)] tenant. The app registration will enable the GST group representative's [!INCLUDE[prod_short](includes/prod_short.md)] online to authenticate the group member. For more information, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app).
 
 When you create the app registration in Azure Active Directory, you must specify the following.
 
@@ -81,7 +76,7 @@ Set up the GST/HST group member by starting the **Set up GST Group Management** 
 1. To define the company's GST/HST group role, choose **Member**, then choose **Next**.
 2. Copy the value of the **Group Member ID** field, then share it with the GST/HST group representative so they can add your company as an approved member of the group.
 3. Add the **API URL** from the GST/HST group representative. Typically, the URL is formatted as follows: `https://api.businesscentral.dynamics.com/v2.0/[TENANT-ID]/[ENVIRONMENTNAME]`. For example, `https://api.businesscentral.dynamics.com/v2.0/907869c3-b252-4aca-b9cb-17a15d25477b/UKRepresentative`. 
-4. Add the [!INCLUDE[prod_short](includes/prod_short.md)] company name of the GST/HST group representative, such as *CRONUS UK Ltd*.
+4. Add the [!INCLUDE[prod_short](includes/prod_short.md)] company name of the GST group representative, such as *CRONUS UK Ltd*.
 5. Choose **Authentication Type**, choose **OAuth2**, and then choose **Next**.
 6. In the **Client ID** field, enter the ID provided by the GST/HST group representative.
 7. In the **Client Secret provided by the GST Group representative** field, enter the secret provided by the GST/HST group representative.
@@ -91,9 +86,9 @@ Set up the GST/HST group member by starting the **Set up GST Group Management** 
 11. When you have specified the various fields, choose **Next**, then enter the user credentials that were provided by the GST/HST group representative.
 12. Choose the GST/HST report configuration that you use to report GST/HST to authorities in your country.
 
-  For example, in the United Kingdom, the GST/HST report configuration would be set up to report GST/HST to HMRC. The GST Group Management extension copies this setup, but replaces the submission codeunit with one that supports submission to the GST/HST group representative rather than the tax authorities. The codeunit is provided by Microsoft. When done, choose **Next**.
+  For example, in the United Kingdom, the GST/HST report configuration would be set up to report GST/HST to HMRC. The GST Group Management extension copies this setup, but replaces the submission codeunit with one that supports submission to the GST group representative rather than the tax authorities. The codeunit is provided by Microsoft. When done, choose **Next**.
 
-## <a name="using-the-vat-group-management-features"></a>Using the GST/HST Group Management Features
+## <a name="using-the-vat-group-management-features"></a>Using the GST Group Management Features
 
 GST/HST group members use the standard processes to prepare GST returns. The only difference is to choose the **VATGROUP** report version, which submits the GST return to the GST/HST group representative rather than the authorities. For more information, see [About the GST/HST Return report](finance-how-report-vat.md#about-the-vat-return-report).
 
@@ -116,8 +111,12 @@ When the GST/HST Group representative's GST Return has been submitted to the aut
 > The GST/HST group functionality is only supported in those markets where [!INCLUDE[prod_short](includes/prod_short.md)] uses a GST/HST framework that consists of GST/HST returns and GST/HST return periods. You cannot use GST/HST groups in other markets that have other implementations of local GST/HST reporting, such as Austria, Germany, Italy, Spain, and Switzerland. 
 
 ## <a name="see-also"></a>See Also
+
 [Work with GST/HST on Sales and Purchases](finance-work-with-vat.md)  
-[Set Up GST/HST](finance-setup-vat.md)
+[Set Up GST/HST](finance-setup-vat.md)  
+[Work with GST/HST on Sales and Purchases](finance-work-with-vat.md)  
+[Making Tax Digital in the United Kingdom](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)  
+[Norwegian GST/HST Reporting in the Norwegian Version](LocalFunctionality/Norway/norwegian-vat-reporting.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
