@@ -2,15 +2,15 @@
 title: Business users learning catalogue
 description: Find all the available learning for Business Central.
 author: loreleishannonmsft
-ms.date: 04/01/2021
-ms.topic: conceptual
-ms.author: margoc
-ms.openlocfilehash: fd0b839e402ff59ec5fb875d026eb5fe2202850e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 04/20/2020
+ms.topic: article
+ms.author: v-lshann
+ms.openlocfilehash: 2076c0b3cf17167bea654e136be98c6cb9522718
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772438"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3271951"
 ---
 # <a name="business-users-learning-catalog"></a>Business Users Learning Catalogue
 
@@ -40,7 +40,7 @@ The following catalogue is organized from core knowledge to specific domains, an
 | Content                                                                                                                                                        | Description                                                                                                                                                                                                                                                                                             | Format                                | Length             |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
 | [Get started with Trade in Microsoft Dynamics 365 Business Central](/learn/paths/trade-get-started-dynamics-365-business-central/)                                  | Are you using Trade in Business Central? This learning path discusses the setup requirements and how to start using Trade in Business Central.                                                                                                                                                          | Free, self-paced online learning path | 1 hour 55 minutes  |
-| [Process GST/HST in Microsoft Dynamics 365 Business Central](/learn/paths/process-vat-dynamics-365-business-central/)                                                     | Do you need to set up and calculate GST/HST for your company? Take this learning path that contains information about setting up GST/HST, processing GST/HST, calculating and posting settlements, and making a GST/HST rate change.                                                                                    | Free, self-paced online learning path | 2 hours 26 minutes |
+| [Process Tax in Microsoft Dynamics 365 Business Central](/learn/paths/process-vat-dynamics-365-business-central/)                                                     | Do you need to set up and calculate tax for your company? Take this learning path that contains information about setting up tax, processing tax, calculating and posting settlements, and making a tax rate change.                                                                                    | Free, self-paced online learning path | 2 hours 26 minutes |
 | [Post sales and purchase invoices in Microsoft Dynamics 365 Business Central](/learn/paths/post-sales-purchase-invoices-dynamics-365-business-central/)               | Do you need to process and post customer sales invoices? Do you need to enter vendor purchase invoices? This learning path addresses both, and also discusses how to process prepayments to customers and vendors. It also discusses using electronic documents in your business with Business Central. | Free, self-paced online learning path | 3 hours 44 minutes |
 | [Process customer and vendor payments in Microsoft Dynamics 365 Business Central](/learn/paths/process-customer-vendor-payments-dynamics-365-business-central/)       | Do you receive payments from customers and pay vendors? This module will help you track both in cash management and process those transactions as necessary in Business Central.                                                                                                                        | Free, self-paced online learning path | 2 hours 36 minutes |
 | [Purchase items and services in Microsoft Dynamics 365 Business Central](/learn/paths/purchase-items-services-dynamics-365-business-central/)                         | Do you need to create purchase documents like purchase orders and purchase invoices? This learning path shows you how to create purchase documents and address things such as discounts and item charges.                                                                                               | Free, self-paced online learning path | 3 hours 4 minutes  |
@@ -48,6 +48,3 @@ The following catalogue is organized from core knowledge to specific domains, an
 | [Return items in Microsoft Dynamics 365 Business Central](/learn/paths/return-items-dynamics-365-business-central/)                                                   | Do you need to return items to vendors and accept returns from customers? This path will help you learn how to process returns.                                                                                                                                                                         | Free, self-paced online learning path | 1 hour 25 minutes  |
 | [Replenish items in Microsoft Dynamics 365 Business Central](/learn/paths/replenish-items-dynamics-365-business-central/)                                             | Do you need to replenish inventory items in your business? This learning path will show you options you can use to efficiently replenish items in Business Central.                                                                                                                                     | Free, self-paced online learning path | 1 hour 46 minutes  |
 | [Assemble items in Microsoft Dynamics 365 Business Central](/learn/paths/assemble-items-dynamics-365-business-central/)                                               | Do you sell assembled items? This learning path provides the information you need to assembly management and items. It also provides steps to produce assembled items to stock or order.                                                                                                                | Free, self-paced online learning path | 2 hours 26 minutes |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
