@@ -1,52 +1,58 @@
 ---
-title: Setting Up Unrealized Value Added Tax | Microsoft Docs
-description: If you're using cash-based accounting, you can specify how to handle unrealized tax for sales and purchases.
+title: Setting Up Unrealized GST/HST
+description: If you're using cash-based accounting, you can specify how to handle unrealized GST/HST for sales and purchases.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash, VAT, unrealized, cash-based
-ms.date: 04/01/2020
+ms.search.form: 118, 472, 473
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f4d08d96621d5ff59b65a35e899d66afe0ddaa52
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 02ad408b55340bca218859d6742b0d74fbb1a294
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182717"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971897"
 ---
-# <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Set Up Unrealized Tax for Cash-Based Accounting
-If you are using cash-based accounting methods, you can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to handle unrealized Tax.
+# <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Set Up Unrealized GST/HST for Cash-Based Accounting
 
-## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>To use general ledger accounts for unrealized Tax
-You can choose to have tax amounts calculated and posted to a temporary general ledger account when an invoice is posted, and then posted to the correct general ledger account and included in tax statements when the actual payment of the invoice is posted. Before you can do this, you must complete the tax posting setup.
+If you are using cash-based accounting methods, you can set up [!INCLUDE[prod_short](includes/prod_short.md)] to handle unrealized GST/HST.
 
-To use accounts for unrealized tax, follow these steps:
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, and enter **General Ledger Setup**.
-2. On the **General Ledger Setup** page, select the **Unrealized Tax** check box.
-3. Choose the **Search for Page or Report** icon ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do"), and enter **Tax Posting Setup**.
-4. On the **Tax Posting Setup** page, choose the Tax posting group, and then choose the **Edit** action.
-5. In the **Unrealized VAT Type** field, choose an option to specify how to allocate payments to the invoice amount (excluding VAT) and the VAT amount itself, and how to transfer VAT amounts from the unrealized VAT account to the realized account. The following table describes the options.
+## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>To use general ledger accounts for unrealized GST/HST
+
+You can choose to have GST/HST amounts calculated and posted to a temporary general ledger account when an invoice is posted, and then posted to the correct general ledger account and included in GST/HST statements when the actual payment of the invoice is posted. Before you can do this, you must complete the GST/HST posting setup.
+
+To use accounts for unrealized GST/HST, follow these steps:
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, and enter **General Ledger Setup**.
+2. On the **General Ledger Setup** page, select the **Unrealized GST/HST** check box.
+3. Choose the **Search for Page or Report** icon ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), and enter **GST/HST Posting Setup**.
+4. On the **GST/HST Posting Setup** page, choose the GST/HST posting group, and then choose the **Edit** action.
+5. In the **Unrealized GST/HST Type** field, choose an option to specify how to allocate payments to the invoice amount (excluding GST/HST) and the GST/HST amount itself, and how to transfer GST/HST amounts from the unrealized GST/HST account to the realized account. The following table describes the options.
 
 | Option | Description |
 | --- | --- |
-| Blank | Choose this option if you don't want to use the unrealized tax feature. |
-| Percentage | Payments covers both tax and the invoice amount in proportion to the payment's percentage of the remaining invoice amount. The paid tax amount is transferred from the unrealized tax account to the realized tax account. |
-| First | Payments cover tax first and then invoice amounts. In this case, the amount transferred from the unrealized tax account to the tax account will equal the amount of the payment until the total tax has been paid. |
-| Last | Payments cover the invoice amount first and then tax. In this case, no amount will be transferred from the unrealized tax account to the tax account until the total amount of the invoice, excluding tax, has been paid. |
-| First (Fully Paid) | Payments will cover VAT first (like the _First_ option), but no amount will be transferred to the VAT account until the full amount of VAT has been paid. |
-| Last (Fully Paid) | Payments will cover invoice amount first (like the _Last_ option), but no amount will be transferred to the VAT account until the full amount of VAT has been paid. |
+| Blank | Choose this option if you don't want to use the unrealized GST/HST feature. |
+| Percentage | Payments covers both GST/HST and the invoice amount in proportion to the payment's percentage of the remaining invoice amount. The paid GST/HST amount is transferred from the unrealized GST/HST account to the realized GST/HST account. |
+| First | Payments cover GST/HST first and then invoice amounts. In this case, the amount transferred from the unrealized GST/HST account to the GST/HST account will equal the amount of the payment until the total GST/HST has been paid. |
+| Last | Payments cover the invoice amount first and then GST/HST. In this case, no amount will be transferred from the unrealized GST/HST account to the GST/HST account until the total amount of the invoice, excluding GST/HST, has been paid. |
+| First (Fully Paid) | Payments will cover GST/HST first (like the _First_ option), but no amount will be transferred to the GST/HST account until the full amount of GST/HST has been paid. |
+| Last (Fully Paid) | Payments will cover invoice amount first (like the _Last_ option), but no amount will be transferred to the GST/HST account until the full amount of GST/HST has been paid. |
 
-6. In the **Sales VAT Unreal. Account** field, choose the account for unrealized sales VAT.
+6. In the **Sales GST/HST Unreal. Account** field, choose the account for unrealized sales GST/HST.
 
     > [!NOTE]  
-    > The Tax amount will be posted to this account, and stay there until the customer payment is posted. The amount is then transferred to the account for sales tax.
-7. In the **Purch. VAT Unreal. Account** field, enter the general ledger account for unrealized purchase VAT.
+    > The GST/HST amount will be posted to this account, and stay there until the customer payment is posted. The amount is then transferred to the account for sales GST/HST.
+7. In the **Purch. GST/HST Unreal. Account** field, enter the general ledger account for unrealized purchase GST/HST.
 
 > [!NOTE]  
-> The Tax amount will be posted to this account, and stay there until the customer payment is posted. The amount is then transferred to the account for purchase tax.
+> The GST/HST amount will be posted to this account, and stay there until the customer payment is posted. The amount is then transferred to the account for purchase GST/HST.
 
 ## <a name="see-also"></a>See Also
-[Setting Up Value Added Tax](finance-setup-vat.md)
+[Set Up Calculations and Posting Methods for GST/HST](finance-setup-vat.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

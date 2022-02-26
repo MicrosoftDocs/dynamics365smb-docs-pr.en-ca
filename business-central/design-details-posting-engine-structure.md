@@ -1,41 +1,43 @@
 ---
-title: Design Details - Posting Engine Structure | Microsoft Docs
-description: Posting interface and some other functions in codeunit 12 use posting engine functions to prepare and insert general ledger entry and tax entry records. The posting engine is also responsible for general ledger register creation.
+title: Design Details - Posting Engine Structure
+description: The posting interface uses posting engine functions to prepare and insert general ledger entry and GST/HST entry records.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 3e49d9c521ebfb73caeae6987472c5123ab54eba
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 68375a306983551a51a59ac448b4f0bfa7ad6917
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185477"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6318418"
 ---
 # <a name="design-details-posting-engine-structure"></a>Design Details: Posting Engine Structure
-Posting interface and some other functions in codeunit 12 use posting engine functions to prepare and insert general ledger entry and tax entry records. The posting engine is also responsible for general ledger register creation.  
+Posting interface and some other functions in codeunit 12 use posting engine functions to prepare and insert general ledger entry and GST/HST entry records. The posting engine is also responsible for general ledger register creation.  
   
  The functions in the following table provide a standard framework for designing posting procedures (such as Code, CustPostApplyCustledgEntry, VendPostApplyVendLedgEntry, UnapplyCustLedgEntry, UnapplyVendLedgEntry, and Reverse) and exclusive access to table 17, G/L Entry.  
   
 |Routine|Description|  
 |-------------|---------------------------------------|  
-|StartPosting|Initializes posting buffer TempGLEntryBuf, locks G/L Entry and Tax Entry tables, and initializes Accounting Period, G/L Register, and Exchange Rate. Should be called only once, then NextEntryNo is 0.|  
-|ContinuePosting|Checks and posts unrealized tax for previous transaction increment NextTransactionNo and prepares post of next line.|  
+|StartPosting|Initializes posting buffer TempGLEntryBuf, locks G/L Entry and GST/HST Entry tables, and initializes Accounting Period, G/L Register, and Exchange Rate. Should be called only once, then NextEntryNo is 0.|  
+|ContinuePosting|Checks and posts unrealized GST/HST for previous transaction increment NextTransactionNo and prepares post of next line.|  
 |FinishPosting|Completes posting by inserting G/L entries from temporary buffer into database table. Always used together with StartPosting. Checks for inconsistencies.|  
 |InitGLEntry|Used to initialize new G/L entry for Gen. Jnl Line. Returns GLEntry as parameter.|  
 |InitGLEntryVAT|Same as InitGLEntry, but also assigns Bal. Account No. and SummarizeVAT.|  
-|InitGLEntryVATCopy|Similar to InitGLEntryTax, but also copies posting groups data from Tax Entry before SummarizeTax.|  
+|InitGLEntryVATCopy|Similar to InitGLEntryGST/HST, but also copies posting groups data from GST/HST Entry before SummarizeGST/HST.|  
 |InsertGLEntry|The only function that inserts G/L entry into global TempGLEntryBuf table. Always use this function for insert.|  
 |CreateGLEntry|Performs an InitGLEntry, assigns Additional Currency Amount, and then performs InsertGLEntry. Replaces several lines of code with a single function call.|  
 |CreateGLEntryBalAcc|Same as CreateGLEntry, but also assigns Bal. Account Type and Bal. Account No.|  
-|CreateGLEntryVAT|Same as CreateGLEntry, but with additional processing for posting groups and saving to temporary Tax buffer:<br /><br /> `GLEntry.CopyPostingGroupsFromDtldCVBuf(DtldCVLedgEntryBuf,GenJnlLine."Gen. Posting Type");`<br /><br /> `InsertVATEntriesFromTemp(DtldCVLedgEntryBuf,GLEntry);`|  
-|CreateGLEntryVATCollectAdj|Same as CreateGLEntry, but with additional collection of adjustments and saving to temporary Tax buffer:<br /><br /> `CollectAdjustment(AdjAmount,GLEntry.Amount,GLEntry."Additional-Currency Amount",OriginalDateSet);`<br /><br /> `InsertVATEntriesFromTemp(DtldCVLedgEntryBuf,GLEntry);`|  
-|CreateGLEntryFromVATEntry|Same as CreateGLEntry, but also copies posting groups from Tax entry.|  
+|CreateGLEntryVAT|Same as CreateGLEntry, but with additional processing for posting groups and saving to temporary GST/HST buffer:<br /><br /> `GLEntry.CopyPostingGroupsFromDtldCVBuf(DtldCVLedgEntryBuf,GenJnlLine."Gen. Posting Type");`<br /><br /> `InsertVATEntriesFromTemp(DtldCVLedgEntryBuf,GLEntry);`|  
+|CreateGLEntryVATCollectAdj|Same as CreateGLEntry, but with additional collection of adjustments and saving to temporary GST/HST buffer:<br /><br /> `CollectAdjustment(AdjAmount,GLEntry.Amount,GLEntry."Additional-Currency Amount",OriginalDateSet);`<br /><br /> `InsertVATEntriesFromTemp(DtldCVLedgEntryBuf,GLEntry);`|  
+|CreateGLEntryFromVATEntry|Same as CreateGLEntry, but also copies posting groups from GST/HST entry.|  
   
 ## <a name="see-also"></a>See Also  
  [Design Details: Posting Interface Structure](design-details-posting-interface-structure.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

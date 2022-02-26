@@ -1,46 +1,31 @@
 ---
-title: How to Print Troubleshooting Reports | Microsoft Docs
-description: Several troubleshooting reports are available to assist Microsoft Certified Partners with troubleshooting issues.
+title: How to Print Troubleshooting Reports [CA]
+description: Several troubleshooting reports are available to assist Microsoft Certified Partners with troubleshooting issues in the Canadian version.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: fb205696631977b3b525cc7d94ef748db07f8960
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 7ec2b3c0fbbb6027f52f51769b2169aac922407a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180834"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774990"
 ---
-# <a name="print-troubleshooting-reports"></a>Print Troubleshooting Reports
-The following troubleshooting reports are available to assist Microsoft Certified Partners with troubleshooting issues:  
+# <a name="print-troubleshooting-reports-in-the-canadian-version"></a>Print Troubleshooting Reports in the Canadian Version
 
--   **License Information** report – This report contains the license number, the name of the licensed user, which application granules they have purchased, and when the license expires, if applicable.  
+[!INCLUDE [print-troubleshooting-reports](../includes/CAMXUS/print-troubleshooting-reports.md)]
 
--   **Data Dictionary** report (report #10315) – This report allows you to print detailed table reference, field reference, and table properties for table objects.  
+## <a name="see-also"></a>See Also
 
-You must have access to [!INCLUDE[d365fin](../../includes/d365fin_md.md)] Object Designer, which is available only to administrators.  
-
-You can print these reports and send them to your Microsoft Certified Partner to help resolve issues with your [!INCLUDE[d365fin](../../includes/d365fin_md.md)] implementation.  
-
-## <a name="to-print-the-license-information-report"></a>To print the License Information report  
-1.  In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] Object Designer, on the **Tools** menu, choose **Licence Information**.  
-2.  On the **Licence Information** page, you can preview the licence information, or you can choose the **Export** button to print the **Licence Information** report.  
-
-## <a name="to-print-the-data-dictionary-report"></a>To print the Data Dictionary report  
-1.  In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] Object Designer, on the **Tools** menu, choose **Object Designer**.  
-2.  Choose the **Report** button.  
-3.  In the **Type** column, find **ID** 10315, which is the **Data Dictionary** report.  
-4.  On the **Object Designer** page, choose the **Run** button to open the **Data Dictionary** report.  
-5.  On the **Options** tab, enter the relevant information into the fields.  
-6.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
-
-## <a name="see-also"></a>See Also  
 [Canada Local Functionality](canada-local-functionality.md)  
 [Finance](../../finance.md)  
-[Setting Up Finance](../../finance.md)
+[Setting Up Finance](../../finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

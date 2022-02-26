@@ -3,19 +3,19 @@ title: Design Details - Production Order Posting | Microsoft Docs
 description: Similar to assembly order posting, the consumed components and the used machine time are converted and output as the produced item when the production order is finished.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: d69007dfba9fe7aa95365f7bd2c7f5b6b2c756d0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: 98dee9205b2d2f66365d111608cd69c151951ca2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184829"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442369"
 ---
 # <a name="design-details-production-order-posting"></a>Design Details: Production Order Posting
 Similar to assembly order posting, the consumed components and the used machine time are converted and output as the produced item when the production order is finished. For more information, see [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md). However, the cost flow for assembly orders is less complex, especially because assembly cost posting only occurs once and therefore does not generate work-in-process inventory.
@@ -58,11 +58,11 @@ Posting production orders to WIP inventory involves output, consumption, and cap
 
 The following diagram shows the involved posting routines in codeunit 22.  
 
-![Production order posting routines](media/design_details_inventory_costing_14_production_posting_1.png "Production order posting routines")  
+![Production order posting routines.](media/design_details_inventory_costing_14_production_posting_1.png "Production order posting routines")  
 
 The following diagram shows the associations between the resulting entries and the cost objects.  
 
-![Production entry flow](media/design_details_inventory_costing_14_production_posting_2.png "Production entry flow")  
+![Production entry flow.](media/design_details_inventory_costing_14_production_posting_2.png "Production entry flow")  
 
 The capacity ledger entry describes the capacity consumption in terms of time units, whereas the related value entry describes the value of the specific capacity consumption.  
 
@@ -110,3 +110,6 @@ In standard-cost environments, the costing of a production order is based on the
  [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)  
  [Managing Inventory Costs](finance-manage-inventory-costs.md) [Finance](finance.md)  
  [Working with Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

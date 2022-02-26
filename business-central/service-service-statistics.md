@@ -1,21 +1,21 @@
 ---
-title: Service Statistics | Microsoft Docs
-description: Get a quick overview of the contents of service documents such as orders, quotes, invoices, or credit memos, the details on the specific service lines, and the service items.
+title: Service Statistics
+description: Get a quick overview of the contents and statistics of service documents such as orders, quotes, invoices, credit memos, service lines, and more.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0e1c6fe7b5a830e17d693bcd4d48921947b0509d
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: eaec4f99ea07e84b1a328be3022005fac01de38d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192396"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438266"
 ---
 # <a name="viewing-service-statistics"></a>Viewing Service Statistics
 You can use statistics to analyse service documents and determine how well you are managing your service processes. You can analyse service contracts, items, quotes, orders, invoices, and credit memos by choosing the **Statistics** action. For service items and contracts, you can also use the **Service Item Trendscape** or **Contract Trendscape** to view a summary of service ledger entries for a specific service item.   
@@ -23,10 +23,10 @@ You can use statistics to analyse service documents and determine how well you a
 ## <a name="viewing-statistics-for-service-orders"></a>Viewing Statistics for Service Orders
 The service order statistics feature gives you a quick overview of the contents of the entire service order, the details on the specific service lines, and information related to invoicing, shipping and consuming, and the customer's balance.  
 
-The statistical data is displayed for a service order on the **Service Order Statistics** page for the relevant order. You can open the relevant statistics page from a service order. On the **Service Orders** page, choose **Statistics**. The FastTabs in this page show information such as quantity, amount, Tax, cost, profit, and customer credit limit. The amounts on the page are in the currency of the service order, unless otherwise indicated.  
+The statistical data is displayed for a service order on the **Service Order Statistics** page for the relevant order. You can open the relevant statistics page from a service order. On the **Service Orders** page, choose **Statistics**. The FastTabs in this page show information such as quantity, amount, GST/HST, cost, profit, and customer credit limit. The amounts on the page are in the currency of the service order, unless otherwise indicated.  
 
 ### <a name="view-totals-for-a-service-order"></a>View totals for a service order  
-You can view the total amount on the service lines, including and excluding Tax, Tax part, cost, and profit on the service lines. The page also displays item-specific information, such as weight, volume, and the quantity of parcels.  
+You can view the total amount on the service lines, including and excluding GST/HST, GST/HST part, cost, and profit on the service lines. The page also displays item-specific information, such as weight, volume, and the quantity of parcels.  
 
 ### <a name="view-shipping-information"></a>View shipping information  
 You can see information about the items, resources, or costs to be shipped. To provide the information, the values specified in the **Qty. to Ship** field are used on each service line in the order.  
@@ -84,7 +84,7 @@ A contract gain or loss entry is generated when a contract quote is converted to
 |**Contract Gain/Loss (Reasons)**|To view the contract gain/loss by reason code.|  
 |**Contract Gain/Loss (Resp.Ctr)**|To view the contract gain/loss by responsibility centre.|  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter the name of the page to display, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter the name of the page to display, and then choose the related link.  
 2. Fill in the filter criteria you want to apply. For example, on the **Contract Gain/Loss (Reasons)** page, choose a value for **Reason Code Filter**.  
 3. Choose the **Show Matrix** action.
 
@@ -97,7 +97,7 @@ The statistical information is displayed in the statistics page for the correspo
 The **Service Shipment Statistics** page provides an overview of a posted service shipment. This includes information about the physical contents of the shipment, such as quantity of the shipped items, resource hours or costs, and weight and volume of the shipped items.  
 
 ### <a name="posted-service-invoice-statistics"></a>Posted Service Invoice Statistics  
-You can see a statistical summary on a posted service invoice on the **Service Invoice Statistics** page. You can view the totals of the posted service invoice. The data includes total amount on the service lines (including and excluding Tax) that has been posted as invoiced, Tax part, cost, and profit on the posted invoice. The page also displays information about the following:  
+You can see a statistical summary on a posted service invoice on the **Service Invoice Statistics** page. You can view the totals of the posted service invoice. The data includes total amount on the service lines (including and excluding GST/HST) that has been posted as invoiced, GST/HST part, cost, and profit on the posted invoice. The page also displays information about the following:  
 
 * The items on the service invoice lines, such as weight, volume, and the quantity of parcels.  
 * The balance on the customer's account, and the maximum credit that you can extend the customer.  
@@ -105,10 +105,13 @@ You can see a statistical summary on a posted service invoice on the **Service I
 ### <a name="posted-service-credit-memo-statistics"></a>Posted Service Credit Memo Statistics  
 You can use the **Service Credit Memo Statistics** page to get a statistical overview of the lines in a posted service credit memo. The overview can include:
 
-* The total amounts on the posted credit memo, displayed as quantity, amount, Tax, cost and profit. There is also information about the items on the service lines of the posted credit memo, such as quantity, weight, and volume.  
+* The total amounts on the posted credit memo, displayed as quantity, amount, GST/HST, cost and profit. There is also information about the items on the service lines of the posted credit memo, such as quantity, weight, and volume.  
 * General information about the customer, such as the customer's credit limit and balance on the account.  
 
 ## <a name="see-also"></a>See Also  
 [Create Service Orders](service-how-to-create-service-orders.md)   
 [Create Service Items](service-how-to-create-service-items.md)   
 [Planning Service](service-plan-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
