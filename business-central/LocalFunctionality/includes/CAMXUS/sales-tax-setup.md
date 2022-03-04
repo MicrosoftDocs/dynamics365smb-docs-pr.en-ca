@@ -1,15 +1,14 @@
 ---
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/27/2021
 ms.author: edupont
-ms.openlocfilehash: 9af782d2a8e23759b5e99b3c2adfc73f7644ebe3
-ms.sourcegitcommit: 8746f93c5a11f218d22f95ea06de9c8ec8f8d3f2
+ms.openlocfilehash: 38e5b84c7bd48ed6f092eccd8b4bcb1234fe7774
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "6238727"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129279"
 ---
 When you first start using [!INCLUDE[prod_short](../../../includes/prod_short.md)], you can run an assisted setup guide to quickly and easily set up sales tax information for your company, customers, and vendors. In a matter of minutes, you are ready to create sales documents and purchase documents with sales tax calculated correctly. Just search for the **Set Up Sales Tax** assisted setup guide, and then follow the steps in the guide. This includes specifying the accounts that you want to use for sales tax for sales and purchases.  
 
