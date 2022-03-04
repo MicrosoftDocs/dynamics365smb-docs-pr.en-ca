@@ -2,7 +2,6 @@
 title: Reporting Sales Tax [CA]
 description: Learn about how sales tax is set up, and how tax groups, tax areas (provinces/territories, counties, cities, and localities), tax jurisdictions, and tax details work in Canada.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: local
 ms.date: 10/12/2021
 ms.author: edupont
-ms.openlocfilehash: 4a0200e9f76e72653293caabbf3be6634e782274
-ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
+ms.openlocfilehash: 20c3f34a11f6386c8921b9cc680af8c3875638ac
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "7643909"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8149298"
 ---
 # <a name="reporting-sales-tax-in-canada"></a>Reporting Sales Tax in Canada
 
