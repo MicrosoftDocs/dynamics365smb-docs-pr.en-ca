@@ -1,20 +1,21 @@
 ---
-title: Set Up Workflows (contains video)
-description: Set up workflows, workflow users and approval users to connect business-process system tasks performed by these different users.
+title: Set Up Workflows
+description: You can set up and use workflows that connect business-process tasks performed by different users. Learn about the different steps you must take.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/11/2021
+ms.date: 10/14/2020
 ms.author: edupont
-ms.openlocfilehash: d9cf7f41f399d2747b554f3784c40b51fb9d71da
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a104065d8f52ca9d1bb9221cd43917253c640ca4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133261"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754238"
 ---
 # <a name="set-up-workflows"></a>Set Up Workflows
 
@@ -52,6 +53,3 @@ This video shows how to set up an workflow that will require someone to request 
  [Workflow](across-workflow.md)   
  [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
  [Working with Business Central](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

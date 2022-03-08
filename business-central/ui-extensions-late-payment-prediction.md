@@ -1,23 +1,23 @@
 ---
-title: Predict Late Payments for Sales Documents
-description: This topic explains how to use our predictive model to predict whether an invoice will be paid on time.
+title: Predict Late Payments for Sales Documents | Microsoft Docs
+description: Use our predictive model to predict whether an invoice will be paid on time.
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 12/20/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: c1c9f6a0aec94161b2043b5bf5cb5737bce3f8d2
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6fc4f700f7469c280474e4a1f606ade24ef1266b
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136778"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817063"
 ---
-# <a name="the-late-payment-prediction-extension"></a>The Late Payment Prediction Extension
-
+# <a name="the-late-payment-prediction-extension"></a>The Late Payment Prediction Extension  
 Effectively managing receivables is important to the overall financial health of a business. The Late Payment Prediction extension can help you reduce outstanding receivables and fine-tune your collections strategy by predicting whether sales invoices will be paid on time. For example, if a payment is predicted to be late, you might decide to adjust the terms of payment or the payment method for the customer.
 
 ## <a name="getting-started"></a>Getting Started
@@ -26,7 +26,7 @@ When you open a posted sales document, a notification will display at the top of
 
 To enable the extension manually, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Late Payment Prediction Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Late Payment Prediction Setup**, and then choose the related link.  
 2. Fill in the fields as necessary.
 
 > [!Note]
@@ -91,7 +91,7 @@ If it appears that your processes do not match the standard model, you still can
 [!INCLUDE[prod_short](includes/prod_short.md)] runs training and evaluation automalically when there are enough paid and late invoices are available, however you can run it manually whenever you want.
 
 #### <a name="to-train-and-use-your-model"></a>To train and use your model
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Late Payment Prediction Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Late Payment Prediction Setup**, and then choose the related link.  
 2. In the **Selected Model** field, choose **My Model**.
 3. Choose the **Create My Model** action, to train model on your data.  
 
@@ -103,17 +103,11 @@ You can also create your own predictive web service based on a public model name
 3. Use your Microsoft account to sign up for a workspace, and then copy the model.  
 4. Run the model, and publish it as a web service.  
 5. Make a note of the API URL and API key. You will use these credentials for a cash flow setup.  
-6. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Late Payment Prediction Setup**, and then choose the related link.  
+6. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Late Payment Prediction Setup**, and then choose the related link.  
 7. Choose the **Use My Azure Subscription** check box.
 8. On the **My Model Credentials** FastTab, enter the API URL and API key for your model.  .  
 
-## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/predict-late-payments-sales-documents/)
-
-## <a name="see-also"></a>See Also
-
-[Azure Machine Learning Studio Documentation](/azure/machine-learning/classic/)  
+## <a name="see-also"></a>See Also  
+[Azure Machine Learning Studio Documentation](https://go.microsoft.com/fwlink/?linkid=861765)  
 [Customizing Business Central Using Extensions](ui-extensions.md)  
 [Welcome to [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
-[Use Artificial Intelligence in Microsoft Dynamics 365 Business Central (Microsoft Learn)](/learn/paths/use-artificial-intelligence/)  
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,23 +1,23 @@
 ---
-title: Manage Bank Accounts
+title: Manage Bank Accounts| Microsoft Docs
 description: You must regularly reconcile bank ledger entries with the related bank transactions in your bank accounts.
-author: edupont04
-ms.topic: conceptual
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reconcile
-ms.search.form: 377, 378, 165, 1284
-ms.date: 06/14/2021
+ms.date: 06/22/2020
 ms.author: edupont
-ms.openlocfilehash: a533a49e3a34d33242d556758ebe5cb68165c0bb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7d7ca565218f45a753abd7e468e201538d0e6841
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139972"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786530"
 ---
-# <a name="manage-and-reconcile-your-bank-accounts"></a>Manage and Reconcile Your Bank Accounts
+# <a name="reconciling-bank-accounts"></a>Reconciling Bank Accounts
 
 A bank reconciliation should be completed at regular intervals for all your bank accounts to ensure that the company's cash records are correct. You do this by comparing and matching entries in your internal bank accounts with bank transactions at your bank, and then posting the balances to your internal bank accounts to make totals available to finance managers. Bank reconciliation is also a practical way to discover and resolve missing payments and bookkeeping errors.
 
@@ -26,7 +26,7 @@ You can perform the task on the **Bank Acc. Reconciliation** page where you matc
 > [!NOTE]  
 > In the North American versions, you can also perform bank reconciliation on the **Bank Rec. Worksheet** page, which is better suited for cheques and deposits but does not offer import of bank statement files. To use this page instead of the **Bank Acc. Reconciliation** page, deselect the **Bank Recon. with Auto. Match** field on the **General Ledger Setup** page. For more information, see [Reconcile Bank Accounts](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md) under United States Local Functionality.
 
-Before you can manage your bank accounts within [!INCLUDE[prod_short](includes/prod_short.md)], you must set each bank account up as a bank account card. In addition, you must set up electronic services that you may use for bank statement import and payment file export. For more information, see [Setting Up Banking](bank-setup-banking.md).
+Before you can manage your bank accounts within [!INCLUDE[d365fin](includes/d365fin_md.md)], you must set each bank account up as a bank account card. In addition, you must set up electronic services that you may use for bank statement import and payment file export. For more information, see [Setting Up Banking](bank-setup-banking.md).
 
 The following table describes a sequence of tasks, with links to the topics that describe them.
 
@@ -48,8 +48,5 @@ The following table describes a sequence of tasks, with links to the topics that
 [Transfer Bank Funds](bank-how-transfer-bank-funds.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
 [Managing Payables](payables-manage-payables.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

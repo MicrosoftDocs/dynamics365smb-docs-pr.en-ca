@@ -1,20 +1,21 @@
 ---
-title: QuickBooks Online Data Migration Extension
+title: QuickBooks Online Migration Extension | Microsoft Docs
 description: Describes how to use the extension to migrate customers, vendors, items, and accounts from QuickBooks Online to Business Central.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
-ms.date: 06/24/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 235c3050eac4dac983f486f66fe9e837e9594c57
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6eb05acc55c86ce8547c2b18b933d669787583d4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146055"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386408"
 ---
 # <a name="the-quickbooks-online-data-migration-extension"></a>The QuickBooks Online Data Migration Extension
 
@@ -53,7 +54,7 @@ If transactions in QuickBooks Online have tax amounts, you must set up a tax acc
 
 Getting started is easy. All you need to do is run the **Data Migration** assisted setup guide. Here's how:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose **Migrate business data**.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose **Migrate business data**.
 2. Follow the instructions on each step in the assisted setup guide.
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>What do I do after I migrate data?
@@ -63,7 +64,7 @@ After you migrate data, transactions have the status **Unposted**, so you can re
 There are a few things in particular that you should do:
 
 * If the transactions in QuickBooks Online had markup or discount amounts, you must manually add the amounts to the related transactions in [!INCLUDE[prod_short](includes/prod_short.md)] before you post them.
-* If you are using GST/HST, you may need to add a business posting group and a product posting group to the posting setup so that you can post GST/HST amounts.
+* If you are using value added tax (VAT), you may need to add a business posting group and a product posting group to the posting setup so that you can post VAT amounts.
 * Verify the beginning balances for accounts in the general ledger. QuickBooks Online does not store the current balance for all accounts, so you might need to correct beginning balances.
 
 ## <a name="see-also"></a>See Also

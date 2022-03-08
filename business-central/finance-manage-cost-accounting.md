@@ -1,20 +1,23 @@
 ---
 title: Accounting for Costs | Microsoft Docs
 description: Cost accounting is used to help you understand the costs of running a business. To get started with cost accounting, see the following topics.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: c22248b9f81837cfaf52717314d7981a64ede8c8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 75bd53acf885a79c1d3ea236240e2e7f2ca66829
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148645"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238794"
 ---
 # <a name="accounting-for-costs"></a>Accounting for Costs
 Cost accounting is used to help you understand the costs of running a business. To get started with cost accounting, see the following topics.  
@@ -27,14 +30,10 @@ Cost accounting is used to help you understand the costs of running a business. 
 |Transfer general ledger entries to cost entries.|[Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)|  
 |Allocate costs.|[Defining and Allocating Costs](finance-define-and-allocate-costs.md)|  
 |Learn the processes in creating cost budgets.|[Creating Cost Budgets](finance-create-cost-budgets.md)|
-|Cancel cost budget entries from the cost budget register.|[Deleting Cost Budget Entries](finance-how-to-delete-cost-budget-entries.md)|
+|Cancel cost budget entries from the cost budget register.|[Deleting Cost Budget Entries](finance-how-to-delete-cost-budget-entries.md)| 
 
-## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See Also  
 [Finance](finance.md)  
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

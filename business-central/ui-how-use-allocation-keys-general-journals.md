@@ -1,27 +1,29 @@
 ---
-title: Use Allocation Keys in General Journals
-description: You can allocate an entry in a general journal to several different accounts when you post the journal.
+title: Use Allocation Keys in General Journals | Microsoft Docs
+description: Learn how you can use allocation keys in journals.
+services: project-madeira
+documentationcenter: ''
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost accounting
-ms.search.form: 283, 284
-ms.date: 06/29/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f5270acb437ca600e145d0060b34b16f9b20a009
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2760b53bfa1e277d4c4763810d580f5b66a223dc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140354"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772263"
 ---
 # <a name="use-allocation-keys-in-general-journals"></a>Use Allocation Keys in General Journals
 You can allocate an entry in a general journal to several different accounts when you post the journal. The allocation can be made by quantity, percentage, or amount.
 
 ## <a name="to-set-up-allocation-keys"></a>To set up allocation keys
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Recurring General Journal**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Recurring General Journal**, and then choose the related link.
 2. Choose the **Batch Name** field to open the **General Journal Batches** page.
 3. You can either modify allocations on an existing batch in the list or create a new batch with allocations.
    * To create a new batch, choose the **New** action, and go to the next step.
@@ -36,7 +38,7 @@ You can allocate an entry in a general journal to several different accounts whe
 11. Post the journal.
 
 ## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>To change an allocation key that has already been set up
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Recurring General Journal**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Recurring General Journal**, and then choose the related link.
 2. On the **Recurring General Journal** page, select the journal with the allocation.
 3. Choose the line with the allocation, and then choose **Allocations** action.
 4. Change the relevant fields, and then choose the **OK** button.

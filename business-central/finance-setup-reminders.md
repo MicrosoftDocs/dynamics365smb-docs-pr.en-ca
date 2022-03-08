@@ -2,20 +2,20 @@
 title: Set Up Reminder Terms and Levels
 description: Learn how to set up Business Central so that you can send a reminder to a customer about a payment that is due and add charges, or fees to the payment because of the delay.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.search.form: 431, 432, 436, 478
-ms.date: 02/09/2022
+ms.date: 01/21/2021
 ms.author: edupont
-ms.openlocfilehash: 81c86841bd4000cab881e06783fd521ae18d1cbf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2d8e233fb1796515314c954d883bda7302fdcd9b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132845"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377046"
 ---
 # <a name="set-up-reminder-terms-and-levels"></a>Set Up Reminder Terms and Levels
 
@@ -30,7 +30,7 @@ If customers have overdue payments, you must decide when and how to send them a 
 
 ### <a name="to-set-up-reminder-terms"></a>To set up reminder terms
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminder Terms**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminder Terms**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 3. To use more than one combination of reminder terms, set up a code for each one.
 
@@ -42,7 +42,7 @@ If you create more reminders than you have defined levels for, the conditions fo
 
 ### <a name="to-set-up-reminder-levels"></a>To set up reminder levels
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminder Terms**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminder Terms**, and then choose the related link.  
 2. On the **Reminder Terms** page, select the line with the terms you want to set up levels for, and then choose **Levels** action.  
 3. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
@@ -101,7 +101,6 @@ After you have set up the reminder terms, with additional levels and text, enter
 ## <a name="see-also"></a>See also 
 
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
-[Send Reminders of Outstanding Balances](receivables-send-reminders.md)  
 [Set Up Finance Charge Terms](finance-setup-finance-charges.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 

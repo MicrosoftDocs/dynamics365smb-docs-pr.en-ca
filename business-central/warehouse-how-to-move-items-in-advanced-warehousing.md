@@ -1,20 +1,21 @@
 ---
-title: Move Items in Advanced Warehouse Configuration
-description: This topic explains how a senior employee can arrange moving items in advanced warehouse configurations - applicable to locations with directed put-away and pick.
+title: How to Move Items in advanced warehouse configurations | Microsoft Docs
+description: In advanced warehouse configurations, that is, locations with directed put-away and pick, warehouse movements between bins are performed by a senior employee preparing warehouse movements in the movement worksheet and then creating the warehouse movements for warehouse employees to perform.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: b0550524262425502d8510d99137b4f2a7a6785b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4b6e9c03e93f055ccdc4066df56db5d53027852a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139192"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779570"
 ---
 # <a name="move-items-in-advanced-warehouse-configurations"></a>Move Items in Advanced Warehouse Configurations
 In advanced warehouse configurations, that is, locations with directed put-away and pick, warehouse movements between bins are performed by a senior employee preparing warehouse movements in the movement worksheet and then creating the warehouse movements for warehouse employees to perform.  
@@ -22,12 +23,12 @@ In advanced warehouse configurations, that is, locations with directed put-away 
 ## <a name="to-move-items-with-the-warehouse-movement-worksheet"></a>To move items with the warehouse movement worksheet
 The **Movement Worksheet** page has two functions that can assist in automatically filling in the lines. The first is the **Calculate Bin Replenishment** function. This function uses the bin rankings to suggest replenishment for high-ranking bins from low-ranking bins. The second is the **Get Bin Content** function, which fills in the worksheet lines with the entire bin contents of the bin or bins you specify.
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Movement Worksheet**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Movement Worksheet**, and then choose the related link.  
 2.  Enter the warehouse movement information on the worksheet lines as appropriate.  
 3. Choose the **Create Movement** action to create a warehouse movement document which can then be registered when the warehouse movement is completed.  
 
 ### <a name="to-register-the-warehouse-movement"></a>To register the warehouse movement  
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Movements**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Movements**, and then choose the related link.  
 2.  Open the warehouse movement that you want to process.  
 3.  On lines of action type **Place**, specify where, which, and when to move the item in question by editing the **Zone Code**, **Bin Code**, **Qty. to Handle**, or **Due Date** fields.  
 
@@ -42,7 +43,7 @@ The **Movement Worksheet** page has two functions that can assist in automatical
 ## <a name="to-register-the-movement-of-an-item-that-has-already-occurred"></a>To register the movement of an item that has already occurred  
 If your location uses directed put-away and pick, and you need to move items to other bins without a pre-existing warehouse put-away, pick, or movement, you can register the correct placement of the items in the warehouse using the **Whse. Reclassification Journal**.
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Whse. Reclassification Journal**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Whse. Reclassification Journal**, and then choose the related link.  
 2.  Fill in the **Item No.**, **From Zone Code**, **From Bin Code**, **To Zone Code**, and **To Bin Code** fields.  
 3.  Choose the **Register** action.  
 
@@ -52,7 +53,4 @@ If your location uses directed put-away and pick, and you need to move items to 
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,21 +1,21 @@
 ---
-title: Create Item Cards for Goods or Services (contains video)
-description: You create item cards for services that you sell as hours and for physical products, such as assembly items, finished goods, that you sell from your inventory.
+title: Create Item Cards for Goods or Services| Microsoft Docs
+description: You create item cards for services that you sell as hours and for physical products, such as assembly items, finished goods, components, or raw material, that you sell from your inventory.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
-ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
-ms.date: 09/24/2021
+ms.search.keywords: item, finished good, component, raw material, assembly item
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a2d64fe3a04109246540a463597dbf49684b8913
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: badba79d8097db74ca843f37ded1b76ada5c3739
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148599"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377707"
 ---
 # <a name="register-new-items"></a>Register New Items
 
@@ -40,7 +40,13 @@ The following procedure explains how to create an item card from scratch. You ca
 
 ## <a name="to-create-a-new-item-card"></a>To create a new item card
 
-[!INCLUDE[create_new_item](includes/create_new_item.md)]
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+2. On the **Items** page, choose the **New** action.
+
+    If only one item template exists, then a new item card opens with some fields filled with information from the template.
+3. On the **Select a template for a new item** page, choose the template that you want to use for the new item card.
+4. Choose the **OK** button. A new item card opens with some fields filled with information from the template.
+5. Proceed to fill or change fields on the item card as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
 > In the **Costing Method** field, you set up how the item's unit cost is calculated by making assumptions about the flow of physical items through your company. Five costing methods are available, depending on the type of item. For more information, see [Design Details: Costing Methods](design-details-costing-methods.md).
@@ -71,7 +77,7 @@ If you want to register items that are then used in production orders, you speci
 
 If you purchase the same item from more than one vendor, you must enter information about each vendor of the item, such as prices, lead time, discounts, and so on.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2. Select the relevant item, and then choose the **Edit** action.  
 3. Choose the **Vendors** action.  
 4. Choose the **Vendor No.** field, and then select the vendor that you want to set up for the item.  
@@ -79,23 +85,6 @@ If you purchase the same item from more than one vendor, you must enter informat
 6. Repeat steps 2 through 5 for each vendor that you want to buy the item from.
 
 The vendors will now appear on the **Item Vendor Catalogue** page, which you open from the item card, so that you can easily select an alternate vendor.
-
-## <a name="set-up-item-substitutions"></a>Set up item substitutions
-
-You can set up items to have substitutes, such as other items that can be used in place of the original item.
-
-### <a name="to-make-an-item-substitution"></a>To make an item substitution
-
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
-2. Find the relevant item, and then click on the **Item No.** to open the Item Card.  
-3. Choose the **Related** action, then choose **Item**, and then **Substitutions** to open the the Item Substitution Entry page.  
-4. Choose the **Substitute No.** field, and then select the replacement item from the list.
-5. Proceed to fill in or change other fields on the page as necessary.
-
-When the quantity requested, such as on a sales line, exceeds the quantity that is available in inventory, then a message appears to inform you that substitute items exist.
-
-> [!NOTE]  
-> Be aware that item substitutions will not automatically cause an item to be replaced by another item, for example when creating a sales order or in a BOM. Instead, you will be alerted to the fact that a substitution is available to you.
 
 ## <a name="categories-attributes-and-variants"></a>Categories, attributes, and variants
 
@@ -111,28 +100,16 @@ When you register a new item, you will see fields that are related to warehouse 
 
 If your organization later sets up warehouse management, in most cases, you must then go back to each existing item to make sure that it has the right information in the various fields, so that the warehouse processes can run as expected. This information can includes fields such as **Warehouse Class Code** or **Put-away Template Code**. For more information, see [Design Details: Warehouse Setup](design-details-warehouse-setup.md).  
 
-## <a name="planning"></a>Planning
-
-When your company uses the supply planning processes in [!INCLUDE [prod_short](includes/prod_short.md)], you must fill in the relevant fields on the **Planning** FastTab. For an introduction to the planning area, see [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md).  
-
-For examples of how you can use the fields on the **Planning** FastTab, see [Setup Best Practices: Planning Parameters](setup-best-practices-planning-parameters.md).  
-
 ## <a name="see-also"></a>See Also
 
 [Inventory](inventory-manage-inventory.md)  
-[Set Up Units of Measurement](inventory-how-setup-units-of-measure.md)  
+[Set Up Units of Measure](inventory-how-setup-units-of-measure.md)  
 [Tariff numbers](finance-how-setup-report-intrastat.md#tariff-numbers)  
 [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Create Number Series](ui-create-number-series.md)  
 [Setting Up Posting Groups](finance-posting-groups.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Sales](sales-manage-sales.md)  
-[About Planning Functionality](production-about-planning-functionality.md)  
-[Setup Best Practices: Planning Parameters](setup-best-practices-planning-parameters.md)  
-[Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)  
-[Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)  
-[Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)  
-[Design Details: Planning Parameters](design-details-planning-parameters.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

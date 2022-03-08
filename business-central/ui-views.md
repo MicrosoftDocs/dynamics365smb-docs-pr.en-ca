@@ -1,20 +1,21 @@
 ---
-title: Save and Personalize List Views
-description: Learn how to create your own views for filtered lists as well as how to save, rename and manage those Views.
+title: Save and Personalize List Views | Microsoft Docs
+description: Learn how to create your own views of filtered lists.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 06/24/2021
+ms.search.keywords: ''
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5cfc08a7a4f8645bc8657477819cdacc9d147d88
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: a36d513e0285e197f9ca651bab55f745b448773d
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322885"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017083"
 ---
 # <a name="save-and-personalize-list-views"></a>Save and Personalize List Views
 When you have set a filter on a list and you want to keep the filter for later, you can save it as a view. For more information about filtering lists, see [Setting Filters on Lists](ui-enter-criteria-filters.md#setting-filters-on-lists).
@@ -23,9 +24,9 @@ If views exist, the **Views** group appears at the top of the filter pane. Views
 
 ## <a name="to-save-a-view"></a>To save a view
 1. Open any list page.
-2. Select ![Filter pane icon.](media/open-filter-pane-icon.png "Filter pane icon") at the top of the list or press Shift+F3 to open the filter pane.
+2. Select ![Filter pane icon](media/open-filter-pane-icon.png "Filter pane icon") at the top of the list or press Shift+F3 to open the filter pane.
 3. Set one or more new filters. For more information, see [Setting Filters on Lists](ui-enter-criteria-filters.md#setting-filters-on-lists).
-4. When you have set the filters, choose the ![Save View.](media/save_view_icon.png "Save View") icon.
+4. When you have set the filters, choose the ![Save View](media/save_view_icon.png "Save View") icon.
 
     If you set a filter for a list view that that is already saved as a view, the existing view will be updated when you save.
 5. If you're saving a new view, enter a name for the view in the **All (Copy)** box, such as "Items I own".
@@ -37,7 +38,7 @@ If you don't give it a name, it will be named **All (Copy)**.
 > Not seeing the ![Save View](media/save_view_icon.png "Save View") icon? For more information, see [Why don't I have a Save icon](/dynamics365/business-central/ui-views-faq#save).
 
 ## <a name="to-rename-or-remove-a-view"></a>To rename or remove a view
-1. For the view that currently displays the list, choose the ![Show more options.](media/show-more-options-icon.png "Show more options") icon to see which options are available.
+1. For the view that currently displays the list, choose the ![Show more options](media/show-more-options-icon.png "Show more options") icon to see which options are available.
 2. Choose either the **Rename** or the **Remove** action.
 
 ## <a name="managing-many-views"></a>Managing Many Views

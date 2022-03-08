@@ -1,20 +1,21 @@
 ---
 title: Use profiles to classify contacts
-description: Red about how to set up profile questionnaires to help classify your business contacts' profiles.
+description: Set up profile questionnaires to help classify your business contacts
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
-ms.date: 06/22/2021
-ms.openlocfilehash: 42ef7c92d138d717f10eb98a7fa9208eaf73ef54
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2020
+ms.openlocfilehash: d2bb26b3320375f72310278946a69a011111fbd4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140874"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388858"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Use Profile Questionnaires to Classify Business Contacts
 You can set up profile questionnaires that you want to use when entering information about your contacts' profiles. Within each questionnaire, you can set up the different questions you intend to ask your contacts.  
@@ -22,7 +23,7 @@ You can set up profile questionnaires that you want to use when entering informa
 You can also run the questionnaire to answer some of the questions based on contact, customer, or vendor data automatically.  
 
 ## <a name="to-add-a-profile-questionnaire"></a>To add a profile questionnaire
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Questionnaire Setup**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Questionnaire Setup**, and then choose the related link.  
 2.  Choose the **New** Action.  
 3.  Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -48,35 +49,114 @@ You can automatically classify your contacts according to customer, vendor, and 
 After you have set up automatically answered profile questions, if you assign the profile questionnaire containing these questions to a contact, [!INCLUDE[prod_short](includes/prod_short.md)] will automatically assign the right answers for the contact.  
 
 ## <a name="example"></a>Example
-
 You can classify your contacts according to how much they bought from you:
 
-|Answer|Applies to|
-|--- |--- |
-|A|contacts who bought for $500,000 or more|
-|B|contacts who bought for $100,000 up to $499,999|
-|C|contacts who bought for $99,999 or less|
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Answer</strong></th>
+<th><strong>Applies to</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>A</p></td>
+<td><p>contacts who bought for $500,000 or more</p></td>
+</tr>
+<tr class="even">
+<td><p>B</p></td>
+<td><p>contacts who bought for $100,000 up to $499,999</p></td>
+</tr>
+<tr class="odd">
+<td><p>C</p></td>
+<td><p>contacts who bought for $99,999 or less</p></td>
+</tr>
+</tbody>
+</table>
 
 To do this, fill on the **Profile Questionnaire Setup** page as follows:
 
-| Type     | Description        | Automatic Classification     | From Value | To Value |
-|----------|--------------------|------------------------------|------------|----------|
-| Question | ABC Classification | Click to insert a check mark |            |          |
-| Answer   | A                  |                              | 500,000    |          |
-| Answer   | B                  |                              | 100,000    | 499,999  |
-| Answer   | C                  |                              |            | 99,999   |
+
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Type</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Automatic Classification</strong></th>
+<th><strong>From Value</strong></th>
+<th><strong>To Value</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>Question</p></td>
+<td><p>ABC Classification</p></td>
+<td><p>Click to insert a check mark</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p>Answer</p></td>
+<td><p>A</p></td>
+<td><p> </p></td>
+<td><p>500,000</p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p>Answer</p></td>
+<td><p>B</p></td>
+<td><p> </p></td>
+<td><p>100,000</p></td>
+<td><p>499,999</p></td>
+</tr>
+<tr class="even">
+<td><p>Answer</p></td>
+<td><p>C</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p>99,999</p></td>
+</tr>
+</tbody>
+</table>
 
 Then fill on the **Profile Question Details** page as follows:
-
-| Field                         | Value         |
-|-------------------------------|---------------|
-| Customer Classification Field | Sales (LCY)   |
-| Classification Method         | Defined Value |
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Field</strong></th>
+<th><strong>Value</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Customer Classification Field</strong></td>
+<td><emphasis>Sales ($)</emphasis></td>
+</tr>
+<tr>
+<td><strong>Classification Method</strong></td>
+<td><emphasis>Defined Value</emphasis></td>
+</tr>
+</tbody>
+</table>
 
 When you assign the profile questionnaire containing this question to a contact, application automatically enters the relevant answer for this contact on the profile lines of the contact card.
 
 ## <a name="see-also"></a>See Also
-
 [Creating Contacts](marketing-create-contact-companies.md)  
 
 

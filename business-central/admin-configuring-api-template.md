@@ -1,25 +1,26 @@
 ---
-title: Configuring API Templates
+title: Configuring API Templates | Microsoft Docs
 description: Describing the steps you must go through to configure API templates for Dynamics 365 Business Central.
+services: project-madeira
+documentationcenter: ''
 author: SusanneWindfeldPedersen
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API templates, configuring templates
-ms.search.form: 5469
-ms.date: 04/01/2021
+ms.date: 10/01/2019
 ms.author: solsen
-ms.openlocfilehash: 63793ca9907d0b2c58df7f82dae88783ba0fcbc7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: af06336996a901c73927d6b060ab530aa4573f54
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136358"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304669"
 ---
 # <a name="configuring-api-templates"></a>Configuring API Templates
-
-The API library for [!INCLUDE[prod_short_md](includes/prod_short.md)] provides a simplified representation of the underlying entities. All the properties in the application are not exposed through the associated API. The **API Setup** page allows you to define templates that are used to populate empty properties on an entity when you create a POST action through the API. 
+The API library for [!INCLUDE[d365fin_md](includes/d365fin_md.md)] provides a simplified representation of the underlying entities. All the properties in the application are not exposed through the associated API. The **API Setup** page allows you to define templates that are used to populate empty properties on an entity when you create a POST action through the API. 
 
 For example, if a configuration template is defined for the item entity, when a new item record is created through the items API, any properties for the new item that are not defined in the API call will be populated from the selected template. If, for example, no value is defined for the **Gen. Prod. Posting Group** field through the API, but a value is defined in the selected template, then the posting group value defined in the template will be applied to the new item. 
 
@@ -30,7 +31,7 @@ To use templates with the API library, you must first set up and define properti
 
 To assign a template to an API, you must go through the following steps.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **API Setup**, and choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **API Setup**, and choose the related link.
 2. Choose **New**, and then choose the **Order** value for the record.  
 If there is more than one template selected for an API (Page ID), the templates are applied in the order defined in the **Order** column.   
 When each template is applied, field values defined in the template are only applied to fields that have not already had a value defined, either explicitly in the API, or in a previously applied template in the order. 
@@ -43,10 +44,8 @@ The defined template is applied to a new record created through the API if, and 
 
 ## <a name="see-also"></a>See Also
 [API Documentation](/dynamics-nav/fin-graph)  
-[Developing Connect Apps for [!INCLUDE[prod_short_md](includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
+[Developing Connect Apps for [!INCLUDE[d365fin_md](includes/d365fin_md.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
 [Enabling the APIs](/dynamics-nav/enabling-apis-for-dynamics-nav)  
 [Endpoints for the APIs](/dynamics-nav/endpoints-apis-for-dynamics)  
 [Setting Up a Company with RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

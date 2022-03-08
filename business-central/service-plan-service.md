@@ -1,27 +1,28 @@
 ---
-title: Planning Service Processes
-description: This topic outlines various tasks to set up rules and values to define your service policies and processes.
+title: Planning Service Processes | Microsoft Docs
+description: Outlines tasks to set up rules and values to define your service policies and processes.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
-ms.date: 06/23/2021
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 98cd4b41a8e47f045c89ebc31813a07e9f3a46bf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6a92b411eebe7e469d19b12dc1afbce9cf2f5dd3
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134804"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250627"
 ---
 # <a name="planning-services"></a>Planning Services
-With [!INCLUDE[prod_short](includes/prod_short.md)], you can set up the standard tasks that you need to fulfill your customer service requirements. To do this, you must determine what service items and offerings your service organization supports, and at what price.   
+With [!INCLUDE[d365fin](includes/d365fin_md.md)], you can set up the standard tasks that you need to fulfill your customer service requirements. To do this, you must determine what service items and offerings your service organization supports, and at what price.   
 
-[!INCLUDE[prod_short](includes/prod_short.md)] also provides some statistics tools that you can use to determine how well things are going, and identify areas where you can improve.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] also provides some statistics tools that you can use to determine how well things are going, and identify areas where you can improve.
   
 The following table describes a sequence of tasks, with links to the topics that describe them.   
   
@@ -40,6 +41,3 @@ The following table describes a sequence of tasks, with links to the topics that
 [Set Up Service Items and Service Item Components](service-how-setup-service-items.md)  
 [Set Up Statuses for Service Orders and Repairs](service-order-repair-status.md)  
 [Setting Up Service Management](service-setup-service.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

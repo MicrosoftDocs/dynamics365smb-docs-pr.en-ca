@@ -1,21 +1,21 @@
 ---
-title: Register New Customers by Creating a Customer Card (contains video)
+title: Register New Customers by Creating a Customer Card
 description: Describes how to create a customer card to register information about each new customer or client that you sell to.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client, customer, credit
-ms.search.form: 7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305
-ms.date: 09/24/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f1b37df909e482f9f4102eab70ce82cdef999a12
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: bb323a5cceb4988035d442d6bc8347125f927bf4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137012"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436760"
 ---
 # <a name="register-new-customers"></a>Register New Customers
 
@@ -26,18 +26,25 @@ Before you can register new customers, you must set up various sales codes that 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
 ## <a name="adding-new-customers"></a>Adding new customers
-You can add new customers manually, by filling out the fields on the **Customer Card** page, or you can use templates that contain predefined information. For example, you can create a templates for different types of customer profiles. Using templates saves time when adding new customers, and helps ensure that the information is correct each time. If you create templates for more than one type of customer, you can choose the template to use when you add a customer. If you create only one template it will be used for all new customers. After you create a template, you can use the **Apply Template** action to apply it to one or more selected customers. To create a template, you fill in the information that you want to reuse on the Customer Card page, and then save it as a template. For more information, see [To save the customer card as a template](sales-how-register-new-customers.md#to-save-the-customer-card-as-a-template)
 
-> [!TIP]
-> It can be helpful to personalize the **Customer Template** page when you create a template. For example, you might want to add the **Credit Limit** field to a template. For more information, see [Personalize Your Workspace](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
+To register a new customer, you must fill in a customer card. You can establish templates for different customer profiles, or you can add customers without templates. You can also create a customer from a contact. For more information, see [To create a customer, vendor, employee, or bank account from a contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
 
-You can also create a customer from a contact. For more information, see [To create a customer, vendor, employee, or bank account from a contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
+> [!NOTE]  
+> If customer templates exist for different customer types, then a page appears when you create a new customer card from where you can select an appropriate template. If only one customer template exists, then new customer cards always use that template.  
 
 ### <a name="to-create-a-new-customer-card"></a>To create a new customer card
 
-[!INCLUDE[create_new_customer](includes/create_new_customer.md)]
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
+2. On the **Customers** page, choose the **New** action.
 
-The **Prices & Discounts** action provides options for managing special prices or discounts for the customer when an order meets certain criteria. For example, the criteria might be when they're purchasing a certain item, ordering a minimum quantity, or buying before a date, such as when a campaign ends. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).
+    If only one customer template exists, then a new customer card opens with some fields filled with information from the template.
+
+    If more than one customer template exists, then a page opens from which you can select a customer template. In that case, follow the next two steps.
+3. On the **Select a template for a new customer** page, choose the template that you want to use for the new customer card.
+4. Choose the **OK** button. A new customer card opens with some fields filled with information from the template.  
+5. Proceed to fill or change fields on the customer card as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+On the **Sales Prices** FastTab, you can view special prices or discounts that you grant for the customer if certain criteria are met, such as item, minimum order quantity, or ending date. Each row represents a special price or line discount. Each column represents a criterion that must apply to warrant the special price that you enter in the **Unit Price** field, or the line discount that you enter in the **Line Discount %** field. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).
 
 The customer is now registered, and the customer card is ready to be used on sales documents.
 

@@ -1,26 +1,26 @@
 ---
-title: General Journal Post Line Overview
-description: This topic introduces changes to Codeunit 12, Gen. Jnl.-Post Line, and is the only place to insert general ledger, GST/HST, and customer and vendor ledger entries.
+title: General Journal Post Line Overview | Microsoft Docs
+description: This topic introduces changes to Codeunit 12, **Gen. Jnl.-Post Line**, which is the major application object for general ledger posting and is the only place to insert general ledger, tax, and customer and vendor ledger entries.
 author: SorenGP
-ms.topic: overview
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general ledger, post
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 2a4d9715f6fdfaef63bf6ac4090bb71d86346e51
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 9de46d66fe13a798dda812b74f19b9ed247b84fd
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146705"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880409"
 ---
 # <a name="general-journal-post-line-overview"></a>General Journal Post Line Overview
-
-Codeunit 12, **Gen. Jnl.-Post Line**, is the major application object for general ledger posting and is the only place to insert general ledger, GST/HST, and customer and vendor ledger entries. This codeunit is also used for all Apply, Unapply and Reverse operations.  
+Codeunit 12, **Gen. Jnl.-Post Line**, is the major application object for general ledger posting and is the only place to insert general ledger, tax, and customer and vendor ledger entries. This codeunit is also used for all Apply, Unapply and Reverse operations.  
   
-In Microsoft Dynamics NAV 2013 R2, the codeunit was redesigned because it had become very large, with approximately 7,600 code lines. The architecture was changed and the codeunit has been made simpler and more maintainable. This documentation describes the changes and provides information that you will need for upgrade.  
+While the codeunit has been improved in each release over the last ten years, its architecture remained essentially unchanged. The codeunit became very large, with approximately 7,600 code lines. With this release of [!INCLUDE[d365fin](includes/d365fin_md.md)], the architecture is changed and the codeunit has been made simpler and more maintainable. This documentation introduces the changes and provides information that you will need for upgrade.  
   
 ## <a name="old-architecture"></a>Old Architecture  
 The old architecture had the following features:  
@@ -29,25 +29,20 @@ The old architecture had the following features:
 * There were many long procedures (with more than 100 code lines) that also had high cyclomatic complexity (that is, a lot of CASE, REPEAT, IF nested statements), which made the code very difficult to read and maintain.  
 * Several procedures that were only used locally and were only meant to be used locally were not marked as local.  
 * Most procedures had no parameters and used global variables. Some used parameters and overrode global variables with locals.  
-* Code patterns for searching the general ledger accounts and creating general ledger and GST/HST entries was not standardized and varied from place to place. In addition, there was a lot of code duplication and broken symmetry between customer and vendor code.  
+* Code patterns for searching the general ledger accounts and creating general ledger and tax entries was not standardized and varied from place to place. In addition, there was a lot of code duplication and broken symmetry between customer and vendor code.  
 * A large part of the code in codeunit 12, approximately 30 percent, related to payment discount and tolerance calculations, although these features are not needed in many countries or regions.  
 * Posting, Apply, Unapply, Reverse, Payment Discount and Tolerance, and Exchange Rate Adjustment were married together in codeunit 12 using a long list of global variables.  
   
 ### <a name="new-architecture"></a>New Architecture  
-In [!INCLUDE[prod_short](includes/prod_short.md)], codeunit 12 has had the following improvements:  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], codeunit 12 has had the following improvements:  
   
 * Codeunit 12 has been refactored into smaller procedures (all less than 100 code lines).  
 * Standardized patterns for the search of general ledger accounts have been implemented by using helper functions from Posting Group tables.  
-* A Posting Engine Framework has been implemented to manage the start and finish of transactions and to isolate the creation to general ledger and GST/HST entries, the collection of GST/HST adjustment, and the calculation of additional currency amounts.  
+* A Posting Engine Framework has been implemented to manage the start and finish of transactions and to isolate the creation to general ledger and tax entries, the collection of tax adjustment, and the calculation of additional currency amounts.  
 * Code duplication has been eliminated.  
 * Many helper functions have been transferred to corresponding customer and vendor ledger entry tables.  
 * The use of global variables has been minimized, so that each procedure uses parameters and encapsulates its own application logic.  
   
-## <a name="see-also"></a>See Also
-
-[Design Details: Posting Interface Structure](design-details-posting-interface-structure.md)  
-[Design Details: Posting Engine Structure](design-details-posting-engine-structure.md)  
-[Design Details: General Journal Post Line (Dynamics NAV)](/dynamics-nav-app/design-details-general-journal-post-line)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## <a name="see-also"></a>See Also  
+[Design Details: Posting Interface Structure](design-details-posting-interface-structure.md)   
+[Design Details: Posting Engine Structure](design-details-posting-engine-structure.md)

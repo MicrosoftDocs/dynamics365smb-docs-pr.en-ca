@@ -1,21 +1,23 @@
 ---
-title: Using General Functionality Across Business Areas
-description: Learn about the functionality and features that are used across business areas in Business Central.
+title: Using General Functionality Across Business Areas | Microsoft Docs
+description: Learn about the functionality and features that are used across business areas in Business Central .
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.search.form: 9020, 9022, 9027, 9018
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 36edd01c369e83e2020f43ff914b4cc693cba4e3
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: cdc39d9b7d6fa22783c5885363fccb0b8a29dd76
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322859"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387108"
 ---
 # <a name="general-business-functionality"></a>General Business Functionality
 [!INCLUDE[prod_short](includes/prod_short.md)] provides dedicated functionality for typical business areas, such as finance and sales. For more information, see [Business Functionality](across-business-functionality.md).

@@ -1,27 +1,26 @@
 ---
-title: Business Functionality Supported by Business Central
+title: Business Functionality Supported by Business Central | Microsoft Docs
 description: Provides a feature overview of all the business functions and departments that are supported by application areas, such as Finance, Inventory, and Project Management.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: f25e6f2afbcb6f249bf3e04f35172d6678cbd113
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 5bdc19028a6859d1bee795de766416ada535b474
+ms.sourcegitcommit: 1ab077a024fa71d97ac70e4b36cc218b7ca66509
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323119"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "3499525"
 ---
 # <a name="business-functionality"></a>Business Functionality
+[!INCLUDE[d365fin](includes/d365fin_md.md)] provides functionality for common business processes in small and mid-sized companies, mainly within wholesale and professional services. However, more complex processes, such as assembly, manufacturing, service, and directed warehouse management are also supported.
 
-[!INCLUDE[prod_short](includes/prod_short.md)] provides functionality for common business processes in small and mid-sized companies, mainly within wholesale and professional services. However, more complex processes, such as assembly, manufacturing, service, and directed warehouse management are also supported.
-
-[!INCLUDE[prod_short](includes/prod_short.md)] includes standard configurations for most business processes, but you can change the configuration to suit your business' needs. From your Role Centre, you can access assisted setup guides that help you configure certain scenarios and add features to [!INCLUDE[prod_short](includes/prod_short.md)]. Several areas of business functionality must be set up manually. The [Business Central quick start](quick-start-business-central.md) articles can help you take the first steps into making [!INCLUDE [prod_short](includes/prod_short.md)] your own. For more information, see [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] includes standard configurations for most business processes, but you can change the configuration to suit your business' needs. From your Role Centre, you can access assisted setup guides that help you configure certain scenarios and add features to [!INCLUDE[d365fin](includes/d365fin_md.md)]. Several areas of business functionality must be set up manually. For more information, see [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 | To | See |
 | --- | --- |
@@ -41,15 +40,12 @@ ms.locfileid: "8323119"
 |Schedule service calls and set up service orders, and track repair parts and supplies.|[Service Management](service-service.md)|
 |Set up and use workflows that connect tasks performed by different users or by the system, such as automatic posting. Requesting and granting approval to create or post documents are typical workflow steps.|[Workflow](across-workflow.md)|
 |Enable users to exchange data with external sources during daily tasks, such as sending/receiving electronic documents, importing/exporting bank files, and updating currency exchange rates.|[Exchanging Data Electronically](across-data-exchange.md)|
-|Record external documents in [!INCLUDE[prod_short](includes/prod_short.md)], including their file attachments, and then manually create the related documents or automatically convert the files to electronic documents.|[Incoming Documents](across-income-documents.md)|
+|Record external documents in [!INCLUDE[d365fin](includes/d365fin_md.md)], including their file attachments, and then manually create the related documents or automatically convert the files to electronic documents.|[Incoming Documents](across-income-documents.md)|
 
 ## <a name="see-also"></a>See Also
 
 [Explore Dynamics 365 Business Central capabilities](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Administration](admin-setup-and-administration.md)  
-[Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Getting Ready for Doing Business](ui-get-ready-business.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Getting Started](product-get-started.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

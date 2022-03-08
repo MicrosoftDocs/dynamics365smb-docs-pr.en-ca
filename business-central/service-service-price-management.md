@@ -1,27 +1,28 @@
 ---
-title: Service Price Management
-description: Service price management lets you set up service price groups, service pricing, service pricing adjustment and more.
+title: Service Price Management | Microsoft Docs
+description: This topic describes how to apply the best price to service orders, set up personalized service price agreements for customers, improve service employees' efficiency, and accelerate the invoicing process.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/23/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: e6cfc801e40bfae60dd687ede073bd4367e69092
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6877f50094874ce6e54b3a524254dfcba0c43468
+ms.sourcegitcommit: a9b771cc2b4b75aed835efca63ef7a6a44219d59
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142970"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5476729"
 ---
 # <a name="service-price-management"></a>Service Price Management
 The service price management functionality lets you apply the best price to service orders, set up personalized service price agreements for customers, improve service employees' efficiency, and accelerate the invoicing process.  
   
 Service price management lets you set up different service price groups so you can consider the service item or service item group, in addition to the type of fault that the service task involves. You can set up these groups for a limited period of time, or for a specific customer or currency. You can use price calculation structures as templates to assign a specific price to a specific service task.  
   
-For example, this makes it possible to assign specific items included in the service price, in addition to the type of work included. This also makes it possible to use different GST/HST and discount amounts for different service price groups. To make sure that the correct prices are applied, you can assign fixed, minimum, or maximum prices, depending on the agreements that you have with your customers.  
+For example, this makes it possible to assign specific items included in the service price, in addition to the type of work included. This also makes it possible to use different VAT and discount amounts for different service price groups. To make sure that the correct prices are applied, you can assign fixed, minimum, or maximum prices, depending on the agreements that you have with your customers.  
   
 Before adjusting the price of a service item on a service order, you are provided with an overview of what the results of the price adjustment will be. You can approve of these results, or you can make additional changes, if you want to have a different result. The whole adjustment is performed line by line, which means that there are no additional lines created.  
   
@@ -41,7 +42,7 @@ When you run the service price adjustment function, all of the discounts in the 
 ## <a name="service-price-groups"></a>Service Price Groups  
 You can set up service price groups to create groups of service items that receive the same special service pricing. When you have set up service price groups, you can then assign them to service items on service item lines. You can also assign service price groups to service item groups.  
   
-Before you can assign a service price group to a service item, you have to determine to which fault area, currency, or service price adjustment group the service price group applies. You have to determine to which amount the service price should be adjusted, and whether this amount should include GST/HST and discounts. You also have to determine whether this adjustment concerns a fixed amount, or should only be applied under certain conditions.  
+Before you can assign a service price group to a service item, you have to determine to which fault area, currency, or service price adjustment group the service price group applies. You have to determine to which amount the service price should be adjusted, and whether this amount should include tax and discounts. You also have to determine whether this adjustment concerns a fixed amount, or should only be applied under certain conditions.  
   
 When you assign a service price group to a service item, all the special service pricing that you set up in this group will then apply for this service item.  
   
@@ -51,7 +52,7 @@ You set up the actual types of service pricing (price adjustment type and price)
 For example, you can set up types of service pricing for a radio service price group. For customers without a price group, you can decide to have service pricing with maximum price on labour, which is the labour price adjustment group. For customers with a particular price group, you can decide to have service pricing with a fixed price on labour, the same labour price adjustment group.  
 
 #### <a name="current-experience"></a>[Current Experience](#tab/current-experience)
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Items**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Items**, and then choose the related link.  
 2. Select the service item, expand the **Prices and Sales** FastTab, choose the **Resource**, **Item**, or **G/L Account** action.
 3. On the **Job Resource Prices**, **Job Item Prices**, or **Job G/L Account Prices** pages, fill in the fields as necessary.
 

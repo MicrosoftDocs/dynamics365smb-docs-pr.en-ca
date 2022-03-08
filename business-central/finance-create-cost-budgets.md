@@ -1,28 +1,30 @@
 ---
-title: Creating Cost Budgets
-description: This topic provides an overview of where to create and analyse cost budgets. Budgeting in cost accounting resembles budgeting in the general ledger.
+title: Creating Cost Budgets | Microsoft Docs
+description: This topic provides an overview of where to create and analyse cost budgets.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1131, 1132, 1133
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: d64704caee7c808cd2197adf2994a7b1abb4ea7f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.search.keywords: ''
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: c107daa3725cf2f8b06039655738e8763cc0f6b1
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145689"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306421"
 ---
 # <a name="creating-cost-budgets"></a>Creating Cost Budgets
-
 Budgeting in cost accounting resembles budgeting in the general ledger. A cost budget is created based on cost types just as a budget for the general ledger is created based on general ledger accounts.  
 
 A cost budget is created for a certain period of time, for example, a fiscal year. You can create as many cost budgets as needed. You can create a new cost budget manually, or by importing a cost budget, or by copying an existing cost budget as the budget base. For more information, see [Create G/L Budgets](finance-how-create-budgets.md).
 
-You use the following pages to create and analyse cost budgets. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon to find a page, and then read the tooltip for each.
+You use the following pages to create and analyse cost budgets. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon to find a page, and then read the tooltip for each.
 
 |To|See|  
 |--------|---------|  
@@ -32,13 +34,9 @@ You use the following pages to create and analyse cost budgets. Choose the ![Lig
 |See cost budget registers and cost budget entries.|**Cost Budget Registers** page|  
 |Print cost budget comparisons using various reports.|**Cost Acctg. Balance-Budget** report<br /><br /> **Cost Acctg. Statement-Budget** report<br /><br /> **Cost Budget by Cost Centre** report<br /><br /> **Cost Budget by Cost Object** report|  
 
-## <a name="see-also"></a>See Also
-
+## <a name="see-also"></a>See Also  
 [Accounting for Costs](finance-manage-cost-accounting.md)  
 [Create G/L Budgets](finance-how-create-budgets.md)  
 [Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)   
 [Defining and Allocating Costs](finance-define-and-allocate-costs.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -2,20 +2,20 @@
 title: Set Up the Chart of Accounts (contains video)
 description: The chart of accounts shows the ledger accounts that store your financial data. You can change the default accounts in the COA, and you can add new accounts.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
-ms.search.form: 16, 17, 18, 118, 386, 391
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 3ddb1a5612eb4a2c060357b32e8209accdda7349
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0ef1a35805413619c6da19654a8f501525997d35
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147631"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940560"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Setting Up or Changing the Chart of Accounts
 

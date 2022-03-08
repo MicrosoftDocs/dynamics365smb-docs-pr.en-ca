@@ -1,24 +1,24 @@
 ---
-title: View the Status of Synchronization Jobs (contains video)
+title: View the Status of Synchronization Jobs
 description: Use the Coupled Data Synchronization Errors page to view the status of synchronization jobs that have been run for coupled records in integrations.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.search.form: 6250
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 357e6f92bc960b1fcd58c5be78d28985b389bb2a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0a33631908d0f3943486f96bbf6b5e2f801c440b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130705"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441327"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>View the Status of Synchronization Jobs
-
+[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
 Use the **Coupled Data Synchronization Errors** page to view the status of synchronization jobs that have been run for coupled records in a Dataverse or [!INCLUDE[crm_md](includes/crm_md.md)] integrations. This includes jobs that were run from the job queue and manual synchronization jobs that ran on records from [!INCLUDE[prod_short](includes/prod_short.md)]. For example, viewing their status is helpful when troubleshooting because it gives you access to details about errors related to coupled records. Typically, these types of errors are caused by user actions, for example, when:  
 
@@ -28,11 +28,11 @@ Use the **Coupled Data Synchronization Errors** page to view the status of synch
 > [!Note]
 > The **Coupled Data Synchronization Errors** page shows information about jobs related to coupled records. If you resolve all of the errors but records are still not synchronizing, it might have something to do with a setting for the integration. Typically, your administrator will need to resolve those types of errors.   
 
-## <a name="example"></a>Example
-This video shows an example of how to troubleshoot errors that happened while synchronizing with [!INCLUDE[prod_short](includes/cds_long_md.md)]. The process will be the same for all integrations. 
+<!--
 
-> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2097304]
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098171]
 
+-->
 
 ## <a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a>To view and resolve synchronization errors for coupled records
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Coupled Data Synchronization Errors**, and then choose the related link.
@@ -51,11 +51,6 @@ This video shows an example of how to troubleshoot errors that happened while sy
 ## <a name="to-view-the-synchronization-log-for-a-specific-manually-synchronized-record"></a>To view the synchronization log for a specific (manually synchronized) record
 1. Open, for example, a customer, item or any other record that is synchronizing data between [!INCLUDE[prod_short](includes/prod_short.md)] and Dataverse or [!INCLUDE[crm_md](includes/crm_md.md)].
 2. Choose the **Synchronization Log** action to view the synchronization log for a selected record. For example, a specific customer you synchronized manually.
-
-## <a name="remove-couplings-between-records"></a>Remove Couplings Between Records
-When something goes wrong in your integration and you need to uncouple records to stop synchronizing them, you can do so for one or more records at a time. You can uncouple one or more records from list pages or the **Coupled Data Synchronization Errors** page by choosing one or more lines and choosing **Delete Coupling**. You can also remove all couplings for one or more table mappings on the **Integration Table Mappings** page. 
-
-If an entity with a unidirectional coupling is deleted in [!INCLUDE[prod_short](includes/prod_short.md)], you must manually delete the broken coupling. To do that, on the **Coupled Data Synchronization Errors** page, choose the **Find for Deleted** action, and then delete the couplings.
 
 ## <a name="see-also"></a>See Also  
 [Setting Up User Accounts for Integrating with Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)  

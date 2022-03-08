@@ -1,21 +1,21 @@
 ---
-title: Frequently Asked Questions about Tell Me
-description: This article provides answers to questions that our partners and customers often ask about the Tell Me feature.
+title: Frequently Asked Questions about Tell Me | Microsoft Docs
+description: This article provides answers to questions that our partners and customers often ask about Tell Me.
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 06/24/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 13605b6188f9aa2c30a82cbb8216d8419a711d31
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 7b880ef5cb49a02dcbb3973f87bc64eae48b2b3a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334722"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760251"
 ---
 # <a name="tell-me-faq"></a>Tell Me FAQ
 This topic answers questions that our advanced users often ask about the Tell Me feature.
@@ -50,6 +50,3 @@ The bookmark icon is not displayed in the Tell Me window when personalization is
 [Finding Pages and Information with Tell Me](ui-search.md)  
 [Finding Pages with the Role Explorer](ui-role-explorer.md)  
 [Bookmark a Page or Report on Your Role Centre](ui-bookmarks.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

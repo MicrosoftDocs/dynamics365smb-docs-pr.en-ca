@@ -1,20 +1,21 @@
 ---
 title: Walkthrough Conducting a Sales Campaign
-description: This walkthrough gives a detailed overview of all the tasks involved in conducting a sales campaign in Business Central.
+description: A campaign is any kind of activity that involves several contacts. An important part of setting up a campaign involves selecting the target audience for your campaign. For this purpose, in Business Central, you create a segment, or a group of contacts using filters.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
+ms.date: 05/25/2021
 ms.author: edupont
-ms.openlocfilehash: 00b2cd6f4e0b7a141bd6c31dc61ceac909407376
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 653638cd056313c6f4bdb830f0b0ec32fa5e8cbf
+ms.sourcegitcommit: cce6bacca46d489423a9538d410d2d9371de0ddf
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140302"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102442"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Walkthrough Conducting a Sales Campaign
 
@@ -68,7 +69,7 @@ A campaign is any kind of activity that involves several contacts. An important 
 
 ### <a name="to-set-up-a-campaign"></a>To set up a campaign  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Campaigns**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Campaigns**, and then choose the related link.  
 2. Choose the **New** action to create a new campaign. On the campaign card, press **Enter** to have a campaign number automatically inserted.  
 3. In the **Description** field, enter a description for the campaign, for example, **Office Futurus trade show**.  
 4. Choose the **Status Code** field, and select the status code "1-PLAN". 
@@ -160,11 +161,11 @@ The marketing manager decides that the reduced list is the final list of contact
 
 The attachments are sent. When the process is done, choose the **OK** button for the message that states that the segment has been logged.  
 
- The letters are automatically printed and the segment is logged. Because the segment has been logged, it is no longer in the list of segments but is moved to the list of logged segments. To see that list, Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Logged Segments**, and then choose the related link.  
+ The letters are automatically printed and the segment is logged. Because the segment has been logged, it is no longer in the list of segments but is moved to the list of logged segments. To see that list, Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Logged Segments**, and then choose the related link.  
 
 After the segment is logged, each letter that is sent is recorded as an interaction, which you can view in the log.  
 
-Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Interaction Log Entries**, and then choose the related link. There is an entry for each sent letter.  
+Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Interaction Log Entries**, and then choose the related link. There is an entry for each sent letter.  
 
 ### <a name="to-send-an-email-message-to-a-contact"></a>To send an email message to a contact  
 
@@ -177,7 +178,7 @@ Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_s
 7. Select the **Create Follow-up Segment** check box.  
 8. Choose the **OK** button.  
 
- The letters are automatically sent by email, and the segment is logged. Because the segment has been logged, it is no longer in the list of segments but is saved in the list of logged segments. To see that list, Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Logged Segments**, and then choose the related link.  
+ The letters are automatically sent by email, and the segment is logged. Because the segment has been logged, it is no longer in the list of segments but is saved in the list of logged segments. To see that list, Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Logged Segments**, and then choose the related link.  
 
 ## <a name="registering-campaign-responses"></a>Registering Campaign Responses
 

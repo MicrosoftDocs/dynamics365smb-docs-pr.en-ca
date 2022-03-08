@@ -1,31 +1,31 @@
 ---
-title: Local functionality and localization strategy
-description: Learn about local availability and regulatory compliance in Business Central for the countries where Microsoft provides the local functionality.
+title: Local functionality in Business Central | Microsoft Docs
+description: Learn about local availability and regulatory compliance of Dynamics 365 Business Central.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.search.form: 9018, 9020, 9022, 9027
-ms.date: 06/11/2021
+ms.date: 01/10/2020
 ms.author: edupont
-ms.openlocfilehash: 386953ce98bdd4d926c8ea8c698bb1463694d0ee
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 572e56b6d1ba95a427faed89c2f86471c0fea929
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334912"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952899"
 ---
-# <a name="local-functionality-in-prod_long"></a>Local Functionality in [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="local-functionality-in-prodlong"></a>Local Functionality in [!INCLUDE[prodlong](includes/prodlong.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] has a combined localization strategy inclusive of both Microsoft-led and partner-led models. In this section, you can see descriptions of functionality that applies to the countries where Microsoft provides the regulatory compliance and other local functionality.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] has a combined localization strategy inclusive of both Microsoft-led and partner-led models. In this section, you can see descriptions of functionality that applies to the countries where Microsoft provides the regulatory compliance and other local functionality.  
 
 For a list of currently supported markets, see [Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
 ## <a name="local-functionality"></a>Local Functionality
 
-To learn about the local functionality for each country/region, choose the related link:
+To learn about the local functionality for each country, choose the related link:
 
 | Region | Country | More information |
 | --- | --- |--- |
@@ -51,20 +51,14 @@ To learn about the local functionality for each country/region, choose the relat
 |        | United States|[United States Local Functionality](localfunctionality/unitedstates/united-states-local-functionality.md) |
 | Asia Pacific |       |  |
 |        | Australia | [Australia Local Functionality](localfunctionality/australia/australia-local-functionality.md) |
-|        | India | [India Local Functionality](LocalFunctionality/India/india-local-functionality.md) |
 |        | New Zealand | [New Zealand Local Functionality](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
 ### <a name="other-countries"></a>Other Countries
-
-[!INCLUDE[prod_short](includes/prod_short.md)] is also available in other markets through localization apps. If a Microsoft partner has developed a localization app for your country/region, you can find it in [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] is also available in other markets through localization apps. If a Microsoft partner has developed a localization app for your country, you can find it in [AppSource](https://appsource.microsoft.com/product/dynamics-365-business-central/).
 
 ## <a name="see-also"></a>See Also
-
-[Getting Ready for Doing Business](ui-get-ready-business.md)  
+[Getting Started](product-get-started.md)  
 [Compliance](compliance/compliance-overview.md)  
 [Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [International availability of Microsoft Dynamics 365](/dynamics365/get-started/availability)  
 [Development of a Localization Solution](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
