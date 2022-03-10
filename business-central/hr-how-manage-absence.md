@@ -1,22 +1,20 @@
 ---
 title: Manage Employee Absence
 description: Describes how to record employees' absence and analyze absence statistics using the Absence Registration and Employee Absences pages.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 5212, 5211, 5200
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 01ccee23ae4c1bcb449bc69062421b7aa1d4ea0c
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 77ae09aebd78c870cc92d01700fc9a9188f340ee
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6326872"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146445"
 ---
 # <a name="manage-employee-absence"></a>Manage Employee Absence
 To manage an employee's absence, you must record the absence on the **Absence Registration** page. It can then be viewed in different ways for analysis and reporting needs.

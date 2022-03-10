@@ -2,20 +2,19 @@
 title: Design Details - Table Structure | Microsoft Docs
 description: To understand how the dimension entry storing and posting is redesigned, it is important to understand the table structure.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 04e9fda4d784f8e1fa049455ddcab989691e821c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: 249fb667676dcb91c91b5fd9015c46c0b994da31
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184637"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142376"
 ---
 # <a name="design-details-table-structure"></a>Design Details: Table Structure
 To understand how dimension entries are stored and posted, it is important to understand the table structure.  
@@ -181,8 +180,7 @@ Field 480 exists in the following buffer tables.
 |5637|**FA G/L Posting Buffer**|  
 |7136|**Item Budget Buffer**|  
 
-## <a name="see-also"></a>See Also  
- [Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)   
- [Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)   
- [Design Details: Searching for Dimension Combinations](design-details-searching-for-dimension-combinations.md)   
- 
+## <a name="see-also"></a>See Also
+
+[Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)  
+[Design Details: Searching for Dimension Combinations](design-details-searching-for-dimension-combinations.md)   

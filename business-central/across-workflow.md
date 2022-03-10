@@ -1,21 +1,20 @@
 ---
-title: Workflow | Microsoft Docs
-description: You can set up and use workflows that connect business-process tasks performed by different users. System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps.
+title: Workflows in Dynamic 365 Business Central
+description: Use workflows to connect business-process tasks performed by different users. System tasks, such as automatic posting, can be included as workflow steps.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 38092f364d1dee1f34d8aa0c0858ac1bc04d829b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 02f03c3b3423de2b78aea7f4e61c65c968290341
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378807"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130892"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Workflows in Dynamics 365 Business Central
 

@@ -1,24 +1,25 @@
 ---
-title: Job Tasks using Resources and Time Sheets| Microsoft Docs
-description: Outlines how to use resources, time sheets, and jobs to manage projects.
+title: Project Management
+description: This topic outlines how to use resources, time sheets, and jobs to manage projects and their budgets.
 author: edupont04
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 04/01/2019
+ms.search.form: 89, 200, 289, 290, 376, 462, 463, 1029, 1615, 8904, 9014, 9015
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: dcd68331143cac2572b37e7bf130010d69dc05f4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: af4801956ce27bc282356400513fc22a03860784
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253111"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146263"
 ---
 # <a name="project-management"></a>Project Management
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can perform common project management tasks, such as configuring a job and scheduling a resource, as well as providing the information needed to manage budgets and monitor progress. You can track machine and employee hours on the project by using time sheets. As a project manager, you have a good overview, not only of individual jobs, but also of the allocation of employees, machinery and other resources being used in all projects.
 
-Before you can use [!INCLUDE[d365fin](includes/d365fin_md.md)] to manage projects, you must set up resources, time sheets, and jobs. For more information, see [Setting Up Project Management](projects-setup-projects.md).  
+In [!INCLUDE[prod_short](includes/prod_short.md)], you can perform common project management tasks, such as configuring a job and scheduling a resource, as well as providing the information needed to manage budgets and monitor progress. You can track machine and employee hours on the project by using time sheets. As a project manager, you have a good overview, not only of individual jobs, but also of the allocation of employees, machinery and other resources being used in all projects.
+
+Before you can use [!INCLUDE[prod_short](includes/prod_short.md)] to manage projects, you must set up resources, time sheets, and jobs. For more information, see [Setting Up Project Management](projects-setup-projects.md).  
 
 The following table describes a sequence of tasks, with links to the topics that describe them.
 
@@ -36,16 +37,19 @@ The following table describes a sequence of tasks, with links to the topics that
 
 ## <a name="get-started-with-projects"></a>Get started with projects
 
-Project management is complicated enough in itself, and learning how to create jobs and managing work in process in a new tool can be another complication. To help you get started with project management in [!INCLUDE [prodshort](includes/prodshort.md)], you can see [a video about creating jobs](https://www.youtube.com/watch?v=VqaPWr7BWmw) on the [!INCLUDE [prodshort](includes/prodshort.md)] YouTube channel.  
+Project management is complicated enough in itself, and learning how to create jobs and managing work in process in a new tool can be another complication. To help you get started with project management in [!INCLUDE[prod_short](includes/prod_short.md)], you can see [a video about creating jobs](https://www.youtube.com/watch?v=VqaPWr7BWmw) on the [!INCLUDE[prod_short](includes/prod_short.md)] YouTube channel.  
 
 ## <a name="see-also"></a>See Also
 
 [Setting Up Project Management](projects-setup-projects.md)  
 [Video: How to create a job in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
-[Changing Which Features are Displayed](ui-experiences.md)  
+[Change Which Features are Displayed](ui-experiences.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Sales](sales-manage-sales.md)  
 [Finance](finance.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,23 +1,22 @@
 ---
-title: Keep Track of Segments and Related Interactions| Microsoft Docs
+title: Keep Track of Segments and Related Interactions
 description: Learn about creating segments to define groups of contacts and specifying interactions for segments.
-services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2020
+ms.search.forms: 5139,
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: cc50d1b619c2f9cef4d6cdb53aa8bf5d9892b56e
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 792b2172a96287732e9ae81c8af5fd6ba5aeccf7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381400"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131414"
 ---
 # <a name="manage-interactions-for-segments"></a>Manage Interactions for Segments
 The **Segment** page is a type of worksheet where you can:

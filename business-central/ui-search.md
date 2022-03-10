@@ -1,21 +1,21 @@
 ---
-title: Finding Features and Information | Microsoft Docs
+title: Finding Features and Information (contains video)
 description: This topic describes how to use search to find actions, pages, reports, documentation, and data, as well as other apps and consulting services.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d5af514baf18d1d5fbfd3de900d0ef964ff40bc9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c11b0b82d0c6634fc69b09b8995046bf194a3838
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783193"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323211"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Finding Pages and Information with Tell Me  
 This topic describes how Tell Me can help you quickly go to things like actions, pages, or reports, find information about how to complete a particular task, and discover additional apps and consulting services for [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -23,7 +23,7 @@ This topic describes how Tell Me can help you quickly go to things like actions,
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048]
 
-When you need help finding something, use the ![Tell me what you want to do](media/ui-search/search.png "Search for Page or Report") **Tell me what you want to do** icon to search for it. You can also use ALT+Q to start using Tell Me.
+When you need help finding something, use the ![Tell me what you want to do.](media/ui-search/search.png "Search for Page or Report") **Tell me what you want to do** icon to search for it. You can also use ALT+Q to start using Tell Me.
 
 When you start typing characters, [!INCLUDE[prod_short](includes/prod_short.md)] immediately displays matches. Results in the list change as you type more characters. If you notice that when you enter the word "product" and the results include **Items** that's because Tell Me uses synonyms and alternate search terms to make it easier to find actions, pages, and reports.
 

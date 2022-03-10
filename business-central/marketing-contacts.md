@@ -1,28 +1,27 @@
 ---
-title: Create and Manage Company Contacts| Microsoft Docs
+title: Create and Manage Company Contacts
 description: You set up all external entities that you have a business relationship with (such as prospects, customers, vendors, and consultants) as contacts.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 05/02/2019
-ms.author: sgroespe
-ms.openlocfilehash: 407470afdca7a4e8b0e3cb2d2095903353e5d5b9
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.search.forms: 5054, 5050, 5051, 5052, 5104, 5053, 9130, 6701, 5055, 1604
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 815b4c406b203e32a0d424a2ecf76f7aa0564662
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446954"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131492"
 ---
 # <a name="managing-contacts"></a>Managing Contacts
-Different groups at your company will have business relationships with various companies. For example, a salesperson might regularly meet prospective customers and at the end of the week record the results of these visits.
 
-All of the external entities that you have business relationships with (for example, customers, prospective customers, vendors, lawyers, and consultants) should be recorded as contacts. Having this data recorded in one central location ensures every group in your company can view and use the information efficiently. Communication with your contacts will be more successful if all details are readily available. For example, a marketing person might like to know what other products a specific customer has purchased before attempting to interest them in a new product.
+Employees in your company regularly meet prospective business relations that may develop into formal relationships. All such external contacts and their detailed information should be recorded in the system so that communication is more successful and so they can easily be converted to formal customer, vendor, or bank relationships.
+
+Use the **Contacts** list to manage your contacts. From there, you can create opportunities and manage other interactions with individual contacts. You can also see statistics about a contact, and you can access a range of reports. For information about how to find the right contact in the list, see [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md) .  
 
 The following table describes a sequence of tasks, with links to the topics that describe them.
 
@@ -34,5 +33,10 @@ The following table describes a sequence of tasks, with links to the topics that
 |Resolve confusion when two or more records exist for the same contact.|[Merge Duplicate Records](sales-how-merge-duplicate-records.md)|
 
 ## <a name="see-also"></a>See Also
+
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
+[Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)  
 [Working with Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

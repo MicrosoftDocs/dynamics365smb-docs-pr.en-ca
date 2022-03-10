@@ -1,21 +1,21 @@
 ---
-title: Create a Job Sales Invoice to Invoice a Job| Microsoft Docs
-description: Describes how to invoice customers for job expenses as a project progresses.
+title: Create a Job Sales Invoice to Invoice a Job
+description: Describes how to invoice customers for job expenses as a project progresses and costs accumulate.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
-ms.date: 04/01/2021
+ms.search.form: 1002, 1007,
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 873135d2fa6053b7101a999981fb3117ee8689ab
-ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
+ms.openlocfilehash: d2d2437028c5d7e7f8ad4bc613e4f6bf1dc06de3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938155"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146315"
 ---
 # <a name="invoice-jobs"></a>Invoice Jobs
 During the project, job costs from resource usage, materials, and job-related purchases can accumulate. As the job progresses, these transactions get posted to the job journal. It is important that all costs get recorded in the job journal before you invoice the customer.
@@ -33,7 +33,7 @@ You can create an invoice for a job or for one or more job tasks for a customer 
 
 The following procedure shows how to use a batch job to invoice multiple jobs.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Create Sales Invoice**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Create Sales Invoice**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Set filters if you want to limit the jobs that the batch job will process.
 4. Choose the **OK** button to create the invoices.  
@@ -46,7 +46,7 @@ You can review and post created invoices in the **Sales Invoices** window.
 ## <a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a>To create and post job sales invoice from job planning lines
 You can create an invoice from a job planning lines, and indicate at that time the quantity of the item, resource, or general ledger account that you want to invoice.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.
 2. Open a relevant job.
 3. Select a job task for which the **Job Task Type** field contains **Posting**, and then choose the **Job Planning Lines** action.  
 4. On a job planning line, in the **Qty. To Transfer to Invoice** field, enter the quantity of the item, resource, general ledger account type that you want to invoice.  

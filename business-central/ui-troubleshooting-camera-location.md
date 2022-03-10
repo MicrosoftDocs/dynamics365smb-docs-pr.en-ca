@@ -3,23 +3,22 @@ title: 'Troubleshooting: Accessing Camera and Location'
 description: This article describes how to troubleshoot access to camera and location information in Business Central.
 author: blrobl
 ms.author: t-blrobl
-ms.date: 04/22/2020
+ms.date: 04/01/2021
 ms.custom: na
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
-ms.topic: article
-ms.service: dynamics365-business-central
-ms.openlocfilehash: 10338040ddcfb64dd91e9e55f607280e99720403
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.topic: conceptual
+ms.openlocfilehash: c484be64a252ae8f565bf04215b9a2191e572875
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781144"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138215"
 ---
 # <a name="troubleshooting-accessing-camera-and-location"></a>Troubleshooting: Accessing Camera and Location
 
-You might come across some issues when trying to access the camera and location information of a device from [!INCLUDE[prodshort](includes/prodshort.md)]. You can find the possible causes behind these problems and how to work around them listed below.
+You might come across some issues when trying to access the camera and location information of a device from [!INCLUDE[prod_short](includes/prod_short.md)]. You can find the possible causes behind these problems and how to work around them listed below.
 
 ## <a name="device-must-have-camera-and-location-capabilities"></a>Device must have Camera and Location Capabilities
 
@@ -29,11 +28,11 @@ If your device has camera and location capabilities but you still encounter prob
 
 ## <a name="access-permissions-not-enabled"></a>Access Permissions not Enabled
 
-You must enable general access to camera and location from your device's privacy settings and explicitly give permission to  [!INCLUDE[prodshort](includes/prodshort.md)] to access them. For example, to see or change permissions for a device running on Windows, go to **Settings**, choose **Privacy**, and then **App permissions**. 
+You must enable general access to camera and location from your device's privacy settings and explicitly give permission to  [!INCLUDE[prod_short](includes/prod_short.md)] to access them. For example, to see or change permissions for a device running on Windows, go to **Settings**, choose **Privacy**, and then **App permissions**. 
 
-For mobile devices, you must give camera and location access permissions to the [!INCLUDE[prodshort](includes/prodshort.md)] Mobile App. To do so for an iOS device, go to **Settings**, choose **Privacy**, and then **Camera** or **Location**. For Android devices go to **Settings**, choose **Apps & Notifications**, **Advanced**, **Permission Manager**, and then **Camera** or **Location**.
+For mobile devices, you must give camera and location access permissions to the [!INCLUDE[prod_short](includes/prod_short.md)] Mobile App. To do so for an iOS device, go to **Settings**, choose **Privacy**, and then **Camera** or **Location**. For Android devices go to **Settings**, choose **Apps & Notifications**, **Advanced**, **Permission Manager**, and then **Camera** or **Location**.
 
-In addition, if you are using [!INCLUDE[prodshort](includes/prodshort.md)] in a browser, you must also grant the [!INCLUDE[prodshort](includes/prodshort.md)] site permission to access the camera or location information. To see or change a site's permissions in the Microsoft Edge browser, go to **Settings**, choose **Site Permissions**, and then **Camera** or **Location**. Note that this might be different for other browsers.
+In addition, if you are using [!INCLUDE[prod_short](includes/prod_short.md)] in a browser, you must also grant the [!INCLUDE[prod_short](includes/prod_short.md)] site permission to access the camera or location information. To see or change a site's permissions in the Microsoft Edge browser, go to **Settings**, choose **Site Permissions**, and then **Camera** or **Location**. Note that this might be different for other browsers.
 
 By default, the device or browser will pop up a request to access these capabilities when the user activates them for the first time.
 
@@ -49,7 +48,7 @@ The only exception is connecting to `http://localhost`, used for development and
 
 ## <a name="working-with-virtualization-technologies"></a>Working with Virtualization Technologies
 
-When connecting to [!INCLUDE[prodshort](includes/prodshort.md)] through Remote Desktop or another virtualization, the access to camera or location might not be available. If this is the case, use the physical system instead.
+When connecting to [!INCLUDE[prod_short](includes/prod_short.md)] through Remote Desktop or another virtualization, the access to camera or location might not be available. If this is the case, use the physical system instead.
 
 ## <a name="antivirus-software"></a>Antivirus Software
 Some antivirus software block access to camera and location by default. Remember to check your antivirus software settings.
@@ -57,3 +56,6 @@ Some antivirus software block access to camera and location by default. Remember
 ## <a name="see-also"></a>See Also
 [Implementing the Camera in AL](/dynamics365/business-central/dev-itpro/developer/devenv-implement-camera-al)  
 [Implementing the Location in AL](/dynamics365/business-central/dev-itpro/developer/devenv-implement-location-al)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

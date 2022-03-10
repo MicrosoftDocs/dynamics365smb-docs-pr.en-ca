@@ -2,7 +2,6 @@
 title: Pick for Internal Operations in Advanced Warehouse Configurations
 description: If your locations use picking as well as shipping, pick components for production and assembly activities in the Warehouse Pick page.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ea056bf4255cf557c711113854821f9dece17cad
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5df764b1ca184d1f70dd67c08abf0505833dc2aa
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771044"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139140"
 ---
 # <a name="pick-for-production-or-assembly-in-advanced-warehouse-configurations"></a>Pick for Production or Assembly in Advanced Warehouse Configurations
 In advanced warehouse configurations where the location is set up to use picking as well as shipping, you can pick components for production and assembly activities with the **Warehouse Pick** page.  
@@ -40,7 +39,7 @@ To create pick requests, both for pull and for push scenarios, the source docume
 |Assembly Order|Change status to Released.|  
 
 ## <a name="to-pick-components-using-the-pick-worksheet"></a>To pick components using the pick worksheet  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Pick Worksheet**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Pick Worksheet**, and then choose the related link.  
 2.  Choose the **Get Warehouse Documents** action, and then select the component lines from the released production order.  
 3.  Inspect the lines, sort them to ensure an efficient picking round, and combine them with other worksheet lines if necessary to make best use of employee time.  
 4.  Choose the **Create Pick** action.  
@@ -52,7 +51,7 @@ If the internal operation area, such as a production shop floor, is set up with 
 ## <a name="filling-the-consumption-bin"></a>Filling the Consumption Bin
 This flow chart shows how the **Bin Code** field on production order component lines is filled according to your location setup.
 
-![Bin flow chart](media/binflow.png "BinFlow")  
+![Bin flow chart.](media/binflow.png "BinFlow")  
 
 ## <a name="see-also"></a>See Also
 [Warehouse Management](warehouse-manage-warehouse.md)  

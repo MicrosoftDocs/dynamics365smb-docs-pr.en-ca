@@ -1,23 +1,24 @@
 ---
-title: Share contacts between Business Central and Outlook| Microsoft Docs
+title: Share contacts between Business Central and Outlook
 description: This service has deep integration with Microsoft 365 so you can share contacts between Outlook and Business Central.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, Microsoft 365
+ms.search.form: 6700, 5320, 5300, 5301, 5302, 5303, 5304, 5305, 5306, 5307, 5308, 5309, 5310, 5311
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1ccada415d506193e52ac37981252a47e6088971
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 12ce99a79f465543ecc314b5042e70b6802f86ec
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777175"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142428"
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Synchronize Contacts in Business Central with Contacts in Microsoft Outlook
+
 You can see the same contacts in [!INCLUDE[prod_short](includes/prod_short.md)] as you see in Outlook if you set up contact synchronization. For example, if you are a sales person, you might do some of your work in Outlook and some of your work in [!INCLUDE[prod_short](includes/prod_short.md)]. If the contacts are the same in both places, your work is more straightforward.  
 
 A dedicated folder in Outlook makes contacts easy to find, and you can set a filter to synchronize only the contacts from [!INCLUDE[prod_short](includes/prod_short.md)] that you want to see in Outlook. Once the contact synchronization is set up, you can start synchronization manually or set up an automatic synchronization that will keep the contacts in sync on a scheduled basis.  

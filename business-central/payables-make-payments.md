@@ -1,21 +1,21 @@
 ---
-title: Overview of Tasks to Manage Payments to Vendors| Microsoft Docs
+title: Overview of Tasks to Manage Payments to Vendors
 description: Outlines tasks to manage payments to vendors or creditors, including posting payment lines and getting an overview of the balance due.
 author: edupont04
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 04/01/2019
+ms.search.form: 254, 256, 1190, 1191, 1227, 1228, 1229
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4ece210d5dd8f7748b6c7031bb0fedf571b61c9c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6cda8910fdd2f0bdaa3e79a193cae5274d6f9ba8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253180"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137766"
 ---
 # <a name="making-payments"></a>Making Payments
 
@@ -37,7 +37,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Post payments to vendors or employees and refunds to customers, and optionally apply the payments to the related unpaid invoices/credit memos to close them as paid.|[Record Payments and Refunds](payables-how-post-payments-refunds.md)|
 | Use a function on the **Payment Journal** page to suggest vendor payments according to selected criteria, such as due date, discount eligibility, and your liquidity. |[Suggest Vendor Payments](payables-how-suggest-vendor-payments.md) |
 | Issue cheques for vendor payments or customer refunds, either as print-outs or as computer cheques. Void cheques before or after posting. |[Make Cheque Payments](payables-how-work-checks.md) |
-|Make electronic payments according to the EU SEPA Credit Transfer standard.|[Making Payments with Bank Data Conversion Service or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|
+|Make electronic payments according to the EU SEPA Credit Transfer standard.|[Making Payments with AMC Banking 365 Fundamentals extension or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|
 | Pay a vendor by cash or cheque, and post the payment when you post the invoice. |[Settle Purchase Invoices Promptly](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Make sure that your bank only clears validated cheques and amounts by sending them a file that contains vendor, cheque, and payment information. |[Export a Positive Pay file](finance-how-positive-pay.md) |
 
@@ -45,4 +45,7 @@ The following table describes a sequence of tasks, with links to the topics that
 [Managing Payables](payables-manage-payables.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

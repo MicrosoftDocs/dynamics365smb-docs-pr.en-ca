@@ -1,21 +1,21 @@
 ---
-title: Overview of Tasks to Set Up Purchasing | Microsoft Docs
+title: Overview of Tasks to Set Up Purchasing
 description: Describes the tasks to define your company's procurement policies and set up your purchasing processes.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 04/01/2020
+ms.search.form: 175, 176, 177, 178, 456, 460, 5727, 5729
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bda110a8d97376b283461bb0c2c6a6b7f334ba4d
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 395af6b23c85c3f78eb970b9e2d9603bf336d34d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783292"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146211"
 ---
 # <a name="setting-up-purchasing"></a>Setting Up Purchasing
 Before you can manage purchase processes, you must configure the rules and values that define the company's purchase policies.
@@ -32,10 +32,21 @@ Finance-related purchase setup, such as payment methods and currencies, are cove
 | Enter the different discounts and special prices that vendors grant you depending on item, quantities, and/or date |[Record Purchase Price, Discount, and Payment Agreements](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
 | Prioritize vendors |[Prioritize Vendors](purchasing-how-prioritize-vendors.md) |
 | Set up purchasers |[Set Up Purchasers](purchasing-how-setup-purchasers.md) |
+|Specify default reports to be used for different document types.|[Report Selection in Business Central](across-report-selections.md)|
+
+> [!TIP]
+> Depending on your geographical location, some pages can contain fields that are not described in the articles that are listed here because they apply to local functionality or customizations. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+
+## <a name="external-document-number"></a>External document number
+
+[!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See Also
 
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: How to Enter Data in Business Central| Microsoft Docs
-description: Learn about general features that help you enter data in fields.
-author: SorenGP
-ms.service: dynamics365-business-central
+title: Enter Data in Business Central
+description: There are many general features that help you enter data easier, faster, and more precise. The basic principles and advanced features are described here.
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2020
-ms.author: edupont
-ms.openlocfilehash: 6ad3faedc77b1293fa9e42d65e59db4c2d00b529
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.search.keywords: decimal separator, data entry, focus
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.date: 10/01/2021
+ms.author: jswymer
+ms.openlocfilehash: 9fb5df3e4b73b23b469185c46235170d6cebdde2
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393308"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323041"
 ---
 # <a name="entering-data"></a>Entering Data
 
@@ -35,7 +35,6 @@ Some editable fields provide a picker to help you specify a value.
 |Dropdown          |Dropdowns provide a choice of fixed values or reference records from another table|
 |Switch or Checkbox|Some fields provide a simple choice of *Yes* or *No* values. The switch is used to specify this value, and is always displayed as a checkbox in lists|
 |Assist edit       |Some fields provide custom pickers that are suited to looking up and choosing the best value for that field, such as popup window|
-
 
 ### <a name="modifying-a-field-value"></a>Modifying a field value
 
@@ -58,7 +57,6 @@ When the cursor is shown at the end of the field value:
 
 > [!NOTE]
 > After you specify a value, Business Central will only check that it's valid after you click outside the field or set focus to another element, such as the next field.  
-
 
 ## <a name="keyboard-shortcuts"></a>Keyboard Shortcuts
 
@@ -93,7 +91,7 @@ The following list provides some useful information about using Quick Entry.
 
 To set up Quick Entry on fields, you use personalization.
 
-1. Start personalization by selecting the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role centre") icon, and then the **Personalize** action.
+1. Start personalization by selecting the ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role centre") icon, and then the **Personalize** action.
 2. Select a field that you want change. In lists, select the corresponding column heading. Then, choose either **Include in Quick Entry** or **Exclude from Quick Entry**.
 
 For more information about personalization, see [Personalize Your Workspace](ui-personalization-user.md).
@@ -136,9 +134,9 @@ You'll benefit particularly when you work with large line item lists and you wan
 
 ### <a name="switching-the-focus-on-and-off"></a>Switching the Focus On and Off
 
-To focus on lines items, select anywhere in the line item part, and then choose ![Focus Mode icon](media/focus-mode.png "Focus mode icon") in the upper right corner, or press Ctrl+Shift+F12.
+To focus on lines items, select anywhere in the line item part, and then choose ![Focus Mode icon.](media/focus-mode.png "Focus mode icon") in the upper right corner, or press Ctrl+Shift+F12.
 
-To switch back to the normal view, choose ![Focus Mode icon](media/focus-mode.png "Focus mode icon") or press Ctrl+Shift+F12 again.
+To switch back to the normal view, choose ![Focus Mode icon.](media/focus-mode.png "Focus mode icon") or press Ctrl+Shift+F12 again.
 
 ## <a name="multitasking-across-multiple-pages"></a>Multitasking Across Multiple Pages
 
@@ -148,15 +146,15 @@ You can open a card or document page in a new window. Opening a new window lets 
 - Manage interruptions to the current task, such as taking an incoming call.
 - Keep a window open for an ongoing task while you start or complete another task in windows.
 
-To open the current card or document in a new window, choose ![Open New Window](media/open-new-window-icon.png "Open new window icon") in the upper right corner, or press Alt+Shift+W.
+To open the current card or document in a new window, choose ![Open New Window.](media/open-new-window-icon.png "Open new window icon") in the upper right corner, or press Alt+Shift+W.
 
 <!--
 When working on multiple tasks at a time or when managing interruptions to the current task, such as taking an incoming call, you can open a card or document page in a new window. This allows you to keep a window open for an ongoing task while you start or complete another task in one or more other windows.
 -->
-To open the current card or document in a new window, choose ![Open New Window](media/open-new-window-icon.png "Open new window icon") in the upper right corner, or press Alt+Shift+W.
+To open the current card or document in a new window, choose ![Open New Window.](media/open-new-window-icon.png "Open new window icon") in the upper right corner, or press Alt+Shift+W.
 
 > [!NOTE]
-> When you open other pages from a card or document that is opened in a new window, those pages will open in a new window even though you don't choose ![Open New Window](media/open-new-window-icon.png "Open new window icon").
+> When you open other pages from a card or document that is opened in a new window, those pages will open in a new window even though you don't choose ![Open New Window.](media/open-new-window-icon.png "Open new window icon").
 
 > [!NOTE]
 > If you work in the Safari browser, a pop-up blocker may cause the new window to not open. If this is the case, specify the product URL as an allowed website. For information see, [Change preferences in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
@@ -242,42 +240,17 @@ The following table lists the various ways in which times can be entered and how
 
  You enter two digits for each unit of time if you don't enter a separator.  
 
-## <a name="entering-datetimes"></a>Entering Datetimes
+## <a name="entering-combined-datetimes"></a>Entering Combined Datetimes
 
-When you enter datetimes, you must enter a space between the date and the time.  
-
-The following table lists the various ways in which you can enter datetimes and how they're interpreted.  
-
-|Entry|Interpretation|  
-|---------------|------------------------|  
-|`131202` 132455|13-12-02 13:24:55|  
-|1-12-02 10|01-12-02 10:00:00|  
-|1.12.02 5|01-12-02 05:00:00|  
-|1.12.02|01-12-02 00:00:00|  
-|11 12|11-current month-current year 12:00:00|  
-|1112 12|11-12-current year 12:00:00|  
-|t or today|today's date 00:00:00|  
-|t time|today's date actual time|  
-|t 10:30|today's date 10:30:00|  
-|t 3:3:3|today's date 03:03:03|  
-|w or workdate|the working date 00:00:00|  
-|m or Monday|Monday of the current week 00:00:00|  
-|tu or Tuesday|Tuesday of the current week 00:00:00|  
-|we or Wednesday|Wednesday of the current week 00:00:00|  
-|th or Thursday|Thursday of the current week 00:00:00|  
-|f or Friday|Friday of the current week 00:00:00|  
-|s or Saturday|Saturday of the current week 00:00:00|  
-|su or Sunday|Sunday of the current week 00:00:00|  
-|tu 10:30|Tuesday of the current week 10:30:00|  
-|tu 3:3:3|Tuesday of the current week 03:03:03|  
+[!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## <a name="entering-duration"></a>Entering Duration
 
-You enter a duration as a number followed by its unit of measure.  
+You enter a duration as a number followed by its unit of measurement.  
 
 Here are some examples.  
 
-|Duration|Unit of measure**|  
+|Duration|Unit of measurement**|  
 |------------------|-------------------------|  
 |2h|2 hrs|  
 |6h 30 m|6 hrs 30 mins|  
@@ -286,15 +259,22 @@ Here are some examples.
 |2d 6h 30m|2 days 6 hrs 30 mins|  
 |2d 6h 30m 56s 600ms|2 days 6 hrs 30 mins 56 secs 600 msecs|  
 
- You can also enter a number and it's automatically converted to a duration. The number you enter is converted according to the default unit of measure that has been specified for the duration field.  
+ You can also enter a number and it's automatically converted to a duration. The number you enter is converted according to the default unit of measurement that has been specified for the duration field.  
 
- To see the unit of measure used in a duration field, enter a number and see which unit of measure it's converted to.  
+ To see the unit of measurement used in a duration field, enter a number and see which unit of measurement it's converted to.  
 
- The number 5 is converted to 5 hrs, if the unit of measure is hours.  
+ The number 5 is converted to 5 hrs, if the unit of measurement is hours.  
 
-## <a name="see-also"></a>See Also  
- [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)  
- [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Setting the decimal separator used by numeric keyboards
+
+When using the decimal separator key of numeric keyboard to enter data, the actual decimal separator that's entered in the field is determined by the region setting of your Business Central. You set the region in Business Central on the **My Settings** page.
+
+For example, suppose you're using a numeric keyboard that uses a point (.) as the decimal separator key. But, you're entering data for a regional language that uses a comma (**,**) for the decimal separator, like Danish (Denmark) or French (France). So, you want decimals like "1.23" to be entered as "1,23". In this case, you can go to the **My Settings** page and set the **Region** to the target regional language, like **Danish (Denmark)** or **French (France)**. For more information, see [Change Basic Settings](ui-change-basic-settings.md#region).
+
+## <a name="see-also"></a>See Also
+
+[Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

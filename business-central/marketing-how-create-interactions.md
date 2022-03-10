@@ -1,23 +1,22 @@
 ---
-title: Create Interactions on Contacts and Segments| Microsoft Docs
+title: Create Interactions on Contacts and Segments
 description: Describes how to create interactions for communication that you have with your contacts and segments in Business Central, for example, direct mail.
-services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
+ms.search.forms: 5077, 5078, 5074, 5076, 5186, 5075, 5079
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 92965b353dadb78e50b11138a832115885518f4f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 273df19ec77f54e923b552b75986237635c40600
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780716"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131466"
 ---
 # <a name="create-interactions-on-contacts-and-segments"></a>Create Interactions on Contacts and Segments
 You can create interactions to record all the interactions and communications you have with your contacts and segments, for example, direct mail.
@@ -38,7 +37,7 @@ Before you create interactions, you must set up interaction templates. For more 
 3. Select the interaction you want to finish, and then choose the **Resume** action.
 
 ## <a name="to-create-an-interaction-on-a-segment"></a>To create an interaction on a segment
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Segments**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Segments**, and then choose the related link.
 2. In the **Segment page**, in the **Interaction** section, fill in the fields to specify which interaction you want to assign to the segment.
 
     After you have assigned an interaction to the segment, you can personalize the interaction for each particular contact within the segment, for example, by selecting another interaction template on the lines on the **Segment** page.  

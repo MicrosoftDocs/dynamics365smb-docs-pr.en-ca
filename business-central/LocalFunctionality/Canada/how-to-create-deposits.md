@@ -1,64 +1,31 @@
 ---
-title: How to Create Deposits | Microsoft Docs
-description: You can make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos.
-services: project-madeira
-documentationcenter: ''
+title: How to Create Deposits [CA]
+description: Make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos in the Canadian version.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 3f76226c6d3a55449162b9727fe0382101a68936
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 10140, 10141, 10143,10144,10146,10147,10148,36646
+ms.date: 06/17/2021
+ms.author: edupont
+ms.openlocfilehash: 544dd5f871fa7d085109dd8cbfc0bf2a602fd227
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301368"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148943"
 ---
-# <a name="create-deposits"></a>Create Deposits
-You can make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos.  
+# <a name="create-deposits-in-the-canadian-version"></a>Create Deposits in the Canadian Version
 
-## <a name="to-create-a-deposit"></a>To create a deposit  
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Deposits**, and then choose the related link.  
-2.  Choose the **New** action.  
-3.  On the **General** FastTab, fill in the required fields as described in the following table.  
+[!INCLUDE [create-deposits](../includes/CAMXUS/create-deposits.md)]
 
-    |Field|Description|  
-    |---------------------------------|---------------------------------------|  
-    |**No.**|The unique identification number for the deposit.|  
-    |**Bank Account No.**|The bank account number for the deposit.|  
-    |**Total Deposit Amount**|The total deposit amount posted to the bank ledger.<br /><br /> You can post this deposit only if the sum of the deposit lines is equal to the value in this field.|  
-    |**Posting Date**|The posting date for the deposit.|  
-    |**Document Date**|The deposit document date.|  
-4.  On the **Lines** FastTab, fill in the required fields as described in the following table.  
+## <a name="see-also"></a>See Also
 
-    |Field|Description|  
-    |---------------------------------|---------------------------------------|  
-    |**Account Type**|The account type.|  
-    |**Account No.**|The unique identification account number that is associated with the selected account type, to which the entry will be posted.|  
-    |**Description**|The journal line entry description.|  
-    |**Document Date**|The journal line entry document date.|  
-    |**Document Type**|The journal line entry document type.|  
-    |**Document No.**|The journal line entry document number.|  
-    |**Credit Amount**|The total credit amount on the journal line.|  
-
-5.  Optionally, on the **Navigate** tab, choose **Dimensions**, and then add relevant dimensions on the **Dimension Set Entries** page.  
-
-After you have created a deposit, you must post it.  
-
-## <a name="to-post-a-deposit"></a>To post a deposit  
-1. Choose the **Post** action.  
-
-    > [!NOTE]  
-    >  You can post a deposit only if the amount displayed in the **Total Deposit Lines** field is equal to the amount in the **Total Deposit Amount** field.  
-
-Next, you can use the Deposit Test Report and Deposit reports to reconcile your posted deposits with outstanding invoices and credit memos.  
-
-## <a name="see-also"></a>See Also  
 [Canada Local Functionality](canada-local-functionality.md)  
 [Finance](../../finance.md)  
 [Setting Up Finance](../../finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

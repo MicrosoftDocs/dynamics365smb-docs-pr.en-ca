@@ -1,22 +1,21 @@
 ---
 title: Power BI Integration Component and Architecture Overview for Business Central| Microsoft Docs
-description: Getting insight, business intelligence, and KPIs from your Business Central data is easy with the Business Central apps for Power BI.
+description: Learn about the different aspects of Power BI integration with Business Central.
 author: jswymer
-ms.service: dynamics365-business-central
-ms.topic: get-started-article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 23a0c72775dbddc89a81105de3b2ed79d1f09432
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b4f48182e6d4356e9621dc5a041945700f5d7599
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753779"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143943"
 ---
 # <a name="power-bi-integration-component-and-architecture-overview-for-prod_short"></a>Power BI Integration Component and Architecture Overview for [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -42,19 +41,21 @@ The following table describes available features.
 |Embedded experience for viewing a given report inside a FactBox in [!INCLUDE[prod_short](includes/prod_short.md)]|Both. Requires configuration to display reports for on-premises.|
 |Power BI report management from [!INCLUDE[prod_short](includes/prod_short.md)]|Online|
 |Default Power BI reports on role centres deployed to Power BI|Online|
-|Power BI Apps on Microsoft AppSource|Online.|
+|Power BI Apps on Microsoft AppSource|Online|
 
 ## <a name="architecture"></a>Architecture
 
-[!INCLUDE[prod_short](includes/prod_short.md)] integrates with Power BI through a connector using OData. The data source for Power BI reports is exposed as OData web services.
+[!INCLUDE[prod_short](includes/prod_short.md)] integrates with Power BI through a connector using OData. The data source for Power BI reports is exposed as API pages and OData web services.
 
-![Power BI architecture for integration with Business Central](./media/power-bi-architecture.png)
+:::image type="content" source="./media/power-bi-architecture.png" alt-text="Image alt text." lightbox="./media/power-bi-architecture.png":::
+
+Starting in February 2022, Power BI reports for [!INCLUDE[prod_short](includes/prod_short.md)] online are sourced from a secondary, read-only database replica. The database replica is part of the [read scale-out](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) capability in [!INCLUDE[prod_short](includes/prod_short.md)] online. This configuration frees up the main database for transactions, which enhances performance of the system. Connecting to the read-only database replica is an integral part of the Business Central online connector, and requires no extra setup on your part. All new reports will connect to the read-only database replica by default. Old reports will still use the main database. For more information, see [Business Central 2021 Release Wave 2 Plan](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/use-secondary-read-only-database-power-bi-reporting).
 
 ## <a name="general-flow"></a>General Flow
 
 The following diagram illustrates the basic workflow for users when connecting [!INCLUDE[prod_short](includes/prod_short.md)] to Power BI.
 
-![Power BI workflow  for integration with Business Central](./media/power-bi-flow.png)
+![Power BI workflow  for integration with Business Central.](./media/power-bi-flow.png)
 
 1. User signs up for a Power BI account.
 2. User connects to Power BI from [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -74,11 +75,12 @@ The following diagram illustrates the basic workflow for users when connecting [
 [Quickstart: Connect to data in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
 [Power BI documentation](/power-bi/)  
 [Business Intelligence](bi.md)  
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Using [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
 [Using [!INCLUDE[prod_short](includes/prod_short.md)] as a Power Apps Data Source](across-how-use-financials-data-source-powerapps.md)  
 [Using [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

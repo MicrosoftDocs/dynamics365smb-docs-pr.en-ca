@@ -1,26 +1,24 @@
 ---
-title: Business Intelligence| Microsoft Docs
-description: Capture and analyse business data, such as sales figures, purchases, operational expenses, employee salaries, and budgets, that can be valuable information for business intelligence or for decision making.
-services: project-madeira
-documentationcenter: ''
+title: Business Intelligence
+description: Business Central contains a number of features that help you gather, analyze, and share valuable company data for business intelligence and decision making.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2020
+ms.search.form: 103, 198, 490
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 006df06509175a19ee63317ee89526192a924808
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 994ae303d46e2e3d290ca297038a3bca6fc21d44
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924337"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335457"
 ---
 # <a name="business-intelligence"></a>Business Intelligence
-Businesses capture a tremendous amount of data through daily activity. This data, which reflects such things as the organization's sales figures, purchases, operational expenses, employee salaries, and budgets, can become valuable information, or business intelligence, for decision makers. [!INCLUDE[d365fin](includes/d365fin_md.md)] contains a number of features that help you gather, analyze, and share your company data.
+Businesses capture a tremendous amount of data through daily activity. This data, which reflects such things as the organization's sales figures, purchases, operational expenses, employee salaries, and budgets, can become valuable information, or business intelligence, for decision makers. [!INCLUDE[prod_short](includes/prod_short.md)] contains a number of features that help you gather, analyze, and share your company data.
 
 The Dimensions functionality plays an important role in business intelligence. A dimension is data that you can add to an entry as a kind of marker. This data is used to group entries with similar characteristics, such as customers, regions, products, and salesperson, and easily retrieve these groups for analysis. Among other uses, you use dimensions  when defining analysis views and when creating account schedules for reporting. For more information, see [Working with Dimensions](finance-dimensions.md).
 
@@ -44,6 +42,9 @@ The following table describes a sequence of tasks, with links to the topics that
 [Using Business Central as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
 [Closing Fiscal Periods](year-close-years-periods.md)  
 [Importing Data from Other Finance Systems](across-import-data-configuration-packages.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

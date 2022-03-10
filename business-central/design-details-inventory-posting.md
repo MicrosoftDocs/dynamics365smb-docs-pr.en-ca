@@ -2,7 +2,6 @@
 title: Design Details - Inventory Posting | Microsoft Docs
 description: Each inventory transaction, such as a purchase receipt or a sales shipment, posts two entries of different types.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 120db7bf4336444f6cf726d0f784a86841dc3e11
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: edff39ccb01cc7da7e8a0387a4737088b0be231d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215962"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138657"
 ---
 # <a name="design-details-inventory-posting"></a>Design Details: Inventory Posting
 
@@ -32,7 +31,7 @@ Each inventory transaction, such as a purchase receipt or a sales shipment, post
 
  At regular intervals, value entries that are created in the inventory ledger are posted to the general ledger to reconcile the two ledgers for financial control reasons. For more information, see [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md).  
 
- ![Entry flow when reconciling inventory with G/L](media/design_details_inventory_costing_1_entry_flow.png "Entry flow when reconciling inventory with G/L")  
+ ![Entry flow when reconciling inventory with G/L.](media/design_details_inventory_costing_1_entry_flow.png "Entry flow when reconciling inventory with G/L")  
 
 ## <a name="example"></a>Example
 

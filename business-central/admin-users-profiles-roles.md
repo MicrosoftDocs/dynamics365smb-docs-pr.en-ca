@@ -1,20 +1,20 @@
 ---
-title: Manage users and roles | Microsoft Docs
-description: Learn how to manage users and Role Centres in Business Central.
+title: Manage users and roles
+description: Learn how to manage user profiles and Role Centres in Business Central. Profiles allow administrators to centrally define and manage what users can see and do.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: profiles, users
-ms.date: 10/01/2020
+ms.search.form: 9171
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: ca0ca5f756d0d7423c92ca25034038fa1fb05727
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: fa9bd31f0f9ff1705f9caa7f21d9f376febdb712
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4745999"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133131"
 ---
-# <a name="manage-profiles"></a>Manage Profiles
+# <a name="manage-user-profiles"></a>Manage User Profiles
 
 All users of [!INCLUDE[prod_short](includes/prod_short.md)] are assigned a profile that reflects their business role, the department they work in, or another categorization. Profiles allow administrators to define and manage centrally what different user types can see and do in the user interface so they can perform their business tasks efficiently.
 
@@ -29,11 +29,15 @@ Before you can administrate users' profiles, the users must be created and added
 You can customize page layouts for a profile so that all users assigned the profile will see the customized pages. As an administrator, you customize pages by using the same functionality as users do when they personalize. For more information, see [Customize Pages for Profiles](ui-personalization-manage.md).
 
 ## <a name="to-create-a-profile"></a>To create a profile
+
 If you cannot copy an existing profile, you can create a new one manually.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Profiles (Roles)**, and then choose the related link.  
+1. Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Profiles (Roles)**, and then choose the related link.  
 2. On the **Profiles (Roles)** page, choose the **New** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!TIP]
+> If you want a particular profile to be available only for very specific users, you can set the **Description** field to `Navigation menu only.`. This way, the profile is excluded from the list of available roles in **My Settings**.
 
 ## <a name="to-copy-a-profile"></a>To copy a profile
 To save time, you can create a new profile by copying an existing one. Copy one that has similar settings to the one you want to create.
@@ -66,7 +70,7 @@ On the **My Settings** page, users can define basic behaviour of their account, 
 
 As an administrator, you can define these setting for a profile and thereby apply the settings to all users of the related role.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles (Roles)**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles (Roles)**, and then choose the related link.
 2. Select the line for the profile that you want to change user settings for, and then choose the **User Personalizations List** action.
 3. On the **User Personalizations** page, open the card for the user whose settings you want to change.
 4. On the **User Personalization Card** page, edit the fields as necessary.
@@ -108,7 +112,7 @@ You can delete a profile by choosing the **Delete** action on the **Profiles (Ro
 ## <a name="to-delete-all-personalizations-made-by-a-user"></a>To delete all personalizations made by a user
 You can delete all changes that a user has made to pages that make up their workspace. This may be useful, for example, if an employee has changed role and no longer needs the personalizations. Deleting users' personalizations changes the page layout back to what is defined by the profile.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Personalizations**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Personalizations**, and then choose the related link.
 
     The **User Personalizations** page lists all users who have made personalizations.
 
@@ -122,7 +126,7 @@ You can also delete all page customizations for a profile. For more information,
 ## <a name="to-delete-personalizations-for-specific-pages"></a>To delete personalizations for specific pages
 You can delete personalizations that one or more users have made to specific pages that make up their workspace. This may be useful, for example, if a changed business process means that a personalization must no longer be used by users. Deleting users' personalizations changes the page layout back to what is defined by the profile.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Page Personalizations**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Page Personalizations**, and then choose the related link.
 
     The **User Page Personalizations** page lists all the pages that have been personalized and the user that they belong to.
 
@@ -145,3 +149,6 @@ For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you can manage s
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
 [Customize Pages for Profiles](ui-personalization-manage.md)  
 [Personalize Your Workspace](ui-personalization-user.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

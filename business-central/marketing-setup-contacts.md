@@ -4,20 +4,19 @@ description: Outlines the tasks to specify information and codes, for example, a
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 69e5cbb897527a903594af893c0af44a48dbee27
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 33bb659621fe31d096020c52906915c9697e6a60
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181259"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137844"
 ---
 # <a name="set-up-contacts"></a>Set Up Contacts
 When creating contacts, you can enter specific information, such as the industry that the contact belong to and your business relationship with the contacts.
@@ -149,7 +148,7 @@ The inheritance of fields overwrites the default values you have set up. For exa
 ## <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Synchronizing Contacts with Customers, Vendors, and Bank Accounts
 In order to synchronize the contact card with a linked customer, vendor, or bank account card, you must fill in the relevant field in the **Bus. Relation Code for** section on the **Interactions** FastTab on the **Marketing Setup** page.  
 
-For more information, see [Synchronizing contacts with customers, vendors, and bank accounts](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
+For more information, see [Synchronizing contacts with customers, vendors, and bank accounts](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
 
 ## <a name="searching-for-duplicate-contacts"></a>Searching for Duplicate Contacts
 You can choose to have application automatically search for duplicates each time you create a contacts, or you can choose to search manually after you have created contacts. You can also choose to have application update the search strings automatically each time you modify contact information or create a contact. You can decide the search hit percentage, that is, the percentage of identical strings two contacts must have for application to consider them as duplicates. You set this up on the **Duplicates** FastTab on the **Marketing Setup** page.
@@ -160,4 +159,7 @@ When you have found a duplicate contact, you can use the **Merge Duplicate** pag
 [Managing Contacts](marketing-contacts.md)  
 [Create Contacts](marketing-create-contact-companies.md)  
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

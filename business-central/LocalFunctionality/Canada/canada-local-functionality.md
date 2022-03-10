@@ -1,25 +1,24 @@
 ---
-title: Canada Local Functionality | Microsoft Docs
-description: The following topics describe the local functionality in the Canadian version of Business Central.
+title: Canada Local Functionality
+description: The following topics describe the local functionality unique to the Canadian version of Business Central.
 author: sorenfriisalexandersen
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/17/2021
 ms.author: soalex
-ms.openlocfilehash: ecc5a9048a8094b279986de7f17319b6f0d427db
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8292cc9be3a0449651f4b8de2895d2296dccd585
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916455"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145117"
 ---
-# <a name="canada-local-functionality"></a>Canada Local Functionality
+# <a name="local-functionality-in-the-canadian-version"></a>Local Functionality in the Canadian Version
 
-The following topics describe local functionality that is unique to the Canadian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+The following topics describe local functionality that is unique to the Canadian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## <a name="feature-availability"></a>Feature Availability
 
@@ -39,7 +38,10 @@ The following topics describe local functionality that is unique to the Canadian
 
 ## <a name="see-also"></a>See Also
 
-[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

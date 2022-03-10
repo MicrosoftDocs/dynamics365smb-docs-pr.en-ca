@@ -2,7 +2,6 @@
 title: Set Up Statuses for Service Orders and Repairs | Microsoft Docs
 description: You must set up nine repair status options that identify the progress of repair and maintenance of service items in service orders.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1cb6ba334d4584d6e3ead25606a612686258eae9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ba7edc6de37d41cd2bb31285c18d127be6612288
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776825"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130055"
 ---
 # <a name="set-up-statuses-for-service-orders-and-repairs"></a>Set Up Statuses for Service Orders and Repairs
 
@@ -29,7 +28,7 @@ Before you can set up a repair status, you must set up service status priorities
 
 ## <a name="to-set-up-service-status-priorities"></a>To set up service status priorities
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Order Status**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Order Status**, and then choose the related link.  
 2. Select the service order status you want to set a priority for.  
 3. In the **Priority** field, choose the priority you want for this service order status.  
 
@@ -37,7 +36,7 @@ Repeat steps 2 and 3 until you have set the priority for each of the four status
 
 ## <a name="to-set-up-a-repair-status"></a>To set up a repair status
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Repair Status**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Repair Status**, and then choose the related link.
 2. Create a new repair status.  
 3. Fill in the **Code** and **Description** fields.  
 4. In the **Service Order Status** field, choose the order status to link the repair status to. The **Priority** field displays the priority of the service order status you have chosen.  
