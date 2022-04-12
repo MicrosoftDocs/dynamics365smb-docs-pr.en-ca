@@ -7,18 +7,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases
-ms.search.form: 118, 130, 142, 459, 460, 525
+ms.search.form: 7, 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7543c60455794d9f004ea11b2baccf81264b9886
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: ea32a78ec191d335fb772a7040ed81db6753b196
+ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382108"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8417528"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Work with GST/HST on Sales and Purchases
-If your country or region requires you to calculate GST/HST on sales and purchase transactions so that you can report the amounts to a tax authority, you can set up [!INCLUDE[prod_short](includes/prod_short.md)] to calculate tax automatically on sales and purchase documents. For more information, see [Setting Up to Calculations and Posting Methods for GST/HST](finance-setup-vat.md).
+If your country or region requires you to calculate and report value-added tax (VAT) on sales and purchase transactions, you can set up [!INCLUDE[prod_short](includes/prod_short.md)] to calculate VAT. For more information, see [Setting Up to Calculations and Posting Methods for GST/HST](finance-setup-vat.md).
 
 There are, however, some GST/HST-related tasks that you can do manually. For example, you might need to correct a posted amount if you discover that a vendor uses a different rounding method.  
 
@@ -26,35 +26,48 @@ There are, however, some GST/HST-related tasks that you can do manually. For exa
 > You can let [!INCLUDE[prod_short](includes/prod_short.md)] validate GST/HST identification numbers and other company information when you create or update documents. For more information, see [Validate GST/HST Identification Numbers](finance-how-validate-vat-registration-number.md).
 
 ## <a name="calculating-and-displaying-vat-amounts-in-sales-and-purchase-documents"></a>Calculating and Displaying GST/HST Amounts in Sales and Purchase Documents  
-You can calculate and display GST/HST amounts in sales and purchase documents differently, depending on the type of customer or vendor that you are dealing with. You can also override the calculated GST/HST amount to match the GST/HST amount calculated by your vendor on a given transaction.  
+When you choose an item number in the **No.** field on a sales or purchase document, [!INCLUDE[prod_short](includes/prod_short.md)] fills in the **Unit Price** and **Line Amount** fields. The unit price comes from either the **Item** card or the item prices allowed for the item and customer. [!INCLUDE[prod_short](includes/prod_short.md)] calculates the line amount when you enter a quantity for the line.  
 
-### <a name="unit-price-and-line-amount-includingexcluding-vat-on-sales-documents"></a>Unit Price and Line Amount Including/Excluding GST/HST on Sales Documents  
-When you choose an item number in the **No.** field on a sales document, [!INCLUDE[prod_short](includes/prod_short.md)] fills in the **Unit Price** field. The unit price comes from either the **Item** card or the item prices allowed for the item and customer. [!INCLUDE[prod_short](includes/prod_short.md)]calculates the **Line Amount** when you enter a quantity for the line.  
+If you want the unit prices and line amounts to include GST/HST, for example, if you are selling to retail consumers, choose the **Prices Including GST/HST** check box on the document. For more information, see [Including or Excluding GST/HST in Prices and Line Amounts](#including-or-excluding-vat-in-prices-and-line-amounts). 
 
-If you are selling to retail consumers, you may want prices on sales documents to include GST/HST. To do this, choose the **Prices Including GST/HST** check box on the document.  
+You can calculate and display GST/HST amounts in sales and purchase documents differently, depending on the type of customer or vendor you're dealing with. You can also change the calculated GST/HST amount manually, for example, so that it matches the GST/HST amount calculated by your vendor on a given transaction.
 
-### <a name="including-or-excluding-vat-on-prices"></a>Including or Excluding GST/HST on Prices
-If the **Prices Including GST/HST** check box is chosen on a sales document, the **Unit Price** and **Line Amount** fields include GST/HST, and the field names will also reflect this. By default, GST/HST is not included in these fields.  
+### <a name="including-or-excluding-vat-in-prices-and-line-amounts"></a>Including or Excluding GST/HST in Prices and Line Amounts
+If you choose the **Prices Including GST/HST** check box on a sales document, the **Unit Price** and **Line Amount** fields will include GST/HST. By default, the values in these fields do not include GST/HST. The names of the fields reflect whether prices include GST/HST.  
 
-If the field is not selected, application will fill in the **Unit Price** and **Line Amount** field excluding GST/HST and the field names will reflect this.  
-
-You can set up the default setting of the **Prices Including GST/HST** for all sales documents for a customer in the **Prices Including GST/HST** field on the **Customer** card. You can also set up item prices to include or exclude GST/HST. Normally, item prices contained in the Item Card will be the price excluding GST/HST. The application uses the information from the **Price Includes GST/HST** field on the **Item** card to determine the unit price amount for sales documents.  
+You can set up the default setting of the **Prices Including GST/HST** for all sales documents for a customer in the **Prices Including GST/HST** field on the **Customer** card. You can also set up item prices to include or exclude GST/HST. Typically, prices on the Item Card will exclude GST/HST. 
 
 The following table provides an overview of how application calculates the unit price amounts for a sales document when you have not set up prices on the **Sales Prices** page:  
 
-|**Price Includes GST/HST field on Item Card**|**Prices Including GST/HST field in Sales Header**|**Action Performed**|  
+|**Price Includes GST/HST field on Item Card**|**Prices Including GST/HST field**|**Action Performed**|  
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
-|No check mark|No check mark|The **Unit Price** on the Item Card is copied to **Unit Price Excl. GST/HST** field on the sales lines.|  
-|No check mark|Check mark|The application calculates the GST/HST amount per unit and adds to the **Unit Price** on the Item Card. This total Unit Price is then entered in the **Unit Price Incl. GST/HST field** on the sales lines.|  
-|Check mark|No check mark|The application calculates the GST/HST amount included in the **Unit Price** on the Item Card using the GST/HST% related to the GST/HST Bus. Posting Gr. (Price) and the GST/HST Prod. Posting Group combination. The **Unit Price** on the Item Card, reduced by the GST/HST amount, is then entered in the **Unit Price Excl. GST/HST** field in the sales lines.|  
-|Check mark|Check mark|The **Unit Price** on the Item Card is copied to **Unit Price Incl. GST/HST** field on the sales lines.|
+|Not Enabled|Not Enabled|The **Unit Price** on the Item Card is copied to **Unit Price Excl. GST/HST** field on the sales lines.|  
+|Not Enabled|Enabled|The application calculates the GST/HST amount per unit and adds to the **Unit Price** on the Item Card. This total unit price is then entered in the **Unit Price Incl. GST/HST field** on the sales lines.|  
+|Enabled|Not Enabled|The application calculates the GST/HST amount included in the **Unit Price** field on the **Item Card** using the GST/HST percentage related to the GST/HST Bus. Posting Gr. (Price) and the GST/HST Prod. Posting Group combination. The **Unit Price** on the Item Card, reduced by the GST/HST amount, is then entered in the **Unit Price Excl. GST/HST** field in the sales lines. For more information, see [Using GST/HST Business Posting Groups and Customer Price Groups](finance-work-with-vat.md#using-vat-business-posting-groups-and-customer-price-groups).|  
+|Enabled|Enabled|The **Unit Price** on the Item Card is copied to **Unit Price Incl. GST/HST** field on the sales lines.|
+
+#### <a name="using-vat-business-posting-groups-and-customer-price-groups"></a>Using GST/HST Business Posting Groups and Customer Price Groups 
+If you want prices to include GST/HST, you can use GST/HST business posting groups to calculate the amount based on the GST/HST posting setup for the group. For more information, see [Set up GST/HST business posting groups](finance-setup-vat.md#set-up-vat-business-posting-groups).
+
+Depending on what you want to do, you can assign a GST/HST business posting group to customers or sales documents in the following ways:
+
+* To use the same GST/HST rate for all customers, you can choose a group in the **GST/HST Business Posting Group (Price)** field on the **Sales & Receivables Setup** page.
+* To use a GST/HST rate for a specific customer, you can choose a group in the **GST/HST Business Posting Group (Price)** field on the **Customer Card** page. 
+* To use a GST/HST rate for a specific of customers, you can choose a group in the **GST/HST Business Posting Group (Price)** field on the **Customer Price Group** page. For example, this is useful when you want a price to apply to all customers in a certain geographical region or a specific industry.
+* On all sales documents in the **GST/HST Business Posting Group** field. The GST/HST amount specified for the group is used only for the document you're currently working on.
+
+> [!NOTE]
+> If you do not specify a group in the **GST/HST Business Posting Group (Price)** field GST/HST will not be included in prices.
+
+#### <a name="examples"></a>Examples
+Factors such as the country or region you're selling in, or the type of industries you sell to, can impact the amount of GST/HST that you must account for. For example, a restaurant might charge 6% GST/HST for meals that are eaten in-house, and 17% for takeaway. To accomplish that, you create a GST/HST business posting group (price) for in-house and one for takeaway.
 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>Correcting GST/HST Amounts Manually in Sales and Purchase Documents  
-You can make corrections to posted GST/HST entries. This allows you to change the total sales or purchase GST/HST amounts without changing the GST/HST base. You may need to do this, for example, if you receive an invoice from a vendor that has calculated GST/HST incorrectly.  
+You can make corrections to posted GST/HST entries so that you can change the total sales or purchase GST/HST amounts without changing the GST/HST base. For example, if you receive an invoice from a vendor with an incorrect GST/HST amount.  
 
 Although you may have set up one or more combinations to handle import GST/HST, you must set up at least one GST/HST product posting group. For example, you can name it **CORRECT** for correction purposes, unless you can use the same general ledger account in the **Purchase GST/HST Account** field on the GST/HST posting setup line. For more information, see [Setting Up to Calculations and Posting Methods for GST/HST](finance-setup-vat.md).
 
-If a payment discount has been calculated on the basis of an invoice amount that includes GST/HST, you revert the payment discount part of the GST/HST amount when the payment discount is granted. Note that you must activate the **Adjust for Payments Disc.** field in both the general ledger setup in general and the GST/HST posting setup for specific combinations of a GST/HST business posting group and a GST/HST product posting group.  
+If a payment discount has been calculated based on an invoice amount that includes GST/HST, you revert the payment discount part of the GST/HST amount when the payment discount is granted. Note that you must activate the **Adjust for Payments Disc.** field in both the general ledger setup in general and the GST/HST posting setup for specific combinations of a GST/HST business posting group and a GST/HST product posting group.  
 
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a>To set the system up for manual GST/HST entry in sales documents
 The following describes how to enable manual GST/HST changes on sales documents. The steps are similar on the **Purchases & Payables Setup** page.

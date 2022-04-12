@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales tax, local
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4f4e756d856edc6c980f5d88cdd8a470388c4b97
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e9dda605d89857f22d097363a3653dd0e4118597
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144192"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517678"
 ---
 # <a name="reporting-goodsservices-tax-and-harmonized-sales-tax-in-canada"></a>Reporting Goods/Services Tax and Harmonized Sales Tax in Canada
 
@@ -30,8 +30,8 @@ The tax information in purchase documents is used to generate a GST/HST online f
 [Finance](../../finance.md)  
 [Setting Up Finance](../../finance-setup-finance.md)  
 [Reporting Sales Tax in Canada](ca-sales-tax.md)  
-[Set Up Calculations and Posting Methods for Value-Added Tax](../../finance-setup-vat.md)  
-[Working with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)
+[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)
+[Set Up Calculations and Posting Methods for Sales Tax](../../finance-setup-vat.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/17/2021
 ms.author: soalex
-ms.openlocfilehash: 8292cc9be3a0449651f4b8de2895d2296dccd585
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 91a4dc9bdb741547ff62f01604e003225ddc0443
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145117"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519379"
 ---
 # <a name="local-functionality-in-the-canadian-version"></a>Local Functionality in the Canadian Version
 
@@ -38,7 +38,7 @@ The following topics describe local functionality that is unique to the Canadian
 
 ## <a name="see-also"></a>See Also
 
-[Working with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: local
 ms.date: 10/12/2021
 ms.author: edupont
-ms.openlocfilehash: 20c3f34a11f6386c8921b9cc680af8c3875638ac
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cb7d24d4a59c617dd35d2fe26d4ac133be0d7589
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149298"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511883"
 ---
 # <a name="reporting-sales-tax-in-canada"></a>Reporting Sales Tax in Canada
 
@@ -37,7 +37,7 @@ The **Tax Details** page shows different combinations of sales tax jurisdictions
 [Setting Up Finance](../../finance-setup-finance.md)  
 [Sales Tax and Goods and Services Tax in Canada](sales-tax-goods-services.md)  
 [Set Up Sales Tax - Watch a Video](https://www.youtube.com/watch?v=qMs4BoSytN8&index=13&list=PLcakwueIHoT8K1m148oMqo7amR2a7Bz-8)  
-[Working with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
