@@ -7,14 +7,15 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.search.form: 9171
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: eb00a19bd5d61e8ed465e3765ef38561ce058554
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: bbb912f0e9e6718ba625fba4dc05fae19f4f2ebb
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521529"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076210"
 ---
 # <a name="customize-pages-for-profiles"></a>Customize Pages for Profiles
+
 Users can personalize pages that make up their workspace to suit their own preferences. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
 
 Administrators can customize pages for a profile, according to the related business role or department, for example, so that all users that are assigned the profile will see the customized page layout. The administrator customizes pages by using the same functionality as users do when they personalize pages.
@@ -25,6 +26,7 @@ Administrators can customize pages for a profile, according to the related busin
 Page customization starts from the **Profiles (Roles)** page, the administrator's starting point for managing users' profiles on individual profile cards. In addition to customizing the page layout, you control various other settings for profiles on the **Profile (Role)** page for each profile. For more information, see [Manage Profiles](admin-users-profiles-roles.md).
 
 ## <a name="to-customize-pages-for-a-profile"></a>To customize pages for a profile
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles (Roles)**, and then choose the related link.
 2. Select the line for the profile that you want to customize pages for, and then choose the **Edit** action.
 3. Choose the **Customize pages** action.
@@ -50,6 +52,7 @@ You can get an overview of which pages are customized for a profile, for example
 On the **Customized Pages** page, you can delete customizations, and you can troubleshoot by scanning for potential issues.  
 
 ## <a name="to-delete-all-customizations-for-a-profile"></a>To delete all customizations for a profile
+
 You can cancel all customizations that you have made for a profile. Customizations introduced with an extension and personalizations made by a user will not be deleted. You can delete all personalizations with another action. For more information, see [To delete all personalizations made by a user](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
 
 - On the **Profile (Role)** page for a customized profile, choose the **Clear customized pages** action.
@@ -57,6 +60,7 @@ You can cancel all customizations that you have made for a profile. Customizatio
 The layout on pages for the profile is reset to the default layout.  
 
 ## <a name="to-delete-customization-for-specific-pages-for-a-profile"></a>To delete customization for specific pages for a profile
+
 You can delete individual page customizations that you have made for a profile. Customizations introduced with an extension and personalizations made by a user will not be deleted. You can delete specific page personalizations with another action. For more information, see [To delete personalizations for specific pages](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
 1. On the **Profile (Role)** page, choose the **Manage customized pages** action.
@@ -64,7 +68,9 @@ You can delete individual page customizations that you have made for a profile. 
 
 The layout on the selected pages is adjusted to the changes you made.
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/tailor-roles-design-ui/)
+
+## <a name="see-also"></a>See also 
 
 [Personalize Your Workspace](ui-personalization-user.md)  
 [Manage Profiles](admin-users-profiles-roles.md)  
