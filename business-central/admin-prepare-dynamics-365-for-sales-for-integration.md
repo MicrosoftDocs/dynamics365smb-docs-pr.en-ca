@@ -88,11 +88,11 @@ The following table lists the standard mapping between tables in [!INCLUDE[prod_
 
 | [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[crm_md](includes/crm_md.md)] | Synchronization Direction | Default Filter |
 |--|--|--|--|
-| Unit of Measurement | Unit Group | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
+| Unit of Measure | Unit Group | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Item | Product | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Sales contact filter: **Product Type** is **Sales Inventory** |
 | Resource | Product | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Sales contact filter: **Product Type** is **Services** |
-| Item Unit of Measurement | CRM UOM |[!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
-| Resource Unit of Measurement | CRM UOM |[!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]||
+| Item Unit of Measure | CRM UOM |[!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
+| Resource Unit of Measure | CRM UOM |[!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]||
 | Unit Group | CRM Uomschedule | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] ||
 | Customer Price Group | Price List | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Sales Price | Product Price List | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] contact filter: **Sales Code** isn't blank, **Sales Type** is **Customer Price Group** |
@@ -103,10 +103,10 @@ The following table lists the standard mapping between tables in [!INCLUDE[prod_
 | Sales Order Notes | Sales Order Notes | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
 
 > [!NOTE]
-> The mappings for the Item Unit of Measurement, Resource Unit of Measurement, and Unit Group tables are available only if your administrator has turned on the **Feature Update: Multiple Units of Measurement Synchronization with Dynamics 365 Sales** feature switch on the **Feature Management** page. For more information, see [Synchronizing Items and Resources with Products in Different Units of Measurement](admin-prepare-dynamics-365-for-sales-for-integration.md#synchronizing-items-and-resources-with-products-with-different-units-of-measure).
+> The mappings for the Item Unit of Measure, Resource Unit of Measure, and Unit Group tables are available only if your administrator has turned on the **Feature Update: Multiple Units of Measurement Synchronization with Dynamics 365 Sales** feature switch on the **Feature Management** page. For more information, see [Synchronizing Items and Resources with Products in Different Units of Measurement](admin-prepare-dynamics-365-for-sales-for-integration.md#synchronizing-items-and-resources-with-products-with-different-units-of-measure).
 
 ## <a name="synchronizing-items-and-resources-with-products-with-different-units-of-measure"></a>Synchronizing Items and Resources with Products with Different Units of Measurement
-Businesses often produce or purchase the items in one unit of measurement, and then sell them in another. To synchronize items that use multiple units of measurement, you must turn on the **Feature Update: Multiple Units of Measurement Synchronization with Dynamics 365 Sales** feature switch on the **Feature Management** page. 
+Businesses often produce or purchase the items in one unit of measure, and then sell them in another. To synchronize items that use multiple units of measurement, you must turn on the **Feature Update: Multiple Units of Measurement Synchronization with Dynamics 365 Sales** feature switch on the **Feature Management** page. 
 
 When you turn on the feature update, a new Unit Group table is created and assigned to each item and resource in [!INCLUDE[prod_short](includes/prod_short.md)]. The tables let you map the Unit Group, Item Unit of Measure, and Resource Unit of Measure tables in [!INCLUDE[prod_short](includes/prod_short.md)] to the Dynamics 365 Sales Unit Group in [!INCLUDE[crm_md](includes/crm_md.md)]. The following image shows the mappings.
 
@@ -121,7 +121,7 @@ When you turn on the **Feature Update: Multiple Units of Measurement Synchroniza
 * Existing mappings are deleted. <!--which mappings?-->
 * A data upgrade creates unit groups for items and resources.
 
-To use the new mappings, you must synchronize unit groups, item unit of measurement, and resource unit of measurements. You must also resynchronize items and resources. 
+To use the new mappings, you must synchronize unit groups, item unit of measure, and resource unit of measures. You must also resynchronize items and resources. 
 
 > [!NOTE]
 > [!INCLUDE[crm_md](includes/crm_md.md)] does not allow you to change a unit group for a product. Therefore, you must retire your products and uncouple the items and resources, and then synchronize by creating new products in [!INCLUDE[crm_md](includes/crm_md.md)]. 
@@ -155,7 +155,7 @@ The following table lists the rules that control the synchronization between [!I
 
 |Table|Rule|
 |-----|----|
-|Units of Measurement|Units of measurement are synchronized with unit groups in [!INCLUDE[crm_md](includes/crm_md.md)]. There can only be one unit of measurement defined in the unit group.|
+|Units of Measurement|Units of measurement are synchronized with unit groups in [!INCLUDE[crm_md](includes/crm_md.md)]. There can only be one unit of measure defined in the unit group.|
 |Items|When synchronizing items with [!INCLUDE[crm_md](includes/crm_md.md)] products, [!INCLUDE[prod_short](includes/prod_short.md)] automatically creates a price list in [!INCLUDE[crm_md](includes/crm_md.md)]. To avoid synchronization errors, you shouldn't modify this price list manually.|
 |Resources|Resources are synchronized with [!INCLUDE[crm_md](includes/crm_md.md)] products that have product type Service.|
 |Customer Price Groups|Customer price groups are synchronized with Sales price lists.|

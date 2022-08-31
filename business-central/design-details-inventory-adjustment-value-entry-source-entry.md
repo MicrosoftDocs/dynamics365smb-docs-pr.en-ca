@@ -56,7 +56,7 @@ Test this scenario by carrying out the following steps.
 
 1. Create an **Item** called TEST with the following values:  
 
-     - Base unit of measurement = PCS  
+     - Base unit of measure = PCS  
 
      - Costing Method = Average  
 
@@ -195,7 +195,7 @@ Test this scenario by carrying out the following steps:
 
 1.  Create an **Item** Charge with the following values:  
 
-     - Base unit of measurement = PCS  
+     - Base unit of measure = PCS  
 
      - Costing Method = Average  
 

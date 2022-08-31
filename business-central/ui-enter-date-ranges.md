@@ -331,11 +331,11 @@ The word for 'time' in the language used by [!INCLUDE[prod_short](includes/prod_
 
 ## <a name="entering-duration"></a>Entering Duration
 
-Some fields in the application represent a duration, or amount of elapsed time, instead of a specific date or time. You enter a duration as a number followed by its unit of measurement.
+Some fields in the application represent a duration, or amount of elapsed time, instead of a specific date or time. You enter a duration as a number followed by its unit of measure.
 
 Here are some examples.
 
-|**Duration**|**Unit of measurement**|
+|**Duration**|**Unit of measure**|
 |------------|-------------------|
 |2h|2 hrs|
 |6h 30 m|6 hrs 30 mins|
@@ -344,11 +344,11 @@ Here are some examples.
 |2d 6h 30m|2 days 6 hrs 30 mins|
 |2d 6h 30m 56s 600ms|2 days 6 hrs 30 mins 56 secs 600 msecs|
 
-You can also enter a number, which will be automatically converted to a duration. The number you enter is converted according to the default unit of measurement that has been specified for the duration field.
+You can also enter a number, which will be automatically converted to a duration. The number you enter is converted according to the default unit of measure that has been specified for the duration field.
 
 To see what unit of measure is being used in a duration field, enter a number. Then, you can see which unit of measure it's converted to.
 
-For example, if the unit of measurement is hours, the number 5 is converted to 5 hrs.
+For example, if the unit of measure is hours, the number 5 is converted to 5 hrs.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/explore-modify-info-dynamics-365-business-central/)
 
