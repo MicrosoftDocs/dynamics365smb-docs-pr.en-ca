@@ -7,55 +7,53 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.search.form: 10, 1877, 470, 471, 472
+ms.search.form: 10, 391, 470, 471, 472, 575, 734, 747, 748, 1877,
 ms.date: 07/08/2022
 ms.author: bholtorf
-ms.openlocfilehash: 60943e508e382bbbaa46d92a102a96ad70fed432
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: e0703d6dfccc2ec97213c89f42b8d74b3d320e1c
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9130128"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361592"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Set Up Calculations and Posting Methods for GST/HST
 
-Consumers and businesses pay GST/HST when they purchase goods or services. The amount of GST/HST to pay can vary, depending on several factors. In [!INCLUDE[prod_short](includes/prod_short.md)], you set up GST/HST to specify the rates to use to calculate tax amounts based on the following parameters:
+Consumers and businesses pay GST/HST when they purchase goods or services. The amount of GST/HST to pay can vary, depending on several factors. In [!INCLUDE[prod_short](includes/prod_short.md)], you set up GST/HST to specify the rates used to calculate tax amounts based on the following parameters:
 
 * Who you sell to  
 * Who you buy from  
 * What you sell  
 * What you buy  
 
-You can set up GST/HST calculations manually, but that can be tricky and time consuming. To make it easy, we provide an assisted setup guide named **GST/HST Setup** that will help you with the steps. We recommend that you use the assisted setup guide to set up GST/HST.
+You can set up GST/HST calculations manually, but that can be tricky and time-consuming. That's because it's very easy to use different GST/HST rates by mistake and create inaccurate GST/HST-related reports. To make GST/HST set up easier, we recommend you use the assisted **GST/HST Setup** guide provided in the product. 
 
-> [!NOTE]  
-> You can use the guide only if you have created a My Company, and have not posted transactions that include GST/HST. Otherwise, it would be very easy to use different GST/HST rates by mistake, and make GST/HST-related reports inaccurate.  
-
-If you want to set up GST/HST calculations yourself, or just want to learn about each step, this article contains descriptions of each step.  
+However, if you want to set up the GST/HST calculations yourself, or just want to learn about each step, this article contains descriptions of each step:  
 
 [!INCLUDE [finance-vat](includes/finance-vat.md)]
 
-## <a name="use-the-vat-setup-assisted-setup-guide-to-set-up-vat-recommended"></a>Use the GST/HST Setup assisted setup guide to set up GST/HST (recommended)
+## <a name="set-up-vat-using-the-assisted-vat-setup-guide-recommended"></a>Set up GST/HST using the assisted GST/HST setup guide (recommended> 
 
-We recommend that you use the GST/HST Setup assisted setup guide to set up GST/HST in [!INCLUDE[prod_short](includes/prod_short.md)].
+> [!NOTE]
+> You can use the **GST/HST Setup** guide only if you have created a *My Company* and have not yet posted transactions that include GST/HST.
 
 To start the assisted setup guide, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**.  
+1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon and enter **Assisted Setup**. 
 2. Choose **Set up GST/HST** and complete the steps.
-3. When you have completed the assisted setup, visit the **GST/HST Posting Setup** page and check if you have to fill in more fields according to the local requirements in your version of [!INCLUDE [prod_short](includes/prod_short.md)]. For more information, see [Local functionality in Business Central](about-localization.md)  
+3. When you have completed the assisted setup, visit the **GST/HST Posting Setup** page to check if you need to fill in more fields according to the local requirements in your version of [!INCLUDE [prod_short](includes/prod_short.md)]. Learn more at [Local functionality in Business Central](about-localization.md).  
 
 ### <a name="check-the-vat-posting-setup"></a>Check the GST/HST posting setup
 
-To support you in getting started fast, [!INCLUDE [prod_short](includes/prod_short.md)] will show you notifications if you are missing general ledger (G/L) accounts in posting groups or posting setups, such as the **GST/HST Posting Setup** page. You can switch this type of notification on or off using the *G/L accounts missing in posting group or setup* notification in the **My Notifications** page. Just go to the **My settings** page, and then choose the *Change when I receive notifications.* link.  
+To support your fast start, [!INCLUDE [prod_short](includes/prod_short.md)] notifies you of missing general ledger (G/L) accounts in posting groups or posting setups, such as on the **GST/HST Posting Setup** page. You can turn this type of notification on or off using the *G/L Account is missing in posting group or setup* notification in the **My Notifications** page. Just go to the **My settings** page, and then choose the *Change when I receive notifications.* link.  
 
 If you choose such a notification, [!INCLUDE [prod_short](includes/prod_short.md)] automatically creates those posting setups based on the posting groups in the document or journal you're currently working on.  
 
-At this point, you might just fill in the missing G/L accounts. Then, later, when you further refine the setup, you might realize this setup was wrong. [!INCLUDE [prod_short](includes/prod_short.md)] does not allow the deletion of GST/HST posting setup and general posting setup when there are entries created based on such configurations. Starting in 2022 release wave 1, you can use the **Blocked** field in the **GST/HST Posting Setup** page to prevent users from mistakenly using a setup that is no longer relevant for new postings.
+At this point, you can just fill in the missing G/L accounts. But, later, when you further refine the setup, you might realize this initial setup is wrong. And [!INCLUDE [prod_short](includes/prod_short.md)] does not allow the deletion of a GST/HST posting setup and general posting setup when entries have been created based on such configurations. So starting in 2022 release wave 1, you can use the **Blocked** field on the **GST/HST Posting Setup** page to prevent users from mistakenly using a setup that is no longer relevant for new postings.
 
 ## <a name="set-up-vat-registration-numbers-for-your-country-or-region"></a>Set up GST/HST registration numbers for your country or region
 
-To help ensure that people enter valid GST/HST registration numbers, you can define formats for the GST/HST registration numbers that are used in the countries or regions in which you do business. [!INCLUDE[prod_short](includes/prod_short.md)] will display an error message when someone makes a mistake or uses a format that is incorrect for the country or region.
+To help ensure people enter valid GST/HST registration numbers, you can define formats for the GST/HST registration numbers that are used in the countries or regions in which you do business. [!INCLUDE[prod_short](includes/prod_short.md)] will display an error message if someone makes a mistake or uses a format that is incorrect for the country or region.
 
 To set up GST/HST registration numbers, follow these steps:
 
@@ -67,26 +65,27 @@ To set up GST/HST registration numbers, follow these steps:
 * **@** Requires a letter. This format is not case-sensitive.  
 * **?** Allows any character.  
 
-    > [!Tip]
-    > You can use other characters as long as they are always present in the country or region format. For example, if you need to include a period or a hyphen between sets of numbers, you can define the format as ##.####.### or @@-###-###.  
+    > [!TIP]
+    > You can use other characters as long as they are always present in the country or region format. So, if you need to include a period or a hyphen between sets of numbers, you can define the format as ##.####.### or @@-###-###.  
 
 ## <a name="set-up-vat-business-posting-groups"></a>Set up GST/HST business posting groups
 
 GST/HST business posting groups should represent the markets in which you do business with customers and vendors, and define how to calculate and post GST/HST in each market. Examples of GST/HST business posting groups are **Domestic** and **European Union (EU)**.  
 
-Use codes that are easy to remember and describe the business posting group, such as **EU**, **Non-EU**, or **Domestic**. The code must be unique. You can set up as many codes as you need, but you cannot have the same code more than once in a table.
+Use codes that are easy to remember and describe the business posting group, such as **EU**, **Non-EU**, or **Domestic**. Each code must be unique, meaning you can set up as many codes as you need, but you cannot have the same code more than once in a table.
 
 To set up a GST/HST business posting group, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **GST/HST Business Posting Group**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **GST/HST Business Posting Groups**, and then choose the related link.  
 2. Fill in the fields as necessary.
 
-You set up default GST/HST business posting groups by linking them to general business posting groups. [!INCLUDE[prod_short](includes/prod_short.md)] automatically assigns the GST/HST business posting group when you assign the business posting group to a customer, vendor, or general ledger account.
+You can set up default GST/HST business posting groups by linking them to general business posting groups. [!INCLUDE[prod_short](includes/prod_short.md)] automatically assigns the GST/HST business posting group when you assign the business posting group to a customer, vendor, or general ledger account.
 
 ## <a name="set-up-vat-product-posting-groups"></a>Set up GST/HST product posting groups
 
-GST/HST product posting groups represent the items and resources you buy or sell, and determine how to calculate and post GST/HST according to the type of item or resource that is being bought or sold.  
-It is a good idea to use codes that are easy to remember and describe the rate, such as **NO-GST/HST** or **Zero**, **GST/HST10** or **Reduced** for 10% GST/HST, and **GST/HST25** or **Standard** for 25%.
+GST/HST product posting groups represent the items and resources you buy or sell, and determine how to calculate and post GST/HST according to the type of item or resource.
+
+It is a good idea to use codes that are easy to remember and describe the rate, such as **NO-GST/HST** or **Zero**, **GST/HST10** or **Reduced** for 10 percent GST/HST, and **GST/HST25** or **Standard** for 25 percent.
 
 To set up a GST/HST business posting group, follow these steps:
 
@@ -141,11 +140,11 @@ The following sections describe how to assign GST/HST posting groups to individu
 
 ## <a name="set-up-clauses-to-explain-vat-exemption-or-non-standard-vat-rates"></a>Set up clauses to explain GST/HST exemption or non-standard GST/HST rates
 
-You set up a GST/HST clause to describe information about the type of GST/HST that is being applied. The information may be required by government regulation. After you set up a GST/HST clause, and associate it with a GST/HST posting setup, the GST/HST clause is displayed on printed sales documents that use the GST/HST posting setup group.
+You set up a GST/HST clause to describe information about the type of GST/HST that is being applied. The information may be required by government regulations. After you set up a GST/HST clause, and associate it with a GST/HST posting setup, the GST/HST clause is displayed on printed sales documents that use the GST/HST posting setup group.
 
 If needed, you can also specify how to translate GST/HST clauses to other languages. Then, when you create and print a sales document that contains a GST/HST identifier, the document will include the translated GST/HST clause. The language code specified on the customer card determines the language.
 
-When non-standard GST/HST rates are used in different types of documents, such as invoices or credit memos, companies are usually required to include an exemption text (GST/HST clause) stating why a reduced GST/HST or zero GST/HST rate has been calculated. You can define different GST/HST clauses to be included on business documents per the type of document, such as invoice or credit memo. You do this on the **GST/HST Clauses by Doc. Type** page.
+When non-standard GST/HST rates are used in different types of documents, such as invoices or credit memos, companies are usually required to include an exemption text (GST/HST clause) stating why a reduced GST/HST or zero GST/HST rate has been calculated. You can define different GST/HST clauses to be included on business documents per the type of document, such as invoice or credit memo. You do this on the **GST/HST Clauses by Document Type** page.
 
 You can modify or delete a GST/HST clause, and your modifications will be reflected in a generated report. However, [!INCLUDE[prod_short](includes/prod_short.md)] does not keep a history of the change. On the report, the GST/HST clause descriptions are printed and displayed for all lines in the report alongside the GST/HST amount and the GST/HST base amount. If a GST/HST clause has not been defined for any lines on the sales document, then the whole section is omitted when the report is printed.
 
@@ -155,8 +154,8 @@ You can modify or delete a GST/HST clause, and your modifications will be reflec
 2. On the **GST/HST Clauses** page, create a new line.  
 3. In the **Code** field, enter an identifier for the clause. You use this code to assign the clause to GST/HST posting groups.  
 4. In the **Description** field, enter the GST/HST exemption text that you want to display on documents that can include GST/HST. In the **Description 2** field, enter more text, if needed. The text will be displayed on new document lines.
-5. Choose the **Description by Document Type** action.
-6. On the **GST/HST Clauses by Doc. Type** page, fill in the fields to set up which GST/HST exemption text to display for which document type.  
+5. Choose the **Description by document type** action.
+6. On the **GST/HST Clauses by Document Type** page, fill in the fields to set up which GST/HST exemption text to display for which document type.  
 7. Optional: To assign the GST/HST clause to a GST/HST posting setup right away, choose **Setup**, and then choose the clause. If you want to wait, you can assign the clause later on the **GST/HST Posting Setup** page.  
 8. Optional: To specify how to translate the GST/HST clause, choose the **Translations** action.
 
@@ -179,13 +178,13 @@ You can modify or delete a GST/HST clause, and your modifications will be reflec
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 11.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **GST/HST Clauses**, and then choose the related link.  
 2. Choose the **Extended Text** action.  
-3. Fill in the **Code** and **Description** fields.  
 3. Choose the **New** action.  
-4. Optionally, select the **All Language Codes** field, or specify the relevant language in the **Language Code** field if you use language codes.  
-5. Fill in the **Starting Date** and **Ending Date** fields if you want to limit the dates on which the extended text is used.  
-6. In the **Text** lines, write the extended text for your GST/HST clauses.  
-7. Select the relevant fields for the document types where you want the extended text printed.  
-8. Close the page.  
+4. Fill in the **Language Code** and **Description** fields.  
+5. Optionally, select the **All Language Codes** field, or specify the relevant language in the **Language Code** field if you use language codes.  
+6. Fill in the **Starting Date** and **Ending Date** fields if you want to limit the dates on which the extended text is used.  
+7. In the **Text** lines, write the extended text for your GST/HST clauses.  
+8. Select the relevant fields for the document types where you want the extended text printed.  
+9. Close the page.  
 
 ## <a name="create-a-vat-posting-setup-to-handle-import-vat"></a>Create a GST/HST posting setup to handle Import GST/HST
 
@@ -202,7 +201,7 @@ To set up codes for import GST/HST, follow these steps:
 
 ## <a name="use-reverse-charge-vat-for-trade-between-eu-countries-or-regions"></a>Use reverse charge GST/HST for trade between EU countries or regions
 
-Some companies must use reverse charge VAT when trading with other companies. For example this rule applies to purchases from EU countries/regions and sales to EU countries/regions.  
+Some companies must use reverse charge VAT when trading with other companies. For example, this rule applies to purchases from EU countries/regions and sales to EU countries/regions.  
 
 > [!NOTE]  
 > This rule applies when trading with companies that are registered as GST/HST liable in another EU country/region. If you do business directly with consumers in other EU countries/regions, then you should contact your tax authority for applicable VAT rules.  
@@ -216,7 +215,7 @@ VAT is not calculated on sales to VAT-liable companies in other EU countries/reg
 
 To correctly calculate VAT on sales to EU countries/regions, you should:  
 
-* Set up a line for sales with the same information for purchases. If you have already set up lines on the VAT Posting Setup page for purchases from EU countries/regions, then you can also use these lines for sales.  
+* Set up a line for sales with the same information for purchases. If you have already set up lines on the **VAT Posting Setup** page for purchases from EU countries/regions, then you can also use these lines for sales.  
 * Assign the VAT business posting groups in the **VAT Bus. Posting Group** field on the **Invoicing** FastTab of the customer card of each EU customer. You should also enter the customer's VAT registration number in the **VAT Registration No.** field on the **Foreign Trade** FastTab.  
 
 When you post a sale to a customer in another EU country/region, the VAT amount is calculated, and a VAT entry is created by using the information about the reverse charge VAT and the VAT base, which is the amount that is used to calculate the VAT amount. No entries are posted to the VAT accounts in the general ledger.
@@ -227,11 +226,13 @@ Amounts in documents that are not yet posted are rounded and displayed to corres
 
 ## <a name="set-up-vat-reporting"></a>Set up GST/HST reporting
 
-You must set up information about how the tax authorities in your country or region require you to submit GST/HST reports. The following steps illustrate the most commonly used information. However, your country or region may require additional steps. For more information, see the relevant article in the *Local functionality* section in the panel to the left.
+You must set up information about how the tax authorities in your country or region require you to submit GST/HST reports. The following steps illustrate the most commonly used information. However, your country or region may require other steps. For more information, see the relevant article in the *Local functionality* section in the panel to the left.
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+
+## <a name="see-also"></a>See also 
 
 [Set Up GST/HST Statement Templates and GST/HST Statement Names](finance-how-setup-vat-statement.md)  
 [Set Up Unrealized GST/HST](finance-setup-unrealized-vat.md)  
@@ -249,8 +250,5 @@ You must set up information about how the tax authorities in your country or reg
 [VAT in the Czech Version](LocalFunctionality/Czech/finance-vat.md)  
 [VAT Reporting in the Norwegian Version](LocalFunctionality/Norway/norwegian-vat-reporting.md)  
 [Reporting Goods/Services Tax and Harmonized Sales Tax in Canada](LocalFunctionality/Canada/sales-tax-goods-services.md)  
-
-## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
