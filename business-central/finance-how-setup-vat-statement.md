@@ -10,12 +10,12 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 317, 318, 320, 474
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: bda2bc95c78f5cc2119a6725b7dd57491938d67b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 12b51af89894c428120ddd6c4639a397bd8a4d97
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-CA
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075534"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529254"
 ---
 # <a name="set-up-vat-statement-templates-and-vat-statement-names"></a>Set Up GST/HST Statement Templates and GST/HST Statement Names
 
@@ -45,7 +45,7 @@ After you define a GST/HST statement, you can preview it to make sure it meets y
 4. On the lines where the **Type** field contains **GST/HST Entry Totalling** you can see a list of GST/HST entries by choosing the amount in the **Column Amount** field.
 5. You can use personalization to show more fields in the lines. For example the Unrealized Base Amount and Unrealized GST/HST Amount, if you are using unrealized GST/HST.
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See also 
 
