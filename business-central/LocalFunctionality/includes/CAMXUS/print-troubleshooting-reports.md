@@ -3,13 +3,8 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bd748c0623e8e42bd111664e4a6d5128ab47d014
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: en-CA
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134428"
 ---
+
 The following troubleshooting reports are available to assist Microsoft Certified Partners with troubleshooting issues:  
 
 -   **License Information** report – This report contains the license number, the name of the licensed user, which application granules they have purchased, and when the license expires, if applicable.  
@@ -19,11 +14,11 @@ You must have access to [!INCLUDE[prod_short](../../../includes/prod_short.md)] 
 
 You can print these reports and send them to your Microsoft Certified Partner to help resolve issues with your [!INCLUDE[prod_short](../../../includes/prod_short.md)] implementation.  
 
-## <a name="to-print-the-license-information-report"></a>To print the License Information report  
+## To print the License Information report  
 1.  In [!INCLUDE[prod_short](../../../includes/prod_short.md)] Object Designer, on the **Tools** menu, choose **Licence Information**.  
 2.  On the **Licence Information** page, you can preview the licence information, or you can choose the **Export** button to print the **Licence Information** report.  
 
-## <a name="to-print-the-data-dictionary-report"></a>To print the Data Dictionary report  
+## To print the Data Dictionary report  
 1.  In [!INCLUDE[prod_short](../../../includes/prod_short.md)] Object Designer, on the **Tools** menu, choose **Object Designer**.  
 2.  Choose the **Report** button.  
 3.  In the **Type** column, find **ID** 10315, which is the **Data Dictionary** report.  
