@@ -350,9 +350,11 @@
 #### Setup GST/HST
 ##### [Set Up GST/HST](finance-setup-vat.md)
 ##### [Posting Group Setup](finance-posting-groups.md#tax-posting-groups)
+##### [Set up non-deductible GST/HST](finance-setup-nondeductible-vat.md)
 ##### [Set Up Unrealized GST/HST](finance-setup-unrealized-vat.md)
 ##### [Set Up a GST/HST Statement](finance-how-setup-vat-statement.md)
 #### [Work with GST/HST on Sales and Purchases](finance-work-with-vat.md)
+#### [Use non-deductible GST/HST](finance-how-use-non-deductible-vat.md)
 #### [Submit GST/HST Reports to Tax Authorities](finance-how-report-vat.md)
 #### [Managing GST/HST Rate changes](finance-how-use-vat-rate-change-tool.md)
 #### [Validate GST/HST Registration Numbers](finance-how-validate-vat-registration-number.md)
