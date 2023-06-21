@@ -78,7 +78,7 @@ The **Find it** section includes two links to product Help:
 
 - Help about the page you were just viewing in [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  This link is automatically generated. If [!INCLUDE[prod_short](includes/prod_short.md)] can't find the relevant link, the [landing page on Microsoft Learn](index.md) for the default version of [!INCLUDE[prod_short](includes/prod_short.md)] is shown. For example, if the page was part of an app that didn't add context-sensitive Help mapping to [!INCLUDE[prod_short](includes/prod_short.md)], the *Learn link* defaults to the landing page.  
+  This link is automatically generated. If [!INCLUDE[prod_short](includes/prod_short.md)] can't find the relevant link, the [landing page on Microsoft Learn](index.yml) for the default version of [!INCLUDE[prod_short](includes/prod_short.md)] is shown. For example, if the page was part of an app that didn't add context-sensitive Help mapping to [!INCLUDE[prod_short](includes/prod_short.md)], the *Learn link* defaults to the landing page.  
   
 - Help landing page for [!INCLUDE[prod_short](includes/prod_short.md)]  
 
@@ -121,9 +121,9 @@ Make sure that you search through the list of submitted suggestions. There's a c
 
 The **Troubleshooting** section shows technical information that your administrator or [!INCLUDE[prod_short](includes/prod_short.md)] partner can use to unblock users. The section includes information about the latest error message, the current version of your [!INCLUDE[prod_short](includes/prod_short.md)], and a link to go to the **Page Inspection** page. For more information, see [Inspecting Pages in Business Central](across-inspect-page.md).  
 
-To help you or your supporting partner troubleshoot, you can switch on additional logging in the **Report a Problem** section. You can then analyse the additional telemetry in the admin center or Application Insights, for example.  
+To help you or your supporting partner troubleshoot, you can switch on additional logging in the **Report a Problem** section. You can then analyse the additional telemetry in the admin centre or Application Insights, for example.  
 
-As the internal administrator, you have access to the admin center where you can continue the troubleshooting. You can view telemetry, manage environments, and manage user sessions. The following articles in the administration content provide more information:
+As the internal administrator, you have access to the admin centre where you can continue the troubleshooting. You can view telemetry, manage environments, and manage user sessions. The following articles in the administration content provide more information:
 
 - [Finding technical information](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information)  
 - [Managing environments](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
@@ -152,9 +152,9 @@ To alert your partner to a problem, choose the link to either send an email or o
 
 ## Learn more using the product documentation
 
-The base version of [!INCLUDE [prod_short](includes/prod_short.md)] is extended and customized by a large community of partners. Each partner and many customers deploy their own Help to their own website. But you can always go to the [Dynamics 365 Business Central documentation](index.md) site to learn more. The site hosts different types of content, such as the following:
+The base version of [!INCLUDE [prod_short](includes/prod_short.md)] is extended and customized by a large community of partners. Each partner and many customers deploy their own Help to their own website. But you can always go to the [Dynamics 365 Business Central documentation](index.yml) site to learn more. The site hosts different types of content, such as the following:
 
-- [Conceptual content about business functionality](index.md)  
+- [Conceptual content about business functionality](welcome.md)  
 - [Documentation for developers](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)  
 - [Free learning paths and e-learning modules across multiple user profiles](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 
@@ -164,7 +164,7 @@ In this section, you can learn about how to navigate the business functionality 
 
 ### Content on the site
 
-[This section](index.md) of Microsoft Learn hosts content from Microsoft that represents the *Learn more* pillar in the user assistance model. In part, the *Learn more* content intends to answer those questions that the user interface can't answer, such as the following:
+[This section](welcome.md) of Microsoft Learn hosts content from Microsoft that represents the *Learn more* pillar in the user assistance model. In part, the *Learn more* content intends to answer those questions that the user interface can't answer, such as the following:
 
 - Where does this page fits into the bigger workflow?  
 - What comes next?  

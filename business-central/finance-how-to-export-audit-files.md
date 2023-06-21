@@ -11,12 +11,12 @@ ms.search.keywords: 'audit, export, SIE, SAF-T, FAC, GDPdU, file export'
 ms.search.form: '5260, 5261, 5264, 5266, 5267, 5270'
 ms.date: 04/04/2023
 ms.author: altotovi
-ms.reviewer: null
+ms.reviewer: kfend
 ---
 
 # Audit file export
 
-Export of bookkeeping information from the system is a common request by some local authorities or auditors. Exports of formats and required information can differ. Entries for export are usually General ledger (G/L) entries or value-added tax (VAT) entries. However, other information is sometimes required.
+Export of bookkeeping information from the system is a common request by some local authorities or auditors. Exports of formats and required information can differ. Entries for export are usually General ledger (G/L) entries or sales tax (GST/HST) entries. However, other information is sometimes required.
 
 **Audit Files Export** is a preinstalled extension that lets you export different entries, based on auditor or authority requirements. Regardless of the format type or entries, you can use the extension's functionality to control the data export process. The functionality doesn't have a preinstalled file format for export. Therefore, you must either install an app that has a specific format (for example, SIE, SAF-T, or FAC) or develop your own.
 
@@ -98,10 +98,9 @@ Follow these steps to provide the G/L account mapping for audit file export.
 > If you have multiple entries to export, we don't recommend that you export them in the current session, because of possible performance issues. Instead, we recommend that you use parallel processing during non-working days or hours.
 
 ## See also 
-
 [Financial Management](finance.md)  
 [Understanding the General Ledger and Chart of Accounts](finance-general-ledger.md)  
 [Work with Dimensions](finance-dimensions.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with Business Central](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
