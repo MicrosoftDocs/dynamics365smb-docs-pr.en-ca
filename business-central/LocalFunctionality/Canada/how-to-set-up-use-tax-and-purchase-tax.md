@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 06/17/2021
 ms.author: edupont
 ---
-# Set Up Use Tax and Purchase Tax in the Canadian Version
+# <a name="set-up-use-tax-and-purchase-tax-in-the-canadian-version" />Set Up Use Tax and Purchase Tax in the Canadian Version
 
 [!INCLUDE [use-tax-purchase-tax-setup](../includes/CAMXUS/use-tax-purchase-tax-setup.md)]
 
-## See Also
+## <a name="see-also" />See Also
 
 [Canada Local Functionality](canada-local-functionality.md)  
 [Reporting Sales Tax in Canada](ca-sales-tax.md)  

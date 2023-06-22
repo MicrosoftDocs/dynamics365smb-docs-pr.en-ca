@@ -12,7 +12,7 @@ ms.reviewer: edupont
 ms.date: 06/14/2021
 ms.author: soalex
 ---
-# Compliance Overview
+# <a name="compliance-overview" />Compliance Overview
 
 This content contains information about compliance in relation to [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
@@ -27,7 +27,7 @@ In this section you can read more about our approach to compliance from the pers
 |See information about different certifications related to Business Central. Here you will find information about general certifications and country-specific certifications.|[Certifications](compliance-certifications.md)|  
 |Learn about the service level agreement terms and other terms for the service|[Service Terms](compliance-service-compliance.md#service-terms)|  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

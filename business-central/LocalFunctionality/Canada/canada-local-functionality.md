@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 06/17/2021
 ms.author: soalex
 ---
-# Local Functionality in the Canadian Version
+# <a name="local-functionality-in-the-canadian-version" />Local Functionality in the Canadian Version
 
 The following topics describe local functionality that is unique to the Canadian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## Feature Availability
+## <a name="feature-availability" />Feature Availability
 
 * Tax
     * [Reporting Sales Tax and Goods/Services Tax in Canada](sales-tax-goods-services.md) **Available Now**
@@ -30,16 +30,16 @@ The following topics describe local functionality that is unique to the Canadian
     * [Print Troubleshooting Reports](how-to-print-troubleshooting-reports.md) **Available Now**
     * [Work With GIFI Codes](work-gifi-codes.md) **Available Now**    
 
-## Future legislation requirements being investigated
+## <a name="future-legislation-requirements-being-investigated" />Future legislation requirements being investigated
 
 Currently, there are no upcoming regulatory features or requirements. If you are aware of any upcoming regulatory features, please submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-## See Also
+## <a name="see-also" />See Also
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
