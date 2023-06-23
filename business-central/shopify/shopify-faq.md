@@ -16,7 +16,7 @@ This article answers frequently asked questions about the Shopify connector.
 
 Shopify is a subscription-based software that allows anyone to set up an online store and sell their products. The Shopify platform offers online retailers a suite of services including payments, marketing, shipping, and customer engagement tools. 
 
-## <a name="what-is-the-microsoft-dynamics--business-central-shopify-connector" />What is the Microsoft Dynamics 365 Business Central Shopify connector?
+## <a name="what-is-the-microsoft-dynamics-365-business-central-shopify-connector" />What is the Microsoft Dynamics 365 Business Central Shopify connector?
 
 With the Shopify connector, businesses can link their Shopify store (or stores) with [!INCLUDE[prod_short](../includes/prod_short.md)] to maximize business productivity. Using the Shopify connector, they can manage and view insights from their business and their Shopify online store as one unit. 
 
