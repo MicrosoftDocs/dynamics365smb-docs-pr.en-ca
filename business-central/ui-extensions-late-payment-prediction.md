@@ -112,7 +112,7 @@ You can also create your own predictive web service based on a public model name
 7. Choose the **Use My Azure Subscription** check box.
 8. On the **My Model Credentials** FastTab, enter the API URL and API key for your model.  .  
 
-## <a name="see-related-microsoft-trainingtrainingmodulespredict-late-payments-sales-documents" />See related [Microsoft training](/training/modules/predict-late-payments-sales-documents/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/predict-late-payments-sales-documents/)
 
 ## <a name="see-also" />See also
 

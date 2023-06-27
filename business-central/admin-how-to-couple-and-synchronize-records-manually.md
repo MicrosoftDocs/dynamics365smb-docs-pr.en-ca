@@ -39,7 +39,7 @@ This video shows coupling and synchronizing data in the context of an integratio
 2. Choose the **Synchronize Now** action.  
 3. If a record can be synchronized in one direction, select the option that specifies the direction of data update, and then choose **OK**.  
 
-## <a name="to-synchronize-a-single-record-from-includecrmmdincludescrmmdmd" />To synchronize a single record from [!INCLUDE[crm_md](includes/crm_md.md)]
+## <a name="to-synchronize-a-single-record-from-" />To synchronize a single record from [!INCLUDE[crm_md](includes/crm_md.md)]
 
 1. In [!INCLUDE[crm_md](includes/crm_md.md)], open the form for the record you want to couple. For example, the Account card or Contact card form.  
 2. Choose the **[!INCLUDE[prod_short](includes/prod_short.md)]** action in the ribbon to open and couple record automatically.
