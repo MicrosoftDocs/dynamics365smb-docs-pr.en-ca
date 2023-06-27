@@ -10,7 +10,7 @@ ms.search.keywords: local
 ms.date: 10/12/2021
 ms.author: edupont
 ---
-# <a name="reporting-sales-tax-in-canada" />Reporting Sales Tax in Canada
+# <a name="reporting-sales-tax-in-canada"></a>Reporting Sales Tax in Canada
 
 [!INCLUDE [sales-tax](../includes/CAMXUS/sales-tax-setup.md)]
 
@@ -18,13 +18,13 @@ If you set up new tax areas and tax jurisdictions, you must make sure that you f
 
 In Canada, tax amounts must be detailed in documents for each tax jurisdiction. Up to four jurisdictions can be displayed in a document, and jurisdictions that have the same print order are combined when they are printed.  
 
-## <a name="tax-details" />Tax Details
+## <a name="tax-details"></a>Tax Details
 
 The **Tax Details** page shows different combinations of sales tax jurisdictions and sales tax groups to establish sales tax rates. For each tax jurisdiction, we recommend that you set up one tax group for normal sales tax, another tax group for items or services that are not taxed, and an additional tax group for every type of item or service that is handled with a different sales tax rate in that jurisdiction. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]  
 
 <!--COMMENTING OUT DUE TO ISSUE #535: In Canada, when you sell to a customer at a location where you do not have a *situs*—or a legal location in that state—you do not collect sales tax. For locations in which you do not have a situs, ensure that both the **Tax Below Minimum** and **Tax Above Maximum** fields are 0.00.  -->
 
-## <a name="see-also" />See Also
+## <a name="see-also"></a>See Also
 
 [Canada Local Functionality](canada-local-functionality.md)  
 [Finance](../../finance.md)  
