@@ -10,11 +10,11 @@ ms.search.form: '7328, 7348'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-warehouse-employees"></a><a name="set-up-warehouse-employees"></a>Set Up Warehouse Employees
+# <a name="set-up-warehouse-employees"></a><a name="set-up-warehouse-employees"></a><a name="set-up-warehouse-employees"></a>Set Up Warehouse Employees
 
 Each user who performs warehouse activities must be set up as a warehouse employee assigned to one default location and potentially more non-default locations. This user setup filters all warehouse activities across the database to the employee's location so that the employee can only perform the warehouse activities at the default location. A user can be assigned to additional non-default locations for which the employee can view activity lines but not perform the activities.
 
-## <a name="to-set-up-warehouse-employees"></a><a name="to-set-up-warehouse-employees"></a>To set up warehouse employees
+## <a name="to-set-up-warehouse-employees"></a><a name="to-set-up-warehouse-employees"></a><a name="to-set-up-warehouse-employees"></a>To set up warehouse employees
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
 2. Choose the **New** action.  
@@ -23,9 +23,9 @@ Each user who performs warehouse activities must be set up as a warehouse employ
 5. Select the **Default** check box to define the location as the only location where the employee can perform warehouse activities.  
 6. Repeat these steps to assign other employees to locations or assign non-default locations to existing warehouse employees.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/get-started-warehouse-management/)
 
-## <a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

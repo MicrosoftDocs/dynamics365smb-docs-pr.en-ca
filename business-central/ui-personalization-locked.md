@@ -11,11 +11,11 @@ ms.search.form: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="why-a-page-is-locked-from-personalization"></a><a name="why-a-page-is-locked-from-personalization"></a>Why a Page is Locked from Personalization
+# <a name="why-a-page-is-locked-from-personalization"></a><a name="why-a-page-is-locked-from-personalization"></a><a name="why-a-page-is-locked-from-personalization"></a>Why a Page is Locked from Personalization
 
 There are two conditions that prevent you from personalizing a page. Either the page is locked (as indicated by the ![Personalize Lock.](media/personalization-lock-icon.png "Personalize lock")) icon or it's blocked (as indicated by the ![Personalization blocked.](media/personalization-blocked-icon.png "Personalization blocked") icon).
 
-## <a name="locked-from-personalizing"></a><a name="locked-from-personalizing"></a>Locked from Personalizing
+## <a name="locked-from-personalizing"></a><a name="locked-from-personalizing"></a><a name="locked-from-personalizing"></a>Locked from Personalizing
 
 If there's a ![Personalize Lock.](media/personalization-lock-icon.png "Personalize lock") icon in the **Personalizing** banner when you open a page, you're currently prevented from making any more personalization changes to the page.
 
@@ -30,14 +30,14 @@ There can be two reasons:
 
 2. Until now, you've only used the bow deprecated [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] to personalize the page.
 
-### <a name="unlocking-the-page"></a><a name="unlocking-the-page"></a>Unlocking the Page
+### <a name="unlocking-the-page"></a><a name="unlocking-the-page"></a><a name="unlocking-the-page"></a>Unlocking the Page
 
 If you want to unlock a page and continue personalizing it, choose the ![Personalize Lock](media/personalization-lock-icon.png "Personalize lock") icon, and then choose the **Unlock** action.  
 
 > [!CAUTION]
 > The current personalization of the page will be cleared. The page will go back to its original layout, and you'll have to start from scratch.  
 
-## <a name="blocked-from-personalizing"></a><a name="blocked-from-personalizing"></a>Blocked from Personalizing
+## <a name="blocked-from-personalizing"></a><a name="blocked-from-personalizing"></a><a name="blocked-from-personalizing"></a>Blocked from Personalizing
 
 If there's a ![Personalization blocked](media/personalization-blocked-icon.png "Personalization blocked") icon in the **Personalizing** banner, you're blocked from doing any personalization to the page.
 
@@ -45,7 +45,7 @@ If there's a ![Personalization blocked](media/personalization-blocked-icon.png "
 
 The reason is that the Role Centre or role that is currently associated with your user account modifies this page specifically for your role. Contact your administrator for assistance. Alternatively, try switching to a Role Centre that does include role-tailoring for this page. For more information, see [Change Basic Settings](ui-change-basic-settings.md).
 
-## <a name="see-also"></a><a name="see-also"></a>See Also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See Also
 
 [Personalize Your Workspace](ui-personalization-user.md)  
 [Customize Pages for Profiles](ui-personalization-manage.md)  
