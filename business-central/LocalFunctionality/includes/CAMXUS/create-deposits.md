@@ -5,7 +5,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ---
 > [!NOTE]
-> New capabilities for creating bank deposits are available in Business Central 2022 release wave 1 for a lot of country versions. If you were using Business Central in the United States, Canada, or Mexico before that release, you might be using the earlier capabilities. You can continue, but the new capabilities will replace the old ones in a future release. To start using the new features right away, your administrator can go to the **Feature Management** page and turn on **Feature Update: Standardized bank reconciliation and deposits**. For more information, see [Create Bank Deposits](../../../bank-create-bank-deposits.md).
+> New capabilities for creating bank deposits are available in Business Central 2022 release wave 1 for a lot of country/region versions. If you were using Business Central in the United States, Canada, or Mexico before that release, you might be using the earlier capabilities. You can continue, but the new capabilities will replace the old ones in a future release. To start using the new features right away, your administrator can go to the **Feature Management** page and turn on **Feature Update: Standardized bank reconciliation and deposits**. For more information, see [Create Bank Deposits](../../../bank-create-bank-deposits.md).
 
 
 You can make bank deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos.  
@@ -18,7 +18,7 @@ Bank deposit lines contain information about the individual deposited items, suc
 
 After you have filled in the deposit information and lines, you must post it in order to update the relevant ledgers, such as the bank ledger, general ledger, or customer ledger. Posted deposits are stored for future reference and can be viewed on the **Posted Deposits** page.
 
-## <a name="to-create-a-deposit"></a>To create a deposit
+## To create a deposit  
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Deposits**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  On the **General** FastTab, fill in the required fields as described in the following table.  
