@@ -4,7 +4,7 @@ description: Set up and run import and processing of sales order from Shopify.
 ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.search.form: '30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129,'
+ms.search.form: '30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129, 30150, 30151, 30145, 30147'
 author: andreipa
 ms.author: andreipa
 ms.reviewer: bholtorf
@@ -18,7 +18,7 @@ This article describes the necessary settings and steps that you must complete t
 
 Enter a **currency code** if your online shop uses a different currency than the local currency ($). The specified currency must have exchange rates configured. If your online shop uses the same currency as [!INCLUDE[prod_short](../includes/prod_short.md)], leave the field empty. 
 
-You can see Store Currency in the [Store details](https://www.shopify.com/admin/settings/general) settings in your Shopify Admin. Shopify can be configured to accept different currencies, however imported orders into [!INCLUDE[prod_short](../includes/prod_short.md)] use store currency.
+You can saccess the Store Currency in the [Store details](https://www.shopify.com/admin/settings/general) settings in your Shopify Admin. Shopify can be configured to accept different currencies, however imported orders into [!INCLUDE[prod_short](../includes/prod_short.md)] use store currency.
 
 A regular Shopify order can include costs in addition to the subtotal, such as shipping charges or, if enabled, tips. These amounts are posted directly to the G/L account you want used for specific transaction types:
 
@@ -30,9 +30,12 @@ Enable **Auto Create Orders** to automatically create sales documents in [!INCLU
 
 If you want to automatically release a sales document, turn on the **Auto Release Sales Order** toggle.
 
-The sales document in [!INCLUDE[prod_short](../includes/prod_short.md)] links to the Shopify order, and you can add a field that isn't already displayed on the page. To learn more about adding a field, go to [To start personalizing a page through the **Personalizing** banner](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner). If you select the **Shopify Order No. on Doc. Line** field, this information is repeated on the sales lines of the type **Comment**.
+If you select the **Shopify Order No. on Doc. Line** field, [!INCLUDE [prod_short](../includes/prod_short.md)] inserts sales lines of the type **Comment** with the Shopify order number.
 
-In the **Tax area priority** field, you can set the priority on how to select tax area code on addresses in order. The imported Shopify order contains information about taxes. Taxes are recalculated when you create the sales document, so it's important that the GST/HST/tax settings are correct in [!INCLUDE[prod_short](../includes/prod_short.md)]. For more information about taxes, see [Set Up Taxes for the Shopify Connection](setup-taxes.md).
+>[!NOTE]
+>The sales document in [!INCLUDE[prod_short](../includes/prod_short.md)] links to the Shopify order, and you can add the **Shopify Order No.** field to the list or card pages for sales orders, invoices, and shipment. To learn more about adding a field, go to [To start personalizing a page through the **Personalizing** banner](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner). 
+
+In the **Tax area priority** field, prioritize how to select a tax area code for addresses on orders. The Shopify order you import contains information about taxes. Taxes are recalculated when you create sales documents, so it's important that the GST/HST or tax settings are correct in [!INCLUDE[prod_short](../includes/prod_short.md)]. To learn more about taxes, go to [Set Up Taxes for the Shopify Connection](setup-taxes.md).
 
 Specify how you'll process returns and refunds:
 
@@ -96,6 +99,31 @@ Alternatively, you can search for the **Sync Orders From Shopify** batch job.
 
 You can schedule the task to be performed automatically. Learn more at [Schedule recurring tasks](background.md#to-schedule-recurring-tasks).
 
+### Under the hood
+
+The Shopify Connector imports orders in two steps:
+
+1.  It imports order headers to the **Shopify Orders to Import** table when they match certain conditions:
+    
+* They aren't archived.
+* They were created or modified after the last sync.
+
+2.  It imports Shopify orders and supplementary information.
+* The Shopify Connector processes all records in the **Shopify Orders to Import** table that match the filter criteria you defined on the **Sync Orders from Shopify** request page. For example, tags, channel, or the fulfilment status. If you haven't specified any filters it processes all records.
+* When importing shopify order, the Shopify Connector requests additional information from Shopify:
+
+    * Order header
+    * Order lines
+    * Shipping and fulfilment information
+    * Transactions
+    * Returns and refunds, if configured
+
+The **Shopify Order to Import** page is useful for troubleshooting order import issues. You can assess the orders that are available and teke the next steps:
+
+* Check whether an error blocked the import of a specific order, and explore the error's details. Check the **Has Error** field.
+* Process only specific orders. You'll need to fill in the **Shop Code** field, select one or more orders, and then choose the **Import Selected Orders** action.
+* Delete orders from the **Shopify Order to Import** page to exclude them from the sync.
+
 ## Review imported orders
 
 Once the import is completed, you can explore the Shopify order and find all related information, such as the payment transactions, shipping costs, risk level, order attributes and tags, or fulfillments, if the order was already fulfilled in Shopify. You can also see any order confirmation that has been sent to the customer by choosing the **Shopify Status Page** action.
@@ -131,7 +159,7 @@ If your settings prevent creating a customer automatically and a proper existing
 
 The *Import order from Shopify* function tries to select customers in the following order:
 
-1. If the **Default Customer No.** field is defined in the **Shopify Customer Template** for the **Ship-to Country/Region Code**, then the **Default Customer No.** is used, regardless of the settings in the **Customer Import From Shopify** and **Customer Mapping Type** fields. Learn more at [Customer Template per Country](synchronize-customers.md#customer-template-per-country).
+1. If the **Default Customer No.** field is defined in the **Shopify Customer Template** for the **Ship-to Country/Region Code**, then the **Default Customer No.** is used, regardless of the settings in the **Customer Import From Shopify** and **Customer Mapping Type** fields. Learn more at [Customer Template per Country](synchronize-customers.md#customer-template-per-countryregion).
 2. If the **Customer Import From Shopify** is set to *None* and the **Default Customer No.** is defined on the **Shopify Shop Card** page, then the **Default Customer No.** is used.
 
 The next steps depend on the **Customer Mapping Type**.

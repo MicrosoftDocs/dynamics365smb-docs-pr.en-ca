@@ -106,7 +106,7 @@
 ##### [General Journal Post Line Overview](design-details-general-journal-post-line-overview.md)  
 ##### [Design Details: Posting Interface Structure](design-details-posting-interface-structure.md)  
 ##### [Design Details: Posting Engine Structure](design-details-posting-engine-structure.md)  
-
+#### [Design details: Non-deductible GST/HST](design-details-nondeductible-vat.md)
 ## Try
 ### [Sign up for a free Dynamics 365 Business Central trial](trial-signup.md)
 ### [Dynamics 365 Business Central trial FAQ](trial-faq.md)
@@ -213,7 +213,7 @@
 ## Help and Support
 ### [Resources for Help and Support](product-help-and-support.md)
 ### [Visit Our Video Library](across-videos.md)
-### [Get Technical Support](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
+### [Get Technical Support](/dynamics365/business-central/dev-itpro/administration/manage-technical-support?toc=/dynamics365/business-central/toc.json)
 
 <!--## Microsoft Learn training
 ### [Dynamics 365 Business Central on Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)

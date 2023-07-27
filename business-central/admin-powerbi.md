@@ -6,17 +6,17 @@ ms.topic: overview
 ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
 ms.search.form: '6316, 6317'
 ms.reviewer: jswymer
-ms.date: 04/26/2023
+ms.date: 07/17/2023
 ms.author: jswymer
 ms.custom: bap-template
 ---
-# <a name="introduction-to--and-power-bi"></a>Introduction to [!INCLUDE[prod_short](includes/prod_short.md)] and Power BI
+# Introduction to [!INCLUDE[prod_short](includes/prod_short.md)] and Power BI
 
 It's easy to get insights into your [!INCLUDE[prod_short](includes/prod_short.md)] data with [Power BI](https://powerbi.microsoft.com) - a data visualization system from Microsoft. Power BI retrieves [!INCLUDE[prod_short](includes/prod_short.md)] data so that you can build dashboards and reports based on that data. Power BI provides a flexible alternative to reports built in [!INCLUDE[prod_short](includes/prod_short.md)], enabling you drill down and customize the visualization, and even merge data from different companies in [!INCLUDE[prod_short](includes/prod_short.md)]. Some Power BI reports can also be embedded in Business Central and viewed without leaving the system. More complex dashboards are better experienced from the Power BI web site.
 
 ![Power BI and Business Central.](media/power-bi-intro.png)
 
-## <a name="what-you-can-do-with-power-bi-and-"></a>What you can do with Power BI and [!INCLUDE[prod_short](includes/prod_short.md)]
+## What you can do with Power BI and [!INCLUDE[prod_short](includes/prod_short.md)]
 
 There are various features for working with [!INCLUDE[prod_short](includes/prod_short.md)] and Power BI. Some things you can do from Power BI, while other things are done from [!INCLUDE[prod_short](includes/prod_short.md)]. Also, some features are only available with [!INCLUDE[prod_short](includes/prod_short.md)] online, not on-premises. The following table gives you an overview.
 
@@ -30,7 +30,7 @@ There are various features for working with [!INCLUDE[prod_short](includes/prod_
 
 <a name="onprem"><sup>*</sup></a> This feature requires a registered application for Business Central in Microsoft Azure. For more information, see [Registering Business Central on-premises in Azure AD for integrating with other services](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
-## <a name="get-ready-to-use-power-bi"></a>Get ready to use Power BI
+## Get ready to use Power BI
 
 There are a few tasks that must be done before you can start using Power BI with [!INCLUDE[prod_short](includes/prod_short.md)]. <!-- Some of the tasks are typically only done by administrators or super users.--> The tasks will depend on your role in your organization, and what you want to do with Power BI:
 
@@ -45,7 +45,7 @@ There are a few tasks that must be done before you can start using Power BI with
 |Expose Business Central data to Power BI||![it's a checkmark.](media/check.png)|![again a checkmark](media/check.png)|[Expose data through API pages or OData web services](admin-powerbi-setup.md#exposedata)
 |Enable Power BI integration<br />(on-premises only)||![it's a checkmark.](media/check.png)||[Set up Business Central on-premises for Power BI integration](admin-powerbi-setup.md#setup)|
 
-## <a name="track-your-business-kpis-with-power-bi-metrics"></a>Track your business KPIs with Power BI metrics
+## Track your business KPIs with Power BI metrics
 
 If you use Power BI on [!INCLUDE[prod_short](includes/prod_short.md)] data, it's easy to track KPIs or metrics that are important to you. 
 
@@ -53,27 +53,26 @@ With metrics in Power BI, you can curate your own metrics and track them against
 
 Follow this four-step process to setup Power BI metrics:
 
-1. Create a scorecard in the Power BI service. See [Create scorecards in Power BI](/power-bi/create-reports/service-goals-create).
-2. Add the _metrics_ you want to track by connecting to your Power BI report on telemetry. See [Create connected metrics](/power-bi/create-reports/service-goals-create-connected).
-3. To add alerting, define status rules for your metrics. See [Create automated status rules for metrics](/power-bi/create-reports/service-metrics-status-rules).
+1. Create a scorecard in the Power BI service. Learn more at [Create scorecards in Power BI](/power-bi/create-reports/service-goals-create).  
+2. Add the _metrics_ you want to track by connecting to your Power BI report on telemetry. Learn more at [Create connected metrics](/power-bi/create-reports/service-goals-create-connected).  
+3. To add alerting, define status rules for your metrics. Learn more at [Create automated status rules for metrics](/power-bi/create-reports/service-metrics-status-rules).  
 
-   This step will automate status updates based on rules that govern that metric. Rules trigger changes based on value, percentage of target met, date conditions, or a combination of the three, making the rules as versatile as possible. For connected metrics, these status rules are refreshed every time the data in your scorecard is refreshed.
-4. Finally, follow metrics to get alerts in Teams or by email. See [Follow your metrics](/power-bi/create-reports/service-metrics-follow).
+    This step will automate status updates based on rules that govern that metric. Rules trigger changes based on value, percentage of target met, date conditions, or a combination of the three, making the rules as versatile as possible. For connected metrics, these status rules are refreshed every time the data in your scorecard is refreshed.
+4. Finally, follow metrics to get alerts in Teams or by email. Learn more at [Follow your metrics](/power-bi/create-reports/service-metrics-follow).  
 
-For more information about Power BI Metrics, see [Get started with metrics in Power BI](/power-bi/create-reports/service-goals-introduction).
+Learn more about Power BI metrics at [Get started with metrics in Power BI](/power-bi/create-reports/service-goals-introduction).
 
 > [!NOTE]
 > It is currently not possible to embed scorecards from Power BI metrics in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="next-steps"></a>Next steps
+## Next steps
 
 - If you're an admin who needs to set up Power BI in [!INCLUDE[prod_short](includes/prod_short.md)], go to [Enabling Power BI Integration](admin-powerbi-setup.md).
 - If Power BI is already set up, and you want to try the features, go to [Work with Power BI Reports in Business Central](across-working-with-powerbi.md).
 
+## See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
-
-## <a name="see-also"></a>See Also
+## See also 
 
 [Business Intelligence](bi.md)  
 [Set Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
