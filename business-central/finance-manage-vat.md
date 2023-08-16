@@ -11,7 +11,7 @@ ms.search.form: '118, 472, 737, 743'
 ms.date: 01/31/2023
 ms.author: altotovi
 ---
-# <a name="vat-management-overview"></a>GST/HST management overview
+# GST/HST management overview
 Value Added Tax (VAT) is an indirect tax on the consumption of goods and services. GST/HST is levied at each stage of the supply chain where value is added from initial production to the point of sale. To get started with GST/HST management, see the following topics.  
 
 |  Article  |  Description  |  
@@ -22,13 +22,14 @@ Value Added Tax (VAT) is an indirect tax on the consumption of goods and service
 | [Set up non-deductible GST/HST](finance-setup-nondeductible-vat.md) | This article provides information about how to properly set up non-deductible GST/HST related to percentages and accounts.|
 | [Set Up Unrealized GST/HST](finance-setup-unrealized-vat.md) | If you use cash-based accounting, this article provides guidance about how to specify handling unrealized GST/HST for sales and purchases.|
 | [Submit GST/HST Reports to Tax Authorities](finance-how-report-vat.md) | Use this article to learn how to prepare reports that list GST/HST from sales during a period, or from sales and purchases, and then submit the report to a tax authority.|
-| [Use non-deductible GST/HST](finance-how-use-non-deductible-vat.md) | This article explains how to use and report non-deductible GST/HST.|
+| [Use non-deductible GST/HST](finance-how-use-non-deductible-vat.md) | This article explains how to use and report non-deductible GST/HST.| 
+| [EU third-party purchase transactions](finance-how-to-eu3party-trade-purchase.md) | Use this article to learn how to set up the system when the EU third-party trade occurs during the receipt of a purchase invoice from a customer in one EU country/region, and the products are sent to a different EU country/region without entering the country of residence.|  
 | [Set Up a GST/HST Statement](finance-how-setup-vat-statement.md) | This article provides information to ensure that you know how to set up a GST/HST statement template and names to meet changing tax authority requirements.|
 | [Managing GST/HST Rate changes](finance-how-use-vat-rate-change-tool.md) | This article explains how you can use the GST/HST Rate change tool for Dynamics 365 Business Central to change GST/HST rates based on local legislation.|
 | [Validate VAT Registration Numbers](finance-how-validate-vat-registration-number.md) | This article explains how to use Business Central validation for VAT registration numbers for your contacts, customers, and vendors based on the EU VIES VAT Number Validation service.|
 
 
-## <a name="see-also"></a>See Also
+## See Also  
 [Finance](finance.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
