@@ -11,18 +11,18 @@ ms.date: 07/04/2023
 ms.author: altotovi
 ---
 
-# Design details: Non-deductible GST/HST
+# <a name="design-details-non-deductible-vat"></a>Design details: Non-deductible GST/HST
 
 Non-deductible GST/HST is the GST/HST that's payable by a purchaser, but that isn't deductible from the purchaser's own GST/HST liability. Because it can be difficult to know where and how an item is used, you must contact the local tax authorities in your country or region to determine whether a specified percentage of the GST/HST is deductible. Even when you know that a specific percentage of the GST/HST isn't deductible, there are different models for handling non-deductible amounts as they are related to **items** and **fixed assets**.
 
-## Prerequisites for using non-deductible GST/HST
+## <a name="prerequisites-for-using-non-deductible-vat"></a>Prerequisites for using non-deductible GST/HST
 
 To use and post non-deductible GST/HST, follow these steps.
 
 1. On the **GST/HST Setup** page, select **Enable Non-Deductible GST/HST** to enable the feature.
 2. On the **GST/HST Posting Setup** page, select which GST/HST posting groups can use non-deductible GST/HST.
 
-## Examples
+## <a name="examples"></a>Examples
 
 For the following examples, non-deductible GST/HST is enabled, and the following setup is completed:
 
@@ -39,7 +39,7 @@ For the following examples, non-deductible GST/HST is enabled, and the following
 
 All the examples use items and fixed assets where the GST/HST product posting group is **NDGST/HST**.
 
-### Items
+### <a name="items"></a>Items
 
 A new item has **NDGST/HST** set as the GST/HST product posting group. In the purchase document, **Quantity** = **1** and **Direct Unit Cost Excl. GST/HST** = **1,000.00**.
 
@@ -54,19 +54,19 @@ The details are shown in the **Value Entries**.
 > [!NOTE]
 > You can enable the **Use for Item Cost** field on the **GST/HST Setup** page.
 
-#### Use for Item Cost isn't enabled
+#### <a name="use-for-item-cost-isnt-enabled"></a>Use for Item Cost isn't enabled
 
 | Item Ledger Entry Type | Entry Type | Cost Amount (Actual) | Item Ledger Entry Quantity |
 |---|---|---|---|
 | Purchase | Direct Cost | 1,000.00 | 1 |
 
-#### Use for Item Cost is enabled
+#### <a name="use-for-item-cost-is-enabled"></a>Use for Item Cost is enabled
 
 | Item Ledger Entry Type | Entry Type | Cost Amount (Actual) | Item Ledger Entry Quantity |
 |---|---|---|---|
 | Purchase | Direct Cost | 1,250.00 | 1 |
 
-### Fixed assets
+### <a name="fixed-assets"></a>Fixed assets
 
 A new fixed asset has the acquisition cost account set to use **NDGST/HST** as the GST/HST product posting group. In the purchase document, **Quantity** = **1** and **Direct Unit Cost Excl. GST/HST** = **1,000.00**.
 
@@ -81,20 +81,20 @@ The details are shown in the **Fixed Asset Ledger Entries**.
 > [!NOTE]
 > You can enable the **Use for Fixed Asset Cost** field on the **GST/HST Setup** page.
 
-#### Use for Fixed Asset Cost isn't enabled
+#### <a name="use-for-fixed-asset-cost-isnt-enabled"></a>Use for Fixed Asset Cost isn't enabled
 
 | Document Type | FA Posting Type | Amount | Tax Amount |
 |---|---|---|---|
 | Invoice | Acquisition Cost | 1,000.00 | 250.00 |
 
-#### Use for Fixed Asset Cost is enabled
+#### <a name="use-for-fixed-asset-cost-is-enabled"></a>Use for Fixed Asset Cost is enabled
 
 | Document Type | FA Posting Type | Amount | Tax Amount |
 |---|---|---|---|
 | Invoice | Acquisition Cost | 1,000.00 | 250.00 |
 | Invoice | Acquisition Cost | 250.00 | 0.00 |
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Set up non-deductible GST/HST](finance-setup-nondeductible-vat.md)  
 [Finance](finance.md)  
