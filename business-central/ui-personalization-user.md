@@ -11,7 +11,7 @@ ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 900
 ms.date: 10/11/2022
 ms.author: bholtorf
 ---
-# Personalize Your Workspace
+# <a name="personalize-your-workspace"></a>Personalize Your Workspace
 
 You can personalize your workspace to suit your work and preferences. Change pages so that they display only the information you need, where you need it. Personalization affects only your workspace. It doesn't change how others work.
 
@@ -25,13 +25,13 @@ You can make various changes, such as move or hide fields, columns, actions, and
 > Administrators can make the same layout changes as users by customizing the workspace for a profile that multiple users are assigned. To learn more about pages for Roles, go to [Customize Pages for Roles](ui-personalization-manage.md)<br /><br />
 Administrators can also override or disable users' personalization, and they can define which features are even available for users to see in all or specific companies. For more information, see [Customizing Business Central](ui-customizing-overview.md).
 
-## Video
+## <a name="video"></a>Video
 
 The following video shows some of the ways in which you can personalize your Role Centre.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
 
-## To change the width of a column
+## <a name="to-change-the-width-of-a-column"></a>To change the width of a column
 
 You can easily resize columns on any list. Just drag the boundary between two columns to the left or the right.  
 
@@ -40,7 +40,7 @@ You can easily resize columns on any list. Just drag the boundary between two co
 
 As for other personalization, the changes you make to column width are stored on your account and follow you no matter which device you sign into.
 
-## To start personalizing a page through the **Personalizing** banner
+## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>To start personalizing a page through the **Personalizing** banner
 
 1. Open any page that you want to personalize.
 2. In the upper-right corner, select the ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role centre") icon, and then choose the **Personalize** action.
@@ -58,7 +58,7 @@ As for other personalization, the changes you make to column width are stored on
 6. Choose the element, and then choose either **Move**, **Remove**, **Hide**, **Show**, **Show under "Show more"**, **Show when collapsed**, **Show always**, **Set/Clear Freeze Pane**, or **Include/Exclude from Quick Entry**, depending on the type and state of the UI element. For more information, see [What You Can Personalize](#What).
 7. When you have finished changing the layout of one or more pages, choose the **Done** button on the **Personalizing** banner.
 
-## <a name="What"></a>What You Can Personalize
+## <a name="what-you-can-personalize"></a><a name="What"></a>What You Can Personalize
 
 |What do you want to do|How to do it|Remarks|
 |----|------------|-------|
@@ -74,7 +74,7 @@ As for other personalization, the changes you make to column width are stored on
 |Add a new action to a page or report on your Role Centre.|From the target page, report request page, or Tell Me window, choose the bookmark icon.|See [Bookmark a Page or Report on Your Role Centre Role Centre](ui-bookmarks.md)|
 |Always start a list as expanded or collapsed|Choose the **Expand All** or **Collapse All** button in the top-left corner of the list. Alternatively, choose the **Expand All** or **Collapse All** action in the menu of the first column. |Applies to collapsible hierarchy lists|
 
-## <a name="Actions"></a>Personalizing the action bar and menus
+## <a name="personalizing-the-action-bar-and-menus"></a><a name="Actions"></a>Personalizing the action bar and menus
 
 Personalization lets you decide which actions to show on the navigation and action bars and on Role Centres, and where to show them. You can show, hide, or move individual actions or action groups.
 
@@ -93,7 +93,7 @@ A *promoted category* is an action group that appears before the vertical line `
 > [!NOTE]  
 > To clear personalization, select the arrowhead around the part's designer menu, and then choose **Clear personalization**.
 
-### To remove, hide, and show actions and action groups
+### <a name="to-remove-hide-and-show-actions-and-action-groups"></a>To remove, hide, and show actions and action groups
 
 When you want to show or hide an action, the options under the arrowhead define what can do depending on the action's state. 
 
@@ -106,7 +106,7 @@ When you want to show or hide an action, the options under the arrowhead define 
 |**Hide**|This option appears if the action or action group isn't located anywhere else on the navigation bar or action bar. Like **Remove**, choosing this option will make the action or action group disappear from the navigation bar or action bar. However, in personalizing mode, the action or action group will still be shown in the current position, except that it appears dimmed.|
 |**Show**|This option appears if the action or action group has been previously hidden (dimmed). Choosing this option will make the action or action group appear on the navigation bar or action bar.|
 
-### To move actions and action groups
+### <a name="to-move-actions-and-action-groups"></a>To move actions and action groups
 
 Where you can drop actions or actions groups is indicated by a horizontal line between two actions or a border around an action group. The following limitations exist:
 
@@ -116,7 +116,7 @@ Where you can drop actions or actions groups is indicated by a horizontal line b
 1. To move an action or action group, drag and drop it to the desired position, like you do with fields and columns.
 2. To move an action or action group into another action group that is empty, drag the action or action group to the new group and drop it in the **Drop an action here** box.
 
-## <a name="Parts"></a>Personalizing parts
+## <a name="personalizing-parts"></a><a name="Parts"></a>Personalizing parts
 
 Parts are areas on a page that are typically composed of multiple fields, charts or other content. A part shows a coloured border when you focus on the part. For example, a Role Centre home screen has multiple parts. Because of their well-defined boundary, you can personalize the entire part and its' contents.
 
@@ -126,7 +126,7 @@ Parts are areas on a page that are typically composed of multiple fields, charts
 
 You can clear all personalization changes that you have made within a single part by choosing the **Clear personalization** option under the part's arrowhead. Clearing personalization of a part only affects changes to the contents of the part, not the placement or visibility of the part on the page.  
 
-## To clear personalization
+## <a name="to-clear-personalization"></a>To clear personalization
 
 At some point, you might want to undo some or all of the personalization changes that you have made to a page over time.
 
@@ -143,7 +143,7 @@ At some point, you might want to undo some or all of the personalization changes
 |**Only Fields and Columns**|Clears any personalization changes that you have ever made to the page except changes on the navigation or action bar. Such changes include changes to fields, columns, parts, and tiles. |
 |**All**|Clears all personalization changes that you have made to the page so it looks like it did originally. Such changes include changes to navigation and action bars, fields, columns, parts, and tiles.|
 
-## Other points of interest
+## <a name="other-points-of-interest"></a>Other points of interest
 
 To help you better understand personalization, here are some pointers.
 
@@ -158,7 +158,7 @@ To help you better understand personalization, here are some pointers.
    > [!TIP]
    > As an administrator, you can hide the **Automation** item from users. Learn more at [Set Up Power Automate Integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## See Also
+## <a name="see-also"></a>See Also
 [Customize Pages for Profiles](ui-personalization-manage.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
