@@ -39,8 +39,6 @@ After you define a GST/HST statement, you can preview it to make sure it meets y
 4. On the lines where the **Type** field contains **GST/HST Entry Totalling** you can see a list of GST/HST entries by choosing the amount in the **Column Amount** field.
 5. You can use personalization to show more fields in the lines. For example the Unrealized Base Amount and Unrealized GST/HST Amount, if you are using unrealized GST/HST.
 
-## See related [Microsoft training](/training/paths/process-vat-dynamics-365-business-central/)
-
 ## See also 
 
 [Set Up GST/HST](finance-setup-vat.md)  
