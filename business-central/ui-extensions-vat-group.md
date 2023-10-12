@@ -2,38 +2,38 @@
 title: The GST/HST Group Management Extension for the United Kingdom
 description: You can engage with other businesses to form a GST/HST group where all members report GST/HST in a single return.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: soalex
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'VAT, value added tax, report'
 ms.search.form: '4700, 4701, 4703, 4704, 4705, 4706, 4707, 4708, 4709,'
-ms.date: 07/08/2022
-ms.author: bholtorf
+ms.date: 09/18/2023
 ---
 
-# <a name="the-vat-group-management-extension-for-the-united-kingdom"></a>The GST/HST Group Management Extension for the United Kingdom
+# The GST/HST Group Management Extension for the United Kingdom
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 You can connect one or more businesses in Canada to combine GST/HST reporting under a single registration number. This type of arrangement is known as a *GST/HST group*. You can engage with the group as a member or as the group representative.
 
-## <a name="forming-a-vat-group"></a>Forming a GST/HST group
+## Forming a GST/HST group
 
 GST/HST group members and the group representative can use the **Set Up GST/HST Group Management** assisted setup guide to both define their engagement with the group and create a connection between their [!INCLUDE[prod_short](includes/prod_short.md)] tenants. The group members use this connection to submit their GST/HST returns to the group representative. The group representative then uses a single GST/HST return to submit the group's GST/HST to tax authorities.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] supports intra-group GST/HST return submissions for companies using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises or online, in any combination, which influences the communication setup between businesses. This article describes various group setups.
 
-### <a name="license-requirements"></a>Licence requirements
+### Licence requirements
 
 Participants in the group must be licensed to use [!INCLUDE[prod_short](includes/prod_short.md)]. You can't use guest accounts in GST/HST groups.
 
 * To calculate and submit GST/HST returns, a user must be a full [!INCLUDE[prod_short](includes/prod_short.md)] user.
 * To sign in and do basic tasks, such as create accounts, you need a [!INCLUDE[prod_long](includes/prod_long.md)] Team Member licence.
 
-## <a name="set-up-a-vat-group"></a>Set up a GST/HST group
+## Set up a GST/HST group
 
 The following is the recommended order of steps an administrator uses to set up a GST/HST group:
 
-1. Create the setup in [Azure Active Directory for the group members](#azure-active-directory-setup-for-group-members).
+1. Create the setup in [Microsoft Entra ID setup for group members](#microsoft-entra-id-setup-for-group-members).
 2. Share the technical information GST/HST group members and the group representative need to connect their [!INCLUDE[prod_short](includes/prod_short.md)] tenants. Usually, the group representative has this information, such as the [API URL](#group-api-setup) and the name of the GST/HST group representative's environment the GST/HST group members submit their GST/HST data to.
 3. Create users that GST/HST group members will use to authenticate when they connect to the GST/HST group representative's [!INCLUDE[prod_short](includes/prod_short.md)]. The users must have full user licences for [!INCLUDE[prod_short](includes/prod_short.md)].
 4. Run the **Set Up GST/HST Group Management** assisted setup guide to connect the GST/HST group members.
@@ -44,25 +44,25 @@ The following is the recommended order of steps an administrator uses to set up 
 > [!NOTE]
 > To connect to the GST/HST group representative, group members must have a user account that can access the GST/HST group representative's [!INCLUDE[prod_short](includes/prod_short.md)]. The GST/HST group representative must create at least one user for this. However, for security reasons we recommended that they create a user for each GST/HST group member, which can be a system user account that is not related to an actual person. Make sure to distribute the user credentials to GST/HST group members in a secure way.
 
-### <a name="azure-active-directory-setup-for-group-members"></a>Azure Active Directory setup for group members
+### Microsoft Entra ID setup for group members
 
-When the GST/HST group representative is using [!INCLUDE[prod_short](includes/prod_short.md)] online or on-premises, GST/HST group members must use Azure Active Directory to authenticate users when they submit GST/HST returns to the GST/HST group representative. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, members must configure single sign-on. Learn more at [Configure Azure Active Directory Authentication with WS-Federation](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-active-directory?tabs=singletenant%2Cadmintool).
+When the GST/HST group representative is using [!INCLUDE[prod_short](includes/prod_short.md)] online or on-premises, GST/HST group members must use Microsoft Entra ID to authenticate users when they submit GST/HST returns to the GST/HST group representative. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, members must configure single sign-on. Learn more at [Configure Microsoft Entra authentication with WS-Federation](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-active-directory?tabs=singletenant%2Cadmintool).
 
 If the GST/HST group members are also using [!INCLUDE[prod_short](includes/prod_short.md)] online, the member can authenticate with the designated user credentials and the sign-in information provided by the group representative. Learn more in the [Set up GST/HST group members](#set-up-vat-group-members) section below.
 
-GST group members who have [!INCLUDE[prod_short](includes/prod_short.md)] on-premises must set up an app registration in Azure Active Directory for the GST group representative's [!INCLUDE[prod_short](includes/prod_short.md)] tenant. The app registration enables the GST/HST group representative's [!INCLUDE[prod_short](includes/prod_short.md)] online to authenticate the group member. Learn more at [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app).
+GST/HST group members who have [!INCLUDE[prod_short](includes/prod_short.md)] on-premises must set up an app registration in Microsoft Entra ID for the GST/HST group representative's [!INCLUDE[prod_short](includes/prod_short.md)] tenant. The app registration enables the GST/HST group representative's [!INCLUDE[prod_short](includes/prod_short.md)] online to authenticate the group member. Learn more at [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app).
 
-When the GST/HST group member's administrator creates the app registration in Azure Active Directory, they must specify the following information.
+When the GST/HST group member's administrator creates the app registration in Microsoft Entra ID, they must specify the following information.
 
 * In the **Authentication** section, add **Web** as a platform, and use the following **Redirect URL**: `https://businesscentral.dynamics.com/OAuthLanding.htm`.
-* In the **Authentication** section, in the option to select **Supported account types**, select **Accounts in any organizational directory (Any Azure AD directory - Multitenant)**.
+* In the **Authentication** section, in the option to select **Supported account types**, select **Accounts in any organizational directory (Any Microsoft Entra directory - Multitenant)**.
 * In the **Certificates & secrets** section, create a new client secret and note the value. The GST/HST group members will need the secret when they set up the connection to the group representative.
 * In the **API permissions** section, add permissions to [!INCLUDE[prod_short](includes/prod_short.md)]. Enable delegated access to **Financials.ReadWrite.All** and **user_impersonation**.
 * In the **Overview** section, note the **Application (client) ID**. The GST/HST group members will need the ID when they set up the connection to the group representative.
 
-### <a name="group-api-setup"></a>Group API setup
+### Group API setup
 
-The GST/HST group representative creates and supplies an API to group members. The members use this API to connect to the representative's [!INCLUDE[prod_short](includes/prod_short.md)] tenant and submit GST/HST returns. GST/HST group members often use [!INCLUDE[prod_short](includes/prod_short.md)] in separate Azure Active Directory tenants. For that reason, setup is needed to connect the GST/HST group member and the representative's [!INCLUDE[prod_short](includes/prod_short.md)].
+The GST/HST group representative creates and supplies an API to group members. The members use this API to connect to the representative's [!INCLUDE[prod_short](includes/prod_short.md)] tenant and submit GST/HST returns. GST/HST group members often use [!INCLUDE[prod_short](includes/prod_short.md)] in separate Microsoft Entra tenants. For that reason, setup is needed to connect the GST/HST group member and the representative's [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]
 > This setup requires credentials for an administrator account that has a full user licence for [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -72,7 +72,7 @@ The GST/HST group representative creates and supplies an API to group members. T
 1. In the **Details** section, copy the **URL**.
 1. Open Notepad, and paste the URL. Replace `https://businesscentral.dynamics.com` with `https://api.businesscentral.dynamics.com/v2.0`.
 
-## <a name="set-up-vat-group-members"></a>Set up GST/HST group members
+## Set up GST/HST group members
 
 GST/HST group members connect to the representative by calling a web service on the GST/HST group representative's tenant. The caller must be authenticated using OAuth2. When the GST/HST group management extension is set up, members are asked to authenticate to the GST/HST group representative, during which an access token is generated and saved. This access token is used when submitting GST returns to the GST/HST group representative.
 
@@ -96,25 +96,25 @@ Before GST/HST group members start their setup (listed below), they need to cont
 
    Then, follow the steps in either the [GST/HST Group Representative uses Business Central online](ui-extensions-vat-group.md#vat-group-representative-uses-business-central-online) or [GST/HST Group Representative uses Business Central on-premises](ui-extensions-vat-group.md#vat-group-representative-uses-business-central-on-premises) section below.
 
-### <a name="vat-group-representative-uses-business-central-online"></a>GST/HST group representative uses Business Central online
+### GST/HST group representative uses Business Central online
 
 1. Enter the user credentials provided by the GST/HST group representative, and add the required permissions to generate the access token.
 2. Choose the GST/HST report configuration you use to submit GST/HST returns to the UK tax authorities. 
 
 After you complete the setup, [!INCLUDE[prod_short](includes/prod_short.md)] will create a new configuration based on this choice that enables you to submit GST/HST returns to the GST/HST group representative.
 
-### <a name="vat-group-representative-uses-business-central-on-premises"></a>GST/HST group representative uses Business Central on-premises
+### GST/HST group representative uses Business Central on-premises
 
 1. Enter the user credentials provided by the GST/HST group representative and choose **Next**.
-2. In the **Client ID** field, specify the client ID from the app registration in [Azure Active Directory](#azure-active-directory-setup-for-group-members).
-3. In the **Client Secret** field, specify the client secret from the app registration in Azure Active Directory.
+2. In the **Client ID** field, specify the client ID from the app registration in [Microsoft Entra ID setup for group members](#microsoft-entra-id-setup-for-group-members).
+3. In the **Client Secret** field, specify the client secret from the app registration in Microsoft Entra ID.
 4. In the **OAuth 2.0 Authority Endpoint** field, enter `https://login.microsoftonline.com/common/oauth2`.
 5. In the **OAuth 2.0 Resource URL** field, enter `https://api.businesscentral.dynamics.com/`.
 6. In the **OAuth 2.0 Redirect URL** field, enter `https://businesscentral.dynamics.com/OAuthLanding.htm`.
 7. When you've specified the various fields, choose **Next**, and then confirm the authentication connection to generate the access token.
 8. Choose the GST/HST report configuration you use to submit GST/HST returns to the UK tax authorities.
 
-## <a name="set-up-the-vat-group-representative"></a>Set up the GST/HST group representative
+## Set up the GST/HST group representative
 
 > [!NOTE]
 > For on-premises, [!INCLUDE[prod_short](includes/prod_short.md)] supports only a single tenant instance of the group representative.
@@ -135,7 +135,7 @@ After you complete the setup, [!INCLUDE[prod_short](includes/prod_short.md)] wil
     3. In the **Company** field, specify the company from which the group member will submit GST/HST returns in [!INCLUDE[prod_short](includes/prod_short.md)], such as, **CRONUS UK Ltd**.
     4. Specify contact details for the company.
 
-## <a name="use-the-vat-group-management-features"></a>Use the GST/HST group management features
+## Use the GST/HST group management features
 
 GST/HST group members use the standard processes to prepare GST returns. The only difference is members must choose the **GST/HSTGROUP** report version in the **GST/HST Return** page to submit the GST/HST return to the GST/HST group representative rather than the authorities. Learn more at [About the GST/HST Return report](finance-how-report-vat.md#vatreturn).
 
@@ -144,14 +144,14 @@ GST/HST group members use the standard processes to prepare GST returns. The onl
 
 The following sections describe the tasks that GST/HST group representatives must do to file the group GST/HST return.
 
-### <a name="review-vat-member-submissions"></a>Review GST/HST member submissions
+### Review GST/HST member submissions
 
 The **GST/HST Group Submissions** page lists the GST returns that members have submitted. The page serves as a draft location for the submissions until the GST/HST group representative includes them in a GST return for the group. The representative can open the submissions to review the individual boxes containing the amount reported by each GST/HST group member.
 
 > [!TIP]
 > On the **GST/HST Return Periods** page, the **Group Member Submissions** field shows how many returns members have submitted. To ensure that this number is up to date, choose the **Get GST/HST Returns** action.
 
-### <a name="create-a-group-vat-return"></a>Create a group GST/HST return
+### Create a group GST/HST return
 
 To report GST/HST for the group, on the **GST/HST Returns** page, create a GST/HST return for your company only. Afterward, include the most recent GST submissions from GST/HST group members by choosing the **Include Group GST** action.  
 
@@ -160,7 +160,7 @@ When the group representative has submitted the group's GST/HST return to the au
 > [!IMPORTANT]
 > The GST/HST group functionality is only supported in those markets where [!INCLUDE[prod_short](includes/prod_short.md)] uses a GST/HST framework that consists of GST/HST returns and GST/HST return periods. You cannot use GST/HST groups in markets with other implementations of local GST/HST reporting, such as Austria, Germany, Italy, Spain and Switzerland.
 
-## <a name="see-also"></a>See also
+## See also 
 
 [United Kingdom Local Functionality in the British Version](LocalFunctionality/unitedkingdom/united-kingdom-local-functionality.md)  
 [Making Tax Digital in the United Kingdom](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)  
