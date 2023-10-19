@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Print Troubleshooting Reports in the Canadian Version
+# <a name="print-troubleshooting-reports-in-the-canadian-version"></a>Print Troubleshooting Reports in the Canadian Version
 
 [!INCLUDE [print-troubleshooting-reports](../includes/CAMXUS/print-troubleshooting-reports.md)]
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Canada Local Functionality](canada-local-functionality.md)  
 [Finance](../../finance.md)  
