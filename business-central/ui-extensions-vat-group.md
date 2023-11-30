@@ -160,6 +160,18 @@ When the group representative has submitted the group's GST/HST return to the au
 > [!IMPORTANT]
 > The GST/HST group functionality is only supported in those markets where [!INCLUDE[prod_short](includes/prod_short.md)] uses a GST/HST framework that consists of GST/HST returns and GST/HST return periods. You cannot use GST/HST groups in markets with other implementations of local GST/HST reporting, such as Austria, Germany, Italy, Spain and Switzerland.
 
+## Issue with enabling Multifactor Authentication (MFA)
+
+If you get an error message related to authorization during the renewal of the **OAuth2 Token** on the **GST/HST Report Setup** page after you enable MFA, complete the following steps.  
+
+1. Sign in to the **Azure Portal** as an Authentication Administrator.  
+2. Go to the **Microsoft Entra ID**.   
+3. Browse to **Users**, and then select the user you want to perform an action.  
+4. Select the **Authentication methods** and at the top of the page, select **Require re-register multifactor authentication**. 
+5. Go back to Dynamics 365 Business Central and select to renew the token from the **GST/HST Report Setup**.  
+
+This should be a one-time setup after you enable multifactor authentication for the user selected in **GST/HST Report Setup**.  
+
 ## See also 
 
 [United Kingdom Local Functionality in the British Version](LocalFunctionality/unitedkingdom/united-kingdom-local-functionality.md)  
