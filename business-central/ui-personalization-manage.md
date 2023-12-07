@@ -11,7 +11,7 @@ ms.reviewer: jswymer
 ms.service: dynamics365-business-central
 ms.custom: bap-template
 ---
-# Customize pages for profiles
+# <a name="customize-pages-for-profiles"></a>Customize pages for profiles
 
 Business Central provides both [personalization](ui-personalization-user.md) for users and customization for administrators. Personalization allows users to tailor their workspace by adjusting page layouts to suit their own preferences. Administrators can customize page layouts for a specific profile, based on business roles or departments, so that all assigned users see the same customized page. While personalization allows users to show, hide, and move fields and actions on a page, customization offers extra capabilities. For example, customization allows you to show fields that are in the page's source table or extension tables but aren't defined on the page object&mdash;this isn't possible personalization.  <!--For more information, see [Personalize Your Workspace](ui-personalization-user.md).-->
 
@@ -22,13 +22,13 @@ Business Central provides both [personalization](ui-personalization-user.md) for
 
 Page customization starts from the **Profiles (Roles)** page, the administrator's starting point for managing users' profiles on individual profile cards. In addition to customizing the page layout, you control various other settings for profiles on the **Profile (Role)** page for each profile. For more information, see [Manage Profiles](admin-users-profiles-roles.md).
 
-## Prerequisites
+## <a name="prerequisites"></a>Prerequisites
 
 - Your Business Central account must have the **D365 Profile Mgt.** permission set or equivalent permissions. 
 
    The **D365 Profile Mgt.** permission set includes the execute permission on the system object **9026 Add Field to Table**. If you don't have this permission, you're not allowed to add fields on the page unless they're defined on the page object. 
 
-## Customize pages for a profile
+## <a name="customize-pages-for-a-profile"></a>Customize pages for a profile
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles (Roles)**, and then choose the related link.
 2. Select the line for the profile that you want to customize pages for, and then choose the **Edit** action.
@@ -46,7 +46,7 @@ Page customization starts from the **Profiles (Roles)** page, the administrator'
 
 The customization of pages is now recorded for the profile.
 
-## View all customized pages for a profile
+## <a name="view-all-customized-pages-for-a-profile"></a>View all customized pages for a profile
 
 You can get an overview of which pages are customized for a profile, for example to plan which pages to customize further or delete.
 
@@ -54,7 +54,7 @@ You can get an overview of which pages are customized for a profile, for example
 
 On the **Customized Pages** page, you can delete customizations, and you can troubleshoot by scanning for potential issues.  
 
-## Delete all customizations for a profile
+## <a name="delete-all-customizations-for-a-profile"></a>Delete all customizations for a profile
 
 You can cancel all customizations that you have made for a profile. Customizations introduced with an extension and personalizations made by a user aren't deleted. You can delete all personalizations with another action. For more information, see [To delete all personalizations made by a user](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
 
@@ -62,7 +62,7 @@ You can cancel all customizations that you have made for a profile. Customizatio
 
 The layout on pages for the profile is reset to the default layout.  
 
-## Delete customization for specific pages for a profile
+## <a name="delete-customization-for-specific-pages-for-a-profile"></a>Delete customization for specific pages for a profile
 
 You can delete individual page customizations that you have made for a profile. Customizations introduced with an extension and personalizations made by a user aren't deleted. You can delete specific page personalizations with another action. For more information, see [To delete personalizations for specific pages](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
@@ -71,7 +71,7 @@ You can delete individual page customizations that you have made for a profile. 
 
 The layout on the selected pages is adjusted to the changes you made.
 
-## Add a field
+## <a name="add-a-field"></a>Add a field
 
 You add fields to the page from the **Add field to page** pane, which you open by selecting the **+ Field** action when in the customization mode. It's important to understand that the **Add field to page**  pane is used to show fields that already exist&mdash;either on the page and its source tables,&mdash;but are currently hidden from view. You can't create new fields.
 
@@ -92,7 +92,7 @@ Use the filter button above the list to change what category of fields are prese
 
 :::image type="content" source="media/customization-filter.svg" alt-text="Shows the filter button in the Add a field pane in the customization mode.":::
  
-### Add table field that's not on the page object
+### <a name="add-table-field-thats-not-on-the-page-object"></a>Add table field that's not on the page object
 
 If you want to make a table-only field available on a page to users, you must first add it to the page. Once you've added the field, users can choose to show or hide the field as they like using personalization. There are couple ways to add a field.
 
@@ -101,7 +101,7 @@ If you want to make a table-only field available on a page to users, you must fi
 
 Once the field has been added, the tooltip for the field in the  **Add field to page** pane switches to **Defined by the page**. The added field is locked from editing and can't be unlocked.
 
-## Remove a field
+## <a name="remove-a-field"></a>Remove a field
 
 If you've added a table field that originally wasn't on the page object, you can remove it again. Removing a field is different that hiding it. When you hide a field, users can still show it on their workspace through personalization. However, if you remove a field, the field is no longer available for users to show, or hide for that matter. If the field is currently displayed on a user's workspace, it disappears from their workspace when you remove it. 
 
@@ -110,7 +110,7 @@ To remove a field, select the arrowhead on the field in the page and then **Remo
 > [!IMPORTANT]
 > Removing a field doesn't delete data that's stored in the field or it's source tables. It just removes the field from view. 
 
-## Lock and unlock editing
+## <a name="lock-and-unlock-editing"></a>Lock and unlock editing
 
 Customization allows you to lock (allow editing) or unlock editing (prevent editing) of most fields on a page. To lock or unlock editing, select the field on the page, select the arrowhead, and then select **Lock editing** or **Unlock editing**. It's important to keep in mind a few rules about locking and unlocking fields:
 
@@ -120,13 +120,13 @@ Customization allows you to lock (allow editing) or unlock editing (prevent edit
 
 
 <!--However, whatever option you choose for a field, users can always change the setting on their own workspace using personalization. For this reason, it's important to consider locking as a deterrence measure and not a preventative measure.--> 
-## Important information and tips 
+## <a name="important-information-and-tips"></a>Important information and tips
 
 - Not all table fields may be available for customization from the **Add field to page** pane. The developer of a table can choose to prevent a field from appearing in customization by setting the field's [AllowInCustomization property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-allowincustomizations-property) to `false`.
 - You can't customize a page that's in [analysis mode](analysis-mode.md). The **Analyse** switch is deactivated. If you switch to customization mode while the page is in analysis mode, then analyse mode is automatically switched off. 
 - Some pages have multiple page fields that map to the same source table. The **Add field to page** pane shows all of these page fields independently. You can show, hide, or move these fields independently without affecting the others.
 - If a part or group is hidden, you can still identify hidden fields inside the part or group, but you can't add, move or show fields in the part or group until they're made visible. 
-## See also 
+## <a name="see-also"></a>See also
 
 [Personalize Your Workspace](ui-personalization-user.md)  
 [Manage Profiles](admin-users-profiles-roles.md)  
