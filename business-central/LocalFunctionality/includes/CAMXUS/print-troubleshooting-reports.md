@@ -1,24 +1,24 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
+ms.date: 11/27/2023
 ms.author: bholtorf
 ---
 
 The following troubleshooting reports are available to assist Microsoft Certified Partners with troubleshooting issues:  
 
--   **License Information** report – This report contains the license number, the name of the licensed user, which application granules they have purchased, and when the license expires, if applicable.  
+-   **Licence Information** report – This report contains the licence number, the name of the licensed user, the application granules they purchased, and when the licence expires, if applicable.  
 -   **Data Dictionary** report (report #10315) – This report allows you to print detailed table reference, field reference, and table properties for table objects.  
 
-You must have access to [!INCLUDE[prod_short](../../../includes/prod_short.md)] Object Designer, which is available only to administrators and only in Business Central Spring 2019 and earlier.  
+You must have access to [!INCLUDE[prod_short](../../../includes/prod_short.md)] Object Designer, which is available only to administrators and only in Business Central Spring 2019 (v14) and earlier.  
 
 You can print these reports and send them to your Microsoft Certified Partner to help resolve issues with your [!INCLUDE[prod_short](../../../includes/prod_short.md)] implementation.  
 
-## <a name="to-print-the-license-information-report"></a>To print the License Information report
+## To print the licence information report  
 1.  In [!INCLUDE[prod_short](../../../includes/prod_short.md)] Object Designer, on the **Tools** menu, choose **Licence Information**.  
 2.  On the **Licence Information** page, you can preview the licence information, or you can choose the **Export** button to print the **Licence Information** report.  
 
-## <a name="to-print-the-data-dictionary-report"></a>To print the Data Dictionary report
+## To print the data dictionary report  
 1.  In [!INCLUDE[prod_short](../../../includes/prod_short.md)] Object Designer, on the **Tools** menu, choose **Object Designer**.  
 2.  Choose the **Report** button.  
 3.  In the **Type** column, find **ID** 10315, which is the **Data Dictionary** report.  
