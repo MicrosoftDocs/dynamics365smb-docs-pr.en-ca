@@ -18,7 +18,7 @@ Bank deposit lines contain information about the individual deposited items, suc
 
 After you fill in the deposit information and lines, you must post it in order to update the relevant ledgers, such as the bank ledger, general ledger, or customer ledger. Posted deposits are stored for future reference and can be viewed on the **Posted Deposits** page.
 
-## To create a deposit  
+## <a name="to-create-a-deposit"></a>To create a deposit
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Deposits**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  On the **General** FastTab, fill in the required fields as described in the following table.  
