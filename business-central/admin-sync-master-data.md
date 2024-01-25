@@ -10,7 +10,7 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.form: '7230, 7233, 5338, 7236, 672, 7234'
 ---
-# Manage Master Data Synchronization
+# <a name="manage-master-data-synchronization"></a>Manage Master Data Synchronization
 
 After you set up master data synchronization and synchronize for the first time, records in the selected tables are coupled and a recurring job queue entry is created for each table. The job queue entries automatically synchronize data in the subsidiary companies when someone makes a change in the source company. Otherwise, you don't need to do anything.
 
@@ -21,7 +21,7 @@ However, sometimes things go wrong, and there might be situations that you need 
 
 This article describes the tools you can use to keep synchronization running smoothly.
 
-## Investigate the status of synchronization
+## <a name="investigate-the-status-of-synchronization"></a>Investigate the status of synchronization
 
 There are two actions on the **Synchronization Tables** page that can help you monitor your synchronization:
 
@@ -38,29 +38,29 @@ The following table describes the actions.
 > [!NOTE]
 > If you find an error on the **Integration Synchronization Jobs** page that you can't resolve yourself, if you contact your partner or Microsoft for support, it's helpful to provide the error message and callstack information.
 
-## Synchronize modified records
+## <a name="synchronize-modified-records"></a>Synchronize modified records
 
 If you change a setting for a table or field in a subsidiary, you must update the synchronization. For example, if you decide to select the **Overwrite Local Change** checkbox on a field to allow data from the source company to overwrite local changes. To update the synchronization, use the **Synchronize Modified Records** action on the **Synchronization Tables** page.
 
-## Update table schemas
+## <a name="update-table-schemas"></a>Update table schemas
 
 If the source company changes a table, for example, by adding a field that you want to synchronize, subsidiaries must update their field mappings. On the **Synchronization Fields** page, use the **Update Fields** action. 
 
-## Enable or disable couplings between records
+## <a name="enable-or-disable-couplings-between-records"></a>Enable or disable couplings between records
 
 To start or stop coupling on specific records on a table, on the **Synchronization Fields** page, choose the fields, and then use either the **Enable** or **Disable** actions. 
 
 > [!TIP]
 > A fast way to enable or disable multiple fields at the same time is to select them in the list, and then use either the **Enable** or **Disable** actions.
 
-## Adding extensions
+## <a name="adding-extensions"></a>Adding extensions
 
 If the source company installs a new extension, the subsidiary must also install it if they want to synchronize data for it. The subsidiary can use the **Update Fields** action On the **Synchronization Fields** page to add the tables from the extension to the list.
 
 > [!NOTE]
 > Some tables get data from related tables. If you add an extension that doesn't include related tables, the fields on those tables won't be available. Verify that you've added all related tables.
 
-## Clean up old entries
+## <a name="clean-up-old-entries"></a>Clean up old entries
 
 Over time, the number of entries in the synchronization log will become large, so you might want to do a little housekeeping to remove unneeded entries. To make it easier to clean up old entries, the **Integration Synchronization Jobs** page offers the following actions:
 
@@ -68,11 +68,11 @@ Over time, the number of entries in the synchronization log will become large, s
 * **Delete All Entries**
 
 <!--
-## Recreate a deleted job queue entry
+## <a name="recreate-a-deleted-job-queue-entry"></a>Recreate a deleted job queue entry
 
 If the recurring job queue entry is deleted for a table, you can quickly recreate it. On the **Synchronization Tables** page, choose the **Use Default Synchronization Setup** action.
 -->
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Get ready to synchronize master data](admin-set-up-data-sync.md)
