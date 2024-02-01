@@ -3,9 +3,7 @@ title: Design details - Non-deductible GST/HST
 description: 'This article provides information about non-deductible GST/HST that''s payable by a purchaser, but that isn''t deductible from the purchaser''s own GST/HST liability.'
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 07/04/2023
 ms.author: altotovi

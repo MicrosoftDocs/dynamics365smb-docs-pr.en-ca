@@ -3,9 +3,7 @@ title: Bookmark link to page or report on Role Centre
 description: 'Using the bookmark icon, you can add an action that opens a page or report from the navigation menu of your Role Centre.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: null
 ms.date: 06/23/2021
