@@ -9,11 +9,11 @@ ms.date: 11/27/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="print-troubleshooting-reports-in-the-canadian-version"></a>Print troubleshooting reports in the Canadian version
+# Print troubleshooting reports in the Canadian version
 
 [!INCLUDE [print-troubleshooting-reports](../includes/CAMXUS/print-troubleshooting-reports.md)]
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Canada Local Functionality](canada-local-functionality.md)  
 [Finance](../../finance.md)  

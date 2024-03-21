@@ -11,7 +11,7 @@ ms.search.keywords: 'sales, crm, integration, sync, synchronize'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Scheduling a Synchronization between Business Central and Dataverse
+# Scheduling a Synchronization between Business Central and Dataverse
 
 You can synchronize [!INCLUDE[prod_short](includes/prod_short.md)] with [!INCLUDE[cds_long_md](includes/cds_long_md.md)] on scheduled intervals by setting up jobs in the job queue. The synchronization jobs synchronize data in [!INCLUDE[prod_short](includes/prod_short.md)] records and [!INCLUDE[cds_long_md](includes/cds_long_md.md)] records that are coupled. For records that are not already coupled, depending on the synchronization direction and rules, the synchronization jobs can create and couple new records in the destination system.
 
@@ -25,7 +25,7 @@ There are several synchronization jobs that are available out-of-the-box. The jo
 
 You can view the jobs on the **Job Queue Entries** page. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
 
-## <a name="default-synchronization-job-queue-entries"></a>Default synchronization job queue entries
+## Default synchronization job queue entries
 
 The following table describes the default synchronization jobs for [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 
@@ -37,7 +37,7 @@ The following table describes the default synchronization jobs for [!INCLUDE[cds
 | VENDOR - Common Data Service synchronization job | Synchronizes [!INCLUDE[cds_long_md](includes/cds_long_md.md)] accounts with [!INCLUDE[prod_short](includes/prod_short.md)] customers. | Bidirectional | VENDOR | 30 | 720<br> (12 hrs) |
 | SALESPEOPLE - Common Data Service synchronization job | Synchronizes [!INCLUDE[prod_short](includes/prod_short.md)] salespeople with [!INCLUDE[cds_long_md](includes/cds_long_md.md)] users. | From [!INCLUDE[cds_long_md](includes/cds_long_md.md)] to [!INCLUDE[prod_short](includes/prod_short.md)] | SALESPEOPLE | 30 | 1440<br> (24 hrs) |
 
-## <a name="synchronization-process"></a>Synchronization process
+## Synchronization process
 
 Each synchronization job queue entry uses a specific integration table mapping that specifies which [!INCLUDE[prod_short](includes/prod_short.md)] table and [!INCLUDE[cds_long_md](includes/cds_long_md.md)] table to synchronize. The table mappings also include some settings that control which records in the [!INCLUDE[prod_short](includes/prod_short.md)] table and [!INCLUDE[cds_long_md](includes/cds_long_md.md)] table to synchronize.  
 
@@ -58,7 +58,7 @@ To synchronize data, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] table reco
 
 - With bidirectional synchronization, the job synchronizes from [!INCLUDE[prod_short](includes/prod_short.md)] to [!INCLUDE[cds_long_md](includes/cds_long_md.md)], and then from [!INCLUDE[cds_long_md](includes/cds_long_md.md)] to [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="about-inactivity-timeouts"></a>About inactivity timeouts
+## About inactivity timeouts
 
 Some job queue entries, such as those that schedule synchronization between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)], use the **Inactivity Timeout** field on the **Job Queue Entry** page to prevent the job queue entry from running unnecessarily.  
 
@@ -71,7 +71,7 @@ For example, by default, the CURRENCY job queue entry, which synchronizes curren
 > [!Note]
 > [!INCLUDE[prod_short](includes/prod_short.md)] will automatically activate job queue entries that are on hold only when changes happen in [!INCLUDE[prod_short](includes/prod_short.md)]. Changes in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] will not activate job queue entries.
 
-## <a name="to-view-the-synchronization-job-log"></a>To view the synchronization job log
+## To view the synchronization job log
 
 1. Choose the :::image type="icon" source="media/ui-search/search_small.png" border="false"::: icon, enter **Integration Synchronization Log**, and then choose the related link.
 2. If one or more error occurred for a synchronization job, the number of errors appears in the **Failed** column. To view the errors for the job, choose the number.  
@@ -79,16 +79,16 @@ For example, by default, the CURRENCY job queue entry, which synchronizes curren
     > [!TIP]  
     > You can view all synchronization job errors by opening the synchronization job error log directly.
 
-## <a name="to-view-the-synchronization-job-log-from-the-table-mappings"></a>To view the synchronization job log from the table mappings
+## To view the synchronization job log from the table mappings
 
 1. Choose the :::image type="icon" source="media/ui-search/search_small.png" border="false"::: icon, enter **Integration Table Mappings**, and then choose the related link.
 2. In the **Integration Table Mappings** page, select an entry, and then choose **Integration Synch. Job Log**.  
 
-## <a name="to-view-the-synchronization-error-log"></a>To view the synchronization error log
+## To view the synchronization error log
 
 - Choose the :::image type="icon" source="media/ui-search/search_small.png" border="false"::: icon, enter **Integration Synchronization Errors**, and then choose the related link.
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Synchronizing Data in Business Central and [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md)  
 [Manually Synchronize Table Mappings](admin-manual-synchronization-of-table-mappings.md)  
