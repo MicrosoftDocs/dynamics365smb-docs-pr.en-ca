@@ -13,7 +13,7 @@ Who you assign the tax area codes to will determine the taxes that are calculate
 
 If you move to the empty *My Company*, we recommend that you start by using each of the assisted setup guides, including the one for sales tax. If you prefer to set up sales tax yourself, this article explains what you have to take into consideration. But we recommend that you work closely with your tax advisor.  
 
-## <a name="tax-groups-tax-areas-and-tax-jurisdictions"></a>Tax Groups, Tax Areas, and Tax Jurisdictions
+## Tax Groups, Tax Areas, and Tax Jurisdictions
 
 In [!INCLUDE[prod_short](../../../includes/prod_short.md)], a tax group represents a group of inventory items or resources that are subject to identical tax terms. For example, you can set up a tax group for taxable items and another for nontaxable items. You must assign tax group codes to inventory items and general ledger accounts. Similarly, you must assign tax area codes to customers, locations, and to your own company settings. The assisted setup guide helps you do this.  
 

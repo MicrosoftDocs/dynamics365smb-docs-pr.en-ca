@@ -10,11 +10,11 @@ ms.date: 11/29/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-deposits-in-the-canadian-version"></a>Create deposits in the Canadian version
+# Create deposits in the Canadian version
 
 [!INCLUDE [create-deposits](../includes/CAMXUS/create-deposits.md)]
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Canada Local Functionality](canada-local-functionality.md)  
 [Finance](../../finance.md)  
